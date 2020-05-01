@@ -1,0 +1,74 @@
+@import './colors.scss';
+
+// Titles
+
+@for $i from 1 through 6 {
+    h#{$i} {
+        max-width: 100vw;
+        margin: 0.42em 0;
+        font-family: 'Lilita One', cursive;
+        font-size: calc( 2.8em - 0.4em * #{$i} );
+        font-weight: normal;
+    }
+}
+
+// Section panels
+
+.page-section {
+    &.dark-background {
+        background-color: lighten($app-black, 5%);
+        color: $app-white;
+    }
+
+    &.colored-background {
+        background-color: $app-primary-color-d;
+        color: $app-white;
+    }
+}
+
+// Button classes, inspiration from there : https://fdossena.com/?p=html5cool/buttons/i.frag
+
+a.button, button.button {
+    display:inline-block;
+    padding:0.7em 1.4em;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.15em;
+    box-sizing: border-box;
+    border: none;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-weight:400;
+    color: $app-white;
+    background-color:#3369ff;
+    box-shadow:inset 0 -0.6em 0 -0.35em rgba(0,0,0,0.17);
+    text-align:center;
+    position:relative;
+
+    &.icon-button {
+        height: 40px;
+        width: 40px;        
+        padding: 0;
+        border-radius: 50%;
+        font-size: 24px;
+        line-height: 36px;
+        color: $app-black;
+        background-color: $app-white;
+        box-shadow:inset 0 -0.3em 0 -0.17em rgba(0,0,0,0.17);
+    }
+}
+
+a.button:hover, button.button:hover {
+    background-color:#17bfc5;
+    cursor: pointer;
+}
+
+a.button:active, button.button:active {
+    top:0.1em;
+}
+
+@media only screen and (max-width:30em){
+    a.button, button.button{
+        display:block;
+        margin:0.4em auto;
+    }
+}

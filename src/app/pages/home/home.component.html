@@ -1,0 +1,163 @@
+<section class="home-banner-wrapper">
+  <app-banner></app-banner>
+</section>
+
+<!-- Presentation Section -->
+<section class="page-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 align-self-center mb-auto"></div>
+      <div class="col-md-8 align-self-center mb-auto">
+        <h2 class="text-center iconed-text">
+          <app-icon icon="icon-user-solid"></app-icon>
+          <span i18n="@@presentation">About me</span>
+        </h2>
+        <article *ngIf="resume.getPresentation()">
+          <p class="text-justify" *ngFor="let text of resume.getPresentation().description">
+            {{ text }}
+          </p>
+        </article>
+        <aside class="row">
+          <div class="col-md-6 align-self-center mb-auto">
+            <h3 class="text-center">
+              Mes goûts
+            </h3>
+            <ul class="taste-wrapper">
+              <li class="taste-item"
+                *ngFor="let item of resume.getTastes()">
+                <img class="taste-item-image" src="{{ item.image }}"/>
+                <div class="taste-item-content">
+                  <span class="taste-item-text">{{ item.title }}</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6 align-self-center">
+            <h3 class="text-center">
+              Mon style
+            </h3>
+            <ng-container *ngFor="let charac of resume.getCharacteristics()">
+              <app-gauge [title]="charac.title" [value]="charac.level"></app-gauge>
+            </ng-container>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Experience Section -->
+<section class="page-section">
+  <h2 class="text-center iconed-text">
+    <app-icon icon="icon-address-card-solid"></app-icon>
+    <span i18n="@@formation-experiences">Expériences</span>
+  </h2>
+  <div class="container">
+    <article class="row">
+      <div class="col-sm-12 col-md-6 col-lg-3 text-center">
+        <div>
+          <app-icon class="experience-icon" icon="icon-tools-solid"></app-icon>
+        </div>
+        <h4>Développement Web</h4>
+        <p>
+          Ma connaissance de multiples languages et de pratiques de code saines
+          me conférent beaucoup d'autonomie pour démarrer de nouveaux projets,
+          ou m'adapter à des applications existantes.
+        </p>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-3 text-center">
+        <app-icon class="experience-icon" icon="icon-icons-solid"></app-icon>
+        <h4>Graphisme</h4>
+        <p>
+          Aimant être maître de ce que je produis et touchant à quelques logiciels de dessin,
+          je réalise le plus possible les visuels et animations dont j'ai besoin par moi-même.
+        </p>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-3 text-center">
+        <app-icon class="experience-icon" icon="icon-pencil-ruler-solid"></app-icon>
+        <h4>UX Design</h4>
+        <p>
+          Les utilisateurs sont l'élément central de n'importe quel produit. J'utilise mes
+          connaissances pour reccueillir leur besoin et prototyper des applications
+          les plus dimple, utiles et agréables possible.
+        </p>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-3 text-center">
+        <app-icon class="experience-icon" icon="icon-comments-solid"></app-icon>
+        <h4>Communication</h4>
+        <p>
+          Le partage d'informations est une composante clé du travail en équipe.
+          Je soigne ma communication en choisissant le bon format et les bons mots
+          au bon moment. Je suis aussi avantagé par ma connaissance de multiples langues.
+        </p>
+      </div>
+    </article>
+  </div>
+  <div class="d-flex justify-content-center">
+    <a class="button" [routerLink]="routes.app.experience" routerLinkActive="active">Voir mes expérienes</a>
+  </div>
+</section>
+
+<!-- Competence Section -->
+<section class="page-section alternative-color">
+  <h2 class="text-center iconed-text">
+    <app-icon icon="icon-tools-solid"></app-icon>
+    <span i18n="@@competances">Compétences</span>
+  </h2>
+  <div class="container">
+    <div class="row">
+      <aside class="col-md-12 col-lg-4 align-self-center mb-auto">
+        <h3 i18n="@@languages" class="text-center">
+          Langues
+        </h3>
+        <ul class="list-unstyled">
+          <li *ngFor="let language of resume.getLanguages()">
+            <h4 class="d-flex justify-content-between">
+              <span>{{ language.title }}</span>
+              <span>{{ language.rank }}</span>
+            </h4>
+            <p *ngFor="let description of language.description">
+              {{ description }}
+            </p>
+          </li>
+        </ul>
+      </aside>
+      <article #contactForm class="col-md-12 col-lg-8 align-self-center mb-auto">
+        <h3 i18n="@@knowledge" class="text-center">
+          Connaissances
+        </h3>
+        <ng-container *ngFor="let skillType of resume.getSkillTypes()">
+          <h4>Programmation</h4>
+          <ul>
+            <li *ngFor="let skill of resume.getSkills(skillType)">
+              <strong>{{ skill.title }}: {{ printSkillDescription(skill.description) }}</strong>
+            </li>
+          </ul>
+        </ng-container>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- Portefolio Section -->
+<section class="page-section">
+  <h2 class="text-center iconed-text">
+    <app-icon icon="icon-images-solid"></app-icon>
+    <span i18n="@@competances">Portefolio</span>
+  </h2>
+  <div class="container">
+    <ul class="portefolio-wrapper">
+      <li class="portefolio-item"
+        *ngFor="let item of resume.getPortefolio()">
+        <img class="portefolio-item-image" src="{{ item.image }}"/>
+        <div class="portefolio-item-content">
+          <h3 class="portefolio-item-title">{{ item.title }}</h3>
+          <p class="text-justify">{{ item.description }}</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<app-contact-panel></app-contact-panel>

@@ -60,6 +60,15 @@
                   "maximumError": "10kb"
                 }
               ]
+            },
+            "en": {
+              "localize": ["en"]
+            },
+            "es": {
+              "localize": ["es"]
+            },
+            "ja": {
+              "localize": ["ja"]
             }
           }
         },
@@ -71,6 +80,15 @@
           "configurations": {
             "production": {
               "browserTarget": "myWebsite:build:production"
+            },
+            "en": {
+              "browserTarget": "myWebsite:build:en"
+            },
+            "es": {
+              "browserTarget": "myWebsite:build:es"
+            },
+            "ja": {
+              "browserTarget": "myWebsite:build:ja"
             }
           }
         },
@@ -122,7 +140,19 @@
             }
           }
         }
+      },
+      "i18n": {
+        "sourceLocale": "fr-FR",
+        "locales": {
+          "en": "src/locale/messages.en.xlf",
+          "es": "src/locale/messages.es.xlf",
+          "ja": "src/locale/messages.ja.xlf"
+        }
       }
-    }},
-  "defaultProject": "myWebsite"
+    }
+  },
+  "defaultProject": "myWebsite",
+  "cli": {
+    "analytics": false
+  }
 }

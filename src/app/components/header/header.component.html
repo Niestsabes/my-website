@@ -1,0 +1,28 @@
+<header class="header">
+  <div class="header-left">
+    <div class="header-side-button">D</div>
+    <span i18n="@@site-name" class="header-title">Sébastien CAYET</span>
+  </div>
+  <div class="header-middle">
+    <ng-container *ngFor="let btn of navigationButton">
+      <a class="header-main-button"
+        [class.selected]="currentRoute === '/' + btn.route"
+        [routerLink]="btn.route"
+        routerLinkActive="active">
+        <app-icon [icon]="btn.iconName"></app-icon>
+      </a>
+    </ng-container>
+  </div>
+  <div class="header-right">
+    <span class="btn-group">
+      <button class="header-side-button dropdown-toggle" type="button" data-toggle="dropdown">
+        {{getCurrentLocale().id.toUpperCase()}}
+      </button>
+      <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+        <ng-container *ngFor="let locale of getAvailableLocales()">
+          <button class="dropdown-item" (click)="setLocale(locale.id)">{{locale.name}}</button>
+        </ng-container>
+      </div>
+    </span>
+  </div>
+</header>

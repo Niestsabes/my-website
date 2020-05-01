@@ -1,0 +1,81 @@
+@import './../../../assets/style/colors.scss';
+
+$header-height: 60px;
+$header-padding: 8px;
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: $header-height;
+    background-color: $app-black;
+    color: $app-white;
+
+    .header-middle {
+        display: flex;
+    }
+}
+
+.header-left, .header-right {
+    flex: 1;
+    display: flex;
+    padding: $header-padding;
+
+    > *:not(:last-child) {
+        margin-right: $header-padding;
+    }
+}
+
+.header-right {
+    justify-content: right;
+}
+
+.header-main-button {
+    height: 100%;
+    width: calc(#{$header-height} * 3 / 2);
+    background-color: transparent;
+    border: none;
+    border-bottom: solid 4px transparent;
+    color: rgba($app-white, 0.4);
+    line-height: calc(#{$header-height} - 4px);
+    text-align: center;
+    text-decoration: none;
+    font-size: calc((#{$header-height} - 4px)* 0.42);
+
+    &.selected {
+        background-color: rgba($app-primary-color-e, 0.1);
+        border-bottom: solid 4px $app-primary-color-e;
+        color: $app-primary-color-e;
+    }
+
+    &:hover {
+        background-color: rgba($app-white, 0.1);
+        border-bottom: solid 4px $app-white;
+        color: $app-white;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+}
+
+.header-side-button {
+    height: calc(#{$header-height} - 2 * #{$header-padding});
+    width: calc(#{$header-height} - 2 * #{$header-padding});
+    border-radius: calc((#{$header-height} - 2 * #{$header-padding}) / 2);
+    background-color: rgba($app-white, 0.1);
+    border: none;
+    color: $app-white;
+    text-align: center;
+    line-height: calc(#{$header-height} - 2 * #{$header-padding});
+
+    &:hover {
+        background-color: rgba($app-white, 0.3);
+        transition: 0.5s;
+        cursor: pointer;
+    }
+}
+
+.header-title {
+    margin: auto 5px;
+    font-size: calc(#{$header-height} / 3);
+    font-weight: bold;
+    font-family: 'Lilita One';
+}

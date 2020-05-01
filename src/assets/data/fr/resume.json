@@ -1,0 +1,267 @@
+{
+    "presentation": {
+        "title": "",
+        "description": ["Je suis un développeur web assez curieux, avec une connaissance solides de bonnes pratiques de front-end et back-end. J'apprécie les choses structurées et propres. Je suis assez tenace quand il s'agit de traquer des bugs ou pofiner quelques détails. Mais ne vous fiez pas à ma rigidité apparante: je sais être créatif quand cela est nécessaire. J'ai beaucoup travaillé seul, mais à plusieurs, le voyage est plus amusant et on va plus loin."],
+        "tastes": [],
+        "style": []
+    },
+    "formation": [
+        {
+            "name": "Baccalauréat S",
+            "startDate": "Juin 2014",
+            "type": "Formation",
+            "company": "Lycée Alexis de Tocqueville",
+            "place": "Grasse, France",
+            "description": [
+                "Baccalauréat en option Sciences de l'Ingénieur et spécialité Mathématiques, obtenu avec mention Trés Bien."
+            ]
+        },
+        {
+            "name": "Classe préparatoires MP",
+            "startDate": "Septembre 2014",
+            "endDate": "Juin 2016",
+            "type": "Formation",
+            "company": "Center International de Valbonne",
+            "place": "Valbonne, France",
+            "description": [
+                "Étude intensive des mathématiques, de la physique, de l'anglais et de l'algorithmique (entre autres), pour préparer les concours d'entrée aux Grandes Écoles."
+            ]
+        },
+        {
+            "name": "École d'ingénieur",
+            "startDate": "Septembre 2016",
+            "endDate": "Août 2019",
+            "type": "Formation",
+            "company": "IMT Mines Albi",
+            "place": "Albi, France",
+            "description": [
+                "Étude généraliste des thématiques scientifiques et managériales liées aux métiers d'ingénieur.",
+                "Spécialité en Gestion des Systémes d'Information."
+            ],
+            "link": "https://www.imt-mines-albi.fr/"
+        }
+    ],
+    "experiences": [
+        {
+            "name": "Dévellopeur web",
+            "startDate": "Mars",
+            "endDate": "Août 2019",
+            "type": "Stage",
+            "company": "Relief Applications",
+            "place": "Madrid, Espagne",
+            "description": [
+                "En tant que développeur frontend & backend, j'ai travaillé sur plusieurs projets qui visent à apporter des solutions open-source aux organisations humanitaires déployées sur des zones de conflits.",
+                "J'ai étudié le cycle de vie complet d'un projet, et les processus de déploiement basiques d'un serveur avec Linux."
+            ]
+        },
+        {
+            "name": "Développeur web full stack",
+            "startDate": "Mai",
+            "endDate": "Août 2018",
+            "type": "Stage",
+            "company": "Thales Alenia Space Cannes",
+            "place": "Cannes, France",
+            "description": [
+                "J'ai initié la mise en place d'un systéme de Gestion des Données de Référence, afin d'améliorer la ponctualité des projets du département logiciel.",
+                "J'ai travaillé sur les diverse facettes d'une application web en trois-tiers: front-end avec Angular, back-end avec PHP, base de données avec MySQL.",
+                "J'ai aussi été gérant de mon projet. J'ai employé un processus de développement Agile, ponctué de réunions avec des collaborateurs des sites de Cannes et de Toulouse"
+            ]
+        },
+        {
+            "name": "Développeur de jeux-vidéo",
+            "startDate": "Janvier 2018",
+            "type": "Événement",
+            "company": "Global Game Jam",
+            "place": "Albi, France",
+            "description": [
+                "La Global Game Jam est un challenge de création en équipe d'un jeu-vidéo complet en seulement 48 heures.",
+                "J'y ai participé en tant que game designer et programmeur."
+            ]
+        },
+        {
+            "name": "Mission Innov'Action",
+            "startDate": "Septembre 2017",
+            "endDate": "Février 2018",
+            "type": "Études",
+            "company": "Vita Miror & IMT Mines Albi",
+            "place": "Albi, France",
+            "description": [
+                "J'ai aidé une start-up à créer son nouveau concept de mirroir intelligent.",
+                "J'ai réalisé une étude marketing, et intérrogé des clients potentiels.",
+                "J'ai écrit un cahier des charges des spécifications de produit attendu.",
+                "J'ai dessinée des BDs afin de décrire les divers cas d'usage, et promuvoir le produit."
+            ]
+        },
+        {
+            "name": "Responsable Communication",
+            "startDate": "Juin 2017",
+            "endDate": "Mai 2018",
+            "type": "Associatif",
+            "company": "Festival International de théâtre Acthéa",
+            "place": "Albi, France",
+            "description": [
+                "J'ai été responsable de la promotion du festival au sein de l'école, à Albi et ses alentours.",
+                "J'ai mis à jour les informations et le design du site web et ai filmé l'intégralité de l'évènement.",
+                "J'ai organisé un coucours d'affiche avec un appel d'offre rémunéré, et suis entré en contact avec la presse et un imprimeur pour faire connaître le festival."
+            ]
+        },
+        {
+            "name": "Secrétaire",
+            "startDate": "Juin 2017",
+            "endDate": "Mai 2018",
+            "type": "Associatif",
+            "company": "I2D (Ingénieur pour un Développemnt Durable)",
+            "place": "Albi, France",
+            "description": [
+                "En tant que membre du Bureau du Direction, j'ai été un support à l'organisation des activités d'I2D.",
+                "J'organisai les réunions et veillai à la bonne circulation de l'information entre les membres. J'ai aussi écrit plusieurs documents administratifs, dont un règlement intérieur."
+            ]
+        }
+    ],
+    "softSkills":[
+        {
+            "name": "Créatif",
+            "value": "80"
+        },
+        {
+            "name": "Organisé",
+            "value": "90"
+        },
+        {
+            "name": "Empatique",
+            "value": "90"
+        },
+        {
+            "name": "Autonome",
+            "value": "90"
+        },
+        {
+            "name": "Curieux",
+            "value": "100"
+        },
+        {
+            "name": "Passionné",
+            "value": "200"
+        }
+    ],
+    "technicalSkill" : [
+        {
+            "name": "Angular",
+            "value": "3",
+            "category": "programming",
+            "description": ["HTML 5", "CSS 3 & SCSS", "TypeScript"]
+        },
+        {
+            "name": "Symfony",
+            "value": "1",
+            "category": "programming",
+            "description": ["PHP"]
+        },
+        {
+            "name": "Node.js",
+            "value": "2",
+            "category": "programming",
+            "description": ["JavaScript"]
+        },
+        {
+            "name": "Unity 3D",
+            "value": "2",
+            "category": "programming",
+            "description": ["C#"]
+        },
+        {
+            "name": "MySQL / Postgre",
+            "value": "2",
+            "category": "programming",
+            "description": ["SQL"]
+        },
+        {
+            "name": "Autres",
+            "value": "1",
+            "category": "programming",
+            "description": ["Java", "Python", "CamL", "XML"]
+        },
+        {
+            "name": "Bureautique",
+            "value": "2",
+            "category": "side",
+            "description": ["Microsoft Office", "Libre Office"]
+        },
+        {
+            "name": "Dessin",
+            "value": "1",
+            "category": "side",
+            "description": ["Gimp", "Paint.net", "Inkshape"]
+        },
+        {
+            "name": "Plateformes de développement",
+            "value": "3",
+            "category": "side",
+            "description": ["GitHub", "GitLab", "Docker"]
+        },
+        {
+            "name": "Modélisation",
+            "value": "3",
+            "category": "knowledge",
+            "description": ["Diagrammes UML & BPMN"]
+        },
+        {
+            "name": "Management",
+            "value": "2",
+            "category": "knowledge",
+            "description": ["Management Agile", "Design Thinking"]
+        }  
+    ],
+    "tastes": [
+        {
+            "name": "Nourriture épicée",
+            "image": "/assets/images/tastes/spicy_food.jpg"
+        },
+        {
+            "name": "Animation Japonaise",
+            "image": "/assets/images/tastes/japanese_animation.jpg"
+        },
+        {
+            "name": "Jouer & créer des jeux",
+            "image": "/assets/images/tastes/games.jpeg"
+        },
+        {
+            "name": "Apprendre",
+            "image": "/assets/images/tastes/explore.jpg"
+        }
+    ],
+    "language":[
+        {
+            "name": "Français",
+            "value": "Langue maternelle"
+        },
+        {
+            "name": "Anglais",
+            "value": "C1 - TOEIC 870",
+            "description": [
+                "Séjours à New York et à Londres."
+            ]
+        },
+        {
+            "name": "Espagnol",
+            "value": "B2",
+            "description": [
+                "Cours hebdomadaire pendant 10 ans.",
+                "Stage de 6 mois à Madrid."
+            ]
+        },
+        {
+            "name": "Japonais",
+            "value": "A1",
+            "description": [
+                "Je lis et écris les hiragana et katakana, et apprends mes premiers kanjis.",
+                "Je connais les notions de survie."
+            ]
+        }
+    ],
+    "contact": {
+        "fullName": "Sébastien Cayet",
+        "phone": "+33 6 46 88 15 19",
+        "email": "sebcayet@gmail.com"
+    }
+}

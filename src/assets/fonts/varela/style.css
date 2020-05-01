@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'Varela';
+  src: url('./Varela-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: 'VarelaRound';
+  src: url('./VarelaRound-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+  

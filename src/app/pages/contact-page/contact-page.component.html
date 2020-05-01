@@ -1,0 +1,146 @@
+<div class="container-fluid">
+  <div class="row">
+    <!-- Personal data section -->
+    <section class="page-header gradient-animation col-md-5">
+      <article class="contact-info-wrapper">
+        <div class="d-flex">
+          <ul class="list-unstyled">
+            <li class="contact-info iconed-text">
+              <app-icon icon="icon-user-solid"></app-icon>
+              <span>Sébastien CAYET</span>
+            </li>
+            <li class="contact-info iconed-text">
+              <app-icon icon="icon-phone-solid"></app-icon>
+              <span>+33 6 46 88 15 19</span>
+            </li>
+            <li class="contact-info iconed-text">
+              <app-icon icon="icon-envelope-solid"></app-icon>
+              <span>sebcayet@gmail.com</span>
+            </li>
+          </ul>
+          <div class="contact-info-social">
+            <a [href]="routes.external.facebook" class="button icon-button bouncy-1" target="_blank">
+              <app-icon icon="icon-facebook-brands"></app-icon>
+            </a>
+            <a [href]="routes.external.linkedIn" class="button icon-button bouncy-2" target="_blank">
+              <app-icon icon="icon-linkedin-brands"></app-icon>
+            </a>
+            <a [href]="routes.external.gitHub" class="button icon-button bouncy-3" target="_blank">
+              <app-icon icon="icon-github-brands"></app-icon>
+            </a>
+          </div>
+        </div>
+        <div class="text-center">
+          <a class="button bouncy-0" target="_blank">
+            Télécharger mon CV
+          </a>
+        </div>
+      </article>
+    </section>
+
+    <!-- Form section -->
+    <section class="page-section col-md-7">
+      <h1 class="text-center iconed-text">
+        <app-icon icon="icon-envelope-open-text-solid"></app-icon>
+        <span>Contact me !</span>
+      </h1>      
+      <form #contactFormElement [formGroup]="contactForm" class="container"
+        action="https://formspree.io/neits.webies@gmail.com" method="POST" target="_blank">
+        <p class="text-center">Fill the following form to send me a mail</p>
+        <fieldset class="form-group"
+          [class.invalid]="isFieldInvalid('firstName')">
+          <div class="row">
+            <label class="col-12 col-md-2 col-lg-3"
+              for="mailFirstName">
+              Prénom
+            </label>
+            <input class="col-12 col-md-10 col-lg-9 form-control" 
+              name="firstName"
+              formControlName="firstName"
+              type="text"
+              id="mailFirstName">
+          </div>
+          <small class="form-error-text">
+            Ce champ est obligatoire.
+          </small>
+        </fieldset>
+        <fieldset class="form-group"
+          [class.invalid]="isFieldInvalid('lastName')">
+          <div class="row">
+            <label class="col-12 col-md-2 col-lg-3 col-form-label" 
+              for="mailLastName">
+              Nom
+            </label>
+            <input class="col-12 col-md-10 col-lg-9 form-control"
+              name="lastName"
+              formControlName="lastName"
+              type="text"
+              id="mailLastName">
+          </div>
+          <small class="form-error-text">
+            Ce champ est obligatoire.
+          </small>
+        </fieldset>
+        <fieldset class="form-group"
+          [class.invalid]="isFieldInvalid('email')">
+          <div class="row">
+            <label class="col-12 col-md-2 col-lg-3 col-form-label"
+              for="mailEmail">
+              E-mail
+            </label>
+            <input class="col-12 col-md-10 col-lg-9 form-control"
+              name="email"
+              formControlName="email"
+              type="email"
+              id="mailEmail">
+          </div>
+          <small class="form-error-text">
+            Entrez une adresse e-mail valide.
+          </small>
+        </fieldset>
+        <fieldset class="form-group"
+          [class.invalid]="isFieldInvalid('object')">
+          <div class="row">
+            <label class="col-12 col-md-2 col-lg-3 col-form-label"
+              for="mailObject">
+              Objet
+            </label>
+            <input class="col-12 col-md-10 col-lg-9 form-control"
+              name="object"
+              formControlName="object"
+              type="text"
+              id="mailObject">
+          </div>
+          <small class="form-error-text">
+            Ce champ est obligatoire.
+          </small>
+        </fieldset>
+        <fieldset class="form-group"
+          [class.invalid]="isFieldInvalid('message')">
+          <div class="row">
+            <label class="col-12 col-md-2 col-lg-3 col-form-label"
+              for="mailMessage">
+              Message
+            </label>
+            <textarea class="col-12 col-md-10 col-lg-9 form-control"
+              name="message"
+              formControlName="message"
+              rows="5"
+              id="mailMessage"></textarea>
+          </div>
+          <small class="form-error-text">
+            Ce champ est obligatoire.
+          </small>
+        </fieldset>
+        <p class="text-center" *ngIf="isFormInvalid()">
+          Your form could not be submitted because at least once field is invalid.
+        </p>
+        <div class="d-flex justify-content-center">
+          <button class="button" type="button" (click)="sendEmail()">
+            Envoyer
+          </button>
+        </div>
+      </form>
+    </section>
+  </div>
+</div>

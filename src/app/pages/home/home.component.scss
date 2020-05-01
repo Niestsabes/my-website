@@ -1,0 +1,109 @@
+@import './../../../assets/style/colors.scss';
+
+.home-banner-wrapper {
+    height: calc( (100vh - 60px) * 0.58 );
+}
+
+.taste-wrapper {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    list-style: none;
+    grid-gap: 2px;
+    grid-template-columns: 1fr 1fr;
+
+    .taste-item {
+        position: relative;
+        background-color: $app-grey;
+        color: $app-white;
+        height: 94px;
+        overflow: hidden;
+
+        .taste-item-content {
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            bottom: 0;
+            background-color: rgba($app-black, 0.1);
+            height: 100%;
+            width: 100%;
+            padding: 0.5rem 1rem;
+            text-align: center;
+            transition: 0.5s;
+            z-index: 2;
+        }
+
+        .taste-item-image {
+            position: absolute;
+            width: 100%;
+            min-width: 100%;
+            min-height: 100%;
+            z-index: 1;
+        }
+
+        &:hover, &:focus {
+            .taste-item-content {
+                background-color: rgba($app-black, 0.6);
+            }
+        }
+    }
+}
+
+.experience-icon {
+    font-size: 4em;
+    color: $app-black;
+    text-shadow: 2px 2px 4px $app-black;
+}
+
+.portefolio-wrapper {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    list-style: none;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+    .portefolio-item {
+        position: relative;
+        background-color: $app-grey;
+        color: $app-white;
+        height: 200px;
+        overflow: hidden;
+
+        .portefolio-item-content {
+            position: absolute;
+            bottom: 0;
+            background-color: rgba($app-black, 0.6);
+            width: 100%;
+            height: calc(1rem + 1.2em);
+            padding: 0.5rem 1rem;
+            transition: 0.5s;
+            z-index: 2;
+
+            .portefolio-item-title {
+                margin: 0;
+                font-family: "Varela Round", "Valera", sans-serif;
+                font-size: 20px;
+                font-weight: bold;
+                text-align: center;
+            }
+        }
+
+        .portefolio-item-image {
+            position: absolute;
+            width: 100%;
+            min-width: 100%;
+            min-height: 100%;
+            z-index: 1;
+        }
+
+        &:hover, &:focus {
+            .portefolio-item-content {
+                height: 100%;
+            }
+        }
+    }
+}

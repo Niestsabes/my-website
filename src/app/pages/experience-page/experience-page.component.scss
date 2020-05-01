@@ -1,0 +1,15 @@
+@import './../../../assets/style/colors.scss';
+
+.page-header {
+    margin: 0;
+    padding: 0.4em;
+    color: $app-white;
+    text-align: center;
+}
+
+.experience-panel {
+    &:not(:last-child) {
+        margin-bottom: 16px;
+        border-bottom: 1px solid rgb(200,200,200);
+    }
+}

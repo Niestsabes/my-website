@@ -1,0 +1,99 @@
+<!-- Page header -->
+<section class="page-header gradient-animation">
+  <h1>
+    My curiculum vitae
+  </h1>
+</section>
+
+<!-- Experience Section -->
+<section class="page-section">
+  <h2 class="text-center iconed-text">
+    <app-icon icon="icon-thumbtack-solid"></app-icon>
+    <span>Experiences</span>
+  </h2>
+  <div class="container">
+    <article *ngFor="let experience of resume.getExperiences(); let index = index" 
+    class="row experience-panel">
+      <div class="col-sm-12 col-md-4 experience-panel-header"
+        [class.order-md-2]="index % 2 === 1">
+        <span>{{experience.startDate}}</span>
+        <span *ngIf="experience.endDate"> à {{experience.endDate}}</span>
+        <h3 class="m-0">{{experience.title}}</h3>
+        <div>{{experience.subtitle}} [{{experience.type}}]</div>
+      </div>
+      <div class="col-sm-12 col-md-8 order-md-1 experience-panel-content">
+        <p *ngFor="let description of experience.description">
+          {{description}}
+        </p>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- Education Section -->
+<section class="page-section">
+  <h2 class="text-center iconed-text">
+    <app-icon icon="icon-graduation-cap-solid"></app-icon>
+    <span>Education</span>
+  </h2>
+  <div class="container">
+    <div class="row">
+      <article *ngFor="let experience of resume.getEducation(); let index = index"
+        class="experience-panel-wrapper col-sm-12 col-lg-4">
+        <div class="experience-panel-header">
+          <span>{{experience.startDate}}</span>
+          <span *ngIf="experience.endDate"> à {{experience.endDate}}</span>
+          <h3 class="m-0">{{experience.title}}</h3>
+          <div>{{experience.subtitle}}</div>
+        </div>
+        <p *ngFor="let description of experience.description">
+          {{description}}
+        </p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- Compétence Section -->
+<section class="page-section colored-background">
+  <h2 class="text-center iconed-text">
+    <app-icon icon="icon-tools-solid"></app-icon>
+    <span>Compétences</span>
+  </h2>
+  <div class="container">
+    <div class="row">
+      <aside class="col-md-12 col-lg-4 align-self-center mb-auto">
+        <h3 i18n="@@languages" class="text-center">
+          Langues
+        </h3>
+        <ul class="list-unstyled">
+          <li *ngFor="let language of resume.getLanguages()">
+            <h4 class="d-flex justify-content-between">
+              <span>{{ language.title }}</span>
+              <span>{{ language.rank }}</span>
+            </h4>
+            <p *ngFor="let description of language.description">
+              {{ description }}
+            </p>
+          </li>
+        </ul>
+      </aside>
+      <article #contactForm class="col-md-12 col-lg-8 align-self-center mb-auto">
+        <h3 i18n="@@knowledge" class="text-center">
+          Connaissances
+        </h3>
+        <ng-container *ngFor="let skillType of resume.getSkillTypes()">
+          <h4>Programmation</h4>
+          <ul>
+            <li *ngFor="let skill of resume.getSkills(skillType)">
+              <strong>{{ skill.title }}: {{ printSkillDescription(skill.description) }}</strong>
+            </li>
+          </ul>
+        </ng-container>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<app-contact-panel></app-contact-panel>

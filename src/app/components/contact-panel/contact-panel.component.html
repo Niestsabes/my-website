@@ -1,0 +1,52 @@
+<section class="page-section dark-background">
+  <h2 class="text-center iconed-text">
+    <app-icon icon="icon-envelope-open-text-solid"></app-icon>
+    <span i18n="@@contact">Contact</span>
+  </h2>
+  <div class="container">
+    <div class="row">
+      <article class="col-md-6 align-self-center mb-3 container">
+        <h3 class="text-center">
+          Personal informations
+        </h3>
+        <div class="row">
+          <ul class="col-sm-6 list-unstyled text-center">
+            <li class="contact-info iconed-text">
+              <app-icon icon="icon-user-solid"></app-icon>
+              <span>Sébastien CAYET</span>
+            </li>
+            <li class="contact-info iconed-text">
+              <app-icon icon="icon-phone-solid"></app-icon>
+              <span>+33 6 46 88 15 19</span>
+            </li>
+            <li class="contact-info iconed-text">
+              <app-icon icon="icon-envelope-solid"></app-icon>
+              <span>sebcayet@gmail.com</span>
+            </li>
+          </ul>
+          <div class="col-sm-6 my-auto d-flex justify-content-center">
+            <a [href]="routes.external.facebook" class="button icon-button bouncy-1" target="_blank">
+              <app-icon icon="icon-facebook-brands"></app-icon>
+            </a>
+            <a [href]="routes.external.linkedIn" class="button icon-button bouncy-2" target="_blank">
+              <app-icon icon="icon-linkedin-brands"></app-icon>
+            </a>
+            <a [href]="routes.external.gitHub" class="button icon-button bouncy-3" target="_blank">
+              <app-icon icon="icon-github-brands"></app-icon>
+            </a>
+          </div>
+        </div>
+      </article>
+      <article class="col-sm-6 col-md-3 align-self-center mb-3 text-center">
+        <a class="button bouncy-0" target="_blank">
+          Télécharger mon CV
+        </a>
+      </article>
+      <article class="col-sm-6 col-md-3 align-self-center mb-3 text-center">
+        <a class="button" [routerLink]="routes.app.contact" routerLinkActive="active">
+          Envoyer un mail
+        </a>
+      </article>
+    </div>
+  </div>
+</section>

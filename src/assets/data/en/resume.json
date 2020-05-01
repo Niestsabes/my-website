@@ -1,0 +1,230 @@
+{
+    "presentation": {
+        "title": "",
+        "description": [
+            "I am a rather curious web developer, with a solid knowledge of front-end and back-end best practices. I appreciate things that are structured and clean. I'm quite tenacious when it comes to tracking down bugs or fine-tuning a few details. But don't be fooled by my apparent rigidity: I know how to be creative when necessary. I've worked a lot on my own, but when I work with others, the journey is more fun and we go further."
+        ]
+    },
+    "education": [
+        {
+            "title": "Baccalauréat S",
+            "startDate": "Juin 2014",
+            "type": "Formation",
+            "company": "Lycée Alexis de Tocqueville",
+            "place": "Grasse, France",
+            "description": [
+                "Baccalauréat en option Sciences de l'Ingénieur et spécialité Mathématiques, obtenu avec mention Trés Bien."
+            ]
+        },
+        {
+            "title": "Classe préparatoires MP",
+            "startDate": "Septembre 2014",
+            "endDate": "Juin 2016",
+            "type": "Formation",
+            "company": "Center International de Valbonne",
+            "place": "Valbonne, France",
+            "description": [
+                "Étude intensive des mathématiques, de la physique, de l'anglais et de l'algorithmique (entre autres), pour préparer les concours d'entrée aux Grandes Écoles."
+            ]
+        },
+        {
+            "title": "École d'ingénieur",
+            "startDate": "Septembre 2016",
+            "endDate": "Août 2019",
+            "type": "Formation",
+            "company": "IMT Mines Albi",
+            "place": "Albi, France",
+            "description": [
+                "Étude généraliste des thématiques scientifiques et managériales liées aux métiers d'ingénieur.",
+                "Spécialité en Gestion des Systémes d'Information."
+            ],
+            "link": "https://www.imt-mines-albi.fr/"
+        }
+    ],
+    "experiences": [
+        {
+            "title": "Nom du poste A",
+            "subtitle": "Dévellopeur web",
+            "startDate": "Octobre 2019",
+            "endDate": "Aujourd'hui",
+            "type": "Emploi",
+            "company": "Amadeus (Altran)",
+            "place": "Sophia-Antipolis, France",
+            "description": [
+                "En tant que développeur frontend & backend, j'ai travaillé sur plusieurs projets qui visent à apporter des solutions open-source aux organisations humanitaires déployées sur des zones de conflits.",
+                "J'ai étudié le cycle de vie complet d'un projet, et les processus de déploiement basiques d'un serveur avec Linux."
+            ]
+        },
+        {
+            "title": "Nom du poste B",
+            "subtitle": "Dévellopeur web",
+            "startDate": "Mars",
+            "endDate": "Août 2019",
+            "type": "Stage",
+            "company": "Relief Applications",
+            "place": "Madrid, Espagne",
+            "description": [
+                "En tant que développeur frontend & backend, j'ai travaillé sur plusieurs projets qui visent à apporter des solutions open-source aux organisations humanitaires déployées sur des zones de conflits.",
+                "J'ai étudié le cycle de vie complet d'un projet, et les processus de déploiement basiques d'un serveur avec Linux."
+            ]
+        }
+    ],
+    "characteristics":[
+        {
+            "title": "Créatif",
+            "level": 80
+        },
+        {
+            "title": "Organisé",
+            "level": 90
+        },
+        {
+            "title": "Empatique",
+            "level": 90
+        },
+        {
+            "title": "Autonome",
+            "level": 90
+        },
+        {
+            "title": "Curieux",
+            "level": 100
+        },
+        {
+            "title": "Passionné",
+            "level": 200
+        }
+    ],
+    "portefolio": [
+        {
+            "title": "Personal Website",
+            "description": "Lorem Ipsum ipsum ipsum",
+            "image": "https://new-game-plus.fr/wp-content/uploads/2020/01/Fire-Emblem-Three-Houses-Byleth.jpg"
+        },
+        {
+            "title": "Oort Cloud",
+            "description": "Lorem Ipsum ipsum ipsum",
+            "image": "https://new-game-plus.fr/wp-content/uploads/2020/01/Fire-Emblem-Three-Houses-Byleth.jpg"
+        },
+        {
+            "title": "Montrose",
+            "description": "Lorem Ipsum ipsum ipsum",
+            "image": "https://new-game-plus.fr/wp-content/uploads/2020/01/Fire-Emblem-Three-Houses-Byleth.jpg"
+        }
+    ],
+    "tastes": [
+        {
+            "title": "Nourriture épicée",
+            "image": "https://new-game-plus.fr/wp-content/uploads/2020/01/Fire-Emblem-Three-Houses-Byleth.jpg"
+        },
+        {
+            "title": "Animation Japonaise",
+            "image": "https://new-game-plus.fr/wp-content/uploads/2020/01/Fire-Emblem-Three-Houses-Byleth.jpg"
+        },
+        {
+            "title": "Jouer & créer des jeux",
+            "image": "https://new-game-plus.fr/wp-content/uploads/2020/01/Fire-Emblem-Three-Houses-Byleth.jpg"
+        },
+        {
+            "title": "Apprendre",
+            "image": "https://new-game-plus.fr/wp-content/uploads/2020/01/Fire-Emblem-Three-Houses-Byleth.jpg"
+        }
+    ],
+    "skills": {
+        "programming": [
+            {
+                "title": "Javascript & Typescript",
+                "level": 3,
+                "description": ["Angular 2+", "VueJS", "Express", "NestJS", "Node.js"]
+            },
+            {
+                "title": "SQL",
+                "level": 3,
+                "description": ["Postgre", "MySQL"]
+            },
+            {
+                "title": "PHP",
+                "level": 3,
+                "description": ["Symfony"]
+            },
+            {
+                "title": "HML5 & CSS3",
+                "level": 3,
+                "description": ["Bootstrap 4"]
+            },
+            {
+                "title": "C#",
+                "level": 2,
+                "description": ["Unity"]
+            },
+            {
+                "title": "Autres",
+                "level": 1,
+                "description": ["Java", "XML", "Python", "CamL"]
+            }
+        ],
+        "tooling": [
+            {
+                "title": "Bureautique",
+                "level": 2,
+                "description": ["Microsoft Office", "Libre Office"]
+            },
+            {
+                "title": "Dessin",
+                "level": 1,
+                "description": ["Paint.net", "Gimp", "Inkshape"]
+            },
+            {
+                "title": "Plateformes de développement",
+                "level": 3,
+                "description": ["GitHub", "GitLab", "Jira Softwares", "Docker"]
+            }
+        ],
+        "miscellaneous": [
+            {
+                "title": "Modélisation",
+                "level": 3,
+                "description": ["Diagrammes UML & BPMN"]
+            },
+            {
+                "title": "Management",
+                "level": 2,
+                "description": ["Management Agile", "Design Thinking"]
+            }  
+        ]
+    },
+    "languages":[
+        {
+            "title": "Français",
+            "rank": "Langue maternelle"
+        },
+        {
+            "title": "Anglais",
+            "rank": "C1 - TOEIC 870",
+            "description": [
+                "Séjours à New York et à Londres."
+            ]
+        },
+        {
+            "title": "Espagnol",
+            "rank": "B2",
+            "description": [
+                "Cours hebdomadaire pendant 10 ans.",
+                "Stage de 6 mois à Madrid."
+            ]
+        },
+        {
+            "title": "Japonais",
+            "rank": "A1",
+            "description": [
+                "Je lis et écris les hiragana et katakana, et apprends mes premiers kanjis.",
+                "Conozco las nociones de supervivencia."
+            ]
+        }
+    ],
+    "contact": {
+        "fullName": "Sébastien Cayet",
+        "phone": "+33 6 46 88 15 19",
+        "email": "sebcayet@gmail.com"
+    }
+}

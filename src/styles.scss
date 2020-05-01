@@ -1,1 +1,41 @@
 /* You can add global styles to this file, and also import other style files */
+@import './assets/style/animations.scss';
+@import './assets/style/theme.scss';
+@import './assets/style/colors.scss';
+@import './assets/fonts/icomoon/style.css';
+@import './assets/fonts/varela/style.css';
+@import url('https://fonts.googleapis.com/css?family=Lilita+One');              // Font used for titles
+@import url('https://fonts.googleapis.com/css?family=Lilita+One|Varela+Round'); // Font used for texts
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    min-height: 100vh;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Varela Round', 'Valera', sans-serif;
+}
+
+.page-section {
+    padding-top: 16px;
+    padding-bottom: 40px;
+
+    &.alternative-color {
+        background-color: #6464dc;
+        color: $app-white;
+    }
+}
+
+.iconed-text {
+    > span {
+        margin-left: 0.42em;
+    }
+}

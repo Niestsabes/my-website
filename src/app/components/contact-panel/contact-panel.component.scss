@@ -1,0 +1,20 @@
+.contact-info-panel {
+    display: flex;
+    justify-content: center;
+    margin: 16px 0;
+
+    .contact-info-data {
+        margin: auto 0;
+        padding: 0;
+        list-style: none;
+    }
+    
+    .contact-info-social {
+        margin: auto 0 auto 32px;
+        text-align: center;
+    }
+}
+
+a.button.icon-button {
+    margin: 0 8px;
+}
