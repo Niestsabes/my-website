@@ -1,7 +1,7 @@
 <section class="page-section dark-background">
   <h2 class="text-center iconed-text">
     <app-icon icon="icon-envelope-open-text-solid"></app-icon>
-    <span i18n="@@contact">Contact</span>
+    <span>{{ 'Contactez-moi !' | translate:'contact' }}</span>
   </h2>
   <div class="container">
     <div class="row">
@@ -39,12 +39,12 @@
       </article>
       <article class="col-sm-6 col-md-3 align-self-center mb-3 text-center">
         <a class="button bouncy-0" target="_blank">
-          Télécharger mon CV
+          {{ 'Télécharger mon CV' | translate:'seeResume' }}
         </a>
       </article>
       <article class="col-sm-6 col-md-3 align-self-center mb-3 text-center">
         <a class="button" [routerLink]="routes.app.contact" routerLinkActive="active">
-          Envoyer un mail
+          {{ 'Envoyer un mail' | translate:'sendMail' }}
         </a>
       </article>
     </div>

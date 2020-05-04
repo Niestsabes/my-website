@@ -15,6 +15,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { GaugeComponent } from './components/gauge/gauge.component';
 import { ContactPageComponent } from './pages/contact-page/contact-page.component';
 import { ContactPanelComponent } from './components/contact-panel/contact-panel.component';
+import { CircleGaugeComponent } from './components/circle-gauge/circle-gauge.component';
+import { TranslatorPipe } from './pipes/translator.pipe';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { ContactPanelComponent } from './components/contact-panel/contact-panel.
     BannerComponent,
     GaugeComponent,
     ContactPageComponent,
-    ContactPanelComponent
+    ContactPanelComponent,
+    CircleGaugeComponent,
+    TranslatorPipe
   ],
   imports: [
     BrowserModule,

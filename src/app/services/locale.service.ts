@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import { Injectable, Inject, LOCALE_ID } from '@angular/core';
 import { LOCALES } from './../constants/locale.dictionary';
 import { Subject } from 'rxjs';
 import { LocaleInterface } from '../models/locale.interface';
@@ -10,8 +10,13 @@ export class LocaleService {
 
   public localeChange: Subject<LocaleInterface>;
   private _locale: LocaleInterface;
+  private _defaultLocale: string
 
-  constructor() {
+  constructor(
+    @Inject(LOCALE_ID) public defaultLocale: string
+  ) {
+    console.log(defaultLocale);
+    this._defaultLocale = defaultLocale.substring(0, 2);
     this.localeChange = new Subject();
   }
 
@@ -19,11 +24,15 @@ export class LocaleService {
    * @description Sets application current locale
    * @param value language code of the locale to set
    */
-  public setLocale(value: string): void {
+  public setLocale(value: string, forceReload: boolean = true): void {
     const matchLocale = LOCALES.find( locale => locale.id === value );
     if (matchLocale){
       this._locale = matchLocale;
       this.localeChange.next(this._locale);
+      if (forceReload) {
+        localStorage.setItem('localeId', this._locale.id);
+        location.reload(true);
+      }
     }
   }
 
@@ -32,7 +41,13 @@ export class LocaleService {
    * @returns language code of the current locale
    */
   public getLocale(): LocaleInterface {
-    return this._locale || LOCALES[0];
+    if (this._locale == null) {
+      const defaultLocale = localStorage.getItem('localeId') ?
+        localStorage.getItem('localeId') :
+        this._defaultLocale;
+      this.setLocale(defaultLocale, false);
+    }
+    return this._locale;
   }
 
   /**

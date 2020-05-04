@@ -8,7 +8,8 @@ export const ROUTES = {
     api: {
         root: '/assets/data',
         paths: {
-            resume: 'resume.json'
+            resume: 'resume.json',
+            translations: 'locale.json'
         }
     },
     files: {

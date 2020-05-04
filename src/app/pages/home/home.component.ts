@@ -15,7 +15,7 @@ export class HomeComponent implements OnInit {
   public resume: Resume = new Resume();
 
   constructor(
-    private _dataService: DataService,
+    public dataService: DataService,
     private _localeService: LocaleService
   ) {
     this._localeService.localeChange.subscribe(
@@ -39,6 +39,6 @@ export class HomeComponent implements OnInit {
    * @description Retrieve resume from api
    */
   public getResume(): void {
-    this._dataService.getResume().subscribe( value => this.resume.setData(value));
+    this.dataService.getResume().subscribe( value => this.resume.setData(value));
   }
 }

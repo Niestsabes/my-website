@@ -7,7 +7,7 @@
           <ul class="list-unstyled">
             <li class="contact-info iconed-text">
               <app-icon icon="icon-user-solid"></app-icon>
-              <span>Sébastien CAYET</span>
+              <span>{{ 'Sébastien CAYET' | translate:'title' }}</span>
             </li>
             <li class="contact-info iconed-text">
               <app-icon icon="icon-phone-solid"></app-icon>
@@ -32,7 +32,7 @@
         </div>
         <div class="text-center">
           <a class="button bouncy-0" target="_blank">
-            Télécharger mon CV
+            {{ 'Télécharger mon CV' | translate:'seeResume' }}
           </a>
         </div>
       </article>
@@ -42,17 +42,17 @@
     <section class="page-section col-md-7">
       <h1 class="text-center iconed-text">
         <app-icon icon="icon-envelope-open-text-solid"></app-icon>
-        <span>Contact me !</span>
+        <span>{{ 'Contactez-moi !' | translate:'contact' }}</span>
       </h1>      
       <form #contactFormElement [formGroup]="contactForm" class="container"
         action="https://formspree.io/neits.webies@gmail.com" method="POST" target="_blank">
-        <p class="text-center">Fill the following form to send me a mail</p>
+        <p class="text-center">{{ "Remplissez le formulaire ci-dessous pour m'envoyer un mail." | translate:'mailFormText' }}</p>
         <fieldset class="form-group"
           [class.invalid]="isFieldInvalid('firstName')">
           <div class="row">
             <label class="col-12 col-md-2 col-lg-3"
               for="mailFirstName">
-              Prénom
+              {{ 'Prénom' | translate:'firstName' }}
             </label>
             <input class="col-12 col-md-10 col-lg-9 form-control" 
               name="firstName"
@@ -61,7 +61,7 @@
               id="mailFirstName">
           </div>
           <small class="form-error-text">
-            Ce champ est obligatoire.
+            {{ 'Ce champ est obligatoire.' | translate:'mailFormMandatoryErrorMessage' }}
           </small>
         </fieldset>
         <fieldset class="form-group"
@@ -69,7 +69,7 @@
           <div class="row">
             <label class="col-12 col-md-2 col-lg-3 col-form-label" 
               for="mailLastName">
-              Nom
+              {{ 'Nom' | translate:'lastName' }}
             </label>
             <input class="col-12 col-md-10 col-lg-9 form-control"
               name="lastName"
@@ -78,7 +78,7 @@
               id="mailLastName">
           </div>
           <small class="form-error-text">
-            Ce champ est obligatoire.
+            {{ 'Ce champ est obligatoire.' | translate:'mailFormMandatoryErrorMessage' }}
           </small>
         </fieldset>
         <fieldset class="form-group"
@@ -86,7 +86,7 @@
           <div class="row">
             <label class="col-12 col-md-2 col-lg-3 col-form-label"
               for="mailEmail">
-              E-mail
+              {{ 'E-mail' | translate:'email' }}
             </label>
             <input class="col-12 col-md-10 col-lg-9 form-control"
               name="email"
@@ -95,7 +95,7 @@
               id="mailEmail">
           </div>
           <small class="form-error-text">
-            Entrez une adresse e-mail valide.
+            {{ 'Entrez un adresse mail valide.' | translate:'mailFormEmailErrorMessage' }}
           </small>
         </fieldset>
         <fieldset class="form-group"
@@ -103,7 +103,7 @@
           <div class="row">
             <label class="col-12 col-md-2 col-lg-3 col-form-label"
               for="mailObject">
-              Objet
+              {{ 'Objet' | translate:'subject' }}
             </label>
             <input class="col-12 col-md-10 col-lg-9 form-control"
               name="object"
@@ -112,7 +112,7 @@
               id="mailObject">
           </div>
           <small class="form-error-text">
-            Ce champ est obligatoire.
+            {{ 'Ce champ est obligatoire.' | translate:'mailFormMandatoryErrorMessage' }}
           </small>
         </fieldset>
         <fieldset class="form-group"
@@ -120,7 +120,7 @@
           <div class="row">
             <label class="col-12 col-md-2 col-lg-3 col-form-label"
               for="mailMessage">
-              Message
+              {{ 'Message' | translate:'message' }}
             </label>
             <textarea class="col-12 col-md-10 col-lg-9 form-control"
               name="message"
@@ -129,15 +129,15 @@
               id="mailMessage"></textarea>
           </div>
           <small class="form-error-text">
-            Ce champ est obligatoire.
+            {{ 'Ce champ est obligatoire.' | translate:'mailFormMandatoryErrorMessage' }}
           </small>
         </fieldset>
         <p class="text-center" *ngIf="isFormInvalid()">
-          Your form could not be submitted because at least once field is invalid.
+          {{ "Ce formulaire n'a pas être envoyé parce qu'au moins un des champs est invalide." | translate:'mailFormErrorMessage' }}
         </p>
         <div class="d-flex justify-content-center">
           <button class="button" type="button" (click)="sendEmail()">
-            Envoyer
+            {{ 'Envoyer' | translate:'send' }}
           </button>
         </div>
       </form>

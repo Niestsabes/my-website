@@ -1,11 +1,10 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { ResumeInterface } from '../models/resume.interface';
-import { Subject, BehaviorSubject, Observable } from 'rxjs';
+import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 import { ROUTES } from '../constants/routes.dictionary';
 import { LocaleService } from './locale.service';
-import { Resume } from '../models/resume';
 
 @Injectable({
   providedIn: 'root'
@@ -29,4 +28,5 @@ export class DataService {
       })
     )
   }
+
 }

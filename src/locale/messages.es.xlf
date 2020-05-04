@@ -10,68 +10,131 @@
           <context context-type="linenumber">4</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="presentation" datatype="html">
-        <source>Présentation</source>
-        <target>YY</target>
+      <trans-unit id="353fbd3c8432407ec900d99c3ff2609932cb930b" datatype="html">
+        <source>Ce site est garanti 100% sans cookies ! Développé par Sébastien CAYET (lui-même) avec Angular 9.</source>
+        <target></target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
-          <context context-type="linenumber">7</context>
+          <context context-type="sourcefile">src/app/components/footer/footer.component.html</context>
+          <context context-type="linenumber">3</context>
         </context-group>
+        <note priority="1" from="description">@footer-message</note>
       </trans-unit>
-      <trans-unit id="formation" datatype="html">
-        <source>Formation</source>
-        <target>Education</target>
+      <trans-unit id="about-me" datatype="html">
+        <source>A propos</source>
+        <target>About me</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
           <context context-type="linenumber">13</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="expériences" datatype="html">
-        <source>Expériences</source>
-        <target>Experiences</target>
+      <trans-unit id="about-me-text" datatype="html">
+        <source>
+          Lorem Ipsum
+        </source>
+        <target>English</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
-          <context context-type="linenumber">19</context>
+          <context context-type="linenumber">16</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="competances" datatype="html">
-        <source>Compétences</source>
-        <target>Competancias</target>
+      <trans-unit id="my-tastes" datatype="html">
+        <source>Mes goûts</source>
+        <target>My tastes</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
-          <context context-type="linenumber">25</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="my-style" datatype="html">
+        <source>
+          Mon style
+        </source>
+        <target>My style</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="experiences" datatype="html">
+        <source>Expériences</source>
+        <target></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="see-competences" datatype="html">
+        <source>
+      Voir mes expérienes
+    </source>
+    <target></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">100</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">145</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="competences" datatype="html">
+        <source>Compétences</source>
+        <target></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">110</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="knowledge" datatype="html">
+        <source>
+          Connaissances
+        </source>
+        <target></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">115</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/experience-page/experience-page.component.html</context>
+          <context context-type="linenumber">82</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="languages" datatype="html">
+        <source>Langues</source>
+        <target></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">129</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/experience-page/experience-page.component.html</context>
+          <context context-type="linenumber">66</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="languages-text" datatype="html">
+        <source>
+        Lorem Ipsum
+      </source>
+      <target></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">130</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="portefolio" datatype="html">
+        <source>Portefolio</source>
+        <target></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">156</context>
         </context-group>
       </trans-unit>
       <trans-unit id="contact" datatype="html">
         <source>Contact</source>
-        <target>Contacto</target>
+        <target></target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
-          <context context-type="linenumber">31</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="banner-title" datatype="html">
-        <source>Titre</source>
-        <target>Titulo</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/banner/banner.component.html</context>
-          <context context-type="linenumber">8</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="banner-subtitle" datatype="html">
-        <source>Sous-titre</source>
-        <target>Subtitulo</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/banner/banner.component.html</context>
-          <context context-type="linenumber">9</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="banner-description" datatype="html">
-        <source>Description</source>
-        <target>Descripcion</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/banner/banner.component.html</context>
-          <context context-type="linenumber">10</context>
+          <context context-type="sourcefile">src/app/components/contact-panel/contact-panel.component.html</context>
+          <context context-type="linenumber">4</context>
         </context-group>
       </trans-unit>
     </body>

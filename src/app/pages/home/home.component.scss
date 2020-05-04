@@ -51,6 +51,21 @@
     }
 }
 
+.language-wrapper {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    grid-gap: 16px;
+
+    .language-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+    }
+}
+
 .experience-icon {
     font-size: 4em;
     color: $app-black;

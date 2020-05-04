@@ -1,7 +1,7 @@
 <!-- Page header -->
 <section class="page-header gradient-animation">
   <h1>
-    My curiculum vitae
+    {{ 'Mon Curiculum' | translate:'resumeTitle' }}
   </h1>
 </section>
 
@@ -9,7 +9,7 @@
 <section class="page-section">
   <h2 class="text-center iconed-text">
     <app-icon icon="icon-thumbtack-solid"></app-icon>
-    <span>Experiences</span>
+    <span>{{ 'Expériences' | translate:'experiences' }}</span>
   </h2>
   <div class="container">
     <article *ngFor="let experience of resume.getExperiences(); let index = index" 
@@ -34,7 +34,7 @@
 <section class="page-section">
   <h2 class="text-center iconed-text">
     <app-icon icon="icon-graduation-cap-solid"></app-icon>
-    <span>Education</span>
+    <span>{{ 'Formation' | translate:'education' }}</span>
   </h2>
   <div class="container">
     <div class="row">
@@ -58,13 +58,13 @@
 <section class="page-section colored-background">
   <h2 class="text-center iconed-text">
     <app-icon icon="icon-tools-solid"></app-icon>
-    <span>Compétences</span>
+    <span>{{ 'Compétences' | translate:'competences' }}</span>
   </h2>
   <div class="container">
     <div class="row">
       <aside class="col-md-12 col-lg-4 align-self-center mb-auto">
         <h3 i18n="@@languages" class="text-center">
-          Langues
+          {{ 'Langues' | translate:'languages' }}
         </h3>
         <ul class="list-unstyled">
           <li *ngFor="let language of resume.getLanguages()">
@@ -80,7 +80,7 @@
       </aside>
       <article #contactForm class="col-md-12 col-lg-8 align-self-center mb-auto">
         <h3 i18n="@@knowledge" class="text-center">
-          Connaissances
+          {{ 'Connaissances' | translate:'knowledge' }}
         </h3>
         <ng-container *ngFor="let skillType of resume.getSkillTypes()">
           <h4>Programmation</h4>

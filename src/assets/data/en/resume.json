@@ -193,13 +193,15 @@
             }  
         ]
     },
-    "languages":[
+    "languages": [
         {
             "title": "Français",
+            "level": 100,
             "rank": "Langue maternelle"
         },
         {
             "title": "Anglais",
+            "level": 75,
             "rank": "C1 - TOEIC 870",
             "description": [
                 "Séjours à New York et à Londres."
@@ -207,6 +209,7 @@
         },
         {
             "title": "Espagnol",
+            "level": 60,
             "rank": "B2",
             "description": [
                 "Cours hebdomadaire pendant 10 ans.",
@@ -215,6 +218,7 @@
         },
         {
             "title": "Japonais",
+            "level": 15,
             "rank": "A1",
             "description": [
                 "Je lis et écris les hiragana et katakana, et apprends mes premiers kanjis.",
