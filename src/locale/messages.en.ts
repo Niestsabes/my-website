@@ -1,16 +1,15 @@
 const messages = {
     aboutMe: "About me",
-    aboutText: "",
     competences: "Competences",
     contact: "Contact me !",
-    education: "Formation",
+    education: "Education",
     email: "E-mail",
     experiences: "Experiences",
     firstName: "First Name",
-    footerText: "Ce site est garanti 100% sans cookies ! Développé par Sébastien CAYET (lui-même) avec Angular 9.",
+    footerText: "This site is guaranteed 100% cookie-free! Developed by Sébastien CAYET (himself) with Angular 9.",
     knowledge: "Knowledge",
     languages: "Languages",
-    languagesText: "",
+    languagesText: "I think that knowing different languages is important when you want to issimilate different cultures. French is my mother tongue, but I mostly use English for working. I learnt Spanish at school for 10 years. Today, I'm learning Japanese.",
     lastName: "Last Name",
     message: "Message",
     myTastes: "My tastes",
@@ -21,6 +20,7 @@ const messages = {
     mailFormErrorMessage: "Your form could not be submitted because at least once field is invalid.",
     personalInformations: "Personal Informations",
     portefolio: "Portefolio",
+    programming: "Coding languages",
     resumeTitle: "My Resume",
     seeExperiences: "Read my experiences",
     seeCompetences: "Read my competences",
@@ -28,7 +28,9 @@ const messages = {
     sendMail: "Send me a mail",
     send: "Send",
     subject: "Subject",
-    title: "Sébastien CAYET"
+    title: "Sébastien CAYET",
+    theory: "Theory",
+    tooling: "Tools",
 }
 
 export default messages;

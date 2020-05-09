@@ -1,11 +1,31 @@
 {
     "presentation": {
         "title": "",
-        "description": ["Je suis un développeur web assez curieux, avec une connaissance solides de bonnes pratiques de front-end et back-end. J'apprécie les choses structurées et propres. Je suis assez tenace quand il s'agit de traquer des bugs ou pofiner quelques détails. Mais ne vous fiez pas à ma rigidité apparante: je sais être créatif quand cela est nécessaire. J'ai beaucoup travaillé seul, mais à plusieurs, le voyage est plus amusant et on va plus loin."],
-        "tastes": [],
-        "style": []
+        "description": ["Je suis un développeur web assez curieux, avec une connaissance solides de bonnes pratiques de front-end et back-end. J'apprécie les choses structurées et propres. Je suis assez tenace quand il s'agit de traquer des bugs ou pofiner quelques détails. Mais ne vous fiez pas à ma rigidité apparante: je sais être créatif quand cela est nécessaire. J'ai beaucoup travaillé seul, mais à plusieurs, le voyage est plus amusant et on va plus loin."]
     },
-    "formation": [
+    "assets": [
+        {
+            "title": "Développement Web",
+            "image": "icon-tools-solid",
+            "description": "Ma connaissance de multiples languages et de pratiques de code saines me conférent beaucoup d'autonomie pour démarrer de nouveaux projets, ou m'adapter à des applications existantes."
+        },
+        {
+            "title": "Graphisme",
+            "image": "icon-icons-solid",
+            "description": "Aimant être maître de ce que je produis et touchant à quelques logiciels de dessin, je réalise le plus possible les visuels et animations dont j'ai besoin par moi-même."
+        },
+        {
+            "title": "UX Design",
+            "image": "icon-pencil-ruler-solid",
+            "description": "Les utilisateurs sont l'élément central de n'importe quel produit. J'utilise mes connaissances pour reccueillir leur besoin et prototyper des applications les plus dimple, utiles et agréables possible."
+        },
+        {
+            "title": "Communication",
+            "image": "icon-comments-solid",
+            "description": "Le partage d'informations est une composante clé du travail en équipe. Je soigne ma communication en choisissant le bon format et les bons mots au bon moment. Je suis aussi avantagé par ma connaissance de multiples langues."
+        }
+    ],
+    "education": [
         {
             "name": "Baccalauréat S",
             "startDate": "Juin 2014",
@@ -118,144 +138,197 @@
             ]
         }
     ],
-    "softSkills":[
+    "characteristics":[
         {
-            "name": "Créatif",
-            "value": "80"
+            "title": "Créatif",
+            "level": 80
         },
         {
-            "name": "Organisé",
-            "value": "90"
+            "title": "Organisé",
+            "level": 90
         },
         {
-            "name": "Empatique",
-            "value": "90"
+            "title": "Empathique",
+            "level": 90
         },
         {
-            "name": "Autonome",
-            "value": "90"
+            "title": "Autonome",
+            "level": 90
         },
         {
-            "name": "Curieux",
-            "value": "100"
+            "title": "Curieux",
+            "level": 100
         },
         {
-            "name": "Passionné",
-            "value": "200"
+            "title": "Passionné",
+            "level": 200
         }
     ],
-    "technicalSkill" : [
+    "portefolio": [
         {
-            "name": "Angular",
-            "value": "3",
-            "category": "programming",
-            "description": ["HTML 5", "CSS 3 & SCSS", "TypeScript"]
+            "title": "Site web personnel",
+            "description": "Lorem Ipsum ipsum ipsum",
+            "image": "https://new-game-plus.fr/wp-content/uploads/2020/01/Fire-Emblem-Three-Houses-Byleth.jpg"
         },
         {
-            "name": "Symfony",
-            "value": "1",
-            "category": "programming",
-            "description": ["PHP"]
+            "title": "Oort Cloud",
+            "description": "Lorem Ipsum ipsum ipsum",
+            "image": "https://new-game-plus.fr/wp-content/uploads/2020/01/Fire-Emblem-Three-Houses-Byleth.jpg"
         },
         {
-            "name": "Node.js",
-            "value": "2",
-            "category": "programming",
-            "description": ["JavaScript"]
-        },
-        {
-            "name": "Unity 3D",
-            "value": "2",
-            "category": "programming",
-            "description": ["C#"]
-        },
-        {
-            "name": "MySQL / Postgre",
-            "value": "2",
-            "category": "programming",
-            "description": ["SQL"]
-        },
-        {
-            "name": "Autres",
-            "value": "1",
-            "category": "programming",
-            "description": ["Java", "Python", "CamL", "XML"]
-        },
-        {
-            "name": "Bureautique",
-            "value": "2",
-            "category": "side",
-            "description": ["Microsoft Office", "Libre Office"]
-        },
-        {
-            "name": "Dessin",
-            "value": "1",
-            "category": "side",
-            "description": ["Gimp", "Paint.net", "Inkshape"]
-        },
-        {
-            "name": "Plateformes de développement",
-            "value": "3",
-            "category": "side",
-            "description": ["GitHub", "GitLab", "Docker"]
-        },
-        {
-            "name": "Modélisation",
-            "value": "3",
-            "category": "knowledge",
-            "description": ["Diagrammes UML & BPMN"]
-        },
-        {
-            "name": "Management",
-            "value": "2",
-            "category": "knowledge",
-            "description": ["Management Agile", "Design Thinking"]
-        }  
+            "title": "Montrose",
+            "description": "Lorem Ipsum ipsum ipsum",
+            "image": "https://new-game-plus.fr/wp-content/uploads/2020/01/Fire-Emblem-Three-Houses-Byleth.jpg"
+        }
     ],
+    "skills": {
+        "programming": [
+            {
+                "title": "Javascript (& Typescript)",
+                "level": 90,
+                "description": ["Angular 2+", "VueJS", "Express", "NestJS", "Node.js"]
+            },
+            {
+                "title": "SQL",
+                "level": 85,
+                "description": ["Postgre", "MySQL"]
+            },
+            {
+                "title": "PHP",
+                "level": 70,
+                "description": ["Symfony"]
+            },
+            {
+                "title": "HML5 & CSS3",
+                "level": 90,
+                "description": ["Bootstrap 4"]
+            },
+            {
+                "title": "C#",
+                "level": 50,
+                "description": ["Unity"]
+            },
+            {
+                "title": "Java",
+                "level": 40,
+                "description": ["Eclipse"]
+            },
+            {
+                "title": "XML",
+                "level": 30
+            },
+            {
+                "title": "Python",
+                "level": 20
+            }
+        ],
+        "tooling": [
+            {
+                "title": "Microsoft Office",
+                "level": 60,
+                "description": ["Word", "Excel", "PowerPoint"]
+            },
+            {
+                "title": "Libre Office",
+                "level": 50,
+                "description": ["Writer", "Calc", "Impress"]
+            },
+            {
+                "title": "Git",
+                "level": 90,
+                "description": ["GitHub", "GitLab", "GitBash"]
+            },
+            {
+                "title": "Outils Jira",
+                "level": 90,
+                "description": ["Confluence", "BitBucket", "Jira"]
+            },
+            {
+                "title": "Docker",
+                "level": 20
+            },
+            {
+                "title": "PHPStorm",
+                "level": 60
+            },
+            {
+                "title": "Paint.net",
+                "level": 60
+            },
+            {
+                "title": "Unity",
+                "level": 50
+            }
+        ],
+        "theory": [
+            {
+                "title": "Diagrammes UML",
+                "level": 90
+            },
+            {
+                "title": "Methodologie Agile",
+                "level": 80,
+                "description": ["Scrum", "Kanban"]
+            },
+            {
+                "title": "UX Design",
+                "level": 60
+            },
+            {
+                "title": "Design Thinking",
+                "level": 50
+            }  
+        ]
+    },
     "tastes": [
         {
-            "name": "Nourriture épicée",
-            "image": "/assets/images/tastes/spicy_food.jpg"
+            "title": "Nourriture épicée",
+            "image": "https://new-game-plus.fr/wp-content/uploads/2020/01/Fire-Emblem-Three-Houses-Byleth.jpg"
         },
         {
-            "name": "Animation Japonaise",
-            "image": "/assets/images/tastes/japanese_animation.jpg"
+            "title": "Animation Japoinaise",
+            "image": "https://new-game-plus.fr/wp-content/uploads/2020/01/Fire-Emblem-Three-Houses-Byleth.jpg"
         },
         {
-            "name": "Jouer & créer des jeux",
-            "image": "/assets/images/tastes/games.jpeg"
+            "title": "Créer et jouer à des jeux",
+            "image": "https://new-game-plus.fr/wp-content/uploads/2020/01/Fire-Emblem-Three-Houses-Byleth.jpg"
         },
         {
-            "name": "Apprendre",
-            "image": "/assets/images/tastes/explore.jpg"
+            "title": "Apprendre",
+            "image": "https://new-game-plus.fr/wp-content/uploads/2020/01/Fire-Emblem-Three-Houses-Byleth.jpg"
         }
     ],
-    "language":[
+    "languages": [
         {
-            "name": "Français",
-            "value": "Langue maternelle"
+            "title": "Français",
+            "level": 100,
+            "rank": "Langue maternelle"
         },
         {
-            "name": "Anglais",
-            "value": "C1 - TOEIC 870",
+            "title": "Anglais",
+            "level": 75,
+            "rank": "C1 - TOEIC 870",
             "description": [
-                "Séjours à New York et à Londres."
+                "Séjours à New York et à Londres.",
+                "Langue de travail"
             ]
         },
         {
-            "name": "Espagnol",
-            "value": "B2",
+            "title": "Espagnol",
+            "level": 60,
+            "rank": "B2",
             "description": [
-                "Cours hebdomadaire pendant 10 ans.",
+                "Cours hebdomadaire pendant ma scolarité.",
                 "Stage de 6 mois à Madrid."
             ]
         },
         {
-            "name": "Japonais",
-            "value": "A1",
+            "title": "Japonais",
+            "level": 15,
+            "rank": "A1",
             "description": [
-                "Je lis et écris les hiragana et katakana, et apprends mes premiers kanjis.",
-                "Je connais les notions de survie."
+                "Je lis et écris les hiragana et katakana, et une centaine de kanjis.",
+                "Je maîtrise les notions de base de la langue."
             ]
         }
     ],

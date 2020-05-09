@@ -10,6 +10,9 @@ export class CircleGaugeComponent implements OnInit {
   /** @description value of the gauge */
   @Input() public value: number;
 
+  /** @description text to dislay in the gauge */
+  @Input() public text: string;
+
   /** @description url of the image that will be gauge background */
   @Input() public backgroudUrl: string;
 

@@ -17,6 +17,7 @@ import { ContactPageComponent } from './pages/contact-page/contact-page.componen
 import { ContactPanelComponent } from './components/contact-panel/contact-panel.component';
 import { CircleGaugeComponent } from './components/circle-gauge/circle-gauge.component';
 import { TranslatorPipe } from './pipes/translator.pipe';
+import { StarGaugeComponent } from './components/star-gauge/star-gauge.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { TranslatorPipe } from './pipes/translator.pipe';
     ContactPageComponent,
     ContactPanelComponent,
     CircleGaugeComponent,
-    TranslatorPipe
+    TranslatorPipe,
+    StarGaugeComponent
   ],
   imports: [
     BrowserModule,

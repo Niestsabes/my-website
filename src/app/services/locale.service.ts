@@ -28,9 +28,9 @@ export class LocaleService {
     const matchLocale = LOCALES.find( locale => locale.id === value );
     if (matchLocale){
       this._locale = matchLocale;
+      localStorage.setItem('localeId', this._locale.id);
       this.localeChange.next(this._locale);
       if (forceReload) {
-        localStorage.setItem('localeId', this._locale.id);
         location.reload(true);
       }
     }

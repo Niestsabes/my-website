@@ -1,5 +1,6 @@
 export interface ResumeInterface {
     presentation: ResumeItemInterface,
+    assets: Array<ResumeItemInterface>,
     education: Array<ResumeExperienceInterface>,
     experiences: Array<ResumeExperienceInterface>,
     portefolio: Array<ResumeItemInterface>,

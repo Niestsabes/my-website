@@ -51,6 +51,31 @@
     }
 }
 
+.knowledge-wrapper {
+    height: 100%;
+    padding: 0;
+    border: 2px solid $app-black;
+    background-color: rgba($app-black, 0.05);
+    
+    .knowledge-title {
+        margin: 0;
+        padding: 0.4em;
+        background-color: $app-black;
+        color: $app-white;
+    }
+
+    .knowledge-list {
+        margin: 0;
+        padding: 0.5em;
+        list-style: none;
+
+        .knowledge-list-item {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}
+
 .language-wrapper {
     list-style: none;
     display: grid;
@@ -68,7 +93,7 @@
 
 .experience-icon {
     font-size: 4em;
-    color: $app-black;
+    color: $app-white;
     text-shadow: 2px 2px 4px $app-black;
 }
 

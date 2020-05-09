@@ -14,6 +14,17 @@ export class Resume {
     }
 
     /**
+     * @description Returns list of assets found in raw data
+     * @returns list of assets
+     */
+    public getAssets(): Array<ResumeItemInterface> {
+        if ( !this._rawData || !this._rawData.assets ) {
+            return [];
+        }
+        return this._rawData.assets;
+    }
+
+    /**
      * @description Returns the presentation found in raw data
      * @returns presentation
      */

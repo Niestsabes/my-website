@@ -5,6 +5,28 @@
             "I am a rather curious web developer, with a solid knowledge of front-end and back-end best practices. I appreciate things that are structured and clean. I'm quite tenacious when it comes to tracking down bugs or fine-tuning a few details. But don't be fooled by my apparent rigidity: I know how to be creative when necessary. I've worked a lot on my own, but when I work with others, the journey is more fun and we go further."
         ]
     },
+    "assets": [
+        {
+            "title": "Web Development",
+            "image": "icon-tools-solid",
+            "description": "My knowledge of multiple languages and sound coding practices gives me a lot of autonomy to start new projects, or adapt to existing applications."
+        },
+        {
+            "title": "Graphism",
+            "image": "icon-icons-solid",
+            "description": "Liking to be master of what I produce and touching a few drawing softwares, I realize as much as possible the visuals and animations I need by myself."
+        },
+        {
+            "title": "UX Design",
+            "image": "icon-pencil-ruler-solid",
+            "description": "Users are the central element of any product. I use my knowledge to gather their needs and prototype applications that are as versatile, useful and enjoyable as possible."
+        },
+        {
+            "title": "Communication",
+            "image": "icon-comments-solid",
+            "description": "Sharing information is a key component of teamwork. I take care of my communication by choosing the right format and the right words at the right time. I also benefit from my knowledge of multiple languages."
+        }
+    ],
     "education": [
         {
             "title": "Baccalauréat S",
@@ -71,27 +93,27 @@
     ],
     "characteristics":[
         {
-            "title": "Créatif",
+            "title": "Creative",
             "level": 80
         },
         {
-            "title": "Organisé",
+            "title": "Organized",
             "level": 90
         },
         {
-            "title": "Empatique",
+            "title": "Empathetic",
             "level": 90
         },
         {
-            "title": "Autonome",
+            "title": "Autonomous",
             "level": 90
         },
         {
-            "title": "Curieux",
+            "title": "Curious",
             "level": 100
         },
         {
-            "title": "Passionné",
+            "title": "Passionate",
             "level": 200
         }
     ],
@@ -114,115 +136,152 @@
     ],
     "tastes": [
         {
-            "title": "Nourriture épicée",
+            "title": "Spicy food",
             "image": "https://new-game-plus.fr/wp-content/uploads/2020/01/Fire-Emblem-Three-Houses-Byleth.jpg"
         },
         {
-            "title": "Animation Japonaise",
+            "title": "Japanese Animation",
             "image": "https://new-game-plus.fr/wp-content/uploads/2020/01/Fire-Emblem-Three-Houses-Byleth.jpg"
         },
         {
-            "title": "Jouer & créer des jeux",
+            "title": "Play & Create games",
             "image": "https://new-game-plus.fr/wp-content/uploads/2020/01/Fire-Emblem-Three-Houses-Byleth.jpg"
         },
         {
-            "title": "Apprendre",
+            "title": "Learn",
             "image": "https://new-game-plus.fr/wp-content/uploads/2020/01/Fire-Emblem-Three-Houses-Byleth.jpg"
         }
     ],
     "skills": {
         "programming": [
             {
-                "title": "Javascript & Typescript",
-                "level": 3,
+                "title": "Javascript (& Typescript)",
+                "level": 90,
                 "description": ["Angular 2+", "VueJS", "Express", "NestJS", "Node.js"]
             },
             {
                 "title": "SQL",
-                "level": 3,
+                "level": 85,
                 "description": ["Postgre", "MySQL"]
             },
             {
                 "title": "PHP",
-                "level": 3,
+                "level": 70,
                 "description": ["Symfony"]
             },
             {
                 "title": "HML5 & CSS3",
-                "level": 3,
+                "level": 90,
                 "description": ["Bootstrap 4"]
             },
             {
                 "title": "C#",
-                "level": 2,
+                "level": 50,
                 "description": ["Unity"]
             },
             {
-                "title": "Autres",
-                "level": 1,
-                "description": ["Java", "XML", "Python", "CamL"]
+                "title": "Java",
+                "level": 40,
+                "description": ["Eclipse"]
+            },
+            {
+                "title": "XML",
+                "level": 30
+            },
+            {
+                "title": "Python",
+                "level": 20
             }
         ],
         "tooling": [
             {
-                "title": "Bureautique",
-                "level": 2,
-                "description": ["Microsoft Office", "Libre Office"]
+                "title": "Microsoft Office",
+                "level": 60,
+                "description": ["Word", "Excel", "PowerPoint"]
             },
             {
-                "title": "Dessin",
-                "level": 1,
-                "description": ["Paint.net", "Gimp", "Inkshape"]
+                "title": "Libre Office",
+                "level": 50,
+                "description": ["Writer", "Calc", "Impress"]
             },
             {
-                "title": "Plateformes de développement",
-                "level": 3,
-                "description": ["GitHub", "GitLab", "Jira Softwares", "Docker"]
+                "title": "Git",
+                "level": 90,
+                "description": ["GitHub", "GitLab", "GitBash"]
+            },
+            {
+                "title": "Jira Softwares",
+                "level": 90,
+                "description": ["Confluence", "BitBucket", "Jira"]
+            },
+            {
+                "title": "Docker",
+                "level": 20
+            },
+            {
+                "title": "PHPStorm",
+                "level": 60
+            },
+            {
+                "title": "Paint.net",
+                "level": 60
+            },
+            {
+                "title": "Unity",
+                "level": 50
             }
         ],
-        "miscellaneous": [
+        "theory": [
             {
-                "title": "Modélisation",
-                "level": 3,
-                "description": ["Diagrammes UML & BPMN"]
+                "title": "UML Diagrams",
+                "level": 90
             },
             {
-                "title": "Management",
-                "level": 2,
-                "description": ["Management Agile", "Design Thinking"]
+                "title": "Agile Methodology",
+                "level": 80
+            },
+            {
+                "title": "UX Design Practices",
+                "level": 60,
+                "description": ["Scrum", "Kanban"]
+            },
+            {
+                "title": "Design Thinking",
+                "level": 50
             }  
         ]
     },
     "languages": [
         {
-            "title": "Français",
+            "title": "French",
             "level": 100,
-            "rank": "Langue maternelle"
+            "rank": "Mother tongue"
         },
         {
-            "title": "Anglais",
+            "title": "English",
             "level": 75,
             "rank": "C1 - TOEIC 870",
             "description": [
-                "Séjours à New York et à Londres."
+                "Stays in New York and London.",
+                "Working language."
             ]
         },
         {
-            "title": "Espagnol",
+            "title": "Spanish",
             "level": 60,
             "rank": "B2",
             "description": [
-                "Cours hebdomadaire pendant 10 ans.",
-                "Stage de 6 mois à Madrid."
+                "Weekly classes during my school days.",
+                "Internship of 6 months in Madrid."
             ]
         },
         {
-            "title": "Japonais",
+            "title": "Japanese",
             "level": 15,
             "rank": "A1",
             "description": [
-                "Je lis et écris les hiragana et katakana, et apprends mes premiers kanjis.",
-                "Conozco las nociones de supervivencia."
+                "I read and write hiragana and katakana, and a hundred kanjis.",
+                "I master the basics of the language."
             ]
         }
     ],

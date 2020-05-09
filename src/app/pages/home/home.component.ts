@@ -27,15 +27,6 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void { }
 
   /**
-   * @description Formats displayed description of a skill
-   * @param description
-   * @returns text to display
-   */
-  public printSkillDescription(description: Array<string>): string {
-    return description.join(', ');
-  }
-
-  /**
    * @description Retrieve resume from api
    */
   public getResume(): void {
