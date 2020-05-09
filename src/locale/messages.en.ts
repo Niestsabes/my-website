@@ -7,6 +7,7 @@ const messages = {
     experiences: "Experiences",
     firstName: "First Name",
     footerText: "This site is guaranteed 100% cookie-free! Developed by Sébastien CAYET (himself) with Angular 9.",
+    home: 'Home page',
     knowledge: "Knowledge",
     languages: "Languages",
     languagesText: "I think that knowing different languages is important when you want to issimilate different cultures. French is my mother tongue, but I mostly use English for working. I learnt Spanish at school for 10 years. Today, I'm learning Japanese.",

@@ -7,6 +7,7 @@ const messages = {
     experiences: "経験",
     firstName: "なまえ",
     footerText: "このサイトは100％クッキーフリーを保証しています! CAYET Sébastien （自身）がAngular 9で開発。",
+    home: 'ウェルカムページ',
     knowledge: "知ること",
     languages: "国語",
     languagesText: "異文化を吸収するためには、異なる言語を知ることが重要だと思います。フランス語は私の母語ですが、仕事ではほとんど英語を使っています。学校では10年間スペイン語を学びました。今は日本語を勉強しています。",

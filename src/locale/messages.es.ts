@@ -7,6 +7,7 @@ const messages = {
     experiences: "Experiencias",
     firstName: "Nombre",
     footerText: "¡Este sitio está garantizado 100% libre de cookies! Desarrollado por Sébastien CAYET (él mismo) con Angular 9.",
+    home: 'Página principal',
     knowledge: "Conocimientio",
     languages: "Idiomas",
     languagesText: "Creo que conocer diferentes idiomas es importante cuando se quiere asimilar diferentes culturas. El francés es mi lengua materna, pero utilizo sobre todo el inglés para trabajar. Aprendí español en la escuela durante 10 años. Hoy, estoy aprendiendo japonés.",

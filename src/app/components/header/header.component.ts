@@ -4,6 +4,8 @@ import { LocaleService } from 'src/app/services/locale.service';
 import { LocaleInterface } from 'src/app/models/locale.interface';
 import { Router } from '@angular/router';
 import { ROUTES } from './../../constants/routes.dictionary';
+import { IMAGES } from './../../constants/images.dictionary';
+import { TranslatorService } from 'src/app/services/translator.service';
 
 @Component({
   selector: 'app-header',
@@ -13,14 +15,23 @@ import { ROUTES } from './../../constants/routes.dictionary';
 export class HeaderComponent implements OnInit {
 
   public currentRoute: string;
+  public routes = ROUTES;
+  public images = IMAGES;
   public navigationButton = [
-    { iconName: 'icon-home-solid', route: ROUTES.app.home },
-    { iconName: 'icon-address-card-solid', route: ROUTES.app.experience },
-    { iconName: 'icon-envelope-open-text-solid', route: ROUTES.app.contact }
+    { iconName: 'icon-home-solid',
+      title: this._translateService.translate('home'),
+      route: this.routes.app.home },
+    { iconName: 'icon-address-card-solid',
+      title: this._translateService.translate('experiences'),
+      route: this.routes.app.experience },
+    { iconName: 'icon-envelope-open-text-solid',
+      title: this._translateService.translate('contact'),
+      route: this.routes.app.contact }
   ]
 
   constructor(
     private _localeService: LocaleService,
+    private _translateService: TranslatorService,
     private _router: Router,
     private _location: Location
   ) { }
