@@ -14,7 +14,7 @@ export class CircleGaugeComponent implements OnInit {
   @Input() public text: string;
 
   /** @description url of the image that will be gauge background */
-  @Input() public backgroudUrl: string;
+  @Input() public backgroundUrl: string;
 
   constructor() { }
 

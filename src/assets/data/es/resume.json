@@ -301,7 +301,8 @@
         {
             "title": "Francés",
             "level": 100,
-            "rank": "Lengua materna"
+            "rank": "Lengua materna",
+            "image": "assets/images/flag-french.png"
         },
         {
             "title": "Inglés",
@@ -310,7 +311,8 @@
             "description": [
                 "Estancias en Nueva York y Londres.",
                 "Idioma de trabajo."
-            ]
+            ],
+            "image": "assets/images/flag-english.png"
         },
         {
             "title": "Español",
@@ -318,8 +320,9 @@
             "rank": "B2",
             "description": [
                 "Clases semanales durante mi escolaridad.",
-                "SPasantía de 6 meses en Madrid."
-            ]
+                "Practicas de 6 meses en Madrid."
+            ],
+            "image": "assets/images/flag-spanish.png"
         },
         {
             "title": "Japonés",
@@ -328,7 +331,8 @@
             "description": [
                 "Leo y escribo hiragana, katakana, y una centena de kanjis.",
                 "Conozco las bases del lenguaje"
-            ]
+            ],
+            "image": "assets/images/flag-japanese.png"
         }
     ],
     "contact": {

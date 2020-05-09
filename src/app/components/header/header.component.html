@@ -15,8 +15,12 @@
   </div>
   <div class="header-right">
     <span class="btn-group">
-      <button class="header-side-button dropdown-toggle" type="button" data-toggle="dropdown">
-        {{getCurrentLocale().id.toUpperCase()}}
+      <button class="header-side-button dropdown-toggle locale-button" type="button" data-toggle="dropdown">
+        <img class="locale-button-image"
+          [src]="getCurrentLocale().image"
+          [alt]="getCurrentLocale().id.toUpperCase()"/>
+        <div class="locale-button-text">{{getCurrentLocale().id.toUpperCase()}}</div>
+        <div class="locale-button-arrow-down"></div>
       </button>
       <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
         <ng-container *ngFor="let locale of getAvailableLocales()">

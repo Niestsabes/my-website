@@ -302,7 +302,8 @@
         {
             "title": "Français",
             "level": 100,
-            "rank": "Langue maternelle"
+            "rank": "Langue maternelle",
+            "image": "assets/images/flag-french.png"
         },
         {
             "title": "Anglais",
@@ -311,7 +312,8 @@
             "description": [
                 "Séjours à New York et à Londres.",
                 "Langue de travail"
-            ]
+            ],
+            "image": "assets/images/flag-english.png"
         },
         {
             "title": "Espagnol",
@@ -320,7 +322,8 @@
             "description": [
                 "Cours hebdomadaire pendant ma scolarité.",
                 "Stage de 6 mois à Madrid."
-            ]
+            ],
+            "image": "assets/images/flag-spanish.png"
         },
         {
             "title": "Japonais",
@@ -329,7 +332,8 @@
             "description": [
                 "Je lis et écris les hiragana et katakana, et une centaine de kanjis.",
                 "Je maîtrise les notions de base de la langue."
-            ]
+            ],
+            "image": "assets/images/flag-japanese.png"
         }
     ],
     "contact": {

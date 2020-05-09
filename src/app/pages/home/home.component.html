@@ -105,7 +105,11 @@
       <ul class="col-md-8 language-wrapper">
         <li class="language-item"
           *ngFor="let language of resume.getLanguages()">
-          <app-circle-gauge [value]="language.level" [text]="language.title"></app-circle-gauge>
+          <app-circle-gauge
+            [value]="language.level"
+            [text]="language.title"
+            [backgroundUrl]="language.image">
+          </app-circle-gauge>
           <span>{{ language.rank }}</span>
         </li>
       </ul>

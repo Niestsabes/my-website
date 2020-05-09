@@ -2,6 +2,7 @@
 
 $header-height: 60px;
 $header-padding: 8px;
+$side-button-size: calc(#{$header-height} - 2 * #{$header-padding});
 
 .header {
     display: flex;
@@ -57,14 +58,14 @@ $header-padding: 8px;
 }
 
 .header-side-button {
-    height: calc(#{$header-height} - 2 * #{$header-padding});
-    width: calc(#{$header-height} - 2 * #{$header-padding});
+    height: $side-button-size;
+    width: $side-button-size;
     border-radius: calc((#{$header-height} - 2 * #{$header-padding}) / 2);
     background-color: rgba($app-white, 0.1);
     border: none;
     color: $app-white;
     text-align: center;
-    line-height: calc(#{$header-height} - 2 * #{$header-padding});
+    line-height: $side-button-size;
 
     &:hover {
         background-color: rgba($app-white, 0.3);
@@ -79,3 +80,43 @@ $header-padding: 8px;
     font-weight: bold;
     font-family: 'Lilita One';
 }
+
+.locale-button {
+    $border: 3px;
+    position: relative;
+    border: $border solid $black;
+    overflow: hidden;
+
+    .locale-button-image {
+        position: absolute;
+        left: -$border;
+        top: -$border;
+        width: $side-button-size;
+        max-width: $side-button-size;
+        height: calc(#{$side-button-size} * 0.95);
+        max-height: $side-button-size;
+    }
+
+    .locale-button-text {
+        position: absolute;
+        left: -$border;
+        bottom: -$border;
+        width: $side-button-size;
+        height: calc(#{$side-button-size} / 3);
+        background-color: $black;
+        color: $app-white;
+    }
+
+    .locale-button-arrow-down {
+        $arrow-size: 4px;
+        position: absolute;
+        left: calc(50% - #{$arrow-size});
+        bottom: 2px;
+        width: 0;
+        height: 0;
+        border-left: $arrow-size solid transparent;
+        border-right: $arrow-size solid transparent;
+        border-top: $arrow-size solid $app-white;
+    }
+}
+
