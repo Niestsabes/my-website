@@ -168,17 +168,7 @@
         {
             "title": "個人サイト",
             "description": "Lorem Ipsum ipsum ipsum",
-            "image": "https://new-game-plus.fr/wp-content/uploads/2020/01/Fire-Emblem-Three-Houses-Byleth.jpg"
-        },
-        {
-            "title": "Oort Cloud",
-            "description": "Lorem Ipsum ipsum ipsum",
-            "image": "https://new-game-plus.fr/wp-content/uploads/2020/01/Fire-Emblem-Three-Houses-Byleth.jpg"
-        },
-        {
-            "title": "Montrose",
-            "description": "Lorem Ipsum ipsum ipsum",
-            "image": "https://new-game-plus.fr/wp-content/uploads/2020/01/Fire-Emblem-Three-Houses-Byleth.jpg"
+            "image": "assets/images/portefolio-personal-website.png"
         }
     ],
     "skills": {
@@ -282,19 +272,19 @@
     "tastes": [
         {
             "title": "辛いもの",
-            "image": "https://new-game-plus.fr/wp-content/uploads/2020/01/Fire-Emblem-Three-Houses-Byleth.jpg"
+            "image": "assets/images/taste-spicy-food.png"
         },
         {
             "title": "日本のアニメ",
-            "image": "https://new-game-plus.fr/wp-content/uploads/2020/01/Fire-Emblem-Three-Houses-Byleth.jpg"
+            "image": "assets/images/taste-japanese-animation.png"
         },
         {
             "title": "ゲームをプレイして作成する",
-            "image": "https://new-game-plus.fr/wp-content/uploads/2020/01/Fire-Emblem-Three-Houses-Byleth.jpg"
+            "image": "assets/images/taste-game.png"
         },
         {
             "title": "学ぶ",
-            "image": "https://new-game-plus.fr/wp-content/uploads/2020/01/Fire-Emblem-Three-Houses-Byleth.jpg"
+            "image": "assets/images/taste-learn.png"
         }
     ],
     "languages": [

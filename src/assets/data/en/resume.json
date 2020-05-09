@@ -121,35 +121,25 @@
         {
             "title": "Personal Website",
             "description": "Lorem Ipsum ipsum ipsum",
-            "image": "https://new-game-plus.fr/wp-content/uploads/2020/01/Fire-Emblem-Three-Houses-Byleth.jpg"
-        },
-        {
-            "title": "Oort Cloud",
-            "description": "Lorem Ipsum ipsum ipsum",
-            "image": "https://new-game-plus.fr/wp-content/uploads/2020/01/Fire-Emblem-Three-Houses-Byleth.jpg"
-        },
-        {
-            "title": "Montrose",
-            "description": "Lorem Ipsum ipsum ipsum",
-            "image": "https://new-game-plus.fr/wp-content/uploads/2020/01/Fire-Emblem-Three-Houses-Byleth.jpg"
+            "image": "assets/images/portefolio-personal-website.png"
         }
     ],
     "tastes": [
         {
             "title": "Spicy food",
-            "image": "https://new-game-plus.fr/wp-content/uploads/2020/01/Fire-Emblem-Three-Houses-Byleth.jpg"
+            "image": "assets/images/taste-spicy-food.png"
         },
         {
             "title": "Japanese Animation",
-            "image": "https://new-game-plus.fr/wp-content/uploads/2020/01/Fire-Emblem-Three-Houses-Byleth.jpg"
+            "image": "assets/images/taste-japanese-animation.png"
         },
         {
             "title": "Play & Create games",
-            "image": "https://new-game-plus.fr/wp-content/uploads/2020/01/Fire-Emblem-Three-Houses-Byleth.jpg"
+            "image": "assets/images/taste-game.png"
         },
         {
             "title": "Learn",
-            "image": "https://new-game-plus.fr/wp-content/uploads/2020/01/Fire-Emblem-Three-Houses-Byleth.jpg"
+            "image": "assets/images/taste-learn.png"
         }
     ],
     "skills": {

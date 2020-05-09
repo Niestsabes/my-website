@@ -5,6 +5,7 @@ $header-padding: 8px;
 $side-button-size: calc(#{$header-height} - 2 * #{$header-padding});
 
 .header {
+    position: relative;
     display: flex;
     justify-content: space-between;
     height: $header-height;
