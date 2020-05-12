@@ -12,6 +12,10 @@
         margin-bottom: 16px;
         border-bottom: 1px solid rgb(200,200,200);
     }
+
+    &:nth-child(2n) {
+        text-align: right;
+    }
 }
 
 .skill-list {

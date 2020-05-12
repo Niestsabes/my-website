@@ -7,6 +7,7 @@ const messages = {
     experiences: "Expériences",
     firstName: "Prénom",
     footerText: "Ce site est garanti 100% sans cookies ! Développé par Sébastien CAYET (lui-même) avec Angular 9.",
+    from: "De",
     home: "Page d'accueil",
     knowledge: "Connaissances",
     languages: "Langues",
@@ -31,8 +32,8 @@ const messages = {
     subject: "Objet",
     title: "Sébastien CAYET",
     theory: "Théorie",
+    to: "à",
     tooling: "Outils",
-
 }
 
 export default messages;

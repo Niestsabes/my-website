@@ -27,114 +27,82 @@
     ],
     "education": [
         {
-            "name": "Baccalauréat S",
-            "startDate": "Juin 2014",
-            "type": "Formation",
-            "company": "Lycée Alexis de Tocqueville",
-            "place": "Grasse, France",
+            "title": "Bachillerato S",
+            "date": "Junio de 2014",
+            "company": "Escuela Secundaria Alexis de Tocqueville",
+            "place": "Grasse, Francia",
             "description": [
-                "Baccalauréat en option Sciences de l'Ingénieur et spécialité Mathématiques, obtenu avec mention Trés Bien."
+                "Diploma en Ciencias de la Ingeniería y la especialidad de Matemáticas, obtenida con honores."
             ]
         },
         {
-            "name": "Classe préparatoires MP",
-            "startDate": "Septembre 2014",
-            "endDate": "Juin 2016",
-            "type": "Formation",
-            "company": "Center International de Valbonne",
-            "place": "Valbonne, France",
+            "title": "Clase preparatoria MP",
+            "date": "De Septiembre de 2014 a Junio de 2016",
+            "company": "Centro Internacional de Valbonne",
+            "place": "Valbonne, Francia",
             "description": [
-                "Étude intensive des mathématiques, de la physique, de l'anglais et de l'algorithmique (entre autres), pour préparer les concours d'entrée aux Grandes Écoles."
+                "Estudio intensivo de matemáticas, física, inglés y algoritmos (entre otros), para preparar los exámenes de ingreso a las Grandes Escuelas."
             ]
         },
         {
-            "name": "École d'ingénieur",
-            "startDate": "Septembre 2016",
-            "endDate": "Août 2019",
-            "type": "Formation",
+            "title": "Escuela de Ingeniería",
+            "date": "De Septiembre de 2016 a Agosto de 2019",
             "company": "IMT Mines Albi",
-            "place": "Albi, France",
+            "place": "Albi, Francia",
             "description": [
-                "Étude généraliste des thématiques scientifiques et managériales liées aux métiers d'ingénieur.",
-                "Spécialité en Gestion des Systémes d'Information."
+                "Estudio generalista de temas científicos y de gestión relacionados con las profesiones de la ingeniería.",
+                "Especialización en gestión de sistemas de información."
             ],
             "link": "https://www.imt-mines-albi.fr/"
         }
     ],
     "experiences": [
         {
-            "name": "Dévellopeur web",
-            "startDate": "Mars",
-            "endDate": "Août 2019",
-            "type": "Stage",
+            "title": "Desarollo y mantenimiento de una aplicación de apoyo presupuestario",
+            "subtitle": "Desarrollador Full Stack / Diseñador UX / Scrum Master",
+            "date": "Desde Octubre 2019 ...",
+            "company": "Altran / Amadeus",
+            "place": "Sophia-Antipolis, Francia",
+            "description": [
+                "Me uní a la División de Servicios Transversales y Coordinación, con entregas seguras de programas estratégicos y transversales a través de Amadeus.",
+                "Mi equipo tiene como objetivo llevar la previsibilidad a la gestión para la eficiencia operativa y la simplicidad para más de 1700 actores. Con 2 especialistas en negocios y otros 2 desarrolladores web, una de nuestras actividades es desarrollar y mantener Management Suite, una aplicación que permite a nuestros usuarios gestionar su presupuesto y recursos."
+            ],
+            "details": []
+        },
+        {
+            "title": "Creación de aplicaciones innovadoras con fines humanitarios",
+            "subtilte": "Desarrollador Web / Android / AWS",
+            "date": "De Marzo de 2019 a Augusto de 2019",
+            "type": "Prácticas",
             "company": "Relief Applications",
-            "place": "Madrid, Espagne",
+            "place": "Madrid, España",
             "description": [
-                "En tant que développeur frontend & backend, j'ai travaillé sur plusieurs projets qui visent à apporter des solutions open-source aux organisations humanitaires déployées sur des zones de conflits.",
-                "J'ai étudié le cycle de vie complet d'un projet, et les processus de déploiement basiques d'un serveur avec Linux."
+                "Como desarrollador de frontend y backend, he trabajado en varios proyectos que tienen como objetivo aportar soluciones de código abierto a las organizaciones humanitarias desplegadas en zonas de conflicto.",
+                "He estudiado el ciclo de vida completo del proyecto, y los procesos básicos de despliegue de un servidor con Linux."
             ]
         },
         {
-            "name": "Développeur web full stack",
-            "startDate": "Mai",
-            "endDate": "Août 2018",
-            "type": "Stage",
+            "title": "Creación de un prototipo de un sistema de gestión de datos maestros para ayudar a la gestión del proyecto",
+            "subtitle": "Desarrollador Full Stack",
+            "date": "De Mayo de 2018 a Agosto de 2018",
+            "type": "Prácticas",
             "company": "Thales Alenia Space Cannes",
-            "place": "Cannes, France",
+            "place": "Cannes, Francia",
             "description": [
-                "J'ai initié la mise en place d'un systéme de Gestion des Données de Référence, afin d'améliorer la ponctualité des projets du département logiciel.",
-                "J'ai travaillé sur les diverse facettes d'une application web en trois-tiers: front-end avec Angular, back-end avec PHP, base de données avec MySQL.",
-                "J'ai aussi été gérant de mon projet. J'ai employé un processus de développement Agile, ponctué de réunions avec des collaborateurs des sites de Cannes et de Toulouse"
+                "Inicié la implementación de un sistema de gestión de datos maestros, con el fin de mejorar la puntualidad de los proyectos del departamento de software.",
+                "Trabajé en las diversas facetas de una aplicación web de tres niveles: front-end con Angular, back-end con PHP, base de datos con MySQL.",
+                "También fui director de proyecto. Utilicé un proceso de desarrollo ágil, puntuado por reuniones con colaboradores de los sitios de Cannes y Toulouse."
             ]
         },
         {
-            "name": "Développeur de jeux-vidéo",
-            "startDate": "Janvier 2018",
-            "type": "Événement",
-            "company": "Global Game Jam",
-            "place": "Albi, France",
+            "title": "Global Game Jam 2018",
+            "subtitle": "Desarrollador Unity",
+            "date": "Enero 2018",
+            "type": "Evento",
+            "place": "Albi, Francia",
             "description": [
-                "La Global Game Jam est un challenge de création en équipe d'un jeu-vidéo complet en seulement 48 heures.",
-                "J'y ai participé en tant que game designer et programmeur."
-            ]
-        },
-        {
-            "name": "Mission Innov'Action",
-            "startDate": "Septembre 2017",
-            "endDate": "Février 2018",
-            "type": "Études",
-            "company": "Vita Miror & IMT Mines Albi",
-            "place": "Albi, France",
-            "description": [
-                "J'ai aidé une start-up à créer son nouveau concept de mirroir intelligent.",
-                "J'ai réalisé une étude marketing, et intérrogé des clients potentiels.",
-                "J'ai écrit un cahier des charges des spécifications de produit attendu.",
-                "J'ai dessinée des BDs afin de décrire les divers cas d'usage, et promuvoir le produit."
-            ]
-        },
-        {
-            "name": "Responsable Communication",
-            "startDate": "Juin 2017",
-            "endDate": "Mai 2018",
-            "type": "Associatif",
-            "company": "Festival International de théâtre Acthéa",
-            "place": "Albi, France",
-            "description": [
-                "J'ai été responsable de la promotion du festival au sein de l'école, à Albi et ses alentours.",
-                "J'ai mis à jour les informations et le design du site web et ai filmé l'intégralité de l'évènement.",
-                "J'ai organisé un coucours d'affiche avec un appel d'offre rémunéré, et suis entré en contact avec la presse et un imprimeur pour faire connaître le festival."
-            ]
-        },
-        {
-            "name": "Secrétaire",
-            "startDate": "Juin 2017",
-            "endDate": "Mai 2018",
-            "type": "Associatif",
-            "company": "I2D (Ingénieur pour un Développemnt Durable)",
-            "place": "Albi, France",
-            "description": [
-                "En tant que membre du Bureau du Direction, j'ai été un support à l'organisation des activités d'I2D.",
-                "J'organisai les réunions et veillai à la bonne circulation de l'information entre les membres. J'ai aussi écrit plusieurs documents administratifs, dont un règlement intérieur."
+                "El Global Game Jam es un desafío para crear un videojuego completo en sólo 48 horas.",
+                "Participé como diseñador y desarrollador de juegos."
             ]
         }
     ],

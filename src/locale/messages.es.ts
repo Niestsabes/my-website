@@ -7,6 +7,7 @@ const messages = {
     experiences: "Experiencias",
     firstName: "Nombre",
     footerText: "¡Este sitio está garantizado 100% libre de cookies! Desarrollado por Sébastien CAYET (él mismo) con Angular 9.",
+    from: "De",
     home: 'Página principal',
     knowledge: "Conocimientio",
     languages: "Idiomas",
@@ -33,6 +34,7 @@ const messages = {
     subtitle: "¡Hola! ¡Soy un desarrollador web!",
     title: "Sébastien CAYET",
     theory: "Teoría",
+    to: "a",
     tooling: "Herramientas",
 }
 

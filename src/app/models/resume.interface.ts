@@ -26,8 +26,7 @@ export interface ResumeExperienceInterface {
     type: string,
     company: string,
     place: string,
-    startDate: string,
-    endDate: string,
+    date: string,
     description: Array<string>,
     image?: string
 }

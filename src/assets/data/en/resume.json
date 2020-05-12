@@ -29,65 +29,82 @@
     ],
     "education": [
         {
-            "title": "Baccalauréat S",
-            "startDate": "Juin 2014",
-            "type": "Formation",
-            "company": "Lycée Alexis de Tocqueville",
+            "title": "Baccalaureate S",
+            "date": "June 2014",
+            "company": "Alexis de Tocqueville High School",
             "place": "Grasse, France",
             "description": [
-                "Baccalauréat en option Sciences de l'Ingénieur et spécialité Mathématiques, obtenu avec mention Trés Bien."
+                "Degree in Engineering Sciences with Mathematics speciality, obtained with honours."
             ]
         },
         {
-            "title": "Classe préparatoires MP",
-            "startDate": "Septembre 2014",
-            "endDate": "Juin 2016",
-            "type": "Formation",
-            "company": "Center International de Valbonne",
+            "title": "Intensive study of Mathematics and Phisics",
+            "date": "From September 2014 to June 2016",
+            "company": "Valbonne International Center",
             "place": "Valbonne, France",
             "description": [
-                "Étude intensive des mathématiques, de la physique, de l'anglais et de l'algorithmique (entre autres), pour préparer les concours d'entrée aux Grandes Écoles."
+                "Intensive study of mathematics, physics, English and algorithmics (among others), to prepare for the entrance exams to the Grandes Ecoles."
             ]
         },
         {
-            "title": "École d'ingénieur",
-            "startDate": "Septembre 2016",
-            "endDate": "Août 2019",
-            "type": "Formation",
+            "title": "Engineering school",
+            "date": "From September 2016 to August 2019",
             "company": "IMT Mines Albi",
             "place": "Albi, France",
             "description": [
-                "Étude généraliste des thématiques scientifiques et managériales liées aux métiers d'ingénieur.",
-                "Spécialité en Gestion des Systémes d'Information."
+                "Generalist study of scientific and managerial themes related to engineering professions.",
+                "Specialization in Information Systems Management."
             ],
             "link": "https://www.imt-mines-albi.fr/"
         }
     ],
     "experiences": [
         {
-            "title": "Nom du poste A",
-            "subtitle": "Dévellopeur web",
-            "startDate": "Octobre 2019",
-            "endDate": "Aujourd'hui",
-            "type": "Emploi",
-            "company": "Amadeus (Altran)",
+            "title": "Developement & maintenance of a budget support application",
+            "subtitle": "Full Stack Developer / UX Designer / Scrum Master",
+            "date": "Since October 2019 ...",
+            "company": "Altran / Amadeus",
             "place": "Sophia-Antipolis, France",
             "description": [
-                "En tant que développeur frontend & backend, j'ai travaillé sur plusieurs projets qui visent à apporter des solutions open-source aux organisations humanitaires déployées sur des zones de conflits.",
-                "J'ai étudié le cycle de vie complet d'un projet, et les processus de déploiement basiques d'un serveur avec Linux."
+                "I joined the Transversal Services & Coordination Division, with secure deliveries of strategic and transversal programs across Amadeus.",
+                "My team aims to bring Predictability to Management for Operational Efficiency and Simplicity for more than 1700 Actors. With 2 Business Specialist and 2 other web developers, one of our activities is to develop and maintain Management Suite, an application allowing our users to manage their budget and resources."
+            ],
+            "details": []
+        },
+        {
+            "title": "Creation of innovative applications for humanitarian purposes",
+            "subtitle": "Web / Android / AWS Developer",
+            "date": "From March 2019 to August 2019",
+            "type": "Internship",
+            "company": "Relief Applications",
+            "place": "Madrid, Spain",
+            "description": [
+                "As a frontend & backend developer, I have worked on several projects that aim to bring open-source solutions to humanitarian organizations deployed in conflict zones.",
+                "I have studied the complete project lifecycle, and the basic deployment processes of a server with Linux."
             ]
         },
         {
-            "title": "Nom du poste B",
-            "subtitle": "Dévellopeur web",
-            "startDate": "Mars",
-            "endDate": "Août 2019",
-            "type": "Stage",
-            "company": "Relief Applications",
-            "place": "Madrid, Espagne",
+            "title": "Prototyping of a Master Data Management System to assist in project management",
+            "subtitle": "Full Stack Developer",
+            "date": "From May 2018 to August 2018",
+            "type": "Internship",
+            "company": "Thales Alenia Space Cannes",
+            "place": "Cannes, France",
             "description": [
-                "En tant que développeur frontend & backend, j'ai travaillé sur plusieurs projets qui visent à apporter des solutions open-source aux organisations humanitaires déployées sur des zones de conflits.",
-                "J'ai étudié le cycle de vie complet d'un projet, et les processus de déploiement basiques d'un serveur avec Linux."
+                "I initiated the implementation of a Master Data Management system, in order to improve the punctuality of the software department's projects.",
+                "I worked on the various facets of a three-tier web application: front-end with Angular, back-end with PHP, database with MySQL.",
+                "I was also project manager. I used an Agile development process, punctuated by meetings with collaborators from the Cannes and Toulouse sites."
+            ]
+        },
+        {
+            "title": "Global Game Jam 2018",
+            "subtitle": "Unity Developer",
+            "date": "January 2018",
+            "type": "Event",
+            "place": "Albi, France",
+            "description": [
+                "The Global Game Jam is a challenge to create a complete video game in only 48 hours.",
+                "I participated as a game designer and developer."
             ]
         }
     ],

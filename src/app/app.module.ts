@@ -32,8 +32,8 @@ import { StarGaugeComponent } from './components/star-gauge/star-gauge.component
     ContactPageComponent,
     ContactPanelComponent,
     CircleGaugeComponent,
-    TranslatorPipe,
-    StarGaugeComponent
+    StarGaugeComponent,
+    TranslatorPipe
   ],
   imports: [
     BrowserModule,

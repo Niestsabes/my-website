@@ -27,114 +27,82 @@
     ],
     "education": [
         {
-            "name": "Baccalauréat S",
-            "startDate": "Juin 2014",
-            "type": "Formation",
-            "company": "Lycée Alexis de Tocqueville",
-            "place": "Grasse, France",
+            "title": "バカロレアＳ",
+            "date": "2014年6月",
+            "company": "アレクシス・ド・トクヴィル高校",
+            "place": "グラース、フランス",
             "description": [
-                "Baccalauréat en option Sciences de l'Ingénieur et spécialité Mathématiques, obtenu avec mention Trés Bien."
+                "工学と数学の専門分野で学士号を取得し、優等で取得。"
             ]
         },
         {
-            "name": "Classe préparatoires MP",
-            "startDate": "Septembre 2014",
-            "endDate": "Juin 2016",
-            "type": "Formation",
-            "company": "Center International de Valbonne",
-            "place": "Valbonne, France",
+            "title": "MPの準備クラス",
+            "date": "2014年9月から2016年6月まで",
+            "company": "ヴァルボンヌ国際センター",
+            "place": "ヴァルボンヌ、フランス",
             "description": [
-                "Étude intensive des mathématiques, de la physique, de l'anglais et de l'algorithmique (entre autres), pour préparer les concours d'entrée aux Grandes Écoles."
+                "数学、物理学、英語、アルゴリズム（特にアルゴリズム）を集中的に学習し、Grandes Ecolesへの入学試験に備えます。"
             ]
         },
         {
-            "name": "École d'ingénieur",
-            "startDate": "Septembre 2016",
-            "endDate": "Août 2019",
-            "type": "Formation",
+            "title": "エンジニアスクール",
+            "date": "2016年9月から2019年8月まで",
             "company": "IMT Mines Albi",
-            "place": "Albi, France",
+            "place": "アルビ、フランス",
             "description": [
-                "Étude généraliste des thématiques scientifiques et managériales liées aux métiers d'ingénieur.",
-                "Spécialité en Gestion des Systémes d'Information."
+                "技術職に関連した科学的・経営的テーマのジェネラリスト研究。",
+                "情報システムマネジメントを専門とする。"
             ],
             "link": "https://www.imt-mines-albi.fr/"
         }
     ],
     "experiences": [
         {
-            "name": "Dévellopeur web",
-            "startDate": "Mars",
-            "endDate": "Août 2019",
-            "type": "Stage",
+            "title": "予算管理支援アプリの開発・保守",
+            "subtitle": "フルスタック開発者とUXデザイナーとスクラムマスター",
+            "date": "2019年10月から",
+            "company": "Altran/Amadeus",
+            "place": "ソフィア・アンティポリス、フランス",
+            "description": [
+                "私は、Amadeus全体の戦略的および横断的なプログラムを確実に提供するトランスバーサルサービス＆コーディネーション部門に所属しています。",
+                "私のチームは、1700人以上のアクターのために、運用効率とシンプルさのために、マネジメントに予測可能性をもたらすことを目指しています。2人のビジネススペシャリストと他の2人のウェブ開発者と共に、私たちの活動の1つは、ユーザーが予算やリソースを管理できるアプリケーションであるマネジメントスイートの開発と保守です。"
+            ],
+            "details": []
+        },
+        {
+            "title": "人道的な目的のための革新的なアプリケーションの創造",
+            "subtilte": "WebとAndroidとAWSの開発者",
+            "date": "2019年3月から2019年8月まで",
+            "type": "インターンシップ",
             "company": "Relief Applications",
-            "place": "Madrid, Espagne",
+            "place": "マドリード, スペイン",
             "description": [
-                "En tant que développeur frontend & backend, j'ai travaillé sur plusieurs projets qui visent à apporter des solutions open-source aux organisations humanitaires déployées sur des zones de conflits.",
-                "J'ai étudié le cycle de vie complet d'un projet, et les processus de déploiement basiques d'un serveur avec Linux."
+                "フロントエンド＆バックエンド開発者として、紛争地域に展開されている人道組織にオープンソースのソリューションを提供することを目的としたいくつかのプロジェクトに携わってきました。",
+                "私は、プロジェクトのライフサイクル全体と、Linuxを使ったサーバーの基本的な導入プロセスを勉強してきました。"
             ]
         },
         {
-            "name": "Développeur web full stack",
-            "startDate": "Mai",
-            "endDate": "Août 2018",
-            "type": "Stage",
+            "title": "プロジェクト管理を支援するマスターデータ管理システムのプロトタイピング",
+            "subtitle": "フルスタックの開発者",
+            "date": "2018年5月から2018年8月まで",
+            "type": "インターンシップ",
             "company": "Thales Alenia Space Cannes",
-            "place": "Cannes, France",
+            "place": "カンヌ, フランス",
             "description": [
-                "J'ai initié la mise en place d'un systéme de Gestion des Données de Référence, afin d'améliorer la ponctualité des projets du département logiciel.",
-                "J'ai travaillé sur les diverse facettes d'une application web en trois-tiers: front-end avec Angular, back-end avec PHP, base de données avec MySQL.",
-                "J'ai aussi été gérant de mon projet. J'ai employé un processus de développement Agile, ponctué de réunions avec des collaborateurs des sites de Cannes et de Toulouse"
+                "私は、ソフトウェア部門のプロジェクトの時間厳守を改善するために、マスターデータ管理システムの導入に着手しました。",
+                "私は、Angularを使ったフロントエンド、PHPを使ったバックエンド、MySQLを使ったデータベースなど、3層構造のWebアプリケーションの様々な面を担当しました。",
+                "プロジェクトマネージャーもしていました。私は、カンヌやトゥールーズのサイトからの協力者とのミーティングで、アジャイル開発プロセスを使用しました。"
             ]
         },
         {
-            "name": "Développeur de jeux-vidéo",
-            "startDate": "Janvier 2018",
-            "type": "Événement",
-            "company": "Global Game Jam",
-            "place": "Albi, France",
+            "title": "Global Game Jam 2018",
+            "subtitle": "Unityの開発者",
+            "date": "2018年1月",
+            "type": "イベント",
+            "place": "アルビ, フランス",
             "description": [
-                "La Global Game Jam est un challenge de création en équipe d'un jeu-vidéo complet en seulement 48 heures.",
-                "J'y ai participé en tant que game designer et programmeur."
-            ]
-        },
-        {
-            "name": "Mission Innov'Action",
-            "startDate": "Septembre 2017",
-            "endDate": "Février 2018",
-            "type": "Études",
-            "company": "Vita Miror & IMT Mines Albi",
-            "place": "Albi, France",
-            "description": [
-                "J'ai aidé une start-up à créer son nouveau concept de mirroir intelligent.",
-                "J'ai réalisé une étude marketing, et intérrogé des clients potentiels.",
-                "J'ai écrit un cahier des charges des spécifications de produit attendu.",
-                "J'ai dessinée des BDs afin de décrire les divers cas d'usage, et promuvoir le produit."
-            ]
-        },
-        {
-            "name": "Responsable Communication",
-            "startDate": "Juin 2017",
-            "endDate": "Mai 2018",
-            "type": "Associatif",
-            "company": "Festival International de théâtre Acthéa",
-            "place": "Albi, France",
-            "description": [
-                "J'ai été responsable de la promotion du festival au sein de l'école, à Albi et ses alentours.",
-                "J'ai mis à jour les informations et le design du site web et ai filmé l'intégralité de l'évènement.",
-                "J'ai organisé un coucours d'affiche avec un appel d'offre rémunéré, et suis entré en contact avec la presse et un imprimeur pour faire connaître le festival."
-            ]
-        },
-        {
-            "name": "Secrétaire",
-            "startDate": "Juin 2017",
-            "endDate": "Mai 2018",
-            "type": "Associatif",
-            "company": "I2D (Ingénieur pour un Développemnt Durable)",
-            "place": "Albi, France",
-            "description": [
-                "En tant que membre du Bureau du Direction, j'ai été un support à l'organisation des activités d'I2D.",
-                "J'organisai les réunions et veillai à la bonne circulation de l'information entre les membres. J'ai aussi écrit plusieurs documents administratifs, dont un règlement intérieur."
+                "Global Game Jamは、わずか48時間で完成したビデオゲームを作るというチャレンジです。",
+                "ゲームデザイナー、開発者として参加しました。"
             ]
         }
     ],

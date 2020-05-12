@@ -13,15 +13,17 @@
   </h2>
   <div class="container">
     <article *ngFor="let experience of resume.getExperiences(); let index = index" 
-    class="row experience-panel">
-      <div class="col-sm-12 col-md-4 experience-panel-header"
+      class="row experience-panel">
+      <div class="col-sm-12 col-md-4 experience-panel-header mb-2"
         [class.order-md-2]="index % 2 === 1">
-        <span>{{experience.startDate}}</span>
-        <span *ngIf="experience.endDate"> à {{experience.endDate}}</span>
-        <h3 class="m-0">{{experience.title}}</h3>
-        <div>{{experience.subtitle}} [{{experience.type}}]</div>
+        <span>{{ experience.date }}</span>
+        <h3 class="m-0">{{ experience.title }}</h3>
+        <div>{{ experience.subtitle }} 
+          <ng-container *ngIf="experience.type">[{{ experience.type }}]</ng-container>
+        </div>
+        <div>{{ experience.place }}</div>
       </div>
-      <div class="col-sm-12 col-md-8 order-md-1 experience-panel-content">
+      <div class="col-sm-12 col-md-8 order-md-1 experience-panel-content mb-2">
         <p *ngFor="let description of experience.description">
           {{description}}
         </p>
@@ -31,7 +33,7 @@
 </section>
 
 <!-- Education Section -->
-<section class="page-section">
+<section class="page-section colored-background">
   <h2 class="text-center iconed-text">
     <app-icon icon="icon-graduation-cap-solid"></app-icon>
     <span>{{ 'Formation' | translate:'education' }}</span>
@@ -41,8 +43,7 @@
       <article *ngFor="let experience of resume.getEducation(); let index = index"
         class="experience-panel-wrapper col-sm-12 col-lg-4">
         <div class="experience-panel-header">
-          <span>{{experience.startDate}}</span>
-          <span *ngIf="experience.endDate"> à {{experience.endDate}}</span>
+          <span>{{ experience.date }}</span>
           <h3 class="m-0">{{experience.title}}</h3>
           <div>{{experience.subtitle}}</div>
         </div>
@@ -55,7 +56,7 @@
 </section>
 
 <!-- Compétence Section -->
-<section class="page-section colored-background">
+<section class="page-section">
   <h2 class="text-center iconed-text">
     <app-icon icon="icon-tools-solid"></app-icon>
     <span>{{ 'Compétences' | translate:'competences' }}</span>

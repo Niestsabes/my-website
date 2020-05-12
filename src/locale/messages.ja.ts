@@ -7,6 +7,7 @@ const messages = {
     experiences: "経験",
     firstName: "なまえ",
     footerText: "このサイトは100％クッキーフリーを保証しています! CAYET Sébastien （自身）がAngular 9で開発。",
+    from: "",
     home: 'ウェルカムページ',
     knowledge: "知ること",
     languages: "国語",
@@ -31,6 +32,8 @@ const messages = {
     subject: "けんめい",
     title: "CAYET Sébastien",
     theory: "理論",
+    to: "から",
+    toAfter: "まで",
     tooling: "ツール",
 }
 
