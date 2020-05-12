@@ -24,7 +24,7 @@
   <div class="header-middle">
     <ng-container *ngFor="let btn of navigationButton">
       <a class="header-main-button d-none d-md-inline"
-        [class.selected]="currentRoute === '/' + btn.route"
+        [class.selected]="currentRoute === btn.route"
         [routerLink]="btn.route"
         routerLinkActive="active">
         <app-icon [icon]="btn.iconName"></app-icon>

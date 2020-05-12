@@ -1,9 +1,8 @@
 export const ROUTES = {
     app: {
-        home: '',
-        experience: 'experience',
-        experienceDetail: 'experience-detail',
-        contact: 'contact'
+        home: '/',
+        experience: '/experience',
+        contact: '/contact'
     },
     api: {
         root: '/assets/data',
