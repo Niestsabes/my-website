@@ -29,7 +29,7 @@ const messages = {
     seeResume: "Descargue mi curriculum vitae",
     sendMail: "Envíame un correo",
     send: "Enviar",
-    siteDescription: "Hello...",
+    siteDescription: "",
     subject: "Asunto",
     subtitle: "¡Hola! ¡Soy un desarrollador web!",
     title: "Sébastien CAYET",

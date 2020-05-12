@@ -25,7 +25,7 @@ export class HeaderComponent implements OnInit {
       title: this._translateService.translate('experiences'),
       route: this.routes.app.experience },
     { iconName: 'icon-envelope-open-text-solid',
-      title: this._translateService.translate('contact'),
+      title: this._translateService.translate('sendMail'),
       route: this.routes.app.contact }
   ]
 
