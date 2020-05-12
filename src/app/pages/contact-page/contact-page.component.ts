@@ -40,11 +40,8 @@ export class ContactPageComponent implements OnInit {
     this._isFormSubmitted = true;
 
     if ( this.contactForm.valid ) {
-      console.log('valid !')
       this.contactFormElement.nativeElement.submit();
     }
-
-    console.log('submitted !');
   }
 
   /**

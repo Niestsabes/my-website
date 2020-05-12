@@ -51,7 +51,7 @@
         <span>{{ 'Envoyer un mail' | translate:'sendMail' }}</span>
       </h1> 
       <form #contactFormElement [formGroup]="contactForm" class="container"
-        action="https://formspree.io/neits.webies@gmail.com" method="POST" target="_blank">
+        action="https://formspree.io/{{routes.mailAddress}}" method="POST" target="_blank">
         <p class="text-center">{{ "Remplissez le formulaire ci-dessous pour m'envoyer un mail." | translate:'mailFormText' }}</p>
         <fieldset class="form-group"
           [class.invalid]="isFieldInvalid('firstName')">

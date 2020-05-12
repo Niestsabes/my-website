@@ -29,29 +29,29 @@ $filler-width: 15px;
     clip: rect(0, $size, $size, calc(#{$size} / 2));
 }
 
-@for $i from 0 to 101 {
-    .progress-circle-#{$i} {
-        position: relative;
-        box-sizing: border-box;
-        width: $size;
-        height: $size;
-        margin: auto;
+[class ^= "progress-circle-"] {
+    position: relative;
+    box-sizing: border-box;
+    width: $size;
+    height: $size;
+    margin: auto;
+    border-radius: 50%;
+    border: $filler-width solid #CDE;
+
+    &:after {
+        content: attr(text);
+        color: black;
+        font-size: calc((#{$size} - 2 * #{$filler-width}) * 0.2);
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         border-radius: 50%;
-        border: $filler-width solid #CDE;
-
-        &:after {
-            content: attr(text);
-            color: black;
-            font-size: calc((#{$size} - 2 * #{$filler-width}) * 0.2);
-            height: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border-radius: 50%;
-            box-shadow: 0 0 calc(#{$size} * 0.1) rgba(0, 0, 0, .5) inset;
-        }
+        box-shadow: 0 0 calc(#{$size} * 0.1) rgba(0, 0, 0, .5) inset;
     }
+}
 
+@for $i from 0 to 101 {
     .progress-circle-#{$i} .progress-barre {
         transform: rotate(calc(3.6deg * #{$i}));
     }

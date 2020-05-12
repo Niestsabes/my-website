@@ -15,7 +15,6 @@ export class LocaleService {
   constructor(
     @Inject(LOCALE_ID) public defaultLocale: string
   ) {
-    console.log(defaultLocale);
     this._defaultLocale = defaultLocale.substring(0, 2);
     this.localeChange = new Subject();
   }

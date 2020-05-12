@@ -18,6 +18,7 @@ export const ROUTES = {
         facebook: 'https://www.facebook.com/sebastien.cayet.5',
         linkedIn: 'https://www.linkedin.com/in/s%C3%A9bastien-cayet-167080150/',
         gitHub: 'https://github.com/Niestsabes',
-        myAnimeList: 'https://myanimelist.net/animelist/Selbistiques'
-    }
+        myAnimeList: 'https://myanimelist.net/animelist/Selbistiques',
+    },
+    mailAddress: 'postmaster@sebcayet.fr'
 } 
