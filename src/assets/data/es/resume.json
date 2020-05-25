@@ -61,12 +61,13 @@
             "title": "Desarollo y mantenimiento de una aplicación de apoyo presupuestario",
             "subtitle": "Desarrollador Full Stack / Diseñador UX / Scrum Master",
             "date": "Desde Octubre 2019 ...",
-            "company": "Altran / Amadeus",
+            "company": "Amadeus (y Altran)",
             "place": "Sophia-Antipolis, Francia",
             "description": [
                 "Me uní a la División de Servicios Transversales y Coordinación, con entregas seguras de programas estratégicos y transversales a través de Amadeus.",
                 "Mi equipo tiene como objetivo llevar la previsibilidad a la gestión para la eficiencia operativa y la simplicidad para más de 1700 actores. Con 2 especialistas en negocios y otros 2 desarrolladores web, una de nuestras actividades es desarrollar y mantener Management Suite, una aplicación que permite a nuestros usuarios gestionar su presupuesto y recursos."
             ],
+            "link": "https://amadeus.com/",
             "details": []
         },
         {
@@ -79,7 +80,8 @@
             "description": [
                 "Como desarrollador de frontend y backend, he trabajado en varios proyectos que tienen como objetivo aportar soluciones de código abierto a las organizaciones humanitarias desplegadas en zonas de conflicto.",
                 "He estudiado el ciclo de vida completo del proyecto, y los procesos básicos de despliegue de un servidor con Linux."
-            ]
+            ],
+            "link": "https://reliefapplications.org/"
         },
         {
             "title": "Creación de un prototipo de un sistema de gestión de datos maestros para ayudar a la gestión del proyecto",
@@ -92,18 +94,21 @@
                 "Inicié la implementación de un sistema de gestión de datos maestros, con el fin de mejorar la puntualidad de los proyectos del departamento de software.",
                 "Trabajé en las diversas facetas de una aplicación web de tres niveles: front-end con Angular, back-end con PHP, base de datos con MySQL.",
                 "También fui director de proyecto. Utilicé un proceso de desarrollo ágil, puntuado por reuniones con colaboradores de los sitios de Cannes y Toulouse."
-            ]
+            ],
+            "link": "https://www.thalesgroup.com/fr/espace"
         },
         {
             "title": "Global Game Jam 2018",
             "subtitle": "Desarrollador Unity",
             "date": "Enero 2018",
             "type": "Evento",
+            "company": "Global Game Jam",
             "place": "Albi, Francia",
             "description": [
                 "El Global Game Jam es un desafío para crear un videojuego completo en sólo 48 horas.",
                 "Participé como diseñador y desarrollador de juegos."
-            ]
+            ],
+            "link": "https://globalgamejam.org/"
         }
     ],
     "characteristics":[

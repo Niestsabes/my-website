@@ -18,10 +18,15 @@
         [class.order-md-2]="index % 2 === 1">
         <span>{{ experience.date }}</span>
         <h3 class="m-0">{{ experience.title }}</h3>
-        <div>{{ experience.subtitle }} 
+        <div>
+          {{ experience.subtitle }} 
           <ng-container *ngIf="experience.type">[{{ experience.type }}]</ng-container>
         </div>
-        <div>{{ experience.place }}</div>
+        <ng-container *ngIf="experience.company">
+          <a *ngIf="experience.link" [href]="experience.link" target="_blank">{{ experience.company }}</a>
+          <span *ngIf="!experience.link">{{ experience.company }}</span>
+        </ng-container>
+        <div *ngIf="experience.place">{{ experience.place }}</div>
       </div>
       <div class="col-sm-12 col-md-8 order-md-1 experience-panel-content mb-2">
         <p *ngFor="let description of experience.description">
@@ -41,11 +46,15 @@
   <div class="container">
     <div class="row">
       <article *ngFor="let experience of resume.getEducation(); let index = index"
-        class="experience-panel-wrapper col-sm-12 col-lg-4">
-        <div class="experience-panel-header">
+        class="education-panel col-sm-12 col-lg-4">
+        <div class="education-panel-header">
           <span>{{ experience.date }}</span>
-          <h3 class="m-0">{{experience.title}}</h3>
-          <div>{{experience.subtitle}}</div>
+          <h3 class="m-0">{{ experience.title }}</h3>
+          <div>{{ experience.subtitle }}</div>
+          <ng-container *ngIf="experience.company">
+            <a *ngIf="experience.link" [href]="experience.link" target="_blank">{{ experience.company }}</a>
+            <span *ngIf="!experience.link">{{ experience.company }}</span>
+          </ng-container>
         </div>
         <p *ngFor="let description of experience.description">
           {{description}}

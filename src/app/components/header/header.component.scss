@@ -27,7 +27,7 @@ $side-button-size: calc(#{$header-height} - 2 * #{$header-padding});
 }
 
 .header-right {
-    justify-content: right;
+    justify-content: flex-end;
 }
 
 .header-main-button {

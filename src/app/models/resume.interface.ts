@@ -28,5 +28,6 @@ export interface ResumeExperienceInterface {
     place: string,
     date: string,
     description: Array<string>,
-    image?: string
+    image?: string,
+    link: string
 }

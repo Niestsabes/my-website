@@ -63,12 +63,13 @@
             "title": "Developement & maintenance of a budget support application",
             "subtitle": "Full Stack Developer / UX Designer / Scrum Master",
             "date": "Since October 2019 ...",
-            "company": "Altran / Amadeus",
+            "company": "Amadeus (and Altran)",
             "place": "Sophia-Antipolis, France",
             "description": [
                 "I joined the Transversal Services & Coordination Division, with secure deliveries of strategic and transversal programs across Amadeus.",
                 "My team aims to bring Predictability to Management for Operational Efficiency and Simplicity for more than 1700 Actors. With 2 Business Specialist and 2 other web developers, one of our activities is to develop and maintain Management Suite, an application allowing our users to manage their budget and resources."
             ],
+            "link": "https://amadeus.com/",
             "details": []
         },
         {
@@ -81,7 +82,8 @@
             "description": [
                 "As a frontend & backend developer, I have worked on several projects that aim to bring open-source solutions to humanitarian organizations deployed in conflict zones.",
                 "I have studied the complete project lifecycle, and the basic deployment processes of a server with Linux."
-            ]
+            ],
+            "link": "https://reliefapplications.org/"
         },
         {
             "title": "Prototyping of a Master Data Management System to assist in project management",
@@ -94,18 +96,21 @@
                 "I initiated the implementation of a Master Data Management system, in order to improve the punctuality of the software department's projects.",
                 "I worked on the various facets of a three-tier web application: front-end with Angular, back-end with PHP, database with MySQL.",
                 "I was also project manager. I used an Agile development process, punctuated by meetings with collaborators from the Cannes and Toulouse sites."
-            ]
+            ],
+            "link": "https://www.thalesgroup.com/fr/espace"
         },
         {
             "title": "Global Game Jam 2018",
             "subtitle": "Unity Developer",
             "date": "January 2018",
             "type": "Event",
+            "company": "Global Game Jam",
             "place": "Albi, France",
             "description": [
                 "The Global Game Jam is a challenge to create a complete video game in only 48 hours.",
                 "I participated as a game designer and developer."
-            ]
+            ],
+            "link": "https://globalgamejam.org/"
         }
     ],
     "characteristics":[
