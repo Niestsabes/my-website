@@ -12,7 +12,7 @@ export const ROUTES = {
         }
     },
     files: {
-        resume: ''
+        resume: '/assets/files/Sebastien_Cayet_Resume.pdf'
     },
     external: {
         facebook: 'https://www.facebook.com/sebastien.cayet.5',
