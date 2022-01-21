@@ -1,4 +1,4 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 
 import { CircleGaugeComponent } from './circle-gauge.component';
 
@@ -6,7 +6,7 @@ describe('CircleGaugeComponent', () => {
   let component: CircleGaugeComponent;
   let fixture: ComponentFixture<CircleGaugeComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ CircleGaugeComponent ]
     })
