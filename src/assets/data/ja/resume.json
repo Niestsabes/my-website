@@ -153,12 +153,12 @@
             },
             {
                 "title": "SQL",
-                "level": 85,
+                "level": 90,
                 "description": ["Postgre", "MySQL"]
             },
             {
                 "title": "PHP",
-                "level": 70,
+                "level": 80,
                 "description": ["Symfony"]
             },
             {
@@ -188,7 +188,7 @@
         "tooling": [
             {
                 "title": "Microsoft Office",
-                "level": 60,
+                "level": 80,
                 "description": ["Word", "Excel", "PowerPoint"]
             },
             {
@@ -198,7 +198,7 @@
             },
             {
                 "title": "Git",
-                "level": 90,
+                "level": 80,
                 "description": ["GitHub", "GitLab", "GitBash"]
             },
             {
