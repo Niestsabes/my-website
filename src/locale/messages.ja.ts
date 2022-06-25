@@ -6,7 +6,7 @@ const messages = {
     email: "はいしんさき",
     experiences: "経験",
     firstName: "なまえ",
-    footerText: "このサイトは100％クッキーフリーを保証しています! CAYET Sébastien （自身）がAngular 9で開発。",
+    footerText: "このサイトは100％クッキーフリーを保証しています! CAYET Sébastien （自身）がAngular 13で開発。",
     from: "",
     home: 'ウェルカムページ',
     knowledge: "知ること",

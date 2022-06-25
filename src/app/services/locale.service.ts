@@ -30,7 +30,7 @@ export class LocaleService {
       localStorage.setItem('localeId', this._locale.id);
       this.localeChange.next(this._locale);
       if (forceReload) {
-        location.reload(true);
+        location.reload();
       }
     }
   }
