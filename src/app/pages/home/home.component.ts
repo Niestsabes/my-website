@@ -3,6 +3,7 @@ import { DataService } from 'src/app/services/data.service';
 import { LocaleService } from 'src/app/services/locale.service';
 import { Resume } from 'src/app/models/resume';
 import { ROUTES } from './../../constants/routes.dictionary';
+import { IMAGES } from 'src/app/constants/images.dictionary';
 
 @Component({
   selector: 'app-home',
@@ -12,6 +13,7 @@ import { ROUTES } from './../../constants/routes.dictionary';
 export class HomeComponent implements OnInit {
 
   public routes = ROUTES;
+  public images = IMAGES;
   public resume: Resume = new Resume();
 
   constructor(

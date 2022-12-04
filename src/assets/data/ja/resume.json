@@ -140,8 +140,18 @@
     "portefolio": [
         {
             "title": "個人サイト",
-            "description": "Lorem Ipsum ipsum ipsum",
+            "description": "ショーケースとサンドボックスの両方の役割を果たすAngularプロジェクト。",
             "image": "assets/images/portefolio-personal-website.png"
+        },
+        {
+            "title": "ポケゲッサー",
+            "description": "有名なゲームWordleにインスパイアされ、ポケモンのテイストを取り入れたReactの開始プロジェクト。",
+            "image": "assets/images/portefolio-pokeguesser.png"
+        },
+        {
+            "title": "ボットバック",
+            "description": "このパズルゲームは、リヨンでGame Dev Partyの第20回Game Jamで48時間かけて作られたものです。",
+            "image": "assets/images/portefolio-botback.png"
         }
     ],
     "skills": {

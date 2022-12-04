@@ -97,19 +97,21 @@
     text-shadow: 2px 2px 4px $app-black;
 }
 
+#portefolio-section {
+    padding-bottom: 10px;
+}
+
 .portefolio-wrapper {
     max-width: 100%;
     margin: 0;
     padding: 0;
-    display: grid;
     list-style: none;
-    grid-gap: 1rem;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 400px));
 
     .portefolio-item {
         position: relative;
         background-color: $app-grey;
         color: $app-white;
+        margin-bottom: 30px;
         height: 200px;
         overflow: hidden;
 
@@ -146,4 +148,13 @@
             }
         }
     }
+}
+
+.profile-picture-wrapper {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    overflow: hidden;
+
+    > * { padding: 0 16px; }
 }

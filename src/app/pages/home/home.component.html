@@ -3,10 +3,14 @@
 </section>
 
 <!-- Presentation Section -->
-<section class="page-section">
+<section class="page-section"  id="presentation-section">
   <div class="container">
     <div class="row">
-      <div class="col-md-4 align-self-center mb-auto"></div>
+      <div class="col-md-4 align-self-center mb-auto">
+        <div class="profile-picture-wrapper">
+          <img [src]="images.profilImage"/>
+        </div>
+      </div>
       <div class="col-md-8 align-self-center mb-auto">
         <h2 class="text-center iconed-text">
           <app-icon icon="icon-user-solid"></app-icon>
@@ -47,7 +51,7 @@
 </section>
 
 <!-- Experience Section -->
-<section class="page-section alternative-color">
+<section class="page-section alternative-color" id="experience-section">
   <h2 class="text-center iconed-text">
     <app-icon icon="icon-address-card-solid"></app-icon>
     <span>{{ 'Expériences' | translate:'experiences' }}</span>
@@ -74,7 +78,7 @@
 </section>
 
 <!-- Competence Section -->
-<section class="page-section">
+<section class="page-section" id="competence-section">
   <h2 class="text-center iconed-text">
     <app-icon icon="icon-tools-solid"></app-icon>
     <span>{{ 'Compétences' | translate: 'competences' }}</span>
@@ -125,19 +129,21 @@
 </section>
 
 <!-- Portefolio Section -->
-<section class="page-section alternative-color">
+<section class="page-section alternative-color" id="portefolio-section">
   <h2 class="text-center iconed-text">
     <app-icon icon="icon-images-solid"></app-icon>
     <span>{{ 'Portefolio' | translate:'portefolio' }}</span>
   </h2>
   <div class="container">
-    <ul class="portefolio-wrapper">
-      <li class="portefolio-item"
+    <ul class="portefolio-wrapper row">
+      <li class="col-md-6 col-xl-4"
         *ngFor="let item of resume.getPortefolio()">
-        <img class="portefolio-item-image" src="{{ item.image }}"/>
-        <div class="portefolio-item-content">
-          <h3 class="portefolio-item-title">{{ item.title }}</h3>
-          <p class="text-justify">{{ item.description }}</p>
+        <div class="portefolio-item">
+          <img class="portefolio-item-image" src="{{ item.image }}"/>
+          <div class="portefolio-item-content">
+            <h3 class="portefolio-item-title">{{ item.title }}</h3>
+            <p class="text-justify">{{ item.description }}</p>
+          </div>
         </div>
       </li>
     </ul>
