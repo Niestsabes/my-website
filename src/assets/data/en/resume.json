@@ -142,8 +142,18 @@
     "portefolio": [
         {
             "title": "Personal Website",
-            "description": "Lorem Ipsum ipsum ipsum",
+            "description": "An Angular project with serves as both a showcase and a sandbox.",
             "image": "assets/images/portefolio-personal-website.png"
+        },
+        {
+            "title": "PokeGuesser",
+            "description": "A React initiation project inspired from on the well-known game Wordle, but with the flavor of Pokémon.",
+            "image": "assets/images/portefolio-pokeguesser.png"
+        },
+        {
+            "title": "BotBack",
+            "description": "A puzzle-game created in 48 hours for Game Dev Party's 20th Game Jam at Lyon.",
+            "image": "assets/images/portefolio-botback.png"
         }
     ],
     "tastes": [
