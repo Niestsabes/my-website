@@ -6,7 +6,7 @@ const messages = {
     email: "Dirección de correo electrónico",
     experiences: "Experiencias",
     firstName: "Nombre",
-    footerText: "¡Este sitio está garantizado 100% libre de cookies! Desarrollado por Sébastien CAYET (él mismo) con Angular 13.",
+    footerText: "¡Este sitio está garantizado 100% libre de cookies! Desarrollado por Sébastien CAYET (él mismo) con Angular 15.",
     from: "De",
     home: 'Página principal',
     knowledge: "Conocimientio",

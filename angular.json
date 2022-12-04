@@ -25,7 +25,8 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
-              "src/.htaccess"
+              "src/.htaccess",
+              "src/config/manifest.json"
             ],
             "styles": [
               "src/styles.scss"
@@ -112,7 +113,6 @@
       }
     }
   },
-  "defaultProject": "myWebsite",
   "cli": {
     "analytics": false
   }
