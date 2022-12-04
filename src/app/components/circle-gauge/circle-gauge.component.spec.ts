@@ -1,25 +1,21 @@
-import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
-
+import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { NO_ERRORS_SCHEMA } from '@angular/core';
 import { CircleGaugeComponent } from './circle-gauge.component';
 
 describe('CircleGaugeComponent', () => {
   let component: CircleGaugeComponent;
   let fixture: ComponentFixture<CircleGaugeComponent>;
 
-  beforeEach(waitForAsync(() => {
-    TestBed.configureTestingModule({
-      declarations: [ CircleGaugeComponent ]
-    })
-    .compileComponents();
-  }));
-
   beforeEach(() => {
+    TestBed.configureTestingModule({
+      schemas: [NO_ERRORS_SCHEMA],
+      declarations: [CircleGaugeComponent]
+    });
     fixture = TestBed.createComponent(CircleGaugeComponent);
     component = fixture.componentInstance;
-    fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it('can load instance', () => {
     expect(component).toBeTruthy();
   });
 });
