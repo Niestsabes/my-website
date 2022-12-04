@@ -1,5 +1,5 @@
 import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
-import { FormGroup, FormControl, Validators } from '@angular/forms';
+import { UntypedFormGroup, Validators, FormControl } from '@angular/forms';
 import { ROUTES } from './../../constants/routes.dictionary';
 
 @Component({
@@ -13,12 +13,12 @@ export class ContactPageComponent implements OnInit {
   @ViewChild('contactFormElement', {static: false}) protected readonly contactFormElement: ElementRef;
   
   /** @description form control handling mails */
-  public readonly contactForm: FormGroup = new FormGroup({
-    firstName: new FormControl(undefined, [Validators.required]),
-    lastName: new FormControl(undefined, [Validators.required]),
-    email: new FormControl(undefined, [Validators.required, Validators.email]),
-    object: new FormControl(undefined, [Validators.required]),
-    message: new FormControl(undefined, [Validators.required])
+  public readonly contactForm: UntypedFormGroup = new UntypedFormGroup({
+    firstName: new FormControl<string>(undefined, [Validators.required]),
+    lastName: new FormControl<string>(undefined, [Validators.required]),
+    email: new FormControl<string>(undefined, [Validators.required, Validators.email]),
+    object: new FormControl<string>(undefined, [Validators.required]),
+    message: new FormControl<string>(undefined, [Validators.required])
   });
 
   /** @description list application's routes */
