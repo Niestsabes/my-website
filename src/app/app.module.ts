@@ -18,6 +18,7 @@ import { ContactPanelComponent } from './components/contact-panel/contact-panel.
 import { CircleGaugeComponent } from './components/circle-gauge/circle-gauge.component';
 import { TranslatorPipe } from './pipes/translator.pipe';
 import { StarGaugeComponent } from './components/star-gauge/star-gauge.component';
+import { SubtitleBannerComponent } from './components/subtitle-banner/subtitle-banner.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { StarGaugeComponent } from './components/star-gauge/star-gauge.component
     ContactPanelComponent,
     CircleGaugeComponent,
     StarGaugeComponent,
-    TranslatorPipe
+    TranslatorPipe,
+    SubtitleBannerComponent
   ],
   imports: [
     BrowserModule,

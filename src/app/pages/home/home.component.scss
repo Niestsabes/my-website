@@ -1,9 +1,5 @@
 @import './../../../assets/style/colors.scss';
 
-.home-banner-wrapper {
-    height: calc( (100vh - 60px) * 0.58 );
-}
-
 .taste-wrapper {
     max-width: 100%;
     margin: 0;
@@ -56,7 +52,7 @@
     padding: 0;
     border: 2px solid $app-black;
     background-color: rgba($app-black, 0.05);
-    
+
     .knowledge-title {
         margin: 0;
         padding: 0.4em;

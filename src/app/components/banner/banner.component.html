@@ -1,14 +1,22 @@
-<div class="banner-container gradient-animation">
-	<!-- Just for some square animation -->
+<section class="banner-container gradient-animation">
 	<ul class="circles-animation">
 		<li *ngFor="let i of [0,0,0,0,0,0,0,0,0,0]"></li>
 	</ul>
-	<!-- Now, the true content of the banner -->
-	<div class="banner-text py-3">
-		<h1 id="title">{{ 'Sébastien CAYET' | translate:'title' }}</h1>
-		<h2 id="subtitle">{{ "Bonjour! Je suis en développeur web!" | translate:'subtitle' }}</h2>
-		<p id="description">
-			{{ "" | translate:'siteDescription' }}
-		</p>
-	</div>
-</div>
+	<main class="banner__text py-3">
+		<p id="greatings">
+      {{ 'Greatings!' | translate:'greatings' }}
+    </p>
+    <p id="greatings_description">
+      {{ 'I\'m Sébastien, (mostly) a Web developer for 4 years now.' | translate:'greatingsDescription' }}
+    </p>
+    <p id="greatings_current">
+      {{ 'Currently an Angular Techlead for Klanik, in Lyon.' | translate:'greatingsOccupation' }}
+    </p>
+  </main>
+  <aside class="banner__more">
+    <span>More<br/>below<br/></span>
+    <div class="banner__more-icon">
+      <span class="icon-arrow-down"></span>
+    </div>
+  </aside>
+</section>
