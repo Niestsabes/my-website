@@ -2,7 +2,8 @@
     "presentation": {
         "title": "",
         "description": [
-            "I am a rather curious web developer, with a solid knowledge of front-end and back-end best practices. I appreciate things that are structured and clean. I'm quite tenacious when it comes to tracking down bugs or fine-tuning a few details. But don't be fooled by my apparent rigidity: I know how to be creative when necessary. I've worked a lot on my own, but when I work with others, the journey is more fun and we go further."
+            "I'm a committed teamplayer with a multifaceted asset of skills covering most aspects of application developement. Graduated engineer from IMT Mines Albi, my speciality is front-end development. Yet, I've also worked a lot on back-end development, UI prototyping, Agile project manangement, writing documentations and specification, and more. Ambitious and enthusiastic, I'm passionante about in crafting intuitive, appealing, and inclusive apps for greater user satisfaction.",
+            "Determination and curiosity are some of my strengths. I often have fun finding new processes or new technologies to improve my work routine, and share with others. As a Techlead, it's crucial to stay up to date, but I take great care to ensure the growth of my colleagues too, always with patience and kindness. My solid knowledge of clean code practices and project management has always been keys to the success of the projects I've worked on."
         ]
     },
     "assets": [
@@ -12,12 +13,12 @@
             "description": "My knowledge of multiple languages and sound coding practices gives me a lot of autonomy to start new projects, or adapt to existing applications."
         },
         {
-            "title": "Graphism",
-            "image": "icon-icons-solid",
-            "description": "Liking to be master of what I produce and touching a few drawing softwares, I realize as much as possible the visuals and animations I need by myself."
+            "title": "Agile Management",
+            "image": "icon-clipboard-list",
+            "description": "Good management is an important aspect of a project. Having already been a Scrum Master for a team, I'm keen to teach and implement Agile practices in my work teams."
         },
         {
-            "title": "UX Design",
+            "title": "UX/UI Design",
             "image": "icon-pencil-ruler-solid",
             "description": "Users are the central element of any product. I use my knowledge to gather their needs and prototype applications that are as versatile, useful and enjoyable as possible."
         },
@@ -140,21 +141,31 @@
         }
     ],
     "portefolio": [
-        {
-            "title": "Personal Website",
-            "description": "An Angular project with serves as both a showcase and a sandbox.",
-            "image": "assets/images/portefolio-personal-website.png"
-        },
-        {
-            "title": "PokeGuesser",
-            "description": "A React initiation project inspired from on the well-known game Wordle, but with the flavor of Pokémon.",
-            "image": "assets/images/portefolio-pokeguesser.png"
-        },
-        {
-            "title": "BotBack",
-            "description": "A puzzle-game created in 48 hours for Game Dev Party's 20th Game Jam at Lyon.",
-            "image": "assets/images/portefolio-botback.png"
-        }
+      {
+        "title": "Personal Website",
+        "description": "An Angular project with serves as both a showcase and a sandbox.",
+        "image": "assets/images/portefolio-personal-website.png"
+      },
+      {
+        "title": "PokeGuesser",
+        "description": "A React initiation project inspired from on the well-known game Wordle, but with the flavor of Pokémon.",
+        "image": "assets/images/portefolio-pokeguesser.png"
+      },
+      {
+        "title": "BotBack",
+        "description": "A puzzle-game created in 48 hours for Game Dev Party's 19th Game Jam at Lyon.",
+        "image": "assets/images/portefolio-botback.png"
+      },
+      {
+        "title": "Isogenius",
+        "description": "A puzzle-game created in 48 hours for 2022 Scientific Game Jam at Lyon.",
+        "image": "assets/images/portefolio-isogenius.png"
+      },
+      {
+        "title": "Chompa-gnon",
+        "description": "A  platform-game created in 72 hours for Game Dev Party's 20th Game Jam at Lyon.",
+        "image": "assets/images/portefolio-chompagnon.png"
+      }
     ],
     "tastes": [
         {
@@ -269,7 +280,7 @@
             {
                 "title": "Design Thinking",
                 "level": 50
-            }  
+            }
         ]
     },
     "languages": [
@@ -302,7 +313,7 @@
         {
             "title": "Japanese",
             "level": 15,
-            "rank": "A1",
+            "rank": "A1 - JLPT N5",
             "description": [
                 "I read and write hiragana and katakana, and a hundred kanjis.",
                 "I master the basics of the language."

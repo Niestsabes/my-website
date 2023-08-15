@@ -15,7 +15,7 @@ const messages = {
   knowledge: 'Conocimientio',
   languages: 'Idiomas',
   languagesText:
-    'Creo que conocer diferentes idiomas es importante cuando se quiere asimilar diferentes culturas. El francés es mi lengua materna, pero utilizo sobre todo el inglés para trabajar. Aprendí español en la escuela durante 10 años. Hoy, estoy aprendiendo japonés.',
+    'Creo que conocer diferentes idiomas es importante cuando se quiere asimilar diferentes culturas. El francés es mi lengua materna, pero utilizo sobre todo el inglés para trabajar. Aprendí español en la escuela. Hoy, estoy aprendiendo japonés.',
   lastName: 'Apellido',
   message: 'Mensaje',
   myTastes: 'Mis gustos',

@@ -1,7 +1,10 @@
 {
     "presentation": {
         "title": "",
-        "description": "Soy un desarrollador web bastante curioso, con un sólido conocimiento de las mejores prácticas de front-end y back-end. Aprecio las cosas que están estructuradas y limpias. Soy bastante tenaz cuando se trata de rastrear errores o ajustar algunos detalles. Pero no se dejen engañar por mi aparente rigidez: sé cómo ser creativo cuando es necesario. He trabajado mucho por mi cuenta, pero cuando trabajo con otros, el viaje es más divertido y vamos más lejos."
+        "description": [
+          "Soy un colaborador activo con una amplia gama de habilidades que cubren la mayoría de los aspectos del desarrollo de aplicaciones. Como ingeniero graduado de IMT Mines Albi, mi especialidad es el desarrollo front-end. Sin embargo, también he trabajado mucho en el back-end, prototipando interfaces de usuario, gestionando proyectos Agile, escribiendo documentación y especificaciones, y mucho más. Ambicioso y entusiasta, creo apasionadamente en la creación de aplicaciones que sean intuitivas, atractivas e inclusivas, para que el mayor número posible de personas pueda disfrutar de ellas.",
+          "Mis puntos fuertes son la determinación y la curiosidad. A menudo me divierto encontrando nuevos procesos o tecnologías para mejorar mi rutina laboral y compartiéndolos con los demás. Como Techlead, es crucial estar al día, pero me aseguro de que mis compañeros también crezcan, siempre con paciencia y amabilidad. Mis sólidos conocimientos sobre prácticas de código limpio y gestión de proyectos siempre han sido claves para el éxito en los proyectos en los que he trabajado."
+        ]
     },
     "assets": [
         {
@@ -10,12 +13,12 @@
             "description": "Mi conocimiento de múltiples idiomas y prácticas de codificación sólidas me da mucha autonomía para iniciar nuevos proyectos o adaptarme a las aplicaciones existentes."
         },
         {
-            "title": "Diseño gráfico",
-            "image": "icon-icons-solid",
-            "description": "Amando ser maestro de lo que produzco y tocando algunos softwares de dibujo, realizo tanto como es posible los visuales y animaciones que necesito por mí mismo."
+            "title": "Gestión ágil",
+            "image": "icon-clipboard-list",
+            "description": "Una buena gestión es un aspecto importante de un proyecto. Como ya he sido Scrum Master de un equipo, estoy deseando implantar prácticas ágiles en mis equipos de trabajo."
         },
         {
-            "title": "Diseño UX",
+            "title": "Diseño UX/UI",
             "image": "icon-pencil-ruler-solid",
             "description": "Los usuarios son el elemento central de cualquier producto. Utilizo mis conocimientos para reunir sus necesidades y crear prototipos de aplicaciones que sean lo más versátiles, útiles y agradables posible."
         },
@@ -138,21 +141,31 @@
         }
     ],
     "portefolio": [
-        {
-            "title": "Sitio web personal",
-            "description": "Un proyecto de Angular que sirve tanto de escaparate como de caja de arena",
-            "image": "assets/images/portefolio-personal-website.png"
-        },
-        {
-            "title": "PokeGuesser",
-            "description": "Un proyecto de iniciación en React inspirado en el conocido juego Wordle, pero con el sabor de Pokémon.",
-            "image": "assets/images/portefolio-pokeguesser.png"
-        },
-        {
-            "title": "BotBack",
-            "description": "Un juego de rompecabezas creado en 48 horas para la 20ª Game Jam de la Game Dev Party en Lyon.",
-            "image": "assets/images/portefolio-botback.png"
-        }
+      {
+        "title": "Sitio web personal",
+        "description": "Un proyecto de Angular que sirve tanto de escaparate como de caja de arena",
+        "image": "assets/images/portefolio-personal-website.png"
+      },
+      {
+        "title": "PokeGuesser",
+        "description": "Un proyecto de iniciación en React inspirado en el conocido juego Wordle, pero con el sabor de Pokémon.",
+        "image": "assets/images/portefolio-pokeguesser.png"
+      },
+      {
+        "title": "BotBack",
+        "description": "Un juego de rompecabezas creado en 48 horas para la 19ª Game Jam de la Game Dev Party en Lyon.",
+        "image": "assets/images/portefolio-botback.png"
+      },
+      {
+        "title": "Isogenius",
+        "description": "Un juego de rompecabezas creado en 48 horas para la Scientific Game Jam en Lyon.",
+        "image": "assets/images/portefolio-isogenius.png"
+      },
+      {
+        "title": "Chompa-gnon",
+        "description": "Un juego de plataformas creado en 72 horas para la 20ª Game Jam de la Game Dev Party en Lyon.",
+        "image": "assets/images/portefolio-chompagnon.png"
+      }
     ],
     "skills": {
         "programming": [
@@ -249,7 +262,7 @@
             {
                 "title": "Design Thinking",
                 "level": 50
-            }  
+            }
         ]
     },
     "tastes": [
@@ -300,7 +313,7 @@
         {
             "title": "Japonés",
             "level": 15,
-            "rank": "A1",
+            "rank": "A1 - JLPT N5",
             "description": [
                 "Leo y escribo hiragana, katakana, y una centena de kanjis.",
                 "Conozco las bases del lenguaje"

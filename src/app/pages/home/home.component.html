@@ -7,7 +7,7 @@
     <div class="row">
       <div class="col-md-4 align-self-center mb-auto">
         <div class="profile-picture-wrapper">
-          <img [src]="images.profilImage"/>
+          <img [src]="images.profilImage" alt="Profile picture"/>
         </div>
       </div>
       <div class="col-md-8 align-self-center mb-auto">
@@ -16,8 +16,8 @@
           <span>{{ 'A propos' | translate:'aboutMe' }}</span>
         </h2>
         <article *ngIf="resume.getPresentation()">
-          <p class="text-justify">
-            {{ resume.getPresentation().description }}
+          <p *ngFor="let desc of resume.getPresentation().description" class="text-justify">
+            {{ desc }}
           </p>
         </article>
         <aside class="row">

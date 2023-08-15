@@ -1,7 +1,10 @@
 {
     "presentation": {
         "title": "",
-        "description": "私はどちらかというと好奇心旺盛なウェブ開発者で、フロントエンドとバックエンドのベストプラクティスについてしっかりとした知識を持っています。構造化されていてクリーンなものを評価します。バグの追跡や細部の微調整には非常に粘り強いです。しかし、私の見かけ上の堅苦しさに騙されないでください：私は必要に応じて創造的になる方法を知っています。私は一人で多くの仕事をしてきましたが、他の人と一緒に仕事をすると、旅はより楽しく、さらに先へと進みます。"
+        "description": [
+          "私はアプリケーション開発のほとんどの側面をカバーするスキルの多面的な資産を持つ献身的な協力者です。IMT Mines Albiを卒業したエンジニアで、私の専門はフロントエンド開発です。しかし、バックエンド開発、UIプロトタイピング、アジャイルプロジェクト管理、文書作成、仕様書作成などにも多く携わってきました。野心的で熱心な私は、ユーザーの満足度を高めるために、直感的で魅力的、かつ包括的なアプリを作ることに情熱を注いでいます。",
+          "決断力と好奇心が私の強みです。新しいプロセスや新しいテクノロジーを見つけて自分の仕事を改善したり、他の人と共有したりするのが好きです。テックリードとして、常に最新の情報を得ることは非常に重要ですが、常に忍耐と優しさをもって、同僚の成長にも細心の注意を払っています。クリーンコードの実践とプロジェクト管理に関する確かな知識は、私が携わったプロジェクトの成功の鍵でした。"
+        ]
     },
     "assets": [
         {
@@ -10,12 +13,12 @@
             "description": "複数の言語とサウンドコーディングの知識があるので、新しいプロジェクトを始めたり、既存のアプリケーションに適応させたりすることができます。"
         },
         {
-            "title": "グラフィックデザイン",
-            "image": "icon-icons-solid",
-            "description": "自分が制作するものの達人になることが好きで、いくつかのドローイングソフトを触って、必要なビジュアルやアニメーションを可能な限り自分で実現しています。"
+            "title": "アジャイル・マネジメント",
+            "image": "icon-clipboard-list",
+            "description": "優れたマネジメントはプロジェクトの重要な側面である。私はすでにチームのスクラムマスターを務めており、アジャイルプラクティスを職場のチームに導入したいと考えています。"
         },
         {
-            "title": "UXデザイン",
+            "title": "UX/UIデザイン",
             "image": "icon-pencil-ruler-solid",
             "description": "製品の中心はユーザーです。私は自分の知識でユーザーのニーズを収集し、可能な限り汎用性が高く、便利で楽しいアプリケーションを試作しています。"
         },
@@ -138,21 +141,31 @@
         }
     ],
     "portefolio": [
-        {
-            "title": "個人サイト",
-            "description": "ショーケースとサンドボックスの両方の役割を果たすAngularプロジェクト。",
-            "image": "assets/images/portefolio-personal-website.png"
-        },
-        {
-            "title": "ポケゲッサー",
-            "description": "有名なゲームWordleにインスパイアされ、ポケモンのテイストを取り入れたReactの開始プロジェクト。",
-            "image": "assets/images/portefolio-pokeguesser.png"
-        },
-        {
-            "title": "ボットバック",
-            "description": "このパズルゲームは、リヨンでGame Dev Partyの第20回Game Jamで48時間かけて作られたものです。",
-            "image": "assets/images/portefolio-botback.png"
-        }
+      {
+        "title": "個人サイト",
+        "description": "ショーケースとサンドボックスの両方の役割を果たすAngularプロジェクト。",
+        "image": "assets/images/portefolio-personal-website.png"
+      },
+      {
+        "title": "ポケゲッサー",
+        "description": "有名なゲームWordleにインスパイアされ、ポケモンのテイストを取り入れたReactの開始プロジェクト。",
+        "image": "assets/images/portefolio-pokeguesser.png"
+      },
+      {
+        "title": "ボットバック",
+        "description": "このパズルゲームは、リヨンでGame Dev Partyの第19回ゲーム・ジャムで48時間かけて作られたものです。",
+        "image": "assets/images/portefolio-botback.png"
+      },
+      {
+        "title": "イソゲニウス",
+        "description": "このパズルゲームは、リヨンで開催されたサイエンティフィック・ゲーム・ジャムで48時間以内に制作された。",
+        "image": "assets/images/portefolio-isogenius.png"
+      },
+      {
+        "title": "チョンパグノン",
+        "description": "このパズルゲームは、リヨンでGame Dev Partyの第20回ゲーム・ジャムで72時間かけて作られたものです。",
+        "image": "assets/images/portefolio-chompagnon.png"
+      }
     ],
     "skills": {
         "programming": [
@@ -249,7 +262,7 @@
             {
                 "title": "Design Thinking",
                 "level": 50
-            }  
+            }
         ]
     },
     "tastes": [
@@ -300,7 +313,7 @@
         {
             "title": "日本語",
             "level": 15,
-            "rank": "A1",
+            "rank": "A1 - JLPT N5",
             "description": [
                 "ひらがなとカタカナを読み書きしています。",
                 "言葉の基本は知っている。"

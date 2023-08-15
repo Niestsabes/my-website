@@ -15,7 +15,7 @@ const messages = {
   knowledge: 'Connaissances',
   languages: 'Langues',
   languagesText:
-    "Je pense que la connaissance de différentes langues est importante quand on veut assimiler différentes cultures. Le français est ma langue maternelle, mais j'utilise surtout l'anglais pour travailler. J'ai appris l'espagnol à l'école pendant 10 ans. Aujourd'hui, j'apprends le japonais.",
+    "Je pense que la connaissance de différentes langues est importante quand on veut assimiler différentes cultures. Le français est ma langue maternelle, mais j'utilise surtout l'anglais pour travailler. J'ai appris l'espagnol durant mes études. Aujourd'hui, j'apprends le japonais.",
   lastName: 'Nom',
   message: 'Message',
   myTastes: 'Mes goûts',
