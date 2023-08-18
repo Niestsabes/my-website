@@ -1,0 +1,34 @@
+{
+  "short_name": "Sébastien Cayet",
+  "name": "Sébastien Cayet",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "./assets/images/avatar256.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#32179d",
+  "background_color": "#f7fafd",
+  "related_applications": [
+    {
+      "platform": "itch.io",
+      "url": "https://kuro-wolfy.itch.io/"
+    },
+    {
+      "platform": "linkedIn",
+      "url": "https://www.linkedin.com/in/s%C3%A9bastien-cayet-167080150/"
+    },
+    {
+      "platform": "gitHub",
+      "url": "https://github.com/Niestsabes"
+    }
+  ]
+}
