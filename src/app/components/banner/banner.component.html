@@ -12,6 +12,14 @@
     <p id="greatings_current">
       {{ 'Currently an Angular Techlead for Klanik, in Lyon.' | translate:'greatingsOccupation' }}
     </p>
+    <aside>
+      <a [href]="routes.files.resume" class="button bouncy-0" target="_blank">
+        {{ 'Télécharger mon CV' | translate:'seeResume' }}
+      </a>
+      <a class="button" [routerLink]="routes.app.contact" routerLinkActive="active">
+        {{ 'Envoyer un mail' | translate:'sendMail' }}
+      </a>
+    </aside>
   </main>
   <aside class="banner__more">
     <span>More<br/>below<br/></span>

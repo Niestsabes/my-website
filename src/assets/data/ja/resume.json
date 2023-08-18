@@ -60,59 +60,82 @@
         }
     ],
     "experiences": [
-        {
-            "title": "予算管理支援アプリの開発・保守",
-            "subtitle": "フルスタック開発者とUXデザイナーとスクラムマスター",
-            "date": "2019年10月から",
-            "company": "Amadeus(とAltran)",
-            "place": "ソフィア・アンティポリス、フランス",
-            "description": [
-                "私は、Amadeus全体の戦略的および横断的なプログラムを確実に提供するトランスバーサルサービス＆コーディネーション部門に所属しています。",
-                "私のチームは、1700人以上のアクターのために、運用効率とシンプルさのために、マネジメントに予測可能性をもたらすことを目指しています。2人のビジネススペシャリストと他の2人のウェブ開発者と共に、私たちの活動の1つは、ユーザーが予算やリソースを管理できるアプリケーションであるマネジメントスイートの開発と保守です。"
-            ],
-            "link": "https://amadeus.com/",
-            "details": []
-        },
-        {
-            "title": "人道的な目的のための革新的なアプリケーションの創造",
-            "subtilte": "WebとAndroidとAWSの開発者",
-            "date": "2019年3月から2019年8月まで",
-            "type": "インターンシップ",
-            "company": "Relief Applications",
-            "place": "マドリード, スペイン",
-            "description": [
-                "フロントエンド＆バックエンド開発者として、紛争地域に展開されている人道組織にオープンソースのソリューションを提供することを目的としたいくつかのプロジェクトに携わってきました。",
-                "私は、プロジェクトのライフサイクル全体と、Linuxを使ったサーバーの基本的な導入プロセスを勉強してきました。"
-            ],
-            "link": "https://reliefapplications.org/"
-        },
-        {
-            "title": "プロジェクト管理を支援するマスターデータ管理システムのプロトタイピング",
-            "subtitle": "フルスタックの開発者",
-            "date": "2018年5月から2018年8月まで",
-            "type": "インターンシップ",
-            "company": "Thales Alenia Space Cannes",
-            "place": "カンヌ, フランス",
-            "description": [
-                "私は、ソフトウェア部門のプロジェクトの時間厳守を改善するために、マスターデータ管理システムの導入に着手しました。",
-                "私は、Angularを使ったフロントエンド、PHPを使ったバックエンド、MySQLを使ったデータベースなど、3層構造のWebアプリケーションの様々な面を担当しました。",
-                "プロジェクトマネージャーもしていました。私は、カンヌやトゥールーズのサイトからの協力者とのミーティングで、アジャイル開発プロセスを使用しました。"
-            ],
-            "link": "https://www.thalesgroup.com/fr/espace"
-        },
-        {
-            "title": "Global Game Jam 2018",
-            "subtitle": "Unityの開発者",
-            "date": "2018年1月",
-            "type": "イベント",
-            "company": "Global Game Jam",
-            "place": "アルビ, フランス",
-            "description": [
-                "Global Game Jamは、わずか48時間で完成したビデオゲームを作るというチャレンジです。",
-                "ゲームデザイナー、開発者として参加しました。"
-            ],
-            "link": "https://globalgamejam.org/"
-        }
+      {
+        "title": "ニース・コート・ダジュール都市圏監督用ウェブ・アプリケーションの開発",
+        "subtitle": "Angular Techlead",
+        "date": "2022年09月から",
+        "company": "Spie CityNetworks(とKlanik)",
+        "place": "リヨン、フランス",
+        "description": [
+          "ニースのITサービスに接続され、ニース地域で発生した出来事を解決するために、ニース市の中央郵便局が使用している。",
+          "プラットフォームは以下のように構成されている：",
+          " - ハイパービジョン・モジュール：現場から受信したすべてのデータ（事故、手すり、設備の状態など）をリアルタイムでまとめ、オペレーターが現在の状況に応じて最適な戦略を展開できるようにする。",
+          " - 地図モジュール：道路設備の状況やその他の交通情報を、市街地の地図上にリアルタイムで表示する。",
+          " - リプレイ・モジュール：前の2つのモジュールに基づき、オペレーターが過去の操作手順を再確認し、事故解決手順を改善できるようにする。",
+          " - コンフィギュレーション・モジュール：オペレータは、前のモジュールで使用されたデータモデルをパラメータ化することができる。",
+          "私の役割だ：",
+          " - Angular開発者4名からなるチームのテクニカルリーダー：ユーザーストーリーの複雑性分析、技術的問題のファシリテーター、マージリクエストの検証。",
+          " - ベストプラクティスとデザインパターンを実装することで、コードベースをクリーンアップし、パフォーマンスを向上させる。",
+          " - 新画面のモックアップと技術仕様（UIとレスポンシブデザインを特に考慮）。",
+          " - 新しいライブラリ／テクノロジーに対する技術的監視。",
+          " - ユーザーマニュアルの作成、その他の技術文書の作成監督。"
+        ],
+        "link": "https://www.spie.com/en",
+        "details": []
+      },
+      {
+        "title": "予算管理支援アプリの開発・保守",
+        "subtitle": "フルスタック開発者とUXデザイナーとスクラムマスター",
+        "date": "2019年10月から2022年9月まで",
+        "company": "Amadeus(とCapgemini Engineering)",
+        "place": "ソフィア・アンティポリス、フランス",
+        "description": [
+          "私は、Amadeus全体の戦略的および横断的なプログラムを確実に提供するトランスバーサルサービス＆コーディネーション部門に所属しています。",
+          "私のチームは、1700人以上のアクターのために、運用効率とシンプルさのために、マネジメントに予測可能性をもたらすことを目指しています。2人のビジネススペシャリストと他の2人のウェブ開発者と共に、私たちの活動の1つは、ユーザーが予算やリソースを管理できるアプリケーションであるマネジメントスイートの開発と保守です。"
+        ],
+        "link": "https://amadeus.com/",
+        "details": []
+      },
+      {
+        "title": "人道的な目的のための革新的なアプリケーションの創造",
+        "subtilte": "WebとAndroidとAWSの開発者",
+        "date": "2019年3月から2019年8月まで",
+        "type": "インターンシップ",
+        "company": "Relief Applications",
+        "place": "マドリード, スペイン",
+        "description": [
+          "フロントエンド＆バックエンド開発者として、紛争地域に展開されている人道組織にオープンソースのソリューションを提供することを目的としたいくつかのプロジェクトに携わってきました。",
+          "私は、プロジェクトのライフサイクル全体と、Linuxを使ったサーバーの基本的な導入プロセスを勉強してきました。"
+        ],
+        "link": "https://reliefapplications.org/"
+      },
+      {
+        "title": "プロジェクト管理を支援するマスターデータ管理システムのプロトタイピング",
+        "subtitle": "フルスタックの開発者",
+        "date": "2018年5月から2018年8月まで",
+        "type": "インターンシップ",
+        "company": "Thales Alenia Space Cannes",
+        "place": "カンヌ, フランス",
+        "description": [
+          "私は、ソフトウェア部門のプロジェクトの時間厳守を改善するために、マスターデータ管理システムの導入に着手しました。",
+          "私は、Angularを使ったフロントエンド、PHPを使ったバックエンド、MySQLを使ったデータベースなど、3層構造のWebアプリケーションの様々な面を担当しました。",
+          "プロジェクトマネージャーもしていました。私は、カンヌやトゥールーズのサイトからの協力者とのミーティングで、アジャイル開発プロセスを使用しました。"
+        ],
+        "link": "https://www.thalesgroup.com/fr/espace"
+      },
+      {
+        "title": "Global Game Jam 2018",
+        "subtitle": "Unityの開発者",
+        "date": "2018年1月",
+        "type": "イベント",
+        "company": "Global Game Jam",
+        "place": "アルビ, フランス",
+        "description": [
+          "Global Game Jamは、わずか48時間で完成したビデオゲームを作るというチャレンジです。",
+          "ゲームデザイナー、開発者として参加しました。"
+        ],
+        "link": "https://globalgamejam.org/"
+      }
     ],
     "characteristics":[
         {
@@ -168,102 +191,129 @@
       }
     ],
     "skills": {
-        "programming": [
-            {
-                "title": "Javascript (& Typescript)",
-                "level": 90,
-                "description": ["Angular 2+", "VueJS", "Express", "NestJS", "Node.js"]
-            },
-            {
-                "title": "SQL",
-                "level": 90,
-                "description": ["Postgre", "MySQL"]
-            },
-            {
-                "title": "PHP",
-                "level": 80,
-                "description": ["Symfony"]
-            },
-            {
-                "title": "HML5 & CSS3",
-                "level": 90,
-                "description": ["Bootstrap 4"]
-            },
-            {
-                "title": "C#",
-                "level": 50,
-                "description": ["Unity"]
-            },
-            {
-                "title": "Java",
-                "level": 40,
-                "description": ["Eclipse"]
-            },
-            {
-                "title": "XML",
-                "level": 30
-            },
-            {
-                "title": "Python",
-                "level": 20
-            }
-        ],
-        "tooling": [
-            {
-                "title": "Microsoft Office",
-                "level": 80,
-                "description": ["Word", "Excel", "PowerPoint"]
-            },
-            {
-                "title": "Libre Office",
-                "level": 50,
-                "description": ["Writer", "Calc", "Impress"]
-            },
-            {
-                "title": "Git",
-                "level": 80,
-                "description": ["GitHub", "GitLab", "GitBash"]
-            },
-            {
-                "title": "Jira Softwares",
-                "level": 90,
-                "description": ["Confluence", "BitBucket", "Jira"]
-            },
-            {
-                "title": "Docker",
-                "level": 20
-            },
-            {
-                "title": "PHPStorm",
-                "level": 60
-            },
-            {
-                "title": "Paint.net",
-                "level": 60
-            },
-            {
-                "title": "Unity",
-                "level": 50
-            }
-        ],
-        "theory": [
-            {
-                "title": "UML 図",
-                "level": 90
-            },
-            {
-                "title": "アジャイルメソドロジー",
-                "level": 80
-            },
-            {
-                "title": "UX Design",
-                "level": 60
-            },
-            {
-                "title": "Design Thinking",
-                "level": 50
-            }
-        ]
+      "programming": [
+        {
+          "title": "Angular (Typescript)",
+          "level": 90
+        },
+        {
+          "title": "Express (NodeJS / Javascript)",
+          "level": 50
+        },
+        {
+          "title": "MySQL (SQL)",
+          "level": 80
+        },
+        {
+          "title": "MongoDB (NoSQL)",
+          "level": 50
+        },
+        {
+          "title": "HTML5 / CSS3",
+          "level": 80
+        },
+        {
+          "title": "Bootstrap 5 / Tailwindcss",
+          "level": 80
+        },
+        {
+          "title": "PHP",
+          "level": 60,
+          "description": ["Symfony"]
+        },
+        {
+          "title": "Unity (C#)",
+          "level": 50
+        },
+        {
+          "title": "Java",
+          "level": 40,
+          "description": ["Eclipse"]
+        },
+        {
+          "title": "XML",
+          "level": 30
+        },
+        {
+          "title": "Python",
+          "level": 20
+        }
+      ],
+      "tooling": [
+        {
+          "title": "VS Code",
+          "level": 80
+        },
+        {
+          "title": "Microsoft Office",
+          "level": 80,
+          "description": ["Word", "Excel", "PowerPoint"]
+        },
+        {
+          "title": "Libre Office",
+          "level": 50,
+          "description": ["Writer", "Calc", "Impress"]
+        },
+        {
+          "title": "GitHub / GitLab (Git)",
+          "level": 80,
+          "description": ["GitHub", "GitLab", "GitBash"]
+        },
+        {
+          "title": "Jira / Bitbucket / Confluence",
+          "level": 90
+        },
+        {
+          "title": "Docker",
+          "level": 50
+        },
+        {
+          "title": "PHPStorm",
+          "level": 60
+        },
+        {
+          "title": "Jenkins",
+          "level": 50
+        },
+        {
+          "title": "SonarQube",
+          "level": 50
+        },
+        {
+          "title": "Paint.net",
+          "level": 60
+        },
+        {
+          "title": "Unity",
+          "level": 50
+        },
+        {
+          "title": "Figma",
+          "level": 50
+        }
+      ],
+      "theory": [
+        {
+          "title": "UML 図",
+          "level": 90
+        },
+        {
+          "title": "アジャイルメソドロジー",
+          "level": 80
+        },
+        {
+          "title": "UX Design",
+          "level": 60
+        },
+        {
+          "title": "Design Thinking",
+          "level": 50
+        },
+        {
+          "title": "文献を明記する",
+          "level": 80
+        }
+      ]
     },
     "tastes": [
         {

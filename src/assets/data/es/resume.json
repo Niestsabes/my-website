@@ -60,59 +60,82 @@
         }
     ],
     "experiences": [
-        {
-            "title": "Desarollo y mantenimiento de una aplicación de apoyo presupuestario",
-            "subtitle": "Desarrollador Full Stack / Diseñador UX / Scrum Master",
-            "date": "Desde Octubre 2019 ...",
-            "company": "Amadeus (y Altran)",
-            "place": "Sophia-Antipolis, Francia",
-            "description": [
-                "Me uní a la División de Servicios Transversales y Coordinación, con entregas seguras de programas estratégicos y transversales a través de Amadeus.",
-                "Mi equipo tiene como objetivo llevar la previsibilidad a la gestión para la eficiencia operativa y la simplicidad para más de 1700 actores. Con 2 especialistas en negocios y otros 2 desarrolladores web, una de nuestras actividades es desarrollar y mantener Management Suite, una aplicación que permite a nuestros usuarios gestionar su presupuesto y recursos."
-            ],
-            "link": "https://amadeus.com/",
-            "details": []
-        },
-        {
-            "title": "Creación de aplicaciones innovadoras con fines humanitarios",
-            "subtilte": "Desarrollador Web / Android / AWS",
-            "date": "De Marzo de 2019 a Augusto de 2019",
-            "type": "Prácticas",
-            "company": "Relief Applications",
-            "place": "Madrid, España",
-            "description": [
-                "Como desarrollador de frontend y backend, he trabajado en varios proyectos que tienen como objetivo aportar soluciones de código abierto a las organizaciones humanitarias desplegadas en zonas de conflicto.",
-                "He estudiado el ciclo de vida completo del proyecto, y los procesos básicos de despliegue de un servidor con Linux."
-            ],
-            "link": "https://reliefapplications.org/"
-        },
-        {
-            "title": "Creación de un prototipo de un sistema de gestión de datos maestros para ayudar a la gestión del proyecto",
-            "subtitle": "Desarrollador Full Stack",
-            "date": "De Mayo de 2018 a Agosto de 2018",
-            "type": "Prácticas",
-            "company": "Thales Alenia Space Cannes",
-            "place": "Cannes, Francia",
-            "description": [
-                "Inicié la implementación de un sistema de gestión de datos maestros, con el fin de mejorar la puntualidad de los proyectos del departamento de software.",
-                "Trabajé en las diversas facetas de una aplicación web de tres niveles: front-end con Angular, back-end con PHP, base de datos con MySQL.",
-                "También fui director de proyecto. Utilicé un proceso de desarrollo ágil, puntuado por reuniones con colaboradores de los sitios de Cannes y Toulouse."
-            ],
-            "link": "https://www.thalesgroup.com/fr/espace"
-        },
-        {
-            "title": "Global Game Jam 2018",
-            "subtitle": "Desarrollador Unity",
-            "date": "Enero 2018",
-            "type": "Evento",
-            "company": "Global Game Jam",
-            "place": "Albi, Francia",
-            "description": [
-                "El Global Game Jam es un desafío para crear un videojuego completo en sólo 48 horas.",
-                "Participé como diseñador y desarrollador de juegos."
-            ],
-            "link": "https://globalgamejam.org/"
-        }
+      {
+        "title": "Desarrollo de un conjunto de aplicaciones web para la supervisión de Métropole Nice Côte-d'Azur",
+        "subtitle": "Angular Techlead",
+        "date": "Desde September 2022...",
+        "company": "Spie CityNetworks (con Klanik)",
+        "place": "Lyon, Francia",
+        "description": [
+          "Conectada a los servicios informáticos de Niza, es utilizada por la Poste de Central de la ciudad para resolver los incidentes que se producen en la zona de Niza",
+          "La plataforma se desglosa de la siguiente manera:",
+          " - Módulo de Hipervisión: recopila en tiempo real todos los datos recibidos del terreno (incidentes, pasamanos, estado de los equipos, etc.) y permite a los operadores desplegar la mejor estrategia en función de la situación actual",
+          " - Módulo de Cartografía: muestra el estado de los equipos de carretera y otra información de tráfico en tiempo real sobre un mapa de la zona urbana",
+          " - Módulo de repetición: basado en los dos módulos anteriores, permite a los operadores revisar una secuencia operativa pasada para mejorar sus procedimientos de resolución de incidentes",
+          " - Módulo de configuración: permite a los operadores parametrizar los modelos de datos utilizados por los módulos anteriores",
+          "Mis funciones:",
+          " - Líder técnico de un equipo de cuatro desarrolladores Angular: análisis de la complejidad de las historias de usuario, facilitador en cuestiones técnicas, validación de solicitudes de fusión.",
+          " - Limpieza de la base de código y mejora del rendimiento, mediante la implementación de las mejores prácticas y patrones de diseño",
+          " - Maquetación y especificación técnica de nuevas pantallas (especial consideración para UI y Responsive Design).",
+          " - Vigilancia técnica de nuevas librerías/tecnologías",
+          " - Redacción de manuales de usuario, y supervisión de la redacción de otros documentos técnicos"
+        ],
+        "link": "https://www.spie.com/en",
+        "details": []
+      },
+      {
+        "title": "Desarollo y mantenimiento de una aplicación de apoyo presupuestario",
+        "subtitle": "Desarrollador Full Stack / Diseñador UX / Scrum Master",
+        "date": "Desde Octubre de 2019 a Septiembre de 2022",
+        "company": "Amadeus (con Capgemini Engineering)",
+        "place": "Sophia-Antipolis, Francia",
+        "description": [
+          "Me uní a la División de Servicios Transversales y Coordinación, con entregas seguras de programas estratégicos y transversales a través de Amadeus.",
+          "Mi equipo tiene como objetivo llevar la previsibilidad a la gestión para la eficiencia operativa y la simplicidad para más de 1700 actores. Con 2 especialistas en negocios y otros 2 desarrolladores web, una de nuestras actividades es desarrollar y mantener Management Suite, una aplicación que permite a nuestros usuarios gestionar su presupuesto y recursos."
+        ],
+        "link": "https://amadeus.com/",
+        "details": []
+      },
+      {
+        "title": "Creación de aplicaciones innovadoras con fines humanitarios",
+        "subtilte": "Desarrollador Web / Android / AWS",
+        "date": "De Marzo de 2019 a Augusto de 2019",
+        "type": "Prácticas",
+        "company": "Relief Applications",
+        "place": "Madrid, España",
+        "description": [
+          "Como desarrollador de frontend y backend, he trabajado en varios proyectos que tienen como objetivo aportar soluciones de código abierto a las organizaciones humanitarias desplegadas en zonas de conflicto.",
+          "He estudiado el ciclo de vida completo del proyecto, y los procesos básicos de despliegue de un servidor con Linux."
+        ],
+        "link": "https://reliefapplications.org/"
+      },
+      {
+        "title": "Creación de un prototipo de un sistema de gestión de datos maestros para ayudar a la gestión del proyecto",
+        "subtitle": "Desarrollador Full Stack",
+        "date": "De Mayo de 2018 a Agosto de 2018",
+        "type": "Prácticas",
+        "company": "Thales Alenia Space Cannes",
+        "place": "Cannes, Francia",
+        "description": [
+          "Inicié la implementación de un sistema de gestión de datos maestros, con el fin de mejorar la puntualidad de los proyectos del departamento de software.",
+          "Trabajé en las diversas facetas de una aplicación web de tres niveles: front-end con Angular, back-end con PHP, base de datos con MySQL.",
+          "También fui director de proyecto. Utilicé un proceso de desarrollo ágil, puntuado por reuniones con colaboradores de los sitios de Cannes y Toulouse."
+        ],
+        "link": "https://www.thalesgroup.com/fr/espace"
+      },
+      {
+        "title": "Global Game Jam 2018",
+        "subtitle": "Desarrollador Unity",
+        "date": "Enero 2018",
+        "type": "Evento",
+        "company": "Global Game Jam",
+        "place": "Albi, Francia",
+        "description": [
+          "El Global Game Jam es un desafío para crear un videojuego completo en sólo 48 horas.",
+          "Participé como diseñador y desarrollador de juegos."
+        ],
+        "link": "https://globalgamejam.org/"
+      }
     ],
     "characteristics":[
         {
@@ -168,102 +191,129 @@
       }
     ],
     "skills": {
-        "programming": [
-            {
-                "title": "Javascript (& Typescript)",
-                "level": 90,
-                "description": ["Angular 2+", "VueJS", "Express", "NestJS", "Node.js"]
-            },
-            {
-                "title": "SQL",
-                "level": 90,
-                "description": ["Postgre", "MySQL"]
-            },
-            {
-                "title": "PHP",
-                "level": 80,
-                "description": ["Symfony"]
-            },
-            {
-                "title": "HML5 & CSS3",
-                "level": 90,
-                "description": ["Bootstrap 4"]
-            },
-            {
-                "title": "C#",
-                "level": 50,
-                "description": ["Unity"]
-            },
-            {
-                "title": "Java",
-                "level": 40,
-                "description": ["Eclipse"]
-            },
-            {
-                "title": "XML",
-                "level": 30
-            },
-            {
-                "title": "Python",
-                "level": 20
-            }
-        ],
-        "tooling": [
-            {
-                "title": "Microsoft Office",
-                "level": 80,
-                "description": ["Word", "Excel", "PowerPoint"]
-            },
-            {
-                "title": "Libre Office",
-                "level": 50,
-                "description": ["Writer", "Calc", "Impress"]
-            },
-            {
-                "title": "Git",
-                "level": 80,
-                "description": ["GitHub", "GitLab", "GitBash"]
-            },
-            {
-                "title": "Jira Softwares",
-                "level": 90,
-                "description": ["Confluence", "BitBucket", "Jira"]
-            },
-            {
-                "title": "Docker",
-                "level": 20
-            },
-            {
-                "title": "PHPStorm",
-                "level": 60
-            },
-            {
-                "title": "Paint.net",
-                "level": 60
-            },
-            {
-                "title": "Unity",
-                "level": 50
-            }
-        ],
-        "theory": [
-            {
-                "title": "Diagramas UML",
-                "level": 90
-            },
-            {
-                "title": "Metodología Ágil",
-                "level": 80
-            },
-            {
-                "title": "UX Design",
-                "level": 60
-            },
-            {
-                "title": "Design Thinking",
-                "level": 50
-            }
-        ]
+      "programming": [
+        {
+          "title": "Angular (Typescript)",
+          "level": 90
+        },
+        {
+          "title": "Express (NodeJS / Javascript)",
+          "level": 50
+        },
+        {
+          "title": "MySQL (SQL)",
+          "level": 80
+        },
+        {
+          "title": "MongoDB (NoSQL)",
+          "level": 50
+        },
+        {
+          "title": "HTML5 / CSS3",
+          "level": 80
+        },
+        {
+          "title": "Bootstrap 5 / Tailwindcss",
+          "level": 80
+        },
+        {
+          "title": "PHP",
+          "level": 60,
+          "description": ["Symfony"]
+        },
+        {
+          "title": "Unity (C#)",
+          "level": 50
+        },
+        {
+          "title": "Java",
+          "level": 40,
+          "description": ["Eclipse"]
+        },
+        {
+          "title": "XML",
+          "level": 30
+        },
+        {
+          "title": "Python",
+          "level": 20
+        }
+      ],
+      "tooling": [
+        {
+          "title": "VS Code",
+          "level": 80
+        },
+        {
+          "title": "Microsoft Office",
+          "level": 80,
+          "description": ["Word", "Excel", "PowerPoint"]
+        },
+        {
+          "title": "Libre Office",
+          "level": 50,
+          "description": ["Writer", "Calc", "Impress"]
+        },
+        {
+          "title": "GitHub / GitLab (Git)",
+          "level": 80,
+          "description": ["GitHub", "GitLab", "GitBash"]
+        },
+        {
+          "title": "Jira / Bitbucket / Confluence",
+          "level": 90
+        },
+        {
+          "title": "Docker",
+          "level": 50
+        },
+        {
+          "title": "PHPStorm",
+          "level": 60
+        },
+        {
+          "title": "Jenkins",
+          "level": 50
+        },
+        {
+          "title": "SonarQube",
+          "level": 50
+        },
+        {
+          "title": "Paint.net",
+          "level": 60
+        },
+        {
+          "title": "Unity",
+          "level": 50
+        },
+        {
+          "title": "Figma",
+          "level": 50
+        }
+      ],
+      "theory": [
+        {
+          "title": "Diagramas UML",
+          "level": 90
+        },
+        {
+          "title": "Metodología Ágil",
+          "level": 80
+        },
+        {
+          "title": "UX Design",
+          "level": 60
+        },
+        {
+          "title": "Design Thinking",
+          "level": 50
+        },
+        {
+          "title": "Redacción de documentación",
+          "level": 80
+        }
+      ]
     },
     "tastes": [
         {
