@@ -1,10 +1,19 @@
 # MyWebsite
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.1.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.1, and then migrated to Angular 15.
+
+# Setup
+
+- Download and install Node.js from https://nodejs.org/en/download/
+- Run `npm install -g @angular/cli` to install Angular CLI
+- Run `npm install` to install all dependencies
+- Copy `src/environments/environment.dist.ts` to `src/environments/environment.ts` and fill in the missing values
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- Run `ng serve` to start the development server
+- Navigate to `http://localhost:4200/` to view the website
+- The app will automatically reload if you change any of the source files
 
 ## Code scaffolding
 
