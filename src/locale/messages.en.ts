@@ -20,6 +20,8 @@ const messages = {
     "I think that knowing different languages is important when you want to issimilate different cultures. French is my mother tongue, but I mostly use English for working. I learnt Spanish during my studies. Today, I'm learning Japanese.",
   lastName: 'Last Name',
   message: 'Message',
+  metaDescription: 'Explore the developer resume of Sébastien Cayet, showcasing his skills and expertise to deliver outstanding user experiences for large scale applications : Web development, UX Design, Agile Management, Specification Writng and more !',
+  metaTitle: 'Sébastien Cayet - Fullstack developer',
   myTastes: 'My tastes',
   myStyle: 'My style',
   mailFormText: 'Fill the following form to send me a mail',

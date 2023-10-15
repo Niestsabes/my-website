@@ -1,11 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 import { Location } from '@angular/common';
+import { Router } from '@angular/router';
 import { LocaleService } from 'src/app/services/locale.service';
 import { LocaleInterface } from 'src/app/models/locale.interface';
-import { Router } from '@angular/router';
-import { ROUTES } from './../../constants/routes.dictionary';
-import { IMAGES } from './../../constants/images.dictionary';
+import { ROUTES } from 'src/app/constants/routes.dictionary';
+import { IMAGES } from 'src/app/constants/images.dictionary';
 import { TranslatorService } from 'src/app/services/translator.service';
+import { MetadataService } from 'src/app/services/metadata.service';
 
 @Component({
   selector: 'app-header',

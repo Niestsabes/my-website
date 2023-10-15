@@ -20,6 +20,8 @@ const messages = {
     "Je pense que la connaissance de différentes langues est importante quand on veut assimiler différentes cultures. Le français est ma langue maternelle, mais j'utilise surtout l'anglais pour travailler. J'ai appris l'espagnol durant mes études. Aujourd'hui, j'apprends le japonais.",
   lastName: 'Nom',
   message: 'Message',
+  metaDescription: 'Explorez le site personnel de Sébastien Cayet, exposant ses domaines d\'expertise pour délivrer des applications complexes mais attrayantes pour l\'utilisateur : Développement Web, UX Design, Management Agile, Ecriture de spécifications et plus !',
+  metaTitle: 'Sébastien Cayet - Développeur Fullstack',
   myTastes: 'Mes goûts',
   myStyle: 'Mon style',
   mailFormText: "Remplissez le formulaire ci-dessous pour m'envoyer un mail.",

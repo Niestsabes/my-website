@@ -1,4 +1,5 @@
 const messages = {
+  appTitle: 'Sébastien CAYET - Desarrollador Fullstack',
   aboutMe: 'Sobre mí',
   competences: 'Competencias',
   contact: 'Contácteme!',
@@ -20,6 +21,8 @@ const messages = {
     'Creo que conocer diferentes idiomas es importante cuando se quiere asimilar diferentes culturas. El francés es mi lengua materna, pero utilizo sobre todo el inglés para trabajar. Aprendí español en la escuela. Hoy, estoy aprendiendo japonés.',
   lastName: 'Apellido',
   message: 'Mensaje',
+  metaDescription: 'Explora el currículum del desarrollador Sébastien Cayet, que muestra sus habilidades y experiencia para brindar experiencias de usuario excepcionales en aplicaciones de gran escala: Desarrollo web, Diseño de Experiencia de Usuario, Gestión Ágil, Escritura de Especificaciones ¡y más!',
+  metaTitle: 'Sébastien Cayet - Desarrollador Fullstack',
   myTastes: 'Mis gustos',
   myStyle: 'Mi estilo',
   mailFormText: 'Rellene el siguiente formulario para enviarme un correo.',
