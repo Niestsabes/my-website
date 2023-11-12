@@ -61,80 +61,77 @@
     ],
     "experiences": [
       {
-        "title": "Développement d'une suite d'applications web pour la supervisation de la Métropole Nice Côte-d'Azur",
-        "subtitle": "Angular Techlead",
-        "date": "De Septembre 2022 à ...",
-        "company": "Spie CityNetworks (pour Klanik)",
+        "title": "Lead Développeur Angular & Scrum Master",
+        "subtitle": "Angular Techlead / Scrum Master",
+        "date":"09/2023 à ??/????",
+        "company": "Spie CityNetworks (Klanik)",
         "place": "Lyon, France",
         "description": [
-          "Connectée aux services informatique de la Métropole, elle utilisée par le Poste de Central de la ville afin de résoudre les évènements qui se produisent dans l'agglomération niçoise.",
-          "La plateforme se découpe comme suit:",
-          " - Module d'Hypervision: compile en temps réel l'ensemble des données remontant du terrain (incidents, main courantes, états d'équipements, etc...) et permet aux opérateurs de déployer la meilleure stratégie en fonction de la situation courante.",
-          " - Module de Cartographie: affiche en temps réel sur une carte de l'agglomération l'état des équipements routiers et diverses informations de trafic.",
-          " - Module de Rejeu: basé sur les deux modules précédents, permet aux opérateurs de revisualiser une séquence d'exploitation passée afin d'améliorer leurs procédures de résolution d'incident.",
-          " - Module de Configuration: permet de paramétrer les modèles de données utilisés par les modules précédents.",
-          "Mes rôles:",
-          " - Leader technique d'une équipe de quatre développeurs Angular : analyse de complexité des user stories, facilitateur sur les problèmes techniques, validation des merge requests.",
-          " - Assainissement de la base de code et amélioration des performances, par l'implémentation de bonnes pratiques et patrons de conceptions.",
-          " - Maquettage et spécification technique des nouveaux écrans (considération particulière pour l'UI et le Responsive Design).",
-          " - Veille technique pour la proposition de nouvelles librairies/technologies.",
-          " - Rédaction des manuels utilisateurs, et supervision de la rédaction d'autres documents techniques"
+          "Développement d'une application web pour coordination de l'administration du réseau routier du Grand Lyon, réalisée par le gérant CORALY. Connectée aux services informatiques des divers exploitants, elle est utilisée par les opérateurs CORALY pour communiquer et proposer des scénarios de résolution d'incidents.",
+          "J'ai dirigé une équipe de trois développeurs, réalisé les revues de code, veillé à la qualité de l'application, rédigé de la documentation technique et fonctionnelle et mis en place des évolutions techniques."
         ],
+        "tags": ["Angular 15-16", "NodeJS", "Docker", "GitLab"]
+      },
+      {
+        "title": "Lead Développeur Angular",
+        "subtitle": "Angular Techlead",
+        "date": "09/2022 à 09/2023",
+        "company": "Spie CityNetworks (Klanik)",
+        "place": "Lyon, France",
+        "description": [
+          "Développement d'une suite d'applications web pour la supervision de la Métropole Nice Côte-d'Azur. Connectée aux équipements routiers et services informatiques de la Métropole, elle est utilisée par le Poste de Commande de la ville pour résoudre les évènements survenants dans l'agglomération niçoise.",
+          "La plateforme comprend un Module d'Hypervision pour compiler en temps réel les données du terrain, un Module de Cartographie affichant l'état des équipements routiers, un Module de Rejeu pour revisualiser les séquences d'exploitation, et un Module de Configuration pour paramétrer les modèles de données.",
+          "J'ai dirigé une équipe de trois développeurs, assaini la base de code, amélioré les performances de l'application, effectué le maquettage de nouveaux écrans, supervisé la rédaction de documents et proposé des évolutions techniques"
+        ],
+        "tags": ["Angular 10-15", "GitLab"],
         "link": "https://www.spie.com/fr",
         "details": []
       },
       {
-        "title": "Développement & maintenance d'une application d'aide à la gestion du budget",
+        "title": "Développeur Full Stack (Angular/PHP) & Scrum Master",
         "subtitle": "Développeur Full Stack / UX Designer / Scrum Master",
-        "date": "De Octobre 2019 à Septembre 2022",
-        "company": "Amadeus (pour Capgemini Engineering)",
+        "date": "10/2019 à 09/2022",
+        "company": "Amadeus (Capgemini Engineering)",
         "place": "Sophia-Antipolis, France",
         "description": [
+          "Développement & maintenance d'une application d'aide à la gestion du budget",
           "J'ai rejoint la division des services transversaux et de la coordination, avec pour mission de sécuriser la mise en œuvre des programmes stratégiques et transversaux dans tout Amadeus.",
           "Mon équipe a pour objectif d'apporter la prévisibilité à la direction pour une efficacité et une simplicité opérationnelles pour plus de 1700 acteurs. Avec 2 spécialistes métier et 2 autres développeurs web, une de nos activités consiste à développer et à maintenir la Management Suite, une application permettant à nos utilisateurs de gérer leur budget et leurs ressources."
         ],
         "link": "https://amadeus.com/",
+        "tags": ["Angular 11", "Symfony", "MySQL", "Scrum", "JIRA", "Jenkins", "SonarQube", "Azure"],
         "details": []
       },
       {
-        "title": "Création d'applications innovantes à des fins humanitaires",
-        "subtitle": "Dévellopeur Web / Android / AWS",
-        "date": "De Mars 2019 à Août 2019",
+        "title": "Stagiaire Développeur Web / Android / Alexa",
+        "subtitle": "Dévellopeur Web / Android / Alexa",
+        "date": "03/2019 à 08/2019",
         "type": "Stage",
         "company": "Relief Applications",
         "place": "Madrid, Espagne",
         "description": [
+          "Création d'applications innovantes à des fins humanitaires",
           "En tant que développeur frontend & backend, j'ai travaillé sur plusieurs projets qui visent à apporter des solutions open-source aux organisations humanitaires déployées sur des zones de conflits.",
           "J'ai étudié le cycle de vie complet d'un projet, et les processus de déploiement basiques d'un serveur avec Linux."
         ],
+        "tags": ["Angular 8", "NodeJS", "Ionic", "AWS"],
         "link": "https://reliefapplications.org/"
       },
       {
-        "title": "Prototypage d'un Master Data Management System pour aider à la gestion de projets",
+        "title": "Stagiaire Développeur Fullstack (Angular/PHP)",
         "subtitle": "Développeur Full Stack",
-        "date": "De Mai 2018 à Août 2018",
+        "date": "05/2018 à 08/2018",
         "type": "Stage",
-        "company": "Thales Alenia Space Cannes",
+        "company": "Thales Alenia Space",
         "place": "Cannes, France",
         "description": [
+          "Prototypage d'un Master Data Management System pour aider à la gestion de projets.",
           "J'ai initié la mise en place d'un systéme de Gestion des Données de Référence, afin d'améliorer la ponctualité des projets du département logiciel.",
           "J'ai travaillé sur les diverse facettes d'une application web en trois-tiers: front-end avec Angular, back-end avec PHP, base de données avec MySQL.",
           "J'ai aussi été gérant de mon projet. J'ai employé un processus de développement Agile, ponctué de réunions avec des collaborateurs des sites de Cannes et de Toulouse."
         ],
+        "tags": ["Angular 5", "PHP", "MySQL", "Agile"],
         "link": "https://www.thalesgroup.com/fr/espace"
-      },
-      {
-        "title": "Global Game Jam 2018",
-        "subtitle": "Développeur de jeux-vidéo",
-        "date": "Janvier 2018",
-        "type": "Événement",
-        "company": "Global Game Jam",
-        "place": "Albi, France",
-        "description": [
-          "La Global Game Jam est un challenge de création en équipe d'un jeu-vidéo complet en seulement 48 heures.",
-          "J'y ai participé en tant que game designer et développeur."
-        ],
-        "link": "https://globalgamejam.org/"
       }
     ],
     "characteristics":[

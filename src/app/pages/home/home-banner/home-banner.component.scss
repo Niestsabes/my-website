@@ -1,9 +1,12 @@
+@import '../../../../assets/style/theme.scss';
+
 .banner-container {
   position: relative;
-	height: calc((100vh - 40px));
+	height: calc(100vh + 10px);
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  color: $header-text-color;
 
   #title {
     margin-bottom: 5vh;
@@ -20,6 +23,7 @@
 }
 
 .banner__text {
+  position: absolute;
   margin: 0 15% 4.5% 4.5%;
 
   #greatings {
@@ -39,10 +43,6 @@
     font-weight: bold;
     margin-bottom: 1rem;
   }
-
-  // margin-left: auto;
-  // margin-right: auto;
-  // text-align: center;
 }
 
 .banner__more {
@@ -59,4 +59,19 @@
   font-size: 1.5rem;
   vertical-align: middle;
   animation: bounce 1s infinite;
+}
+
+.banner__image-container {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.banner__image {
+  object-fit: cover;
+  object-position: 20% 0%;
+  width: 100%;
+  min-width: 100%;
 }

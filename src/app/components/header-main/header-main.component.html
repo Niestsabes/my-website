@@ -1,0 +1,49 @@
+<header class="header">
+    <div class="header__title">
+        <a class="header-side-button site-icon-button d-none d-md-inline"
+            [routerLink]="routes.app.home"
+            routerLinkActive="active">
+            <img class="header__title-icon header__icon" [src]="images.siteMainImage" alt="SC"/>
+        </a>
+        <h1 class="header__title-text theme-text-shadow">Sébastien CAYET</h1>
+    </div>
+    <ul class="header__nav">
+        <li *ngFor="let link of mainNavigationButton"
+            class="header__nav-item theme-text-shadow">
+            <a class="header__nav-item-link"
+                [routerLink]="link.route" 
+                routerLinkActive="active">
+                {{ link.title }}
+            </a>
+        </li>
+    </ul>
+    <ul class="header__side-menu">
+        <li>
+            <a class="header__language" data-toggle="dropdown">
+                <img class="header__icon"
+                    [src]="getCurrentLocale().image"
+                    [alt]="getCurrentLocale().id.toUpperCase()"/>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownLanguageButton">
+                <ng-container *ngFor="let locale of getAvailableLocales()">
+                    <button class="dropdown-item" (click)="setLocale(locale.id)">{{locale.name}}</button>
+                </ng-container>
+            </div>
+        </li>
+        <li class="theme-text-shadow mt-1">
+            <a [href]="routes.external.linkedIn" target="_blank">
+                <span class="icon-linkedin-brands"></span>
+            </a>
+        </li>
+        <li class="theme-text-shadow mt-1">
+            <a [href]="routes.external.gitHub" target="_blank">
+                <span class="icon-github-brands"></span>
+            </a>
+        </li>
+        <li class="theme-text-shadow mt-1">
+            <a [href]="routes.external.itch" target="_blank">
+                <span class="icon-itch-io"></span>
+            </a>
+        </li>
+    </ul>
+</header>

@@ -1,0 +1,25 @@
+@import './colors.scss';
+
+$btn-height: 2.6em;
+
+a.button, button.button {
+    position: relative;
+    display: inline-block;
+    height: $btn-height;
+    padding: calc(#{$btn-height} / 5) calc(#{$btn-height} / 2);
+    border: 1px solid $app-black;
+    border-radius: calc(#{$btn-height} / 6);
+    box-sizing: border-box;
+    box-shadow: 4px 4px $app-black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: $app-black;
+    background-color: $app-btn-bg-color;
+    text-align: center;
+}
+
+a.button:hover, button.button:hover {
+    background-color: $app-btn-hover-color;
+    color: $app-white;
+}

@@ -10,7 +10,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { IconComponent } from './components/icon/icon.component';
 import { HomeComponent } from './pages/home/home.component';
 import { ExperiencePageComponent } from './pages/experience-page/experience-page.component';
-import { BannerComponent } from './components/banner/banner.component';
+import { HomeBannerComponent } from './pages/home/home-banner/home-banner.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { GaugeComponent } from './components/gauge/gauge.component';
 import { ContactPageComponent } from './pages/contact-page/contact-page.component';
@@ -19,6 +19,10 @@ import { CircleGaugeComponent } from './components/circle-gauge/circle-gauge.com
 import { TranslatorPipe } from './pipes/translator.pipe';
 import { StarGaugeComponent } from './components/star-gauge/star-gauge.component';
 import { SubtitleBannerComponent } from './components/subtitle-banner/subtitle-banner.component';
+import { HeaderMainComponent } from './components/header-main/header-main.component';
+import { HomeAssetsComponent } from './pages/home/home-assets/home-assets.component';
+import { HomeExperiencesComponent } from './pages/home/home-experiences/home-experiences.component';
+import { HomePresentationComponent } from './pages/home/home-presentation/home-presentation.component';
 
 @NgModule({
   declarations: [
@@ -28,14 +32,18 @@ import { SubtitleBannerComponent } from './components/subtitle-banner/subtitle-b
     IconComponent,
     HomeComponent,
     ExperiencePageComponent,
-    BannerComponent,
+    HomeBannerComponent,
     GaugeComponent,
     ContactPageComponent,
     ContactPanelComponent,
     CircleGaugeComponent,
     StarGaugeComponent,
     TranslatorPipe,
-    SubtitleBannerComponent
+    SubtitleBannerComponent,
+    HeaderMainComponent,
+    HomeAssetsComponent,
+    HomeExperiencesComponent,
+    HomePresentationComponent
   ],
   imports: [
     BrowserModule,

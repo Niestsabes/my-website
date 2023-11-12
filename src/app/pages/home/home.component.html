@@ -1,5 +1,9 @@
-<app-title-banner></app-title-banner>
+<app-header-main></app-header-main>
+
+<app-home-banner></app-home-banner>
 <app-subtitle-banner></app-subtitle-banner>
+
+<app-home-assets [assets]="resume.getAssets()"></app-home-assets>
 
 <!-- Presentation Section -->
 <section class="page-section"  id="presentation-section">
@@ -49,83 +53,9 @@
   </div>
 </section>
 
-<!-- Experience Section -->
-<section class="page-section alternative-color" id="experience-section">
-  <h2 class="text-center iconed-text">
-    <app-icon icon="icon-address-card-solid"></app-icon>
-    <span>{{ 'Expériences' | translate:'experiences' }}</span>
-  </h2>
-  <div class="container">
-    <article class="row">
-      <div *ngFor="let asset of resume.getAssets()"
-        class="col-sm-12 col-md-6 col-lg-3 text-center">
-        <div>
-          <app-icon class="experience-icon" [icon]="asset.image"></app-icon>
-        </div>
-        <h4>{{ asset.title }}</h4>
-        <p>{{ asset.description }}</p>
-      </div>
-    </article>
-  </div>
-  <div class="d-flex justify-content-center">
-    <a class="button"
-      [routerLink]="routes.app.experience"
-      routerLinkActive="active">
-      {{ 'Voir mes expériences' | translate:'seeExperiences' }}
-    </a>
-  </div>
-</section>
+<app-home-presentation></app-home-presentation>
 
-<!-- Competence Section -->
-<section class="page-section" id="competence-section">
-  <h2 class="text-center iconed-text">
-    <app-icon icon="icon-tools-solid"></app-icon>
-    <span>{{ 'Compétences' | translate: 'competences' }}</span>
-  </h2>
-  <div class="container">
-    <article class="row">
-      <h3 class="col-12">
-        {{ 'Connaissances' | translate:'knowledge' }}
-      </h3>
-      <div class="col-md-4" *ngFor="let skillType of resume.getSkillTypes()">
-        <div class="knowledge-wrapper">
-          <h4 class="knowledge-title">{{ '' | translate: skillType }}</h4>
-          <ul class="knowledge-list">
-            <li *ngFor="let skill of resume.getSkills(skillType)"
-              class="knowledge-list-item">
-              <strong>{{ skill.title }}</strong>
-              <app-star-gauge value="{{ skill.level }}"></app-star-gauge>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </article>
-    <article class="row">
-      <h3 class="col-12">{{ 'Langues' | translate:'languages' }}</h3>
-      <p class="col-md-4 text-justify">
-        {{ 'a' | translate:'languagesText' }}
-      </p>
-      <ul class="col-md-8 language-wrapper">
-        <li class="language-item"
-          *ngFor="let language of resume.getLanguages()">
-          <app-circle-gauge
-            [value]="language.level"
-            [text]="language.title"
-            [backgroundUrl]="language.image">
-          </app-circle-gauge>
-          <span>{{ language.rank }}</span>
-        </li>
-      </ul>
-    </article>
-    <div class="d-flex justify-content-center">
-      <a class="button"
-        [routerLink]="routes.app.experience"
-        routerLinkActive="active">
-        {{ 'Voir mes compétences' | translate:'seeCompetences' }}
-      </a>
-    </div>
-  </div>
-</section>
+<app-home-experiences [experiences]="resume.getExperiences()"></app-home-experiences>
 
 <!-- Portefolio Section -->
 <section class="page-section alternative-color" id="portefolio-section">

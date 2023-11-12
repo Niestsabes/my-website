@@ -1,27 +1,27 @@
-<section class="banner-container gradient-animation">
-	<ul class="circles-animation">
-		<li *ngFor="let i of [0,0,0,0,0,0,0,0,0,0]"></li>
-	</ul>
+<section class="banner-container">
+  <div class="banner__image-container">
+    <img [src]="images.mainPhoto" alt="Sébastien Cayet" class="banner__image"/>
+  </div>
 	<main class="banner__text py-3">
-		<p id="greatings">
+		<p class="theme-text-shadow" id="greatings">
       {{ 'Greatings!' | translate:'greatings' }}
     </p>
-    <p id="greatings_description">
-      {{ 'I\'m Sébastien, (mostly) a Web developer for 4 years now.' | translate:'greatingsDescription' }}
+    <p class="theme-text-shadow" id="greatings_description">
+      {{ 'I\'m Sébastien, a Lead Web Developer.' | translate:'greatingsDescription' }}
     </p>
-    <p id="greatings_current">
+    <p class="theme-text-shadow" id="greatings_current">
       {{ 'Currently an Angular Techlead for Klanik, in Lyon.' | translate:'greatingsOccupation' }}
     </p>
     <aside>
       <a [href]="routes.files.resume" class="button bouncy-0" target="_blank">
-        {{ 'Télécharger mon CV' | translate:'seeResume' }}
+        {{ 'Download my resume' | translate:'seeResume' }}
       </a>
       <a class="button" [routerLink]="routes.app.contact" routerLinkActive="active">
-        {{ 'Envoyer un mail' | translate:'sendMail' }}
+        {{ 'Contact me' | translate:'sendMail' }}
       </a>
     </aside>
   </main>
-  <aside class="banner__more">
+  <aside class="banner__more theme-text-shadow">
     <span>More<br/>below<br/></span>
     <div class="banner__more-icon">
       <span class="icon-arrow-down"></span>
