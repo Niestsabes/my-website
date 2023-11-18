@@ -32,6 +32,7 @@
 }
 
 // Button classes, inspiration from there : https://fdossena.com/?p=html5cool/buttons/i.frag
+
 .interactable-box {
     border: 1px solid $app-black;
     border-radius: 0.425em;
@@ -69,6 +70,8 @@ a.button:hover, button.button:hover {
 }
 
 // shadow
+
+.text-xl { font-size: 2rem; }
 
 .theme-text-shadow {
     text-shadow: -1px -1px 0 $header-bg-color, 1px -1px 0 $header-bg-color, -1px 1px 0 $header-bg-color, 1px 1px 0 $header-bg-color, 2px 2px 0 $header-bg-color;

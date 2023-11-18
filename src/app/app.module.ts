@@ -20,12 +20,11 @@ import { TranslatorPipe } from './pipes/translator.pipe';
 import { StarGaugeComponent } from './components/star-gauge/star-gauge.component';
 import { SubtitleBannerComponent } from './components/subtitle-banner/subtitle-banner.component';
 import { HeaderMainComponent } from './components/header-main/header-main.component';
-import { HomeAssetsComponent } from './pages/home/home-assets/home-assets.component';
 import { HomeExperiencesComponent } from './pages/home/home-experiences/home-experiences.component';
 import { HomePresentationComponent } from './pages/home/home-presentation/home-presentation.component';
 import { HomeAboutComponent } from './pages/home/home-about/home-about.component';
 import { HomePortefolioComponent } from './pages/home/home-portefolio/home-portefolio.component';
-import { HomeJobsComponent } from './pages/home/home-jobs/home-jobs.component';
+import { HomeRolesComponent } from './pages/home/home-roles/home-roles.component';
 
 @NgModule({
   declarations: [
@@ -44,12 +43,11 @@ import { HomeJobsComponent } from './pages/home/home-jobs/home-jobs.component';
     TranslatorPipe,
     SubtitleBannerComponent,
     HeaderMainComponent,
-    HomeAssetsComponent,
     HomeExperiencesComponent,
     HomePresentationComponent,
     HomeAboutComponent,
     HomePortefolioComponent,
-    HomeJobsComponent
+    HomeRolesComponent
   ],
   imports: [
     BrowserModule,
