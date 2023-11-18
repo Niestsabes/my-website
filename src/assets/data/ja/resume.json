@@ -28,6 +28,48 @@
             "description": "情報を共有することは、チームワークの重要な要素です。私は、適切なフォーマットと適切な言葉を適切なタイミングで選択することで、コミュニケーションに気を配っています。また、複数の言語の知識を持っていることもメリットです。"
         }
     ],
+    "roles": {
+      "title": "That's me !",
+      "description": [
+        "By being curious and willing, I've become quite versatile.",
+        "However, Frontend development will stay precious to me."
+      ],
+      "items": [
+        {
+          "title": "Design",
+          "icon": "icon-pencil-ruler",
+          "description": [
+            "I value simple and accessible interfaces. If the view needs to be explained, then something's wrong."
+          ],
+          "tagsTitle": "Things I use to design:",
+          "tags": ["UI", "UX", "Web", "App", "Games"],
+          "toolsTitle": "Design Tools:",
+          "tools": ["Icomoon", "Font Awesome", "Bootstrap", "Tailwind", "Pen & Paper", "Paint.net", "Figma"]
+        },
+        {
+          "title": "Engineering",
+          "icon": "icon-tools",
+          "description": [
+            "I consider coding as a modern form of craftmanship, and a fertile ground for expression."
+          ],
+          "tagsTitle": "Some languages I speak:",
+          "tags": ["HTML", "Sass", "Angular", "Express", "Git", "MySQL", "NoSQL"],
+          "toolsTitle": "Dev Tools:",
+          "tools": ["VSCode", "PHPStorm", "Jenkins", "SonarQube", "Jest", "Cypress", "Docker", "GitHub", "MongoDB", "Unity"]
+        },
+        {
+          "title": "Agility",
+          "icon": "icon-clipboard",
+          "description": [
+            "Management plays a major role in projects' success. I'm not that expansive, but I say what needs to be."
+          ],
+          "tagsTitle": "Thinks I know a bit about:",
+          "tags": ["Scrum", "SAFE", "Design DOC", "Functional Doc"],
+          "toolsTitle": "Management Tools:",
+          "tools": ["Jira", "BitBucket", "Confluence", "GitLab", "Microsoft Office", "Design Thinking"]
+        }
+      ]
+    },
     "education": [
         {
             "title": "バカロレアＳ",

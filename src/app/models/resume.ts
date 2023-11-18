@@ -1,4 +1,4 @@
-import { ResumeInterface, ResumeItemInterface, ResumeExperienceInterface } from './resume.interface';
+import { ResumeInterface, ResumeItemInterface, ResumeExperienceInterface, ResumeRolesInterface } from './resume.interface';
 
 export class Resume {
 
@@ -22,6 +22,13 @@ export class Resume {
             return [];
         }
         return this._rawData.assets;
+    }
+
+    public getRoles(): ResumeRolesInterface {
+        if ( !this._rawData || !this._rawData.roles ) {
+            return null;
+        }
+        return this._rawData.roles;
     }
 
     /**

@@ -1,6 +1,7 @@
 export interface ResumeInterface {
     presentation: ResumeItemInterface,
     assets: Array<ResumeItemInterface>,
+    roles: ResumeRolesInterface,
     education: Array<ResumeExperienceInterface>,
     experiences: Array<ResumeExperienceInterface>,
     portefolio: Array<ResumeItemInterface>,
@@ -10,6 +11,20 @@ export interface ResumeInterface {
     skills: {
         [type: string]: Array<ResumeItemInterface>
     }
+}
+
+export interface ResumeRolesInterface {
+    title: string;
+    description: string[];
+    items: {
+        title: string;
+        icon: string;
+        description: string[];
+        tagsTitle: string;
+        tags: string[];
+        toolsTitle: string;
+        tools: string[];
+    }[];
 }
 
 export interface ResumeItemInterface {

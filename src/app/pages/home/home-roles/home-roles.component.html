@@ -1,74 +1,32 @@
 <section class="page-section">
     <div class="container">
         <h2 class="text-center iconed-text">
-            That's me !
+            {{ roleItem.title }}
         </h2>
         <div class="text-center mb-1">
             <span class="icon-star-regular"></span>
         </div>
         <p class="text-center">
-            By being curious and willing, I've become quite versatile.<br/>
-            However, Frontend development will stay precious to me.
+            <ng-container *ngFor="let desc of roleItem.description">
+                {{ desc }}<br/>
+            </ng-container>
         </p>
         <main class="page-section__main row">
-            <article class="col-md-4 text-center">
+            <article *ngFor="let item of roleItem.items" class="col-md-4 text-center">
                 <div class="role-icon">
-                    <span class="icon-pencil-ruler"></span>
+                    <span [class]="item.icon"></span>
                 </div>
-                <h3>Design</h3>
-                <p>I value simple and accessible interfaces. If the view needs to be explained, then something's wrong.</p>
-                <h4>Thinks I use to design:</h4>
-                <p>UI, Web, App, Games</p>
-                <h4>Design Tools:</h4>
+                <h3>{{ item.title }}</h3>
+                <p *ngFor="let desc of item.description">{{ desc }}</p>
+                <h4>{{ item.tagsTitle }}</h4>
+                <p>
+                    <span *ngFor="let tag of item.tags; last as isLast">
+                        {{ tag }}<ng-container *ngIf="!isLast">, </ng-container>
+                    </span>
+                </p>
+                <h4>{{ item.toolsTitle }}</h4>
                 <ul class="list-unstyled">
-                    <li>Icomoon</li>
-                    <li>Font Awesome</li>
-                    <li>Paint.net</li>
-                    <li>Figma</li>
-                    <li>Bootstrap</li>
-                    <li>Tailwind</li>
-                    <li>Pen & Paper</li>
-                </ul>
-            </article>
-            <article class="col-md-4 text-center">
-                <div class="role-icon">
-                    <span class="icon-tools"></span>
-                </div>
-                <h3>Engineering</h3>
-                <p>I consider coding as a modern form of craftmanship, and a fertile ground for expression.</p>
-                <h4>Languages I speak:</h4>
-                <p>HTML, Sass, Angular, Express, Git, MySQL, NoSQL</p>
-                <h4>Dev Tools:</h4>
-                <ul class="list-unstyled">
-                    <li>VSCode</li>
-                    <li>PHPStorm</li>
-                    <li>Jenkins</li>
-                    <li>SonarQube</li>
-                    <li>Swagger</li>
-                    <li>Jest</li>
-                    <li>Cypress</li>
-                    <li>Docker</li>
-                    <li>GitHub</li>
-                    <li>MongoDB</li>
-                    <li>Unity</li>
-                </ul>
-            </article>
-            <article class="col-md-4 text-center">
-                <div class="role-icon">
-                    <span class="icon-clipboard"></span>
-                </div>
-                <h3>Agility</h3>
-                <p>Management plays a major role in projects' success. I'm not that expansive, but I say what needs to be.</p>
-                <h4>Thinks I know a bit about:</h4>
-                <p>Scrum, SAFE, Design&nbsp;Doc, Functional&nbsp;Doc</p>
-                <h4>Management Tools:</h4>
-                <ul class="list-unstyled">
-                    <li>Jira</li>
-                    <li>BitBucket</li>
-                    <li>Confluence</li>
-                    <li>GitLab</li>
-                    <li>Microsoft&nbsp;Office</li>
-                    <li>Design&nbsp;Thinking</li>
+                    <li *ngFor="let tool of item.tools">{{ tool }}</li>
                 </ul>
             </article>
         </main>

@@ -3,7 +3,7 @@
         <main  class="page-section__main row">
             <div class="col-md-6">
                 <article>
-                    <h3>I do speak some languages...</h3>
+                    <h3>{{ "Languages" | translate: 'languages' }}</h3>
                     <blockquote>
                         <q>If you talk to a man in a language he understands, that goes to his head. If you talk to him in his own language, that goes to his heart.</q>
                         <cite> - Nelson Mandela</cite>
@@ -17,7 +17,7 @@
                 </article>
             </div>
             <article class="col-md-6">
-                <h3>Current Hobbies</h3>
+                <h3>{{ "My tastes" | translate: 'myTastes' }}</h3>
                 <ul class="taste-wrapper list-unstyle">
                     <li class="taste-item interactable-box"
                         *ngFor="let item of resume.getTastes()">

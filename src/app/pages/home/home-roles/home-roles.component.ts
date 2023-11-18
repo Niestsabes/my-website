@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { ResumeRolesInterface } from 'src/app/models/resume.interface';
 
 @Component({
   selector: 'app-home-roles',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./home-roles.component.scss']
 })
 export class HomeRolesComponent {
-
+  @Input() roleItem: ResumeRolesInterface;
 }

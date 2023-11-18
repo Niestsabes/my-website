@@ -28,6 +28,48 @@
             "description": "Le partage d'informations est une composante clé du travail en équipe. Je soigne ma communication en choisissant le bon format et les bons mots au bon moment. Je suis aussi avantagé par ma connaissance de multiples langues."
         }
     ],
+    "roles": {
+      "title": "C'est tout moi !",
+      "description": [
+        "En étant curieux et volontaire, je suis devenu plutôt versatile.",
+        "Néanmoins, ma spécialité reste le développment front-end."
+      ],
+      "items": [
+        {
+          "title": "Design",
+          "icon": "icon-pencil-ruler",
+          "description": [
+            "J'apprécie les interfaces simples et accessibles. Si un écran doit être expliqué, alors quelque chose cloche."
+          ],
+          "tagsTitle": "Les choses que je designe:",
+          "tags": ["UI", "UX", "Web", "App", "Games"],
+          "toolsTitle": "Outils de design:",
+          "tools": ["Icomoon", "Font Awesome", "Bootstrap", "Tailwind", "Pen & Paper", "Paint.net", "Figma"]
+        },
+        {
+          "title": "Développement",
+          "icon": "icon-tools",
+          "description": [
+            "Je considére le code comme un artisanat et, un terreau fertile pour l'expression."
+          ],
+          "tagsTitle": "Quelques languages que j'utilise:",
+          "tags": ["HTML", "Sass", "Angular", "Express", "Git", "MySQL", "NoSQL"],
+          "toolsTitle": "Outils de dev:",
+          "tools": ["VSCode", "PHPStorm", "Jenkins", "SonarQube", "Jest", "Cypress", "Docker", "GitHub", "MongoDB", "Unity"]
+        },
+        {
+          "title": "Agilité",
+          "icon": "icon-clipboard",
+          "description": [
+            "Le management joue un rôle majeur dans la réussite d'un projet. Je ne suis guère expressif, mais dis ce qui doit l'être."
+          ],
+          "tagsTitle": "Ce que j'ai pu pratiquer:",
+          "tags": ["Scrum", "SAFE", "Design DOC", "Functional Doc"],
+          "toolsTitle": "Outils de pilotage agile:",
+          "tools": ["Jira", "BitBucket", "Confluence", "GitLab", "Microsoft Office", "Design Thinking"]
+        }
+      ]
+    },
     "education": [
         {
             "title": "Baccalauréat S",
