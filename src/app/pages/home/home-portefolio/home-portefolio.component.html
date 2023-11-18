@@ -1,0 +1,18 @@
+<section class="page-section" id="portefolio-section">
+    <div class="container">
+        <h2 class="text-center">
+            {{ 'Portefolio' | translate:'portefolio' }}
+        </h2>
+        <main class="page-section__main row">
+            <article class="col-md-6 col-lg-4" *ngFor="let item of portefolio">
+                <div class="portefolio-item interactable-box overflow-hidden position-relative">
+                    <img class="portefolio-item__image" src="{{ item.image }}"/>
+                    <div class="portefolio-item__content">
+                        <h3 class="portefolio-item__title">{{ item.title }}</h3>
+                        <p class="text-justify">{{ item.description }}</p>
+                    </div>
+                </div>
+            </article>
+        </main>
+    </div>
+</section>

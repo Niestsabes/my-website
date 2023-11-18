@@ -3,8 +3,8 @@
         <h2 class="text-center iconed-text">
             {{ "Professional Experiences" | translate:'experiences' }}
         </h2>
-        <main id="home-exp__accordion">
-            <div *ngFor="let exp of experiences; let index as index" class="home-exp__accordion-item">
+        <main class="page-section__main row">
+            <article *ngFor="let exp of experiences; let index as index" class="home-exp__accordion col-sm-12">
                 <h3 class="home-exp__accordion-header" [id]="'heading' + index">
                     <button class="home-exp__accordion-button button" type="button" 
                         data-toggle="collapse" [attr.data-target]="'#collapse' + index"
@@ -40,7 +40,7 @@
                         </aside>
                     </div>
                 </div>
-            </div>
+            </article>
         </main>
     </div>
 </section>

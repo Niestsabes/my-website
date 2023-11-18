@@ -1,0 +1,41 @@
+@import '../../../../assets/style/theme.scss';
+@import '../../../../assets/style/colors.scss';
+
+.portefolio-item {
+    margin-bottom: 30px;
+    height: 180px;
+
+    &:hover, &:focus {
+        .portefolio-item__content {
+            height: 100%;
+        }
+    }
+}
+
+.portefolio-item__image {
+    position: absolute;
+    width: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 1;
+}
+
+.portefolio-item__content {
+    position: absolute;
+    color: $app-white;
+    bottom: 0;
+    background-color: rgba($app-black, 0.6);
+    width: 100%;
+    height: calc(1rem + 1.2em);
+    padding: 0.5rem 1rem;
+    transition: 0.5s;
+    z-index: 2;
+}
+
+.portefolio-item__title {
+    margin: 0;
+    font-family: "Varela Round", "Valera", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}

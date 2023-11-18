@@ -1,17 +1,5 @@
 @import '../../../../assets/style/theme.scss';
 
-.home-exp__accordion {
-    width: 100%;
-}
-
-.home-exp__accordion-item {
-    width: 100%;
-    border-radius: 0.5em;
-    margin-bottom: 1em;
-    max-width: 50em;
-    margin: 0 auto;
-}
-
 .home-exp__accordion-header {
     width: 100%;
     font-size: 1em !important;
@@ -22,41 +10,4 @@
     display: flex !important;
     justify-content: space-between;
     align-items: center;
-}
-
-.home-exp__accordion-body {
-    width: 100%;
-    padding: calc(#{$btn-height} / 3) calc(#{$btn-height} / 2);
-    border: 1px solid $app-black;
-    border-radius: calc(#{$btn-height} / 6);
-    box-sizing: border-box;
-    box-shadow: 4px 4px $app-black;
-    text-decoration: none;
-    font-weight: 400;
-    color: $app-black;
-    background-color: $app-btn-bg-color;
-    transition: all 0.3s ease-in-out;
-    overflow: hidden;
-
-    &.show {
-        display: block;
-        visibility: visible;
-    }
-
-    &:not(.show) {
-        display: none;
-    }
-}
-
-.home-exp__accordion-body__meta {
-    display: flex;
-    align-items: center;
-
-    > * {
-        margin-right: 1em;
-    }
-
-    [class^="icon"] {
-        margin-right: 0.25em;
-    }
 }

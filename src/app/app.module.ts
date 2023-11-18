@@ -23,6 +23,9 @@ import { HeaderMainComponent } from './components/header-main/header-main.compon
 import { HomeAssetsComponent } from './pages/home/home-assets/home-assets.component';
 import { HomeExperiencesComponent } from './pages/home/home-experiences/home-experiences.component';
 import { HomePresentationComponent } from './pages/home/home-presentation/home-presentation.component';
+import { HomeAboutComponent } from './pages/home/home-about/home-about.component';
+import { HomePortefolioComponent } from './pages/home/home-portefolio/home-portefolio.component';
+import { HomeJobsComponent } from './pages/home/home-jobs/home-jobs.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +46,10 @@ import { HomePresentationComponent } from './pages/home/home-presentation/home-p
     HeaderMainComponent,
     HomeAssetsComponent,
     HomeExperiencesComponent,
-    HomePresentationComponent
+    HomePresentationComponent,
+    HomeAboutComponent,
+    HomePortefolioComponent,
+    HomeJobsComponent
   ],
   imports: [
     BrowserModule,

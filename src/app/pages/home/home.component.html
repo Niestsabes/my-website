@@ -1,83 +1,10 @@
 <app-header-main></app-header-main>
-
 <app-home-banner></app-home-banner>
 <app-subtitle-banner></app-subtitle-banner>
-
-<app-home-assets [assets]="resume.getAssets()"></app-home-assets>
-
-<!-- Presentation Section -->
-<section class="page-section"  id="presentation-section">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4 align-self-center mb-auto">
-        <div class="profile-picture-wrapper">
-          <img [src]="images.profilImage" alt="Profile picture"/>
-        </div>
-      </div>
-      <div class="col-md-8 align-self-center mb-auto">
-        <h2 class="text-center iconed-text">
-          <app-icon icon="icon-user-solid"></app-icon>
-          <span>{{ 'A propos' | translate:'aboutMe' }}</span>
-        </h2>
-        <article *ngIf="resume.getPresentation()">
-          <p *ngFor="let desc of resume.getPresentation().description" class="text-justify">
-            {{ desc }}
-          </p>
-        </article>
-        <aside class="row">
-          <div class="col-md-6 align-self-center mb-auto">
-            <h3 class="text-center">
-              {{ 'Mes goûts' | translate:'myTastes' }}
-            </h3>
-            <ul class="taste-wrapper">
-              <li class="taste-item"
-                *ngFor="let item of resume.getTastes()">
-                <img class="taste-item-image" src="{{ item.image }}"/>
-                <div class="taste-item-content">
-                  <span class="taste-item-text">{{ item.title }}</span>
-                </div>
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-6 align-self-center">
-            <h3 class="text-center">
-              {{ 'Mon style' | translate:'myStyle' }}
-            </h3>
-            <ng-container *ngFor="let charac of resume.getCharacteristics()">
-              <app-gauge [title]="charac.title" [value]="charac.level"></app-gauge>
-            </ng-container>
-          </div>
-        </aside>
-      </div>
-    </div>
-  </div>
-</section>
-
-<app-home-presentation></app-home-presentation>
-
+<app-home-jobs></app-home-jobs>
+<!-- <app-home-assets [assets]="resume.getAssets()"></app-home-assets> -->
+<app-home-about [resume]="resume"></app-home-about>
+<app-home-presentation [resume]="resume"></app-home-presentation>
 <app-home-experiences [experiences]="resume.getExperiences()"></app-home-experiences>
-
-<!-- Portefolio Section -->
-<section class="page-section alternative-color" id="portefolio-section">
-  <h2 class="text-center iconed-text">
-    <app-icon icon="icon-images-solid"></app-icon>
-    <span>{{ 'Portefolio' | translate:'portefolio' }}</span>
-  </h2>
-  <div class="container">
-    <ul class="portefolio-wrapper row">
-      <li class="col-md-6 col-xl-4"
-        *ngFor="let item of resume.getPortefolio()">
-        <div class="portefolio-item">
-          <img class="portefolio-item-image" src="{{ item.image }}"/>
-          <div class="portefolio-item-content">
-            <h3 class="portefolio-item-title">{{ item.title }}</h3>
-            <p class="text-justify">{{ item.description }}</p>
-          </div>
-        </div>
-      </li>
-    </ul>
-  </div>
-</section>
-
-<!-- Contact Section -->
-<app-contact-panel></app-contact-panel>
+<app-home-portefolio [portefolio]="resume.getPortefolio()"></app-home-portefolio>
+<!-- <app-contact-panel></app-contact-panel> -->

@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Resume } from 'src/app/models/resume';
 
 @Component({
   selector: 'app-home-presentation',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./home-presentation.component.scss']
 })
 export class HomePresentationComponent {
-
+  @Input() public resume: Resume;
 }

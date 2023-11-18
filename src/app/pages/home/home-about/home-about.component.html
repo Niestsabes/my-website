@@ -1,0 +1,13 @@
+<section class="page-section" id="presentation-section">
+    <div class="container">
+        <main class="page-section__main row">
+            <article class="col-md-7">
+                <h3>About me...</h3>
+                <p *ngFor="let pres of resume.getPresentation()?.description" class="text-justify">
+                    {{ pres }}
+                </p>
+            </article>
+            <aside class="col-md-5"></aside>
+        </main>
+    </div>
+</section>
