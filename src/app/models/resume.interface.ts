@@ -1,46 +1,37 @@
 export interface ResumeInterface {
-    presentation: ResumeItemInterface,
-    roles: ResumeRolesInterface,
-    languages: ResumeSpeakInterface,
-    education: Array<ResumeExperienceInterface>,
-    experiences: Array<ResumeExperienceInterface>,
-    portefolio: Array<ResumeItemInterface>,
-    tastes: Array<ResumeItemInterface>,
+    presentation: ResumeSection<CommonItem>,
+    roles: ResumeSection<RoleItem>,
+    languages: ResumeSection<CommonItem>,
+    tastes: ResumeSection<CommonItem>,
+    education: ResumeSection<ExperienceItem>,
+    experiences: ResumeSection<ExperienceItem>,
+    portefolio: ResumeSection<CommonItem>,
+    others: { [key: string]: string }
 }
 
-export interface ResumeRolesInterface {
+export type ResumeSection<T = any> = {
     title: string;
     description: string[];
-    items: {
-        title: string;
-        icon: string;
-        description: string[];
-        tagsTitle: string;
-        tags: string[];
-        toolsTitle: string;
-        tools: string[];
-    }[];
+    items: T[];
 }
 
-export interface ResumeSpeakInterface {
+export type RoleItem = {
+    title: string;
+    icon: string;
+    description: string[];
+    tagsTitle: string;
+    tags: string[];
+    toolsTitle: string;
+    tools: string[];
+}
+
+export type CommonItem = {
     title: string;
     description: string[];
-    items: {
-        title: string;
-        description: string[];
-        image: string;
-    }[];
+    image: string;
 }
 
-export interface ResumeItemInterface {
-    title: string;
-    level?: number;
-    rank?: string;
-    description: Array<string>;
-    image?: string;
-}
-
-export interface ResumeExperienceInterface {
+export type ExperienceItem = {
     title: string,
     subtitle: string,
     type: string,

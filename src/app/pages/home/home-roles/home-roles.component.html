@@ -1,18 +1,18 @@
 <section class="page-section">
     <div class="container">
         <h2 class="text-center iconed-text">
-            {{ roleItem.title }}
+            {{ data?.roles.title }}
         </h2>
         <div class="text-center mb-1">
             <span class="icon-star-regular"></span>
         </div>
         <p class="text-center">
-            <ng-container *ngFor="let desc of roleItem.description">
+            <ng-container *ngFor="let desc of data?.roles.description">
                 {{ desc }}<br/>
             </ng-container>
         </p>
         <main class="page-section__main row">
-            <article *ngFor="let item of roleItem.items" class="col-md-4 text-center">
+            <article *ngFor="let item of data?.roles.items" class="col-md-4 text-center">
                 <div class="role-icon">
                     <span [class]="item.icon"></span>
                 </div>

@@ -1,5 +1,6 @@
-import { Component, Input } from '@angular/core';
-import { ResumeExperienceInterface } from 'src/app/models/resume.interface';
+import { Component } from '@angular/core';
+import { ResumeInterface } from 'src/app/models/resume.interface';
+import { DataService } from 'src/app/services/data.service';
 
 @Component({
   selector: 'app-home-experiences',
@@ -7,11 +8,15 @@ import { ResumeExperienceInterface } from 'src/app/models/resume.interface';
   styleUrls: ['./home-experiences.component.scss']
 })
 export class HomeExperiencesComponent {
-  @Input() public experiences: ResumeExperienceInterface[];
-
   public accordionOpenedIndex: number = -1;
 
   public toggleAccordion(index: number): void {
     this.accordionOpenedIndex = this.accordionOpenedIndex === index ? -1 : index;
+  }
+  
+  constructor(private _data: DataService) { }
+
+  get data(): ResumeInterface {
+    return this._data.resume;
   }
 }

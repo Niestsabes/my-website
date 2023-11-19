@@ -1,5 +1,7 @@
-import { Component, Input } from '@angular/core';
+import { Component } from '@angular/core';
 import { Resume } from 'src/app/models/resume';
+import { ResumeInterface } from 'src/app/models/resume.interface';
+import { DataService } from 'src/app/services/data.service';
 
 @Component({
   selector: 'app-home-presentation',
@@ -7,5 +9,10 @@ import { Resume } from 'src/app/models/resume';
   styleUrls: ['./home-presentation.component.scss']
 })
 export class HomePresentationComponent {
-  @Input() public resume: Resume;
+  
+  constructor(private _data: DataService) { }
+
+  get data(): ResumeInterface {
+    return this._data.resume;
+  }
 }

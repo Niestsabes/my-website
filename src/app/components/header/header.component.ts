@@ -6,7 +6,8 @@ import { LocaleInterface } from 'src/app/models/locale.interface';
 import { ROUTES } from 'src/app/constants/routes.dictionary';
 import { IMAGES } from 'src/app/constants/images.dictionary';
 import { TranslatorService } from 'src/app/services/translator.service';
-import { MetadataService } from 'src/app/services/metadata.service';
+import { DataService } from 'src/app/services/data.service';
+import { ResumeInterface } from 'src/app/models/resume.interface';
 
 @Component({
   selector: 'app-header',
@@ -34,8 +35,13 @@ export class HeaderComponent implements OnInit {
     private _localeService: LocaleService,
     private _translateService: TranslatorService,
     private _router: Router,
-    private _location: Location
+    private _location: Location,
+    private _data: DataService
   ) { }
+
+  get data(): ResumeInterface {
+    return this._data.resume;
+  }
 
   ngOnInit(): void {
     this._router.events.subscribe( value => {

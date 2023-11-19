@@ -1,5 +1,6 @@
-import { Component, Input } from '@angular/core';
-import { ResumeItemInterface } from 'src/app/models/resume.interface';
+import { Component } from '@angular/core';
+import { ResumeInterface } from 'src/app/models/resume.interface';
+import { DataService } from 'src/app/services/data.service';
 
 @Component({
   selector: 'app-home-portefolio',
@@ -7,5 +8,10 @@ import { ResumeItemInterface } from 'src/app/models/resume.interface';
   styleUrls: ['./home-portefolio.component.scss']
 })
 export class HomePortefolioComponent {
-  @Input() public portefolio: Array<ResumeItemInterface>;
+  
+  constructor(private _data: DataService) { }
+
+  get data(): ResumeInterface {
+    return this._data.resume;
+  }
 }

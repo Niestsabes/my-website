@@ -11,6 +11,8 @@ import { LocaleService } from './locale.service';
 })
 export class DataService {
 
+  private _resume: ResumeInterface;
+
   constructor(
     private _http: HttpClient,
     private _localeService: LocaleService
@@ -23,10 +25,14 @@ export class DataService {
     return this._http.get<ResumeInterface>(
       `${ROUTES.api.root}/${this._localeService.getLocale().id}/${ROUTES.api.paths.resume}`
     ).pipe(
-      map( resume => { 
+      map( resume => {
+        this._resume = resume;
         return resume;
       })
     )
   }
 
+  get resume(): ResumeInterface {
+    return this._resume;
+  }
 }

@@ -3,16 +3,16 @@
     <div class="home-banner__avatar">
       <img src="./assets/images/avatar.png"/>
     </div>
-    <h1>Sébastien Cayet</h1>
+    <h1>{{ data?.others.title }}</h1>
     <div class="d-flex pb-3">
       <span class="icon-star mx-1"></span>
       <span class="icon-star mx-1"></span>
       <span class="icon-star mx-1"></span>
     </div>
-    <p>Frontend software engineer</p>
+    <p>{{ data?.others.subtitle }}</p>
   </main>
   <aside class="home-banner__more theme-text-shadow">
-    <span>More<br/>below<br/></span>
+    <span>{{ data?.others.more }}</span>
     <div class="home-banner__more-icon">
       <span class="icon-arrow-down"></span>
     </div>

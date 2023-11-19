@@ -1,6 +1,6 @@
 {
     "presentation": {
-        "title": "",
+        "title": "À propos",
         "description": [
           "Je suis un collaborateur actif avec un capital de compétences multiples couvrant la plupart des aspects du développement d'applications. Ingénieur diplômé d'IMT Mines Albi, ma spécialité est le développement front-end. Cependant, j'ai aussi beaucoup travaillé sur le back-end, le prototypage d'interfaces utilisateur, la gestion de projets en Agile, la rédaction de documentations et de spécifications, et plus encore. Ambitieux et enthousiaste, je crois passionnément en la création d'applications intuitives, attrayantes et inclusives pour obtenir la satisfaction du plus grand nombre.",
           "La détermination et la curiosité font partie de mes points forts. Je m'amuse souvent à trouver de nouveaux processus ou de nouvelles technologies pour améliorer ma routine de travail et les partager aux autres. En tant que Techlead, il est crucial de rester à jour, mais je veille à m'assurer de la croissance de mes collègues également, toujours avec patience et gentillesse. Ma solide connaissance des pratiques de code propre et de la gestion de projet ont toujours été des clés de succès sur projets pour lesquels j'ai travaillé."
@@ -76,6 +76,137 @@
         }
       ]
     },
+    "tastes": {
+      "title": "Centres d'intérêt",
+      "items": [
+        {
+            "title": "Nourriture épicée",
+            "image": "assets/images/taste-spicy-food.png"
+        },
+        {
+            "title": "Animation Japonaise",
+            "image": "assets/images/taste-japanese-animation.png"
+        },
+        {
+            "title": "Créer et jouer à des jeux",
+            "image": "assets/images/taste-game.png"
+        },
+        {
+            "title": "Apprendre",
+            "image": "assets/images/taste-learn.png"
+        }
+      ]
+    },
+    "experiences": {
+      "title": "Expériences",
+      "description": [],
+      "items": [
+        {
+          "title": "Lead Développeur Angular & Scrum Master",
+          "subtitle": "Angular Techlead / Scrum Master",
+          "date":"09/2023 à ??/????",
+          "company": "Spie CityNetworks (Klanik)",
+          "place": "Lyon, France",
+          "description": [
+            "Développement d'une application web pour coordination de l'administration du réseau routier du Grand Lyon, réalisée par le gérant CORALY. Connectée aux services informatiques des divers exploitants, elle est utilisée par les opérateurs CORALY pour communiquer et proposer des scénarios de résolution d'incidents.",
+            "J'ai dirigé une équipe de trois développeurs, réalisé les revues de code, veillé à la qualité de l'application, rédigé de la documentation technique et fonctionnelle et mis en place des évolutions techniques."
+          ],
+          "tags": ["Angular 15-16", "NodeJS", "Docker", "GitLab"]
+        },
+        {
+          "title": "Lead Développeur Angular",
+          "subtitle": "Angular Techlead",
+          "date": "09/2022 à 09/2023",
+          "company": "Spie CityNetworks (Klanik)",
+          "place": "Lyon, France",
+          "description": [
+            "Développement d'une suite d'applications web pour la supervision de la Métropole Nice Côte-d'Azur. Connectée aux équipements routiers et services informatiques de la Métropole, elle est utilisée par le Poste de Commande de la ville pour résoudre les évènements survenants dans l'agglomération niçoise.",
+            "La plateforme comprend un Module d'Hypervision pour compiler en temps réel les données du terrain, un Module de Cartographie affichant l'état des équipements routiers, un Module de Rejeu pour revisualiser les séquences d'exploitation, et un Module de Configuration pour paramétrer les modèles de données.",
+            "J'ai dirigé une équipe de trois développeurs, assaini la base de code, amélioré les performances de l'application, effectué le maquettage de nouveaux écrans, supervisé la rédaction de documents et proposé des évolutions techniques"
+          ],
+          "tags": ["Angular 10-15", "GitLab"],
+          "link": "https://www.spie.com/fr",
+          "details": []
+        },
+        {
+          "title": "Développeur Full Stack (Angular/PHP) & Scrum Master",
+          "subtitle": "Développeur Full Stack / UX Designer / Scrum Master",
+          "date": "10/2019 à 09/2022",
+          "company": "Amadeus (Capgemini Engineering)",
+          "place": "Sophia-Antipolis, France",
+          "description": [
+            "Développement & maintenance d'une application d'aide à la gestion du budget",
+            "J'ai rejoint la division des services transversaux et de la coordination, avec pour mission de sécuriser la mise en œuvre des programmes stratégiques et transversaux dans tout Amadeus.",
+            "Mon équipe a pour objectif d'apporter la prévisibilité à la direction pour une efficacité et une simplicité opérationnelles pour plus de 1700 acteurs. Avec 2 spécialistes métier et 2 autres développeurs web, une de nos activités consiste à développer et à maintenir la Management Suite, une application permettant à nos utilisateurs de gérer leur budget et leurs ressources."
+          ],
+          "link": "https://amadeus.com/",
+          "tags": ["Angular 11", "Symfony", "MySQL", "Scrum", "JIRA", "Jenkins", "SonarQube", "Azure"],
+          "details": []
+        },
+        {
+          "title": "Stagiaire Développeur Web / Android / Alexa",
+          "subtitle": "Dévellopeur Web / Android / Alexa",
+          "date": "03/2019 à 08/2019",
+          "type": "Stage",
+          "company": "Relief Applications",
+          "place": "Madrid, Espagne",
+          "description": [
+            "Création d'applications innovantes à des fins humanitaires",
+            "En tant que développeur frontend & backend, j'ai travaillé sur plusieurs projets qui visent à apporter des solutions open-source aux organisations humanitaires déployées sur des zones de conflits.",
+            "J'ai étudié le cycle de vie complet d'un projet, et les processus de déploiement basiques d'un serveur avec Linux."
+          ],
+          "tags": ["Angular 8", "NodeJS", "Ionic", "AWS"],
+          "link": "https://reliefapplications.org/"
+        },
+        {
+          "title": "Stagiaire Développeur Fullstack (Angular/PHP)",
+          "subtitle": "Développeur Full Stack",
+          "date": "05/2018 à 08/2018",
+          "type": "Stage",
+          "company": "Thales Alenia Space",
+          "place": "Cannes, France",
+          "description": [
+            "Prototypage d'un Master Data Management System pour aider à la gestion de projets.",
+            "J'ai initié la mise en place d'un systéme de Gestion des Données de Référence, afin d'améliorer la ponctualité des projets du département logiciel.",
+            "J'ai travaillé sur les diverse facettes d'une application web en trois-tiers: front-end avec Angular, back-end avec PHP, base de données avec MySQL.",
+            "J'ai aussi été gérant de mon projet. J'ai employé un processus de développement Agile, ponctué de réunions avec des collaborateurs des sites de Cannes et de Toulouse."
+          ],
+          "tags": ["Angular 5", "PHP", "MySQL", "Agile"],
+          "link": "https://www.thalesgroup.com/fr/espace"
+        }
+      ]
+    },
+    "portefolio": {
+      "title": "Portefolio",
+      "description": [],
+      "items": [
+        {
+          "title": "Site web personnel",
+          "description": "Un projet Angular qui me sert à la fois de vitrine et de bac à sable.",
+          "image": "assets/images/portefolio-personal-website.png"
+        },
+        {
+          "title": "PokeGuesser",
+          "description": "Un projet d'initiation à React qui reprend le principe du jeu Wordle, mais à la sauce Pokémon.",
+          "image": "assets/images/portefolio-pokeguesser.png"
+        },
+        {
+          "title": "BotBack",
+          "description": "Un puzzle-game crée en moins de 48h pour la 19ème Game Jam de la Game Dev Party à Lyon.",
+          "image": "assets/images/portefolio-botback.png"
+        },
+        {
+          "title": "Isogenius",
+          "description": "Un puzzle-game crée en moins de 48h pour la Scientific Game Jam à Lyon.",
+          "image": "assets/images/portefolio-isogenius.png"
+        },
+        {
+          "title": "Chompa-gnon",
+          "description": "Un puzzle-game crée en moins de 72h pour la 20ème Game Jam de la Game Dev Party à Lyon.",
+          "image": "assets/images/portefolio-chompagnon.png"
+        }
+      ]
+    },
     "education": [
         {
             "title": "Baccalauréat S",
@@ -107,129 +238,15 @@
             "link": "https://www.imt-mines-albi.fr/"
         }
     ],
-    "experiences": [
-      {
-        "title": "Lead Développeur Angular & Scrum Master",
-        "subtitle": "Angular Techlead / Scrum Master",
-        "date":"09/2023 à ??/????",
-        "company": "Spie CityNetworks (Klanik)",
-        "place": "Lyon, France",
-        "description": [
-          "Développement d'une application web pour coordination de l'administration du réseau routier du Grand Lyon, réalisée par le gérant CORALY. Connectée aux services informatiques des divers exploitants, elle est utilisée par les opérateurs CORALY pour communiquer et proposer des scénarios de résolution d'incidents.",
-          "J'ai dirigé une équipe de trois développeurs, réalisé les revues de code, veillé à la qualité de l'application, rédigé de la documentation technique et fonctionnelle et mis en place des évolutions techniques."
-        ],
-        "tags": ["Angular 15-16", "NodeJS", "Docker", "GitLab"]
-      },
-      {
-        "title": "Lead Développeur Angular",
-        "subtitle": "Angular Techlead",
-        "date": "09/2022 à 09/2023",
-        "company": "Spie CityNetworks (Klanik)",
-        "place": "Lyon, France",
-        "description": [
-          "Développement d'une suite d'applications web pour la supervision de la Métropole Nice Côte-d'Azur. Connectée aux équipements routiers et services informatiques de la Métropole, elle est utilisée par le Poste de Commande de la ville pour résoudre les évènements survenants dans l'agglomération niçoise.",
-          "La plateforme comprend un Module d'Hypervision pour compiler en temps réel les données du terrain, un Module de Cartographie affichant l'état des équipements routiers, un Module de Rejeu pour revisualiser les séquences d'exploitation, et un Module de Configuration pour paramétrer les modèles de données.",
-          "J'ai dirigé une équipe de trois développeurs, assaini la base de code, amélioré les performances de l'application, effectué le maquettage de nouveaux écrans, supervisé la rédaction de documents et proposé des évolutions techniques"
-        ],
-        "tags": ["Angular 10-15", "GitLab"],
-        "link": "https://www.spie.com/fr",
-        "details": []
-      },
-      {
-        "title": "Développeur Full Stack (Angular/PHP) & Scrum Master",
-        "subtitle": "Développeur Full Stack / UX Designer / Scrum Master",
-        "date": "10/2019 à 09/2022",
-        "company": "Amadeus (Capgemini Engineering)",
-        "place": "Sophia-Antipolis, France",
-        "description": [
-          "Développement & maintenance d'une application d'aide à la gestion du budget",
-          "J'ai rejoint la division des services transversaux et de la coordination, avec pour mission de sécuriser la mise en œuvre des programmes stratégiques et transversaux dans tout Amadeus.",
-          "Mon équipe a pour objectif d'apporter la prévisibilité à la direction pour une efficacité et une simplicité opérationnelles pour plus de 1700 acteurs. Avec 2 spécialistes métier et 2 autres développeurs web, une de nos activités consiste à développer et à maintenir la Management Suite, une application permettant à nos utilisateurs de gérer leur budget et leurs ressources."
-        ],
-        "link": "https://amadeus.com/",
-        "tags": ["Angular 11", "Symfony", "MySQL", "Scrum", "JIRA", "Jenkins", "SonarQube", "Azure"],
-        "details": []
-      },
-      {
-        "title": "Stagiaire Développeur Web / Android / Alexa",
-        "subtitle": "Dévellopeur Web / Android / Alexa",
-        "date": "03/2019 à 08/2019",
-        "type": "Stage",
-        "company": "Relief Applications",
-        "place": "Madrid, Espagne",
-        "description": [
-          "Création d'applications innovantes à des fins humanitaires",
-          "En tant que développeur frontend & backend, j'ai travaillé sur plusieurs projets qui visent à apporter des solutions open-source aux organisations humanitaires déployées sur des zones de conflits.",
-          "J'ai étudié le cycle de vie complet d'un projet, et les processus de déploiement basiques d'un serveur avec Linux."
-        ],
-        "tags": ["Angular 8", "NodeJS", "Ionic", "AWS"],
-        "link": "https://reliefapplications.org/"
-      },
-      {
-        "title": "Stagiaire Développeur Fullstack (Angular/PHP)",
-        "subtitle": "Développeur Full Stack",
-        "date": "05/2018 à 08/2018",
-        "type": "Stage",
-        "company": "Thales Alenia Space",
-        "place": "Cannes, France",
-        "description": [
-          "Prototypage d'un Master Data Management System pour aider à la gestion de projets.",
-          "J'ai initié la mise en place d'un systéme de Gestion des Données de Référence, afin d'améliorer la ponctualité des projets du département logiciel.",
-          "J'ai travaillé sur les diverse facettes d'une application web en trois-tiers: front-end avec Angular, back-end avec PHP, base de données avec MySQL.",
-          "J'ai aussi été gérant de mon projet. J'ai employé un processus de développement Agile, ponctué de réunions avec des collaborateurs des sites de Cannes et de Toulouse."
-        ],
-        "tags": ["Angular 5", "PHP", "MySQL", "Agile"],
-        "link": "https://www.thalesgroup.com/fr/espace"
-      }
-    ],
-    "portefolio": [
-      {
-        "title": "Site web personnel",
-        "description": "Un projet Angular qui me sert à la fois de vitrine et de bac à sable.",
-        "image": "assets/images/portefolio-personal-website.png"
-      },
-      {
-        "title": "PokeGuesser",
-        "description": "Un projet d'initiation à React qui reprend le principe du jeu Wordle, mais à la sauce Pokémon.",
-        "image": "assets/images/portefolio-pokeguesser.png"
-      },
-      {
-        "title": "BotBack",
-        "description": "Un puzzle-game crée en moins de 48h pour la 19ème Game Jam de la Game Dev Party à Lyon.",
-        "image": "assets/images/portefolio-botback.png"
-      },
-      {
-        "title": "Isogenius",
-        "description": "Un puzzle-game crée en moins de 48h pour la Scientific Game Jam à Lyon.",
-        "image": "assets/images/portefolio-isogenius.png"
-      },
-      {
-        "title": "Chompa-gnon",
-        "description": "Un puzzle-game crée en moins de 72h pour la 20ème Game Jam de la Game Dev Party à Lyon.",
-        "image": "assets/images/portefolio-chompagnon.png"
-      }
-    ],
-    "tastes": [
-        {
-            "title": "Nourriture épicée",
-            "image": "assets/images/taste-spicy-food.png"
-        },
-        {
-            "title": "Animation Japonaise",
-            "image": "assets/images/taste-japanese-animation.png"
-        },
-        {
-            "title": "Créer et jouer à des jeux",
-            "image": "assets/images/taste-game.png"
-        },
-        {
-            "title": "Apprendre",
-            "image": "assets/images/taste-learn.png"
-        }
-    ],
     "contact": {
         "fullName": "Sébastien Cayet",
         "phone": "+33 6 46 88 15 19",
         "email": "sebcayet@gmail.com"
+    },
+    "others": {
+      "title": "Sébastien Cayet",
+      "subtitle": "Dévellopeur Frontend",
+      "more": "Voir plus",
+      "cookies": "Ce site est garanti sans cookies! Développé par Sébastien CAYET (lui-même) with Angular 15."
     }
 }

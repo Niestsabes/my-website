@@ -5,7 +5,7 @@
       routerLinkActive="active">
       <img class="site-icon-button-image" [src]="images.siteMainImage" alt="SC"/>
     </a>
-    <span class="header-title d-none d-md-inline">{{ 'Sébastien CAYET' | translate:'title' }}</span>
+    <span class="header-title d-none d-md-inline">{{ data?.others.title }}</span>
     <button class="header-side-button d-md-none"
       id="dropdownMenuButton"
       type="button" 
@@ -30,7 +30,7 @@
         <app-icon [icon]="btn.iconName"></app-icon>
       </a>
     </ng-container>
-    <span class="header-title d-md-none">{{ 'Sébastien CAYET' | translate:'title' }}</span>
+    <span class="header-title d-md-none">{{ data?.others.title }}</span>
   </div>
   <div class="header-right">
     <span class="btn-group">

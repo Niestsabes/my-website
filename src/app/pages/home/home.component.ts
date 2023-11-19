@@ -1,7 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { DataService } from 'src/app/services/data.service';
 import { LocaleService } from 'src/app/services/locale.service';
-import { Resume } from 'src/app/models/resume';
 import { ROUTES } from './../../constants/routes.dictionary';
 import { IMAGES } from 'src/app/constants/images.dictionary';
 
@@ -10,11 +9,10 @@ import { IMAGES } from 'src/app/constants/images.dictionary';
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss']
 })
-export class HomeComponent implements OnInit {
+export class HomeComponent {
 
-  public routes = ROUTES;
-  public images = IMAGES;
-  public resume: Resume = new Resume();
+  public readonly routes = ROUTES;
+  public readonly images = IMAGES;
 
   constructor(
     public dataService: DataService,
@@ -26,12 +24,7 @@ export class HomeComponent implements OnInit {
     this.getResume();
   }
 
-  ngOnInit(): void { }
-
-  /**
-   * @description Retrieve resume from api
-   */
   public getResume(): void {
-    this.dataService.getResume().subscribe( value => this.resume.setData(value));
+    this.dataService.getResume().subscribe();
   }
 }

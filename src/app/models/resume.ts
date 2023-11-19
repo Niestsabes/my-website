@@ -1,4 +1,4 @@
-import { ResumeInterface, ResumeItemInterface, ResumeExperienceInterface, ResumeRolesInterface, ResumeSpeakInterface } from './resume.interface';
+import { ResumeInterface } from './resume.interface';
 
 export class Resume {
 
@@ -13,14 +13,14 @@ export class Resume {
         this._rawData = value;
     }
 
-    public getRoles(): ResumeRolesInterface {
+    public getRoles(): any {
         if ( !this._rawData || !this._rawData.roles ) {
             return null;
         }
         return this._rawData.roles;
     }
 
-    public getSpeak(): ResumeSpeakInterface {
+    public getSpeak(): any {
         if ( !this._rawData || !this._rawData.languages ) {
             return null;
         }
@@ -31,7 +31,7 @@ export class Resume {
      * @description Returns the presentation found in raw data
      * @returns presentation
      */
-    public getPresentation(): ResumeItemInterface {
+    public getPresentation(): any {
         if ( !this._rawData || !this._rawData.presentation ) {
             return null;
         }
@@ -42,7 +42,7 @@ export class Resume {
      * @description Returns education found in raw data
      * @returns list of educations
      */
-    public getEducation(): Array<ResumeExperienceInterface> {
+    public getEducation(): any {
         if ( !this._rawData || !this._rawData.education ) {
             return [];
         }
@@ -53,7 +53,7 @@ export class Resume {
      * @description Returns the experiences found in raw data
      * @returns list of experiences
      */
-    public getExperiences(): Array<ResumeExperienceInterface> {
+    public getExperiences(): any {
         if ( !this._rawData || !this._rawData.experiences ) {
             return [];
         }
@@ -64,17 +64,18 @@ export class Resume {
      * @description Returns the list of tastes found in raw data
      * @returns list of tastes
      */
-    public getTastes(): Array<ResumeItemInterface> {
-        if ( !this._rawData || !this._rawData.tastes ) {
-            return [];
-        }
-        return this._rawData.tastes;
+    public getTastes(): any {
+        // if ( !this._rawData || !this._rawData.tastes ) {
+        //     return [];
+        // }
+        // return this._rawData.tastes;
+        return [];
     }
 
     /**
      * @description Returns the portefolio found in row data
      */
-    public getPortefolio(): Array<ResumeItemInterface> {
+    public getPortefolio(): any {
         if ( !this._rawData || !this._rawData.portefolio ) {
             return [];
         }
