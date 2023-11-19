@@ -5,11 +5,7 @@ export interface ResumeInterface {
     education: Array<ResumeExperienceInterface>,
     experiences: Array<ResumeExperienceInterface>,
     portefolio: Array<ResumeItemInterface>,
-    characteristics: Array<ResumeItemInterface>,
     tastes: Array<ResumeItemInterface>,
-    skills: {
-        [type: string]: Array<ResumeItemInterface>
-    }
 }
 
 export interface ResumeRolesInterface {

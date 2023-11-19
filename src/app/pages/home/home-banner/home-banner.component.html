@@ -1,29 +1,14 @@
-<section class="banner-container">
-  <div class="banner__image-container">
-    <img [src]="images.mainPhoto" alt="Sébastien Cayet" class="banner__image"/>
-  </div>
-	<main class="banner__text py-3">
-		<p class="theme-text-shadow" id="greatings">
-      {{ 'Greatings!' | translate:'greatings' }}
-    </p>
-    <p class="theme-text-shadow" id="greatings_description">
-      {{ 'I\'m Sébastien, a Lead Web Developer.' | translate:'greatingsDescription' }}
-    </p>
-    <p class="theme-text-shadow" id="greatings_current">
-      {{ 'Currently an Angular Techlead for Klanik, in Lyon.' | translate:'greatingsOccupation' }}
-    </p>
-    <aside>
-      <a [href]="routes.files.resume" class="button bouncy-0" target="_blank">
-        {{ 'Download my resume' | translate:'seeResume' }}
-      </a>
-      <a class="button" [routerLink]="routes.app.contact" routerLinkActive="active">
-        {{ 'Contact me' | translate:'sendMail' }}
-      </a>
-    </aside>
+<section class="home-banner">
+	<main class="home-banner__main">
+    <div class="home-banner__avatar">
+      <img src="./assets/images/avatar.png"/>
+    </div>
+    <h1 class="theme-text-shadow">Sébastien Cayet</h1>
+    <p class="theme-text-shadow">Frontend software engineer</p>
   </main>
-  <aside class="banner__more theme-text-shadow">
+  <aside class="home-banner__more theme-text-shadow">
     <span>More<br/>below<br/></span>
-    <div class="banner__more-icon">
+    <div class="home-banner__more-icon">
       <span class="icon-arrow-down"></span>
     </div>
   </aside>
