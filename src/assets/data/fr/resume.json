@@ -6,28 +6,6 @@
           "La détermination et la curiosité font partie de mes points forts. Je m'amuse souvent à trouver de nouveaux processus ou de nouvelles technologies pour améliorer ma routine de travail et les partager aux autres. En tant que Techlead, il est crucial de rester à jour, mais je veille à m'assurer de la croissance de mes collègues également, toujours avec patience et gentillesse. Ma solide connaissance des pratiques de code propre et de la gestion de projet ont toujours été des clés de succès sur projets pour lesquels j'ai travaillé."
         ]
     },
-    "assets": [
-        {
-            "title": "Développement Web",
-            "image": "icon-tools-solid",
-            "description": "Ma connaissance de multiples languages et de pratiques de code saines me conférent beaucoup d'autonomie pour démarrer de nouveaux projets, ou m'adapter à des applications existantes."
-        },
-        {
-            "title": "Management Agile",
-            "image": "icon-clipboard-list",
-            "description": "Une bonne gestion est une dimention importante d'un projet. Ayant déjà été Scrum Master d'une équipe, j'évengélise la mise en place de pratiques Agile dans mes équipes de travail."
-        },
-        {
-            "title": "UX/UI Design",
-            "image": "icon-pencil-ruler-solid",
-            "description": "Les utilisateurs sont l'élément central de n'importe quel produit. J'utilise mes connaissances pour reccueillir leur besoin et prototyper des applications les plus dimple, utiles et agréables possible."
-        },
-        {
-            "title": "Communication",
-            "image": "icon-comments-solid",
-            "description": "Le partage d'informations est une composante clé du travail en équipe. Je soigne ma communication en choisissant le bon format et les bons mots au bon moment. Je suis aussi avantagé par ma connaissance de multiples langues."
-        }
-    ],
     "roles": {
       "title": "C'est tout moi !",
       "description": [
@@ -67,6 +45,34 @@
           "tags": ["Scrum", "SAFE", "Design DOC", "Functional Doc"],
           "toolsTitle": "Outils de pilotage agile:",
           "tools": ["Jira", "BitBucket", "Confluence", "GitLab", "Microsoft Office", "Design Thinking"]
+        }
+      ]
+    },
+    "languages": {
+      "title": "Langues",
+      "description": [
+        "Si vous parlez à un homme dans une langue qu'il comprend, cela va dans sa tête. Si vous lui parlez dans sa propre langue, cela va à son cœur."
+      ],
+      "items": [
+        {
+          "title": "Français",
+          "description": "Langue natale",
+          "image": "assets/images/flag-french.png"
+        },
+        {
+            "title": "Anglais",
+            "description": "Niveau Professionnel",
+            "image": "assets/images/flag-english.png"
+        },
+        {
+            "title": "Spanish",
+            "description": "Débutant",
+            "image": "assets/images/flag-spanish.png"
+        },
+        {
+            "title": "Japanese",
+            "description": "Débutant",
+            "image": "assets/images/flag-japanese.png"
         }
       ]
     },
@@ -371,44 +377,6 @@
         {
             "title": "Apprendre",
             "image": "assets/images/taste-learn.png"
-        }
-    ],
-    "languages": [
-        {
-            "title": "Français",
-            "level": 100,
-            "rank": "Langue maternelle",
-            "image": "assets/images/flag-french.png"
-        },
-        {
-            "title": "Anglais",
-            "level": 75,
-            "rank": "Professionnel",
-            "description": [
-                "Séjours à New York et à Londres.",
-                "Langue de travail"
-            ],
-            "image": "assets/images/flag-english.png"
-        },
-        {
-            "title": "Espagnol",
-            "level": 60,
-            "rank": "B2",
-            "description": [
-                "Cours hebdomadaire pendant ma scolarité.",
-                "Stage de 6 mois à Madrid."
-            ],
-            "image": "assets/images/flag-spanish.png"
-        },
-        {
-            "title": "Japonais",
-            "level": 15,
-            "rank": "JLPT N5",
-            "description": [
-                "Je lis et écris les hiragana et katakana, et une centaine de kanjis.",
-                "Je maîtrise les notions de base de la langue."
-            ],
-            "image": "assets/images/flag-japanese.png"
         }
     ],
     "contact": {

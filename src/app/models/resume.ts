@@ -1,4 +1,4 @@
-import { ResumeInterface, ResumeItemInterface, ResumeExperienceInterface, ResumeRolesInterface } from './resume.interface';
+import { ResumeInterface, ResumeItemInterface, ResumeExperienceInterface, ResumeRolesInterface, ResumeSpeakInterface } from './resume.interface';
 
 export class Resume {
 
@@ -13,22 +13,18 @@ export class Resume {
         this._rawData = value;
     }
 
-    /**
-     * @description Returns list of assets found in raw data
-     * @returns list of assets
-     */
-    public getAssets(): Array<ResumeItemInterface> {
-        if ( !this._rawData || !this._rawData.assets ) {
-            return [];
-        }
-        return this._rawData.assets;
-    }
-
     public getRoles(): ResumeRolesInterface {
         if ( !this._rawData || !this._rawData.roles ) {
             return null;
         }
         return this._rawData.roles;
+    }
+
+    public getSpeak(): ResumeSpeakInterface {
+        if ( !this._rawData || !this._rawData.languages ) {
+            return null;
+        }
+        return this._rawData.languages;
     }
 
     /**
@@ -94,17 +90,6 @@ export class Resume {
             return [];
         }
         return this._rawData.characteristics;
-    }
-
-    /**
-     * @description Returns the list of languages appearing in raw data
-     * @returns list of languages
-     */
-    public getLanguages(): Array<ResumeItemInterface> {
-        if ( !this._rawData || !this._rawData.languages ) {
-            return [];
-        }
-        return this._rawData.languages;
     }
 
     /**

@@ -9,10 +9,6 @@ import { ResumeExperienceInterface } from 'src/app/models/resume.interface';
 export class HomeExperiencesComponent {
   @Input() public experiences: ResumeExperienceInterface[];
 
-  ngOnInit(): void {
-    console.log(this.experiences)
-  }
-
   public accordionOpenedIndex: number = -1;
 
   public toggleAccordion(index: number): void {

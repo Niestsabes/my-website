@@ -3,17 +3,21 @@
         <main  class="page-section__main row">
             <div class="col-md-6">
                 <article>
-                    <h3>{{ "Languages" | translate: 'languages' }}</h3>
+                    <h3>{{ resume.getSpeak().title }}</h3>
                     <blockquote>
-                        <q>If you talk to a man in a language he understands, that goes to his head. If you talk to him in his own language, that goes to his heart.</q>
-                        <cite> - Nelson Mandela</cite>
+                        <q *ngFor="let desc of resume.getSpeak().description">{{ desc }}</q>
                     </blockquote>
-                    <ul class="list-inline">
-                        <li *ngFor="let lang of resume.getLanguages()">
-                            <strong class="mr-1">{{ lang.title }}</strong>
-                            <span>{{ lang.rank }}</span>
-                        </li>
-                    </ul>
+                    <table class="w-full">
+                        <tbody>
+                            <tr *ngFor="let item of resume.getSpeak().items">
+                                <td>
+                                    <img [src]="item.image" [alt]="item.title" class="home-pres__language-img mb-1">
+                                </td>
+                                <td class="px-2"><strong>{{ item.title }}</strong></td>
+                                <td class="px-2">{{ item.description }}</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </article>
             </div>
             <article class="col-md-6">

@@ -1,13 +1,12 @@
 export interface ResumeInterface {
     presentation: ResumeItemInterface,
-    assets: Array<ResumeItemInterface>,
     roles: ResumeRolesInterface,
+    languages: ResumeSpeakInterface,
     education: Array<ResumeExperienceInterface>,
     experiences: Array<ResumeExperienceInterface>,
     portefolio: Array<ResumeItemInterface>,
     characteristics: Array<ResumeItemInterface>,
     tastes: Array<ResumeItemInterface>,
-    languages: Array<ResumeItemInterface>,
     skills: {
         [type: string]: Array<ResumeItemInterface>
     }
@@ -24,6 +23,16 @@ export interface ResumeRolesInterface {
         tags: string[];
         toolsTitle: string;
         tools: string[];
+    }[];
+}
+
+export interface ResumeSpeakInterface {
+    title: string;
+    description: string[];
+    items: {
+        title: string;
+        description: string[];
+        image: string;
     }[];
 }
 

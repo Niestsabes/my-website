@@ -6,28 +6,6 @@
           "Mis puntos fuertes son la determinación y la curiosidad. A menudo me divierto encontrando nuevos procesos o tecnologías para mejorar mi rutina laboral y compartiéndolos con los demás. Como Techlead, es crucial estar al día, pero me aseguro de que mis compañeros también crezcan, siempre con paciencia y amabilidad. Mis sólidos conocimientos sobre prácticas de código limpio y gestión de proyectos siempre han sido claves para el éxito en los proyectos en los que he trabajado."
         ]
     },
-    "assets": [
-        {
-            "title": "Desarrollo Web",
-            "image": "icon-tools-solid",
-            "description": "Mi conocimiento de múltiples idiomas y prácticas de codificación sólidas me da mucha autonomía para iniciar nuevos proyectos o adaptarme a las aplicaciones existentes."
-        },
-        {
-            "title": "Gestión ágil",
-            "image": "icon-clipboard-list",
-            "description": "Una buena gestión es un aspecto importante de un proyecto. Como ya he sido Scrum Master de un equipo, estoy deseando implantar prácticas ágiles en mis equipos de trabajo."
-        },
-        {
-            "title": "Diseño UX/UI",
-            "image": "icon-pencil-ruler-solid",
-            "description": "Los usuarios son el elemento central de cualquier producto. Utilizo mis conocimientos para reunir sus necesidades y crear prototipos de aplicaciones que sean lo más versátiles, útiles y agradables posible."
-        },
-        {
-            "title": "Comunicación",
-            "image": "icon-comments-solid",
-            "description": "Compartir información es un componente clave del trabajo en equipo. Me ocupo de mi comunicación eligiendo el formato correcto y las palabras adecuadas en el momento adecuado. También me beneficio de mi conocimiento de múltiples idiomas."
-        }
-    ],
     "roles": {
       "title": "That's me !",
       "description": [
