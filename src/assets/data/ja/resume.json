@@ -192,17 +192,20 @@
         {
           "title": "ボットバック",
           "description": "このパズルゲームは、リヨンでGame Dev Partyの第19回ゲーム・ジャムで48時間かけて作られたものです。",
-          "image": "assets/images/portefolio-botback.png"
+          "image": "assets/images/portefolio-botback.png",
+          "link": "https://kuro-wolfy.itch.io/bot-back"
         },
         {
           "title": "イソゲニウス",
           "description": "このパズルゲームは、リヨンで開催されたサイエンティフィック・ゲーム・ジャムで48時間以内に制作された。",
-          "image": "assets/images/portefolio-isogenius.png"
+          "image": "assets/images/portefolio-isogenius.png",
+          "link": "https://kuro-wolfy.itch.io/isogenius"
         },
         {
           "title": "チョンパグノン",
           "description": "このパズルゲームは、リヨンでGame Dev Partyの第20回ゲーム・ジャムで72時間かけて作られたものです。",
-          "image": "assets/images/portefolio-chompagnon.png"
+          "image": "assets/images/portefolio-chompagnon.png",
+          "link": "https://kuro-wolfy.itch.io/chompagnon"
         }
       ]
     },
@@ -243,9 +246,9 @@
         "email": "sebcayet@gmail.com"
     },
     "others": {
-      "title": "Sébastien Cayet",
+      "title": "セバスティアン・カイエ",
       "subtitle": "ウェブ開発者",
       "more": "以下",
-      "cookies": "このサイトは100％クッキーフリーです！Sébastien CAYETがAngular 15で開発しました。"
+      "cookies": "このサイトは100％クッキーフリーです！セバスティアン・カイエがAngular 15で開発しました。"
     }
 }

@@ -18,6 +18,7 @@
                     <div class="portefolio-item__content">
                         <h3 class="portefolio-item__title">{{ item.title }}</h3>
                         <p class="text-justify">{{ item.description }}</p>
+                        <a class="w-100 d-block text-right" *ngIf="item.link" [href]="item.link" target="_blank">Visit</a>
                     </div>
                 </div>
             </article>

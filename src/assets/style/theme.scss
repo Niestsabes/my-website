@@ -69,10 +69,17 @@ a.button:hover, button.button:hover {
     }
 }
 
-// shadow
-
 .text-xl { font-size: 2rem; }
 
 .theme-text-shadow {
     text-shadow: -1px -1px 0 $header-bg-color, 1px -1px 0 $header-bg-color, -1px 1px 0 $header-bg-color, 1px 1px 0 $header-bg-color, 2px 2px 0 $header-bg-color;
+}
+
+// scrollbar
+body::-webkit-scrollbar {
+    width: 0.75em;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: $app-primary-color-a;
 }

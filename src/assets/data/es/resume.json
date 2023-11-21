@@ -191,17 +191,20 @@
         {
           "title": "BotBack",
           "description": "Un juego de rompecabezas creado en 48 horas para la 19ª Game Jam de la Game Dev Party en Lyon.",
-          "image": "assets/images/portefolio-botback.png"
+          "image": "assets/images/portefolio-botback.png",
+          "link": "https://kuro-wolfy.itch.io/bot-back"
         },
         {
           "title": "Isogenius",
           "description": "Un juego de rompecabezas creado en 48 horas para la Scientific Game Jam en Lyon.",
-          "image": "assets/images/portefolio-isogenius.png"
+          "image": "assets/images/portefolio-isogenius.png",
+          "link": "https://kuro-wolfy.itch.io/isogenius"
         },
         {
           "title": "Chompa-gnon",
           "description": "Un juego de plataformas creado en 72 horas para la 20ª Game Jam de la Game Dev Party en Lyon.",
-          "image": "assets/images/portefolio-chompagnon.png"
+          "image": "assets/images/portefolio-chompagnon.png",
+          "link": "https://kuro-wolfy.itch.io/chompagnon"
         }
       ]
     },
