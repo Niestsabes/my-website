@@ -19,8 +19,8 @@
           "description": [
             "I value simple and accessible interfaces. If the view needs to be explained, then something's wrong."
           ],
-          "tagsTitle": "Things I use to design:",
-          "tags": ["UI", "UX", "Web", "App", "Games"],
+          "tagsTitle": "Things I design:",
+          "tags": ["UI", "Web", "App", "Games"],
           "toolsTitle": "Design Tools:",
           "tools": ["Icomoon", "Font Awesome", "Bootstrap", "Tailwind", "Pen & Paper", "Paint.net", "Figma"]
         },
@@ -41,7 +41,7 @@
           "description": [
             "Management plays a major role in projects' success. I'm not that expansive, but I say what needs to be."
           ],
-          "tagsTitle": "Thinks I know a bit about:",
+          "tagsTitle": "Thinks I know about:",
           "tags": ["Scrum", "SAFE", "Design Doc", "Functional Doc"],
           "toolsTitle": "Management Tools:",
           "tools": ["Jira", "BitBucket", "Confluence", "GitLab", "Microsoft Office", "Design Thinking"]

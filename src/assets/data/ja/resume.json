@@ -7,50 +7,52 @@
         ]
     },
     "roles": {
-      "title": "That's me !",
+      "title": "それが私だ",
       "description": [
-        "By being curious and willing, I've become quite versatile.",
-        "However, Frontend development will stay precious to me."
+        "好奇心と意欲を持つことで、私はかなり多才になった。",
+        "しかし、フロントエンド開発は私にとって貴重なものであり続けるだろう。"
       ],
       "items": [
         {
-          "title": "Design",
+          "title": "デザイン",
           "icon": "icon-pencil-ruler",
           "description": [
-            "I value simple and accessible interfaces. If the view needs to be explained, then something's wrong."
+            "私はシンプルでアクセスしやすいインターフェースを重視する。もしビューに説明が必要なら、何かが間違っている。"
           ],
-          "tagsTitle": "Things I use to design:",
-          "tags": ["UI", "UX", "Web", "App", "Games"],
-          "toolsTitle": "Design Tools:",
-          "tools": ["Icomoon", "Font Awesome", "Bootstrap", "Tailwind", "Pen & Paper", "Paint.net", "Figma"]
+          "tagsTitle": "私がデザインするもの",
+          "tags": ["UI", "ウェブ", "アプリ", "ゲーム"],
+          "toolsTitle": "デザインツール",
+          "tools": ["Icomoon", "Font Awesome", "Bootstrap", "Tailwind", "ペンと紙", "Paint.net", "Figma"]
         },
         {
-          "title": "Engineering",
+          "title": "エンジニアリング",
           "icon": "icon-tools",
           "description": [
-            "I consider coding as a modern form of craftmanship, and a fertile ground for expression."
+            "私は、コーディングは現代的な職人技であり、表現のための肥沃な土壌だと考えている。"
           ],
-          "tagsTitle": "Some languages I speak:",
+          "tagsTitle": "話せる言語",
           "tags": ["HTML", "Sass", "Angular", "Express", "Git", "MySQL", "NoSQL"],
-          "toolsTitle": "Dev Tools:",
+          "toolsTitle": "開発ツール",
           "tools": ["VSCode", "PHPStorm", "Jenkins", "SonarQube", "Jest", "Cypress", "Docker", "GitHub", "MongoDB", "Unity"]
         },
         {
-          "title": "Agility",
+          "title": "アジリティ",
           "icon": "icon-clipboard",
           "description": [
-            "Management plays a major role in projects' success. I'm not that expansive, but I say what needs to be."
+            "マネジメントはプロジェクトの成功に大きな役割を果たす。私はそこまで拡大解釈はしないが、必要なことは言う。"
           ],
-          "tagsTitle": "Thinks I know a bit about:",
-          "tags": ["Scrum", "SAFE", "Design DOC", "Functional Doc"],
-          "toolsTitle": "Management Tools:",
+          "tagsTitle": "私が知っていること",
+          "tags": ["Scrum", "SAFE", "デザイン文書", "機能文書"],
+          "toolsTitle": "マネジメントツール",
           "tools": ["Jira", "BitBucket", "Confluence", "GitLab", "Microsoft Office", "Design Thinking"]
         }
       ]
     },
     "languages": {
       "title": "言語",
-      "description": [],
+      "description": [
+        "「その人が理解できる言葉で話しかければ、それはその人の頭に届く。もしあなたが彼の母国語で話しかければ、それは彼の心に届く。」"
+      ],
       "items": [
         {
             "title": "フランス語",
@@ -59,17 +61,17 @@
         },
         {
             "title": "英語",
-            "description": "C1 - TOEIC 870",
+            "description": "職業レベル",
             "image": "assets/images/flag-english.png"
         },
         {
             "title": "スペイン語",
-            "description": "B2",
+            "description": "ビギナー",
             "image": "assets/images/flag-spanish.png"
         },
         {
             "title": "日本語",
-            "description": "JLPT N5",
+            "description": "ビギナー、JLPT N5",
             "image": "assets/images/flag-japanese.png"
         }
       ]

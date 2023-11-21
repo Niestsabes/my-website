@@ -7,51 +7,51 @@
         ]
     },
     "roles": {
-      "title": "That's me !",
+      "title": "¡Ese soy yo!",
       "description": [
-        "By being curious and willing, I've become quite versatile.",
-        "However, Frontend development will stay precious to me."
+        "Por curiosidad y voluntad, me he vuelto muy versátil.",
+        "Sin embargo, el desarrollo Frontend seguirá siendo muy valioso para mí."
       ],
       "items": [
         {
-          "title": "Design",
+          "title": "Diseño",
           "icon": "icon-pencil-ruler",
           "description": [
-            "I value simple and accessible interfaces. If the view needs to be explained, then something's wrong."
+            "Valoro las interfaces sencillas y accesibles. Si hay que explicar la vista, es que algo va mal."
           ],
-          "tagsTitle": "Things I use to design:",
-          "tags": ["UI", "UX", "Web", "App", "Games"],
-          "toolsTitle": "Design Tools:",
-          "tools": ["Icomoon", "Font Awesome", "Bootstrap", "Tailwind", "Pen & Paper", "Paint.net", "Figma"]
+          "tagsTitle": "Cosas que diseño:",
+          "tags": ["UI", "Web", "Aplicación", "Juegos"],
+          "toolsTitle": "Herramientas de diseño:",
+          "tools": ["Icomoon", "Font Awesome", "Bootstrap", "Tailwind", "Pluma y papel", "Paint.net", "Figma"]
         },
         {
-          "title": "Engineering",
+          "title": "Ingeniería",
           "icon": "icon-tools",
           "description": [
-            "I consider coding as a modern form of craftmanship, and a fertile ground for expression."
+            "Considero la codificación como una forma moderna de artesanía y un terreno fértil para la expresión."
           ],
-          "tagsTitle": "Some languages I speak:",
+          "tagsTitle": "Algunas lenguas que hablo:",
           "tags": ["HTML", "Sass", "Angular", "Express", "Git", "MySQL", "NoSQL"],
-          "toolsTitle": "Dev Tools:",
+          "toolsTitle": "Herramientas de desarrollo:",
           "tools": ["VSCode", "PHPStorm", "Jenkins", "SonarQube", "Jest", "Cypress", "Docker", "GitHub", "MongoDB", "Unity"]
         },
         {
-          "title": "Agility",
+          "title": "Agilidad",
           "icon": "icon-clipboard",
           "description": [
-            "Management plays a major role in projects' success. I'm not that expansive, but I say what needs to be."
+            "La gestión desempeña un papel fundamental en el éxito de los proyectos. No soy tan expansivo, pero digo lo que hay que decir."
           ],
-          "tagsTitle": "Thinks I know a bit about:",
-          "tags": ["Scrum", "SAFE", "Design DOC", "Functional Doc"],
-          "toolsTitle": "Management Tools:",
+          "tagsTitle": "Cosas que sé:",
+          "tags": ["Scrum", "SAFE", "Documentación de diseño", "Documentación funcional"],
+          "toolsTitle": "Herramientas de gestión:",
           "tools": ["Jira", "BitBucket", "Confluence", "GitLab", "Microsoft Office", "Design Thinking"]
         }
       ]
     },
     "languages": {
-      "title": "Languages",
+      "title": "Idiomas",
       "description": [
-        "If you talk to a man in a language he understands, that goes to his head. If you talk to him in his own language, that goes to his heart."
+        "Si hablas a un hombre en un idioma que entiende, se le sube a la cabeza. Si le hablas en su propia lengua, eso le llega al corazón."
       ],
       "items": [
         {
@@ -77,7 +77,7 @@
       ]
     },
     "tastes": {
-      "title": "My tastes",
+      "title": "Intereses actuales",
       "items": [
         {
             "title": "Comida picante",
@@ -102,11 +102,11 @@
       "description" : [],
       "items": [
         {
-          "title": "Angular Lead Developer & Scrum Master",
+          "title": "Angular Desarrollador Principal y Scrum Master",
           "subtitle": "Angular Techlead / Scrum Master",
           "date":"09/2023 a ??/????",
           "company": "Spie CityNetworks (Klanik)",
-          "place": "Lyon, France",
+          "place": "Lyon, Francia",
           "description": [
             "Desarrollo de una aplicación web para coordinar la administración de la red de carreteras del Gran Lyon, creada por los operadores de CORALY. Conectada a los servicios informáticos de los distintos operadores, es utilizada por los operadores de CORALY para comunicarse y proponer escenarios de resolución de incidencias.",
             "Gestioné un equipo de tres desarrolladores, realicé revisiones de código, aseguré la calidad de la aplicación, redacté documentación técnica y funcional e implementé actualizaciones técnicas."
@@ -114,7 +114,7 @@
           "tags": ["Angular 15-16", "NodeJS", "Docker", "GitLab"]
         },
         {
-          "title": "Angular Lead Developer",
+          "title": "Angular Desarrollador Principal",
           "subtitle": "Angular Techlead",
           "date": "09/2022 a 09/2023",
           "company": "Spie CityNetworks (and Klanik)",
@@ -128,7 +128,7 @@
           "link": "https://www.spie.com/fr"
         },
         {
-          "title": "Full stack Desarrollador (Angular/PHP) & Scrum Master",
+          "title": "Fullstack Desarrollador (Angular/PHP) y Scrum Master",
           "subtitle": "Desarrollador Full Stack / Diseñador UX / Scrum Master",
           "date": "10/2019 a 09/2022",
           "company": "Amadeus (con Capgemini Engineering)",
@@ -142,9 +142,9 @@
           "tags": ["Angular 11", "Symfony", "MySQL", "Scrum", "JIRA", "Jenkins", "SonarQube", "Azure"]
         },
         {
-          "title": "Web, Android, Alexa Desarrollador Prácticas",
+          "title": "Prácticas de desarrollo Web, Android y Alexa",
           "subtilte": "Desarrollador Web / Android / AWS",
-          "date": "De Marzo de 2019 a Augusto de 2019",
+          "date": "03/2019 a 08/2019",
           "type": "Prácticas",
           "company": "Relief Applications",
           "place": "Madrid, España",
@@ -157,7 +157,7 @@
           "link": "https://reliefapplications.org/"
         },
         {
-          "title": "Fullstack (Angular/PHP) Desarrollador Prácticas",
+          "title": "Prácticas de desarrollo  fullstack (Angular/PHP)",
           "subtitle": "Desarrollador Full Stack",
           "date": "05/2018 a 08/2018",
           "type": "Prácticas",
@@ -175,7 +175,7 @@
       ]
     },
     "portefolio": {
-      "title": "Portefolio",
+      "title": "Cartera",
       "description": [],
       "items": [
         {
