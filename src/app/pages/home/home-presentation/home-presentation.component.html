@@ -1,0 +1,37 @@
+<section class="page-section" id="presentation-section">
+    <div class="container">
+        <main  class="page-section__main row">
+            <div class="col-md-6">
+                <article>
+                    <h3>{{ data?.languages.title }}</h3>
+                    <blockquote>
+                        <q *ngFor="let desc of data?.languages.description">{{ desc }}</q>
+                    </blockquote>
+                    <table class="w-full">
+                        <tbody>
+                            <tr *ngFor="let item of data?.languages.items">
+                                <td>
+                                    <img [src]="item.image" [alt]="item.title" class="home-pres__language-img mb-1">
+                                </td>
+                                <td class="px-2"><strong>{{ item.title }}</strong></td>
+                                <td class="px-2">{{ item.description }}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </article>
+            </div>
+            <article class="col-md-6">
+                <h3>{{ data?.tastes.title }}</h3>
+                <ul class="taste-wrapper list-unstyle">
+                    <li class="taste-item interactable-box"
+                        *ngFor="let item of data?.tastes.items">
+                        <img class="taste-item-image" [src]="item.image"/>
+                        <div class="taste-item-content">
+                            <span class="taste-item-text">{{ item.title }}</span>
+                        </div>
+                    </li>
+                </ul>
+            </article>
+        </main>
+    </div>
+</section>

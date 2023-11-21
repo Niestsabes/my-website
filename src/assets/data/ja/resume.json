@@ -1,33 +1,214 @@
 {
     "presentation": {
-        "title": "",
+        "title": "私について",
         "description": [
           "私はアプリケーション開発のほとんどの側面をカバーするスキルの多面的な資産を持つ献身的な協力者です。IMT Mines Albiを卒業したエンジニアで、私の専門はフロントエンド開発です。しかし、バックエンド開発、UIプロトタイピング、アジャイルプロジェクト管理、文書作成、仕様書作成などにも多く携わってきました。野心的で熱心な私は、ユーザーの満足度を高めるために、直感的で魅力的、かつ包括的なアプリを作ることに情熱を注いでいます。",
           "決断力と好奇心が私の強みです。新しいプロセスや新しいテクノロジーを見つけて自分の仕事を改善したり、他の人と共有したりするのが好きです。テックリードとして、常に最新の情報を得ることは非常に重要ですが、常に忍耐と優しさをもって、同僚の成長にも細心の注意を払っています。クリーンコードの実践とプロジェクト管理に関する確かな知識は、私が携わったプロジェクトの成功の鍵でした。"
         ]
     },
-    "assets": [
+    "roles": {
+      "title": "それが私だ",
+      "description": [
+        "好奇心と意欲を持つことで、私はかなり多才になった。",
+        "しかし、フロントエンド開発は私にとって貴重なものであり続けるだろう。"
+      ],
+      "items": [
         {
-            "title": "ウェブ開発",
-            "image": "icon-tools-solid",
-            "description": "複数の言語とサウンドコーディングの知識があるので、新しいプロジェクトを始めたり、既存のアプリケーションに適応させたりすることができます。"
+          "title": "デザイン",
+          "icon": "icon-pencil-ruler",
+          "description": [
+            "私はシンプルでアクセスしやすいインターフェースを重視する。もしビューに説明が必要なら、何かが間違っている。"
+          ],
+          "tagsTitle": "私がデザインするもの",
+          "tags": ["UI", "ウェブ", "アプリ", "ゲーム"],
+          "toolsTitle": "デザインツール",
+          "tools": ["Icomoon", "Font Awesome", "Bootstrap", "Tailwind", "ペンと紙", "Paint.net", "Figma"]
         },
         {
-            "title": "アジャイル・マネジメント",
-            "image": "icon-clipboard-list",
-            "description": "優れたマネジメントはプロジェクトの重要な側面である。私はすでにチームのスクラムマスターを務めており、アジャイルプラクティスを職場のチームに導入したいと考えています。"
+          "title": "エンジニアリング",
+          "icon": "icon-tools",
+          "description": [
+            "私は、コーディングは現代的な職人技であり、表現のための肥沃な土壌だと考えている。"
+          ],
+          "tagsTitle": "話せる言語",
+          "tags": ["HTML", "Sass", "Angular", "Express", "Git", "MySQL", "NoSQL"],
+          "toolsTitle": "開発ツール",
+          "tools": ["VSCode", "PHPStorm", "Jenkins", "SonarQube", "Jest", "Cypress", "Docker", "GitHub", "MongoDB", "Unity"]
         },
         {
-            "title": "UX/UIデザイン",
-            "image": "icon-pencil-ruler-solid",
-            "description": "製品の中心はユーザーです。私は自分の知識でユーザーのニーズを収集し、可能な限り汎用性が高く、便利で楽しいアプリケーションを試作しています。"
-        },
-        {
-            "title": "コミュニケーション",
-            "image": "icon-comments-solid",
-            "description": "情報を共有することは、チームワークの重要な要素です。私は、適切なフォーマットと適切な言葉を適切なタイミングで選択することで、コミュニケーションに気を配っています。また、複数の言語の知識を持っていることもメリットです。"
+          "title": "アジリティ",
+          "icon": "icon-clipboard",
+          "description": [
+            "マネジメントはプロジェクトの成功に大きな役割を果たす。私はそこまで拡大解釈はしないが、必要なことは言う。"
+          ],
+          "tagsTitle": "私が知っていること",
+          "tags": ["Scrum", "SAFE", "デザイン文書", "機能文書"],
+          "toolsTitle": "マネジメントツール",
+          "tools": ["Jira", "BitBucket", "Confluence", "GitLab", "Microsoft Office", "Design Thinking"]
         }
-    ],
+      ]
+    },
+    "languages": {
+      "title": "言語",
+      "description": [
+        "「その人が理解できる言葉で話しかければ、それはその人の頭に届く。もしあなたが彼の母国語で話しかければ、それは彼の心に届く。」"
+      ],
+      "items": [
+        {
+            "title": "フランス語",
+            "description": "母国語",
+            "image": "assets/images/flag-french.png"
+        },
+        {
+            "title": "英語",
+            "description": "職業レベル",
+            "image": "assets/images/flag-english.png"
+        },
+        {
+            "title": "スペイン語",
+            "description": "ビギナー",
+            "image": "assets/images/flag-spanish.png"
+        },
+        {
+            "title": "日本語",
+            "description": "ビギナー、JLPT N5",
+            "image": "assets/images/flag-japanese.png"
+        }
+      ]
+    },
+    "tastes": {
+      "title": "わたくし好み",
+      "items": [
+        {
+          "title": "辛いもの",
+          "image": "assets/images/taste-spicy-food.png"
+        },
+        {
+            "title": "日本のアニメ",
+            "image": "assets/images/taste-japanese-animation.png"
+        },
+        {
+            "title": "ゲームをプレイして作成する",
+            "image": "assets/images/taste-game.png"
+        },
+        {
+            "title": "学ぶ",
+            "image": "assets/images/taste-learn.png"
+        }
+      ]
+    },
+    "experiences": {
+      "title": "経験",
+      "description": [],
+      "items": [
+        {
+          "title": "Angularリードデベロッパーとスクラムマスター",
+          "subtitle": "Angularリードデベロッパーとスクラムマスター",
+          "date":"2023年9月から",
+          "company": "Spie CityNetworks (Klanik)",
+          "place": "リヨン、フランス",
+          "description": [
+            "リヨン広域圏の道路網を管理するためのウェブアプリケーションの開発。様々な事業者のITサービスに接続され、CORALYの事業者が通信や事故解決のシナリオを提案するために使用する。",
+            "私は3人の開発者のチームを管理し、コードレビューを実施し、アプリケーションの品質を保証し、技術文書と機能文書を作成し、技術的なアップグレードを実施しました。"
+          ],
+          "link": "https://amadeus.com/",
+          "tags": ["Angular 11", "Symfony", "MySQL", "Scrum", "JIRA", "Jenkins", "SonarQube", "Azure"]
+        },
+        {
+          "title": "ニース・コート・ダジュール都市圏監督用ウェブ・アプリケーションの開発",
+          "subtitle": "Angular Techlead",
+          "date": "2022年9月から2023年9月まで",
+          "company": "Spie CityNetworks(とKlanik)",
+          "place": "リヨン、フランス",
+          "description": [
+            "ニース・コート・ダジュール首都圏の監督用ウェブ・アプリケーション一式の開発。メトロポールの道路設備とITサービスに接続され、ニース首都圏で発生した事象を解決するために市の司令部が使用する",
+            "プラットフォームには、リアルタイムの現場データを収集するハイパーバイザー・モジュール、道路設備の状態を視覚化するマッピング・モジュール、操作シーケンスをレビューするリプレイ・モジュール、データモデルを設定するコンフィギュレーション・モジュールが含まれています",
+            "私は3人の開発者のチームを管理し、コードベースをクリーンアップし、アプリケーションのパフォーマンスを向上させ、新しい画面をレイアウトし、ドキュメントの作成を監督し、技術開発を提案した。"
+          ],
+          "tags": ["Angular 10-15", "GitLab"],
+          "link": "https://www.spie.com/fr"
+        },
+        {
+          "title": "フルスタック開発者とスクラムマスター",
+          "subtitle": "フルスタック開発者とUXデザイナーとスクラムマスター",
+          "date": "2019年10月から2022年9月まで",
+          "company": "Amadeus(とCapgemini Engineering)",
+          "place": "ソフィア・アンティポリス、フランス",
+          "description": [
+            "予算管理支援アプリの開発・保守。",
+            "私は、Amadeus全体の戦略的および横断的なプログラムを確実に提供するトランスバーサルサービス＆コーディネーション部門に所属しています。",
+            "私のチームは、1700人以上のアクターのために、運用効率とシンプルさのために、マネジメントに予測可能性をもたらすことを目指しています。2人のビジネススペシャリストと他の2人のウェブ開発者と共に、私たちの活動の1つは、ユーザーが予算やリソースを管理できるアプリケーションであるマネジメントスイートの開発と保守です。"
+          ],
+          "link": "https://amadeus.com/",
+          "tags": ["Angular 11", "Symfony", "MySQL", "Scrum", "JIRA", "Jenkins", "SonarQube", "Azure"]
+        },
+        {
+          "title": "WebとAndroidとAWSの開発者のインターンシップ",
+          "subtilte": "WebとAndroidとAWSの開発者",
+          "date": "2019年3月から2019年8月まで",
+          "type": "インターンシップ",
+          "company": "Relief Applications",
+          "place": "マドリード, スペイン",
+          "description": [
+            "人道的な目的のための革新的なアプリケーションの開発。",
+            "フロントエンド＆バックエンド開発者として、紛争地域に展開されている人道組織にオープンソースのソリューションを提供することを目的としたいくつかのプロジェクトに携わってきました。",
+            "私は、プロジェクトのライフサイクル全体と、Linuxを使ったサーバーの基本的な導入プロセスを勉強してきました。"
+          ],
+          "tags": ["Angular 8", "NodeJS", "Ionic", "AWS"],
+          "link": "https://reliefapplications.org/"
+        },
+        {
+          "title": "フルスタックの開発者のインターンシップ",
+          "subtitle": "フルスタックの開発者",
+          "date": "2018年5月から2018年8月まで",
+          "type": "インターンシップ",
+          "company": "Thales Alenia Space",
+          "place": "カンヌ, フランス",
+          "description": [
+            "プロジェクト管理を支援するマスターデータ管理システムのプロトタイピング",
+            "私は、ソフトウェア部門のプロジェクトの時間厳守を改善するために、マスターデータ管理システムの導入に着手しました。",
+            "私は、Angularを使ったフロントエンド、PHPを使ったバックエンド、MySQLを使ったデータベースなど、3層構造のWebアプリケーションの様々な面を担当しました。",
+            "プロジェクトマネージャーもしていました。私は、カンヌやトゥールーズのサイトからの協力者とのミーティングで、アジャイル開発プロセスを使用しました。"
+          ],
+          "tags": ["Angular 5", "PHP", "MySQL", "Agile"],
+          "link": "https://www.thalesgroup.com/fr/espace"
+        }
+      ]
+    },
+    "portefolio": {
+      "title": "ポートフォリオ",
+      "description": [],
+      "items": [
+        {
+          "title": "個人サイト",
+          "description": "ショーケースとサンドボックスの両方の役割を果たすAngularプロジェクト。",
+          "image": "assets/images/portefolio-personal-website.png"
+        },
+        {
+          "title": "ポケゲッサー",
+          "description": "有名なゲームWordleにインスパイアされ、ポケモンのテイストを取り入れたReactの開始プロジェクト。",
+          "image": "assets/images/portefolio-pokeguesser.png"
+        },
+        {
+          "title": "ボットバック",
+          "description": "このパズルゲームは、リヨンでGame Dev Partyの第19回ゲーム・ジャムで48時間かけて作られたものです。",
+          "image": "assets/images/portefolio-botback.png",
+          "link": "https://kuro-wolfy.itch.io/bot-back"
+        },
+        {
+          "title": "イソゲニウス",
+          "description": "このパズルゲームは、リヨンで開催されたサイエンティフィック・ゲーム・ジャムで48時間以内に制作された。",
+          "image": "assets/images/portefolio-isogenius.png",
+          "link": "https://kuro-wolfy.itch.io/isogenius"
+        },
+        {
+          "title": "チョンパグノン",
+          "description": "このパズルゲームは、リヨンでGame Dev Partyの第20回ゲーム・ジャムで72時間かけて作られたものです。",
+          "image": "assets/images/portefolio-chompagnon.png",
+          "link": "https://kuro-wolfy.itch.io/chompagnon"
+        }
+      ]
+    },
     "education": [
         {
             "title": "バカロレアＳ",
@@ -59,321 +240,18 @@
             "link": "https://www.imt-mines-albi.fr/"
         }
     ],
-    "experiences": [
-      {
-        "title": "ニース・コート・ダジュール都市圏監督用ウェブ・アプリケーションの開発",
-        "subtitle": "Angular Techlead",
-        "date": "2022年09月から",
-        "company": "Spie CityNetworks(とKlanik)",
-        "place": "リヨン、フランス",
-        "description": [
-          "ニースのITサービスに接続され、ニース地域で発生した出来事を解決するために、ニース市の中央郵便局が使用している。",
-          "プラットフォームは以下のように構成されている：",
-          " - ハイパービジョン・モジュール：現場から受信したすべてのデータ（事故、手すり、設備の状態など）をリアルタイムでまとめ、オペレーターが現在の状況に応じて最適な戦略を展開できるようにする。",
-          " - 地図モジュール：道路設備の状況やその他の交通情報を、市街地の地図上にリアルタイムで表示する。",
-          " - リプレイ・モジュール：前の2つのモジュールに基づき、オペレーターが過去の操作手順を再確認し、事故解決手順を改善できるようにする。",
-          " - コンフィギュレーション・モジュール：オペレータは、前のモジュールで使用されたデータモデルをパラメータ化することができる。",
-          "私の役割だ：",
-          " - Angular開発者4名からなるチームのテクニカルリーダー：ユーザーストーリーの複雑性分析、技術的問題のファシリテーター、マージリクエストの検証。",
-          " - ベストプラクティスとデザインパターンを実装することで、コードベースをクリーンアップし、パフォーマンスを向上させる。",
-          " - 新画面のモックアップと技術仕様（UIとレスポンシブデザインを特に考慮）。",
-          " - 新しいライブラリ／テクノロジーに対する技術的監視。",
-          " - ユーザーマニュアルの作成、その他の技術文書の作成監督。"
-        ],
-        "link": "https://www.spie.com/en",
-        "details": []
-      },
-      {
-        "title": "予算管理支援アプリの開発・保守",
-        "subtitle": "フルスタック開発者とUXデザイナーとスクラムマスター",
-        "date": "2019年10月から2022年9月まで",
-        "company": "Amadeus(とCapgemini Engineering)",
-        "place": "ソフィア・アンティポリス、フランス",
-        "description": [
-          "私は、Amadeus全体の戦略的および横断的なプログラムを確実に提供するトランスバーサルサービス＆コーディネーション部門に所属しています。",
-          "私のチームは、1700人以上のアクターのために、運用効率とシンプルさのために、マネジメントに予測可能性をもたらすことを目指しています。2人のビジネススペシャリストと他の2人のウェブ開発者と共に、私たちの活動の1つは、ユーザーが予算やリソースを管理できるアプリケーションであるマネジメントスイートの開発と保守です。"
-        ],
-        "link": "https://amadeus.com/",
-        "details": []
-      },
-      {
-        "title": "人道的な目的のための革新的なアプリケーションの創造",
-        "subtilte": "WebとAndroidとAWSの開発者",
-        "date": "2019年3月から2019年8月まで",
-        "type": "インターンシップ",
-        "company": "Relief Applications",
-        "place": "マドリード, スペイン",
-        "description": [
-          "フロントエンド＆バックエンド開発者として、紛争地域に展開されている人道組織にオープンソースのソリューションを提供することを目的としたいくつかのプロジェクトに携わってきました。",
-          "私は、プロジェクトのライフサイクル全体と、Linuxを使ったサーバーの基本的な導入プロセスを勉強してきました。"
-        ],
-        "link": "https://reliefapplications.org/"
-      },
-      {
-        "title": "プロジェクト管理を支援するマスターデータ管理システムのプロトタイピング",
-        "subtitle": "フルスタックの開発者",
-        "date": "2018年5月から2018年8月まで",
-        "type": "インターンシップ",
-        "company": "Thales Alenia Space Cannes",
-        "place": "カンヌ, フランス",
-        "description": [
-          "私は、ソフトウェア部門のプロジェクトの時間厳守を改善するために、マスターデータ管理システムの導入に着手しました。",
-          "私は、Angularを使ったフロントエンド、PHPを使ったバックエンド、MySQLを使ったデータベースなど、3層構造のWebアプリケーションの様々な面を担当しました。",
-          "プロジェクトマネージャーもしていました。私は、カンヌやトゥールーズのサイトからの協力者とのミーティングで、アジャイル開発プロセスを使用しました。"
-        ],
-        "link": "https://www.thalesgroup.com/fr/espace"
-      },
-      {
-        "title": "Global Game Jam 2018",
-        "subtitle": "Unityの開発者",
-        "date": "2018年1月",
-        "type": "イベント",
-        "company": "Global Game Jam",
-        "place": "アルビ, フランス",
-        "description": [
-          "Global Game Jamは、わずか48時間で完成したビデオゲームを作るというチャレンジです。",
-          "ゲームデザイナー、開発者として参加しました。"
-        ],
-        "link": "https://globalgamejam.org/"
-      }
-    ],
-    "characteristics":[
-        {
-            "title": "クリエイティブ",
-            "level": 80
-        },
-        {
-            "title": "整理された",
-            "level": 90
-        },
-        {
-            "title": "共感",
-            "level": 90
-        },
-        {
-            "title": "自律的",
-            "level": 90
-        },
-        {
-            "title": "好奇心旺盛",
-            "level": 100
-        },
-        {
-            "title": "情熱的な",
-            "level": 200
-        }
-    ],
-    "portefolio": [
-      {
-        "title": "個人サイト",
-        "description": "ショーケースとサンドボックスの両方の役割を果たすAngularプロジェクト。",
-        "image": "assets/images/portefolio-personal-website.png"
-      },
-      {
-        "title": "ポケゲッサー",
-        "description": "有名なゲームWordleにインスパイアされ、ポケモンのテイストを取り入れたReactの開始プロジェクト。",
-        "image": "assets/images/portefolio-pokeguesser.png"
-      },
-      {
-        "title": "ボットバック",
-        "description": "このパズルゲームは、リヨンでGame Dev Partyの第19回ゲーム・ジャムで48時間かけて作られたものです。",
-        "image": "assets/images/portefolio-botback.png"
-      },
-      {
-        "title": "イソゲニウス",
-        "description": "このパズルゲームは、リヨンで開催されたサイエンティフィック・ゲーム・ジャムで48時間以内に制作された。",
-        "image": "assets/images/portefolio-isogenius.png"
-      },
-      {
-        "title": "チョンパグノン",
-        "description": "このパズルゲームは、リヨンでGame Dev Partyの第20回ゲーム・ジャムで72時間かけて作られたものです。",
-        "image": "assets/images/portefolio-chompagnon.png"
-      }
-    ],
-    "skills": {
-      "programming": [
-        {
-          "title": "Angular (Typescript)",
-          "level": 90
-        },
-        {
-          "title": "Express (NodeJS / Javascript)",
-          "level": 50
-        },
-        {
-          "title": "MySQL (SQL)",
-          "level": 80
-        },
-        {
-          "title": "MongoDB (NoSQL)",
-          "level": 50
-        },
-        {
-          "title": "HTML5 / CSS3",
-          "level": 80
-        },
-        {
-          "title": "Bootstrap 5 / Tailwindcss",
-          "level": 80
-        },
-        {
-          "title": "PHP",
-          "level": 60,
-          "description": ["Symfony"]
-        },
-        {
-          "title": "Unity (C#)",
-          "level": 50
-        },
-        {
-          "title": "Java",
-          "level": 40,
-          "description": ["Eclipse"]
-        },
-        {
-          "title": "XML",
-          "level": 30
-        },
-        {
-          "title": "Python",
-          "level": 20
-        }
-      ],
-      "tooling": [
-        {
-          "title": "VS Code",
-          "level": 80
-        },
-        {
-          "title": "Microsoft Office",
-          "level": 80,
-          "description": ["Word", "Excel", "PowerPoint"]
-        },
-        {
-          "title": "Libre Office",
-          "level": 50,
-          "description": ["Writer", "Calc", "Impress"]
-        },
-        {
-          "title": "GitHub / GitLab (Git)",
-          "level": 80,
-          "description": ["GitHub", "GitLab", "GitBash"]
-        },
-        {
-          "title": "Jira / Bitbucket / Confluence",
-          "level": 90
-        },
-        {
-          "title": "Docker",
-          "level": 50
-        },
-        {
-          "title": "PHPStorm",
-          "level": 60
-        },
-        {
-          "title": "Jenkins",
-          "level": 50
-        },
-        {
-          "title": "SonarQube",
-          "level": 50
-        },
-        {
-          "title": "Paint.net",
-          "level": 60
-        },
-        {
-          "title": "Unity",
-          "level": 50
-        },
-        {
-          "title": "Figma",
-          "level": 50
-        }
-      ],
-      "theory": [
-        {
-          "title": "UML 図",
-          "level": 90
-        },
-        {
-          "title": "アジャイルメソドロジー",
-          "level": 80
-        },
-        {
-          "title": "UX Design",
-          "level": 60
-        },
-        {
-          "title": "Design Thinking",
-          "level": 50
-        },
-        {
-          "title": "文献を明記する",
-          "level": 80
-        }
-      ]
-    },
-    "tastes": [
-        {
-            "title": "辛いもの",
-            "image": "assets/images/taste-spicy-food.png"
-        },
-        {
-            "title": "日本のアニメ",
-            "image": "assets/images/taste-japanese-animation.png"
-        },
-        {
-            "title": "ゲームをプレイして作成する",
-            "image": "assets/images/taste-game.png"
-        },
-        {
-            "title": "学ぶ",
-            "image": "assets/images/taste-learn.png"
-        }
-    ],
-    "languages": [
-        {
-            "title": "フランス語",
-            "level": 100,
-            "rank": "母国語",
-            "image": "assets/images/flag-french.png"
-        },
-        {
-            "title": "英語",
-            "level": 75,
-            "rank": "C1 - TOEIC 870",
-            "description": [
-                " ニューヨークとロンドンに滞在。",
-                "作業言語。"
-            ],
-            "image": "assets/images/flag-english.png"
-        },
-        {
-            "title": "スペイン語",
-            "level": 60,
-            "rank": "B2",
-            "description": [
-                "スクーリング中に毎週授業を受ける。",
-                "マドリードでの6ヶ月間のインターンシップ。"
-            ],
-            "image": "assets/images/flag-spanish.png"
-        },
-        {
-            "title": "日本語",
-            "level": 15,
-            "rank": "A1 - JLPT N5",
-            "description": [
-                "ひらがなとカタカナを読み書きしています。",
-                "言葉の基本は知っている。"
-            ],
-            "image": "assets/images/flag-japanese.png"
-        }
-    ],
     "contact": {
         "fullName": "Sébastien Cayet",
         "phone": "+33 6 46 88 15 19",
         "email": "sebcayet@gmail.com"
+    },
+    "others": {
+      "title": "セバスティアン・カイエ",
+      "subtitle": "ウェブ開発者",
+      "more": "以下",
+      "cookies": "このサイトは100％クッキーフリーです！セバスティアン・カイエがAngular 15で開発しました。",
+      "footerCopy": "私が♥で作った ©",
+      "footerMadeWith": "Angular15を使用",
+      "footerAction": "トップに戻る"
     }
 }

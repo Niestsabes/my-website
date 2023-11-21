@@ -1,0 +1,56 @@
+@import '../../../../assets/style/theme.scss';
+
+.home-banner {
+  position: relative;
+	height: calc(100vh + 10px);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: $header-text-color;
+  background: url('../../../../assets/images/star-sky-wallpaper.jpg') no-repeat center center;
+}
+
+.home-banner__main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+}
+
+.home-banner__avatar {
+  overflow: hidden;
+  position: relative;
+  height: 8em;
+  width: 8em;
+  border-radius: 50%;
+  border: 4px solid $app-black;
+
+  > img {
+    position: absolute;
+    top: 52%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    object-position: 50% 50%;
+    height: 104%;
+    width: 104%;
+  }
+}
+
+.home-banner__more {
+  position: absolute;
+  right: 5%;
+  bottom: calc(9% + 10px); // add 10px for bounce icon animation
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.home-banner__more-icon {
+  position: relative;
+  margin-top: 0.4rem;
+  font-size: 1.5rem;
+  vertical-align: middle;
+  animation: bounce 1s infinite;
+}

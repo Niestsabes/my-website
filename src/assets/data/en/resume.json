@@ -1,33 +1,213 @@
 {
     "presentation": {
-        "title": "",
+        "title": "About me",
         "description": [
             "I'm a committed teamplayer with a multifaceted asset of skills covering most aspects of application developement. Graduated engineer from IMT Mines Albi, my speciality is front-end development. Yet, I've also worked a lot on back-end development, UI prototyping, Agile project manangement, writing documentations and specification, and more. Ambitious and enthusiastic, I'm passionante about in crafting intuitive, appealing, and inclusive apps for greater user satisfaction.",
             "Determination and curiosity are some of my strengths. I often have fun finding new processes or new technologies to improve my work routine, and share with others. As a Techlead, it's crucial to stay up to date, but I take great care to ensure the growth of my colleagues too, always with patience and kindness. My solid knowledge of clean code practices and project management has always been keys to the success of the projects I've worked on."
         ]
     },
-    "assets": [
+    "roles": {
+      "title": "That's me !",
+      "description": [
+        "By being curious and willing, I've become quite versatile.",
+        "However, Frontend development will stay precious to me."
+      ],
+      "items": [
         {
-            "title": "Web Development",
-            "image": "icon-tools-solid",
-            "description": "My knowledge of multiple languages and sound coding practices gives me a lot of autonomy to start new projects, or adapt to existing applications."
+          "title": "Design",
+          "icon": "icon-pencil-ruler",
+          "description": [
+            "I value simple and accessible interfaces. If the view needs to be explained, then something's wrong."
+          ],
+          "tagsTitle": "Things I design:",
+          "tags": ["UI", "Web", "App", "Games"],
+          "toolsTitle": "Design Tools:",
+          "tools": ["Icomoon", "Font Awesome", "Bootstrap", "Tailwind", "Pen & Paper", "Paint.net", "Figma"]
         },
         {
-            "title": "Agile Management",
-            "image": "icon-clipboard-list",
-            "description": "Good management is an important aspect of a project. Having already been a Scrum Master for a team, I'm keen to teach and implement Agile practices in my work teams."
+          "title": "Engineering",
+          "icon": "icon-tools",
+          "description": [
+            "I consider coding as a modern form of craftmanship, and a fertile ground for expression."
+          ],
+          "tagsTitle": "Some languages I speak:",
+          "tags": ["HTML", "Sass", "Angular", "Express", "Git", "MySQL", "NoSQL"],
+          "toolsTitle": "Dev Tools:",
+          "tools": ["VSCode", "PHPStorm", "Jenkins", "SonarQube", "Jest", "Cypress", "Docker", "GitHub", "MongoDB", "Unity"]
         },
         {
-            "title": "UX/UI Design",
-            "image": "icon-pencil-ruler-solid",
-            "description": "Users are the central element of any product. I use my knowledge to gather their needs and prototype applications that are as versatile, useful and enjoyable as possible."
-        },
-        {
-            "title": "Communication",
-            "image": "icon-comments-solid",
-            "description": "Sharing information is a key component of teamwork. I take care of my communication by choosing the right format and the right words at the right time. I also benefit from my knowledge of multiple languages."
+          "title": "Agility",
+          "icon": "icon-clipboard",
+          "description": [
+            "Management plays a major role in projects' success. I'm not that expansive, but I say what needs to be."
+          ],
+          "tagsTitle": "Thinks I know about:",
+          "tags": ["Scrum", "SAFE", "Design Doc", "Functional Doc"],
+          "toolsTitle": "Management Tools:",
+          "tools": ["Jira", "BitBucket", "Confluence", "GitLab", "Microsoft Office", "Design Thinking"]
         }
-    ],
+      ]
+    },
+    "languages": {
+      "title": "Languages",
+      "description": [
+        "If you talk to a man in a language he understands, that goes to his head. If you talk to him in his own language, that goes to his heart."
+      ],
+      "items": [
+        {
+          "title": "French",
+          "description": "Mother tongue",
+          "image": "assets/images/flag-french.png"
+        },
+        {
+            "title": "English",
+            "description": "Professional speaking",
+            "image": "assets/images/flag-english.png"
+        },
+        {
+            "title": "Spanish",
+            "description": "Notions",
+            "image": "assets/images/flag-spanish.png"
+        },
+        {
+            "title": "Japanese",
+            "description": "Begginer",
+            "image": "assets/images/flag-japanese.png"
+        }
+      ]
+    },
+    "tastes": {
+      "title": "My tastes",
+      "items": [
+        {
+            "title": "Spicy food",
+            "image": "assets/images/taste-spicy-food.png"
+        },
+        {
+            "title": "Japanese Animation",
+            "image": "assets/images/taste-japanese-animation.png"
+        },
+        {
+            "title": "Play & Create games",
+            "image": "assets/images/taste-game.png"
+        },
+        {
+            "title": "Learn",
+            "image": "assets/images/taste-learn.png"
+        }
+      ]
+    },
+    "experiences": {
+      "title": "Experiences",
+      "description": [],
+      "items": [
+        {
+          "title": "Angular Lead Developer & Scrum Master",
+          "subtitle": "Angular Techlead / Scrum Master",
+          "date":"09/2023 to ??/????",
+          "company": "Spie CityNetworks (Klanik)",
+          "place": "Lyon, France",
+          "description": [
+            "Development of a web application for coordinating the administration of the Greater Lyon road network, created by CORALY operators. Connected to the IT services of the various operators, it is used by CORALY operators to communicate and propose incident resolution scenarios.",
+            "I managed a team of three developers, carried out code reviews, ensured application quality, wrote technical and functional documentation and implemented technical upgrades."
+          ],
+          "tags": ["Angular 15-16", "NodeJS", "Docker", "GitLab"]
+        },
+        {
+          "title": "Angular Lead Developer",
+          "subtitle": "Angular Techlead",
+          "date": "09/2022 to 09/2023",
+          "company": "Spie CityNetworks (and Klanik)",
+          "place": "Lyon, France",
+          "description": [
+            "Development of a suite of web applications for the supervision of the Nice Côte-d'Azur Metropolis. Connected to the Metropole's road equipment and IT services, it is used by the city's Command Post to resolve events occurring in the Nice metropolitan area.",
+            "La plataforma incluye un módulo de hipervisión para recopilar datos sobre el terreno en tiempo real, un módulo de cartografía para visualizar el estado de los equipos de carretera, un módulo de repetición para revisar las secuencias operativas y un módulo de configuración para configurar los modelos de datos.",
+            "Dirigí un equipo de tres desarrolladores, limpié la base de código, mejoré el rendimiento de la aplicación, maqueté nuevas pantallas, supervisé la redacción de documentos y propuse desarrollos técnicos."
+          ],
+          "tags": ["Angular 10-15", "GitLab"],
+          "link": "https://www.spie.com/fr"
+        },
+        {
+          "title": "Full stack Developer (Angular/PHP) & Scrum Master",
+          "subtitle": "Full Stack Developer / UX Designer / Scrum Master",
+          "date": "10/2019 to 09/2022",
+          "company": "Amadeus (and Capgemini Engineering)",
+          "place": "Sophia-Antipolis, France",
+          "description": [
+            "Development & maintenance of a budget management application.",
+            "I joined the Transversal Services & Coordination Division, with secure deliveries of strategic and transversal programs across Amadeus.",
+            "My team aims to bring Predictability to Management for Operational Efficiency and Simplicity for more than 1700 Actors. With 2 Business Specialist and 2 other web developers, one of our activities is to develop and maintain Management Suite, an application allowing our users to manage their budget and resources."
+          ],
+          "link": "https://amadeus.com/",
+          "tags": ["Angular 11", "Symfony", "MySQL", "Scrum", "JIRA", "Jenkins", "SonarQube", "Azure"]
+        },
+        {
+          "title": "Web, Android, Alexa Developer Internship",
+          "subtitle": "Web / Android / AWS Developer",
+          "date": "03/2019 to 08/2019",
+          "type": "Internship",
+          "company": "Relief Applications",
+          "place": "Madrid, Spain",
+          "description": [
+            "Creation of innovative applications for humanitarian purposes.",
+            "As a frontend & backend developer, I have worked on several projects that aim to bring open-source solutions to humanitarian organizations deployed in conflict zones.",
+            "I have studied the complete project lifecycle, and the basic deployment processes of a server with Linux."
+          ],
+          "tags": ["Angular 8", "NodeJS", "Ionic", "AWS"],
+          "link": "https://reliefapplications.org/"
+        },
+        {
+          "title": "Fullstack (Angular/PHP) Developer Internship",
+          "subtitle": "Full Stack Developer",
+          "date": "05/2018 to 08/2018",
+          "type": "Internship",
+          "company": "Thales Alenia Space Cannes",
+          "place": "Cannes, France",
+          "description": [
+            "Prototyping of a Master Data Management System to assist in project management",
+            "I initiated the implementation of a Master Data Management system, in order to improve the punctuality of the software department's projects.",
+            "I worked on the various facets of a three-tier web application: front-end with Angular, back-end with PHP, database with MySQL.",
+            "I was also project manager. I used an Agile development process, punctuated by meetings with collaborators from the Cannes and Toulouse sites."
+          ],
+          "tags": ["Angular 5", "PHP", "MySQL", "Agile"],
+          "link": "https://www.thalesgroup.com/fr/espace"
+        }
+      ]
+    },
+    "portefolio": {
+      "title": "Portefolio",
+      "description": [],
+      "items": [
+        {
+          "title": "Personal Website",
+          "description": "An Angular project with serves as both a showcase and a sandbox.",
+          "image": "assets/images/portefolio-personal-website.png"
+        },
+        {
+          "title": "PokeGuesser",
+          "description": "A React initiation project inspired from on the well-known game Wordle, but with the flavor of Pokémon.",
+          "image": "assets/images/portefolio-pokeguesser.png"
+        },
+        {
+          "title": "BotBack",
+          "description": "A puzzle-game created in 48 hours for Game Dev Party's 19th Game Jam at Lyon.",
+          "image": "assets/images/portefolio-botback.png",
+          "link": "https://kuro-wolfy.itch.io/bot-back"
+        },
+        {
+          "title": "Isogenius",
+          "description": "A puzzle-game created in 48 hours for 2022 Scientific Game Jam at Lyon.",
+          "image": "assets/images/portefolio-isogenius.png",
+          "link": "https://kuro-wolfy.itch.io/isogenius"
+        },
+        {
+          "title": "Chompa-gnon",
+          "description": "A  platform-game created in 72 hours for Game Dev Party's 20th Game Jam at Lyon.",
+          "image": "assets/images/portefolio-chompagnon.png",
+          "link": "https://kuro-wolfy.itch.io/chompagnon"
+        }
+      ]
+    },
     "education": [
         {
             "title": "Baccalaureate S",
@@ -59,321 +239,18 @@
             "link": "https://www.imt-mines-albi.fr/"
         }
     ],
-    "experiences": [
-      {
-        "title": "Development of a suite of web applications for the supervision of Métropole Nice Côte-d'Azur",
-        "subtitle": "Angular Techlead",
-        "date": "Since September 2022 to ...",
-        "company": "Spie CityNetworks (and Klanik)",
-        "place": "Lyon, France",
-        "description": [
-          "Connected to the Nice's IT services, it is used by the city's Poste de Central to resolve events occurring in the Nice area",
-          "The platform is broken down as follows:",
-          " - Hypervision Module: compiles in real time all the data received from the field (incidents, handrails, equipment status, etc.) and enables operators to deploy the best strategy according to the current situation",
-          " - Cartography Module: displays the status of road equipment and other traffic information in real time on a map of the urban area",
-          " - Replay Module: based on the two previous modules, enables operators to revisit a past operating sequence to improve their incident resolution procedures",
-          " - Configuration Module: allows operators to parameterize the data models used by the previous modules.",
-          "My roles:",
-          " - Technical leader of a team of four Angular developers: complexity analysis of user stories, facilitator on technical issues, validation of merge requests.",
-          " - Cleaning up the code base and improving performance, by implementing best practices and design patterns.",
-          " - Mock-up and technical specification of new screens (special consideration for UI and Responsive Design).",
-          " - Technical watch for new libraries/technologies",
-          " - Writing user manuals, and supervising the writing of other technical documents."
-        ],
-        "link": "https://www.spie.com/en",
-        "details": []
-      },
-      {
-        "title": "Developement & maintenance of a budget support application",
-        "subtitle": "Full Stack Developer / UX Designer / Scrum Master",
-        "date": "Since October 2019 to September 2022",
-        "company": "Amadeus (and Capgemini Engineering)",
-        "place": "Sophia-Antipolis, France",
-        "description": [
-          "I joined the Transversal Services & Coordination Division, with secure deliveries of strategic and transversal programs across Amadeus.",
-          "My team aims to bring Predictability to Management for Operational Efficiency and Simplicity for more than 1700 Actors. With 2 Business Specialist and 2 other web developers, one of our activities is to develop and maintain Management Suite, an application allowing our users to manage their budget and resources."
-        ],
-        "link": "https://amadeus.com/",
-        "details": []
-      },
-      {
-        "title": "Creation of innovative applications for humanitarian purposes",
-        "subtitle": "Web / Android / AWS Developer",
-        "date": "From March 2019 to August 2019",
-        "type": "Internship",
-        "company": "Relief Applications",
-        "place": "Madrid, Spain",
-        "description": [
-          "As a frontend & backend developer, I have worked on several projects that aim to bring open-source solutions to humanitarian organizations deployed in conflict zones.",
-          "I have studied the complete project lifecycle, and the basic deployment processes of a server with Linux."
-        ],
-        "link": "https://reliefapplications.org/"
-      },
-      {
-        "title": "Prototyping of a Master Data Management System to assist in project management",
-        "subtitle": "Full Stack Developer",
-        "date": "From May 2018 to August 2018",
-        "type": "Internship",
-        "company": "Thales Alenia Space Cannes",
-        "place": "Cannes, France",
-        "description": [
-          "I initiated the implementation of a Master Data Management system, in order to improve the punctuality of the software department's projects.",
-          "I worked on the various facets of a three-tier web application: front-end with Angular, back-end with PHP, database with MySQL.",
-          "I was also project manager. I used an Agile development process, punctuated by meetings with collaborators from the Cannes and Toulouse sites."
-        ],
-        "link": "https://www.thalesgroup.com/fr/espace"
-      },
-      {
-        "title": "Global Game Jam 2018",
-        "subtitle": "Unity Developer",
-        "date": "January 2018",
-        "type": "Event",
-        "company": "Global Game Jam",
-        "place": "Albi, France",
-        "description": [
-          "The Global Game Jam is a challenge to create a complete video game in only 48 hours.",
-          "I participated as a game designer and developer."
-        ],
-        "link": "https://globalgamejam.org/"
-      }
-    ],
-    "characteristics":[
-        {
-            "title": "Creative",
-            "level": 80
-        },
-        {
-            "title": "Organized",
-            "level": 90
-        },
-        {
-            "title": "Empathetic",
-            "level": 90
-        },
-        {
-            "title": "Autonomous",
-            "level": 90
-        },
-        {
-            "title": "Curious",
-            "level": 100
-        },
-        {
-            "title": "Passionate",
-            "level": 200
-        }
-    ],
-    "portefolio": [
-      {
-        "title": "Personal Website",
-        "description": "An Angular project with serves as both a showcase and a sandbox.",
-        "image": "assets/images/portefolio-personal-website.png"
-      },
-      {
-        "title": "PokeGuesser",
-        "description": "A React initiation project inspired from on the well-known game Wordle, but with the flavor of Pokémon.",
-        "image": "assets/images/portefolio-pokeguesser.png"
-      },
-      {
-        "title": "BotBack",
-        "description": "A puzzle-game created in 48 hours for Game Dev Party's 19th Game Jam at Lyon.",
-        "image": "assets/images/portefolio-botback.png"
-      },
-      {
-        "title": "Isogenius",
-        "description": "A puzzle-game created in 48 hours for 2022 Scientific Game Jam at Lyon.",
-        "image": "assets/images/portefolio-isogenius.png"
-      },
-      {
-        "title": "Chompa-gnon",
-        "description": "A  platform-game created in 72 hours for Game Dev Party's 20th Game Jam at Lyon.",
-        "image": "assets/images/portefolio-chompagnon.png"
-      }
-    ],
-    "tastes": [
-        {
-            "title": "Spicy food",
-            "image": "assets/images/taste-spicy-food.png"
-        },
-        {
-            "title": "Japanese Animation",
-            "image": "assets/images/taste-japanese-animation.png"
-        },
-        {
-            "title": "Play & Create games",
-            "image": "assets/images/taste-game.png"
-        },
-        {
-            "title": "Learn",
-            "image": "assets/images/taste-learn.png"
-        }
-    ],
-    "skills": {
-        "programming": [
-          {
-            "title": "Angular (Typescript)",
-            "level": 90
-          },
-          {
-            "title": "Express (NodeJS / Javascript)",
-            "level": 50
-          },
-          {
-            "title": "MySQL (SQL)",
-            "level": 80
-          },
-          {
-            "title": "MongoDB (NoSQL)",
-            "level": 50
-          },
-          {
-            "title": "HTML5 / CSS3",
-            "level": 80
-          },
-          {
-            "title": "Bootstrap 5 / Tailwindcss",
-            "level": 80
-          },
-          {
-            "title": "PHP",
-            "level": 60,
-            "description": ["Symfony"]
-          },
-          {
-            "title": "Unity (C#)",
-            "level": 50
-          },
-          {
-            "title": "Java",
-            "level": 40,
-            "description": ["Eclipse"]
-          },
-          {
-            "title": "XML",
-            "level": 30
-          },
-          {
-            "title": "Python",
-            "level": 20
-          }
-        ],
-        "tooling": [
-          {
-            "title": "VS Code",
-            "level": 80
-          },
-          {
-            "title": "Microsoft Office",
-            "level": 80,
-            "description": ["Word", "Excel", "PowerPoint"]
-          },
-          {
-            "title": "Libre Office",
-            "level": 50,
-            "description": ["Writer", "Calc", "Impress"]
-          },
-          {
-            "title": "GitHub / GitLab (Git)",
-            "level": 80,
-            "description": ["GitHub", "GitLab", "GitBash"]
-          },
-          {
-            "title": "Jira / Bitbucket / Confluence",
-            "level": 90
-          },
-          {
-            "title": "Docker",
-            "level": 50
-          },
-          {
-            "title": "PHPStorm",
-            "level": 60
-          },
-          {
-            "title": "Jenkins",
-            "level": 50
-          },
-          {
-            "title": "SonarQube",
-            "level": 50
-          },
-          {
-            "title": "Paint.net",
-            "level": 60
-          },
-          {
-            "title": "Unity",
-            "level": 50
-          },
-          {
-            "title": "Figma",
-            "level": 50
-          }
-        ],
-        "theory": [
-          {
-            "title": "UML Diagrams",
-            "level": 90
-          },
-          {
-            "title": "Agile Methodology",
-            "level": 90
-          },
-          {
-            "title": "UX Design Practices",
-            "level": 60
-          },
-          {
-            "title": "Design Thinking",
-            "level": 50
-          },
-          {
-            "title": "Documentation Writing",
-            "level": 80
-          }
-        ]
-    },
-    "languages": [
-        {
-            "title": "French",
-            "level": 100,
-            "rank": "Mother tongue",
-            "image": "assets/images/flag-french.png"
-        },
-        {
-            "title": "English",
-            "level": 75,
-            "rank": "C1 - TOEIC 870",
-            "description": [
-                "Stays in New York and London.",
-                "Working language."
-            ],
-            "image": "assets/images/flag-english.png"
-        },
-        {
-            "title": "Spanish",
-            "level": 60,
-            "rank": "B2",
-            "description": [
-                "Weekly classes during my school days.",
-                "Internship of 6 months in Madrid."
-            ],
-            "image": "assets/images/flag-spanish.png"
-        },
-        {
-            "title": "Japanese",
-            "level": 15,
-            "rank": "A1 - JLPT N5",
-            "description": [
-                "I read and write hiragana and katakana, and a hundred kanjis.",
-                "I master the basics of the language."
-            ],
-            "image": "assets/images/flag-japanese.png"
-        }
-    ],
     "contact": {
         "fullName": "Sébastien Cayet",
         "phone": "+33 6 46 88 15 19",
         "email": "sebcayet@gmail.com"
+    },
+    "others": {
+      "title": "Sébastien Cayet",
+      "subtitle": "Frontend Software Engineer",
+      "more": "More Below",
+      "cookies": "This site is guaranteed 100% cookie-free! Developed by Sébastien CAYET (himself) with Angular 15.",
+      "footerCopy": "Crafted with ♥ by me ©",
+      "footerMadeWith": "Developed using Angular 15",
+      "footerAction": "Back to top"
     }
 }

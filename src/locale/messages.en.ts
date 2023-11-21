@@ -11,7 +11,7 @@ const messages = {
   from: 'From',
   greatings: 'Greatings!',
   greatingsDescription:
-    "I'm Sébastien, (mostly) a Web developer for 4 years now.",
+    "I'm Sébastien, a Lead Web Developer.",
   greatingsOccupation: 'Currently an Angular Techlead for Klanik, in Lyon.',
   home: 'Home page',
   knowledge: 'Knowledge',

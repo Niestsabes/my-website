@@ -1,0 +1,27 @@
+<section class="page-section" id="portefolio-section">
+    <div class="container">
+        <h2 class="text-center">
+            {{ data?.portefolio.title }}
+        </h2>
+        <div class="text-center mb-1">
+            <span class="icon-star-regular"></span>
+        </div>
+        <p class="text-center">
+            <ng-container *ngFor="let desc of data?.portefolio.description">
+                {{ desc }}<br/>
+            </ng-container>
+        </p>
+        <main class="page-section__main row">
+            <article class="col-md-6 col-lg-4" *ngFor="let item of data?.portefolio.items">
+                <div class="portefolio-item interactable-box overflow-hidden position-relative">
+                    <img class="portefolio-item__image" src="{{ item.image }}"/>
+                    <div class="portefolio-item__content">
+                        <h3 class="portefolio-item__title">{{ item.title }}</h3>
+                        <p class="text-justify">{{ item.description }}</p>
+                        <a class="w-100 d-block text-right" *ngIf="item.link" [href]="item.link" target="_blank">Visit</a>
+                    </div>
+                </div>
+            </article>
+        </main>
+    </div>
+</section>

@@ -1,4 +1,4 @@
-import { ResumeInterface, ResumeItemInterface, ResumeExperienceInterface } from './resume.interface';
+import { ResumeInterface } from './resume.interface';
 
 export class Resume {
 
@@ -13,22 +13,25 @@ export class Resume {
         this._rawData = value;
     }
 
-    /**
-     * @description Returns list of assets found in raw data
-     * @returns list of assets
-     */
-    public getAssets(): Array<ResumeItemInterface> {
-        if ( !this._rawData || !this._rawData.assets ) {
-            return [];
+    public getRoles(): any {
+        if ( !this._rawData || !this._rawData.roles ) {
+            return null;
         }
-        return this._rawData.assets;
+        return this._rawData.roles;
+    }
+
+    public getSpeak(): any {
+        if ( !this._rawData || !this._rawData.languages ) {
+            return null;
+        }
+        return this._rawData.languages;
     }
 
     /**
      * @description Returns the presentation found in raw data
      * @returns presentation
      */
-    public getPresentation(): ResumeItemInterface {
+    public getPresentation(): any {
         if ( !this._rawData || !this._rawData.presentation ) {
             return null;
         }
@@ -39,7 +42,7 @@ export class Resume {
      * @description Returns education found in raw data
      * @returns list of educations
      */
-    public getEducation(): Array<ResumeExperienceInterface> {
+    public getEducation(): any {
         if ( !this._rawData || !this._rawData.education ) {
             return [];
         }
@@ -50,7 +53,7 @@ export class Resume {
      * @description Returns the experiences found in raw data
      * @returns list of experiences
      */
-    public getExperiences(): Array<ResumeExperienceInterface> {
+    public getExperiences(): any {
         if ( !this._rawData || !this._rawData.experiences ) {
             return [];
         }
@@ -61,73 +64,21 @@ export class Resume {
      * @description Returns the list of tastes found in raw data
      * @returns list of tastes
      */
-    public getTastes(): Array<ResumeItemInterface> {
-        if ( !this._rawData || !this._rawData.tastes ) {
-            return [];
-        }
-        return this._rawData.tastes;
+    public getTastes(): any {
+        // if ( !this._rawData || !this._rawData.tastes ) {
+        //     return [];
+        // }
+        // return this._rawData.tastes;
+        return [];
     }
 
     /**
      * @description Returns the portefolio found in row data
      */
-    public getPortefolio(): Array<ResumeItemInterface> {
+    public getPortefolio(): any {
         if ( !this._rawData || !this._rawData.portefolio ) {
             return [];
         }
         return this._rawData.portefolio;
-    }
-
-    /**
-     * @description Returns the list of characteristics found in raw data
-     * @returns list of characteristics
-     */
-    public getCharacteristics(): Array<ResumeItemInterface> {
-        if ( !this._rawData || !this._rawData.characteristics ) {
-            return [];
-        }
-        return this._rawData.characteristics;
-    }
-
-    /**
-     * @description Returns the list of languages appearing in raw data
-     * @returns list of languages
-     */
-    public getLanguages(): Array<ResumeItemInterface> {
-        if ( !this._rawData || !this._rawData.languages ) {
-            return [];
-        }
-        return this._rawData.languages;
-    }
-
-    /**
-     * @description Returns the list of skill found in raw data
-     * @param type Type of skill wanted. If null, returns all skills
-     * @return list of skills
-     */
-    public getSkills(type: string = null): Array<ResumeItemInterface> | {[skillType: string]: Array<ResumeItemInterface>} {
-        if ( !this._rawData
-            || !this._rawData.skills
-            || (type !== null && !this._rawData.skills[type])
-        ) {
-            return [];
-        }
-        else if ( !type ) {
-            return this._rawData.skills;
-        }
-        else {
-            return this._rawData.skills[type];
-        }
-    }
-
-    /**
-     * @description Returns the list of skill types available in the raw data
-     * @returns List of skill types
-     */
-    public getSkillTypes(): Array<string> {
-        if ( !this._rawData || !this._rawData.skills ) {
-            return [];
-        }
-        return Object.keys(this._rawData.skills);
     }
 }

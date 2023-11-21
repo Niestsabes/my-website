@@ -10,15 +10,18 @@ import { HeaderComponent } from './components/header/header.component';
 import { IconComponent } from './components/icon/icon.component';
 import { HomeComponent } from './pages/home/home.component';
 import { ExperiencePageComponent } from './pages/experience-page/experience-page.component';
-import { BannerComponent } from './components/banner/banner.component';
+import { HomeBannerComponent } from './pages/home/home-banner/home-banner.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { GaugeComponent } from './components/gauge/gauge.component';
 import { ContactPageComponent } from './pages/contact-page/contact-page.component';
 import { ContactPanelComponent } from './components/contact-panel/contact-panel.component';
-import { CircleGaugeComponent } from './components/circle-gauge/circle-gauge.component';
 import { TranslatorPipe } from './pipes/translator.pipe';
-import { StarGaugeComponent } from './components/star-gauge/star-gauge.component';
-import { SubtitleBannerComponent } from './components/subtitle-banner/subtitle-banner.component';
+import { HeaderMainComponent } from './components/header-main/header-main.component';
+import { HomeExperiencesComponent } from './pages/home/home-experiences/home-experiences.component';
+import { HomePresentationComponent } from './pages/home/home-presentation/home-presentation.component';
+import { HomeAboutComponent } from './pages/home/home-about/home-about.component';
+import { HomePortefolioComponent } from './pages/home/home-portefolio/home-portefolio.component';
+import { HomeRolesComponent } from './pages/home/home-roles/home-roles.component';
+import { StoreModule } from '@ngrx/store';
 
 @NgModule({
   declarations: [
@@ -28,14 +31,16 @@ import { SubtitleBannerComponent } from './components/subtitle-banner/subtitle-b
     IconComponent,
     HomeComponent,
     ExperiencePageComponent,
-    BannerComponent,
-    GaugeComponent,
+    HomeBannerComponent,
     ContactPageComponent,
     ContactPanelComponent,
-    CircleGaugeComponent,
-    StarGaugeComponent,
     TranslatorPipe,
-    SubtitleBannerComponent
+    HeaderMainComponent,
+    HomeExperiencesComponent,
+    HomePresentationComponent,
+    HomeAboutComponent,
+    HomePortefolioComponent,
+    HomeRolesComponent
   ],
   imports: [
     BrowserModule,
@@ -43,7 +48,8 @@ import { SubtitleBannerComponent } from './components/subtitle-banner/subtitle-b
     AppRoutingModule,
     HttpClientModule,
     ReactiveFormsModule,
-    FormsModule
+    FormsModule,
+    StoreModule.forRoot({}, {})
   ],
   providers: [],
   bootstrap: [AppComponent]

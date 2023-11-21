@@ -1,0 +1,110 @@
+@import '../../../assets/style/theme.scss';
+
+$header-height: 60px;
+$header-padding: 8px;
+$side-button-size: calc(#{$header-height} - 2 * #{$header-padding});
+
+.header {
+    position: fixed;
+    top: -2px;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 8px 8px;
+    font-weight: bold;
+    color: $header-text-color;
+    width: 100%;
+    background: linear-gradient(0deg, rgba($header-bg-color, 0) 10%, $header-bg-color 100%);
+
+    a {
+        color: $header-text-color;
+
+        &:hover {
+            color: $header-text-hover-color;
+            transition: 300ms ease-in-out;
+        }
+    }
+}
+
+.header__title {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+
+    .header__title-text {
+        margin: 0;
+        margin-left: .5rem;
+        font-size: 1rem;
+    }
+    
+    .header__title-icon {
+        width: 2.2rem;
+        height: 2.2rem;
+        border-radius: 50%;
+    }
+}
+
+.header__nav {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+    .header__nav-item {
+        margin: 0 8px;
+        position: relative;
+    }
+
+    .header__nav-item-icon {
+        position: absolute;
+        font-size: 1.5rem;
+        top: .7rem;
+        left: calc(50% - .75rem);
+        z-index: 1;
+    }
+
+    .header__nav-item-link {
+        position: relative;
+        z-index: 2;
+    }
+}
+
+.header__side-menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    
+    > li {
+        margin-left: 8px;
+    }
+}
+
+.header__side-button {
+    height: 1rem;
+    width: 1rem;
+    border-radius: calc((#{$header-height} - 2 * #{$header-padding}) / 2);
+    background-color: rgba($app-white, 0.1);
+    border: none;
+    color: $app-white;
+    text-align: center;
+    line-height: 1rem;
+
+    &:hover {
+        background-color: rgba($app-white, 0.3);
+        transition: 0.5s;
+        cursor: pointer;
+    }
+}
+
+.header__icon {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    border: solid 1px #000;
+    box-shadow: 1px 1px #000;
+    cursor: pointer;
+}

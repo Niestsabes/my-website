@@ -1,0 +1,24 @@
+<section class="page-section" id="presentation-section">
+    <div class="container">
+        <main class="page-section__main row">
+            <article class="col-md-7">
+                <div class="d-flex justify-content-between align-items-center">
+                    <h3>{{ data?.presentation.title }}</h3>
+                    <div>
+                        <span class="icon-star-regular"></span>
+                        <span class="icon-star-regular"></span>
+                        <span class="icon-star-regular"></span>
+                    </div>
+                </div>
+                <p *ngFor="let pres of data?.presentation.description" class="text-justify">
+                    {{ pres }}
+                </p>
+            </article>
+            <aside class="col-md-5">
+                <div class="home-about__image-wrapper overflow-hidden position-relative w-100">
+                    <img [src]="images.mainPhoto" alt="Sébastien Cayet"/>
+                </div>
+            </aside>
+        </main>
+    </div>
+</section>

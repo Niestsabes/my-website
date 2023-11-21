@@ -1,7 +1,39 @@
-<footer class="footer iconed-text">
+<footer class="footer iconed-text py-5">
     <div class="footer__border"></div>
-    <app-icon icon="icon-cookie-bite-solid"></app-icon>
-    <span i18n="@footer-message">
-        {{ 'Ce site est garanti 100% sans cookies ! Développé par Sébastien CAYET (lui-même) avec Angular 15.' | translate:'footerText' }}
-    </span>
+    <div class="footer__avatar">
+        <img src="./assets/images/avatar.png"/>
+    </div>
+    <p class="text-center">
+        <strong>{{ data?.others.title }}</strong>
+    </p>
+    <ul class="list-unstyled d-flex justify-content-center">
+        <li class="mx-2">
+            <a class="role-icon dark-mode interactable-box" [href]="ROUTES.external.linkedIn" target="_blank">
+                <span class="icon-linkedin-brands"></span>
+            </a>
+        </li>
+        <li class="mx-2">
+            <a class="role-icon dark-mode interactable-box" [href]="ROUTES.external.gitHub" target="_blank">
+                <span class="icon-github-brands"></span>
+            </a>
+        </li>
+        <li class="mx-2">
+            <a class="role-icon dark-mode interactable-box" [href]="ROUTES.external.itch" target="_blank">
+                <span class="icon-itch-io"></span>
+            </a>
+        </li>
+    </ul>
+    <p class="text-center">
+        {{ data?.others.footerCopy }} {{ year }}
+    </p>
+    <p class="text-center">
+        {{ data?.others.footerMadeWith }}
+    </p>
+    <div class="d-flex justify-content-center align-items-center">
+        <button class="mx-auto btn dark-mode interactable-box" (click)="scrollToTop()">
+            <span class="icon-arrow-up"></span>
+            <span class="mx-1">{{ data?.others.footerAction }}</span>
+            <span class="icon-arrow-up"></span>
+        </button>
+    </div>
 </footer>

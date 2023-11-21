@@ -12,7 +12,7 @@ const messages = {
   from: 'De',
   greatings: '¡Hola!',
   greatingsDescription:
-    'Soy Sébastien, (principalmente) desarrollador web durante 4 años.',
+    'Soy Sébastien, un Lead Web Desarrollador.',
   greatingsOccupation: 'Actualmente Techlead Angular para Klanik, en Lyon.',
   home: 'Página principal',
   knowledge: 'Conocimientio',

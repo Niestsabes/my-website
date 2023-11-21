@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SubtitleBannerComponent } from './subtitle-banner.component';
+import { HeaderMainComponent } from './header-main.component';
 
-describe('SubtitleBannerComponent', () => {
-  let component: SubtitleBannerComponent;
-  let fixture: ComponentFixture<SubtitleBannerComponent>;
+describe('HeaderMainComponent', () => {
+  let component: HeaderMainComponent;
+  let fixture: ComponentFixture<HeaderMainComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ SubtitleBannerComponent ]
+      declarations: [ HeaderMainComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(SubtitleBannerComponent);
+    fixture = TestBed.createComponent(HeaderMainComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

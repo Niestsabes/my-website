@@ -1,0 +1,13 @@
+@import '../../../../assets/style/theme.scss';
+
+.home-exp__accordion-header {
+    width: 100%;
+    font-size: 1em !important;
+}
+
+.home-exp__accordion-button {
+    width: 100%;
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+}
