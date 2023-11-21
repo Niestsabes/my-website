@@ -3,17 +3,12 @@
 
 .gradient-animation {
 	color: #fff;
-	background: linear-gradient(-45deg, rgb(37, 46, 182), rgb(58, 102, 223), #23A6D5, #23D5AB);
+	background: linear-gradient(-45deg, #380c7b, #32179d, #252EB6, #3A66DF);
 	background-size: 400% 400%;
 	-webkit-animation: Gradient 15s ease infinite;
 	-moz-animation: Gradient 15s ease infinite;
-    animation: Gradient 15s ease infinite;
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-    position: relative;
+  animation: Gradient 15s ease infinite;
+  position: relative;
 }
 
 @-webkit-keyframes Gradient {
@@ -74,7 +69,7 @@
     background: rgba(255, 255, 255, 0.2);
     animation: animate 25s linear infinite;
     bottom: -150px;
-    
+
 }
 
 .circles-animation li:nth-child(1){
@@ -153,17 +148,24 @@
 }
 
 @keyframes animate {
-    
     0%{
         transform: translateY(0) rotate(0deg);
         opacity: 1;
         border-radius: 0;
     }
-
     100%{
         transform: translateY(-1000px) rotate(720deg);
         opacity: 0;
         border-radius: 50%;
     }
+}
 
+@keyframes bounce {
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(10px);
+    }
 }

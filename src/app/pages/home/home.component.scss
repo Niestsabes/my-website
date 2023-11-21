@@ -1,9 +1,5 @@
 @import './../../../assets/style/colors.scss';
 
-.home-banner-wrapper {
-    height: calc( (100vh - 60px) * 0.58 );
-}
-
 .taste-wrapper {
     max-width: 100%;
     margin: 0;
@@ -43,6 +39,10 @@
             z-index: 1;
         }
 
+        .taste-item-text {
+            text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+        }
+
         &:hover, &:focus {
             .taste-item-content {
                 background-color: rgba($app-black, 0.6);
@@ -56,7 +56,7 @@
     padding: 0;
     border: 2px solid $app-black;
     background-color: rgba($app-black, 0.05);
-    
+
     .knowledge-title {
         margin: 0;
         padding: 0.4em;

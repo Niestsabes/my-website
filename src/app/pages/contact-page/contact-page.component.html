@@ -15,14 +15,6 @@
               <app-icon icon="icon-user-solid"></app-icon>
               <span>{{ 'Sébastien CAYET' | translate:'title' }}</span>
             </li>
-            <li class="contact-info iconed-text">
-              <app-icon icon="icon-phone-solid"></app-icon>
-              <span>+33 6 46 88 15 19</span>
-            </li>
-            <li class="contact-info iconed-text">
-              <app-icon icon="icon-envelope-solid"></app-icon>
-              <span>sebcayet@gmail.com</span>
-            </li>
           </ul>
           <div class="contact-info-social">
             <a [href]="routes.external.facebook" class="button icon-button bouncy-1" target="_blank">
@@ -49,7 +41,7 @@
       <h1 class="text-center iconed-text d-none d-md-block">
         <app-icon icon="icon-envelope-open-text-solid"></app-icon>
         <span>{{ 'Envoyer un mail' | translate:'sendMail' }}</span>
-      </h1> 
+      </h1>
       <form #contactFormElement [formGroup]="contactForm" class="container"
         action="https://formspree.io/{{routes.mailAddress}}" method="POST" target="_blank">
         <p class="text-center">{{ "Remplissez le formulaire ci-dessous pour m'envoyer un mail." | translate:'mailFormText' }}</p>
@@ -60,7 +52,7 @@
               for="mailFirstName">
               {{ 'Prénom' | translate:'firstName' }}
             </label>
-            <input class="col-12 col-md-10 col-lg-9 form-control" 
+            <input class="col-12 col-md-10 col-lg-9 form-control"
               name="firstName"
               formControlName="firstName"
               type="text"
@@ -73,7 +65,7 @@
         <fieldset class="form-group"
           [class.invalid]="isFieldInvalid('lastName')">
           <div class="row">
-            <label class="col-12 col-md-2 col-lg-3 col-form-label" 
+            <label class="col-12 col-md-2 col-lg-3 col-form-label"
               for="mailLastName">
               {{ 'Nom' | translate:'lastName' }}
             </label>

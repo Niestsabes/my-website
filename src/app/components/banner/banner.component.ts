@@ -1,15 +1,17 @@
 import { Component, OnInit } from '@angular/core';
+import { ROUTES } from './../../constants/routes.dictionary';
 
 @Component({
-  selector: 'app-banner',
+  selector: 'app-title-banner',
   templateUrl: './banner.component.html',
-  styleUrls: ['./banner.component.scss']
+  styleUrls: ['./banner.component.scss'],
 })
 export class BannerComponent implements OnInit {
 
-  constructor() { }
+  /** @description list application's routes */
+  public routes = ROUTES;
 
-  ngOnInit(): void {
-  }
+  constructor() {}
 
+  ngOnInit(): void {}
 }

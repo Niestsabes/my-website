@@ -19,6 +19,13 @@ export class LocaleService {
     this.localeChange = new Subject();
   }
 
+  public loadLocale(): void {
+    const defaultLocale = localStorage.getItem('localeId') ?
+      localStorage.getItem('localeId') :
+      this._defaultLocale;
+    this.setLocale(defaultLocale, false);
+  }
+
   /**
    * @description Sets application current locale
    * @param value language code of the locale to set
@@ -41,10 +48,7 @@ export class LocaleService {
    */
   public getLocale(): LocaleInterface {
     if (this._locale == null) {
-      const defaultLocale = localStorage.getItem('localeId') ?
-        localStorage.getItem('localeId') :
-        this._defaultLocale;
-      this.setLocale(defaultLocale, false);
+      this.loadLocale();
     }
     return this._locale;
   }
