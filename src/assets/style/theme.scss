@@ -33,6 +33,25 @@
 
 // Button classes, inspiration from there : https://fdossena.com/?p=html5cool/buttons/i.frag
 
+.role-icon {
+    border: 1px solid $app-black;
+    border-radius: 50%;
+    box-sizing: border-box;
+    height: 3rem;
+    width: 3rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    text-decoration: none !important;
+
+    &.dark-mode {
+        border-color: $app-white;
+        color: $app-white;
+    }
+}
+
 .interactable-box {
     border: 1px solid $app-black;
     border-radius: 0.425em;
@@ -40,6 +59,12 @@
     box-shadow: 4px 4px $app-black;
     text-decoration: none;
     cursor: pointer;
+
+    &.dark-mode {
+        border-color: $app-white;
+        box-shadow: 4px 4px $app-white;
+        color: $app-white;
+    }
 }
 
 $btn-height: 2.6em;

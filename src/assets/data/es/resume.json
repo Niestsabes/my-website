@@ -248,6 +248,9 @@
       "title": "Sébastien Cayet",
       "subtitle": "Desarrollador frontend",
       "more": "Más abajo",
-      "cookies": "¡Este sitio está garantizado 100% libre de cookies! Desarrollado por Sébastien CAYET (él mismo) con Angular 15."
+      "cookies": "¡Este sitio está garantizado 100% libre de cookies! Desarrollado por Sébastien CAYET (él mismo) con Angular 15.",
+      "footerCopy": "Hecho con ♥ por mí ©",
+      "footerMadeWith": "Realizado con Angular 15",
+      "footerAction": "Volver arriba"
     }
 }
