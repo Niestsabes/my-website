@@ -9,7 +9,7 @@
     "roles": {
       "title": "That's me !",
       "description": [
-        "By being curious and willing, I've become quite versatile.",
+        "By being curious and willing, I've become quite polyvalent.",
         "However, Frontend development will stay precious to me."
       ],
       "items": [
@@ -111,7 +111,7 @@
             "Development of a web application for coordinating the administration of the Greater Lyon road network, created by CORALY operators. Connected to the IT services of the various operators, it is used by CORALY operators to communicate and propose incident resolution scenarios.",
             "I managed a team of three developers, carried out code reviews, ensured application quality, wrote technical and functional documentation and implemented technical upgrades."
           ],
-          "tags": ["Angular 15-16", "NodeJS", "Docker", "GitLab"]
+          "tags": ["Angular 16-16", "NodeJS", "Docker", "GitLab"]
         },
         {
           "title": "Angular Lead Developer",
@@ -248,9 +248,9 @@
       "title": "Sébastien Cayet",
       "subtitle": "Frontend Software Engineer",
       "more": "More Below",
-      "cookies": "This site is guaranteed 100% cookie-free! Developed by Sébastien CAYET (himself) with Angular 15.",
+      "cookies": "This site is guaranteed 100% cookie-free! Developed by Sébastien CAYET (himself) with Angular 16.",
       "footerCopy": "Crafted with ♥ by me ©",
-      "footerMadeWith": "Developed using Angular 15",
+      "footerMadeWith": "Developed using Angular 16",
       "footerAction": "Back to top"
     }
 }

@@ -111,7 +111,7 @@
             "Desarrollo de una aplicación web para coordinar la administración de la red de carreteras del Gran Lyon, creada por los operadores de CORALY. Conectada a los servicios informáticos de los distintos operadores, es utilizada por los operadores de CORALY para comunicarse y proponer escenarios de resolución de incidencias.",
             "Gestioné un equipo de tres desarrolladores, realicé revisiones de código, aseguré la calidad de la aplicación, redacté documentación técnica y funcional e implementé actualizaciones técnicas."
           ],
-          "tags": ["Angular 15-16", "NodeJS", "Docker", "GitLab"]
+          "tags": ["Angular 16-16", "NodeJS", "Docker", "GitLab"]
         },
         {
           "title": "Angular Desarrollador Principal",
@@ -248,9 +248,9 @@
       "title": "Sébastien Cayet",
       "subtitle": "Desarrollador frontend",
       "more": "Más abajo",
-      "cookies": "¡Este sitio está garantizado 100% libre de cookies! Desarrollado por Sébastien CAYET (él mismo) con Angular 15.",
+      "cookies": "¡Este sitio está garantizado 100% libre de cookies! Desarrollado por Sébastien CAYET (él mismo) con Angular 16.",
       "footerCopy": "Hecho con ♥ por mí ©",
-      "footerMadeWith": "Realizado con Angular 15",
+      "footerMadeWith": "Realizado con Angular 16",
       "footerAction": "Volver arriba"
     }
 }
