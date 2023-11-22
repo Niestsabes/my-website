@@ -3,13 +3,13 @@
         "title": "À propos",
         "description": [
           "Je suis un collaborateur actif avec un capital de compétences multiples couvrant la plupart des aspects du développement d'applications. Ingénieur diplômé d'IMT Mines Albi, ma spécialité est le développement front-end. Cependant, j'ai aussi beaucoup travaillé sur le back-end, le prototypage d'interfaces utilisateur, la gestion de projets en Agile, la rédaction de documentations et de spécifications, et plus encore. Ambitieux et enthousiaste, je crois passionnément en la création d'applications intuitives, attrayantes et inclusives pour obtenir la satisfaction du plus grand nombre.",
-          "La détermination et la curiosité font partie de mes points forts. Je m'amuse souvent à trouver de nouveaux processus ou de nouvelles technologies pour améliorer ma routine de travail et les partager aux autres. En tant que Techlead, il est crucial de rester à jour, mais je veille à m'assurer de la croissance de mes collègues également, toujours avec patience et gentillesse. Ma solide connaissance des pratiques de code propre et de la gestion de projet ont toujours été des clés de succès sur projets pour lesquels j'ai travaillé."
+          "La détermination et la curiosité font partie de mes atouts majeurs. Je prends souvent plaisir à découvrir de nouveaux processus ou technologies afin d'améliorer ma routine de travail, et je partage ces découvertes avec mes collègues. En tant que Techlead, il est essentiel de rester à la pointe, mais je veille également à favoriser la croissance de mes collègues, toujours avec patience et bienveillance. Ma solide connaissance des bonnes pratiques de codage et de la gestion de projet a toujours été la clé du succès des sujets auxquels j'ai participé."
         ]
     },
     "roles": {
       "title": "C'est tout moi !",
       "description": [
-        "En étant curieux et volontaire, je suis devenu plutôt versatile.",
+        "En étant curieux et volontaire, je suis devenu plutôt polyvalent.",
         "Néanmoins, ma spécialité reste le développment front-end."
       ],
       "items": [
@@ -28,7 +28,7 @@
           "title": "Développement",
           "icon": "icon-tools",
           "description": [
-            "Je considére le code comme un artisanat et, un terreau fertile pour l'expression."
+            "Je considére le code comme une activité artisanale et, un terreau fertile pour l'expression."
           ],
           "tagsTitle": "Quelques languages que j'utilise:",
           "tags": ["HTML", "Sass", "Angular", "Express", "Git", "MySQL", "NoSQL"],
@@ -39,7 +39,7 @@
           "title": "Agilité",
           "icon": "icon-clipboard",
           "description": [
-            "Le management joue un rôle majeur dans la réussite d'un projet. Je ne suis guère expressif, mais dis ce qui doit l'être."
+            "Le management joue un rôle majeur dans la réussite d'un projet. Je m'accapare peu les lumières, mais sais exprimer ce qui doit l'être."
           ],
           "tagsTitle": "Ce que j'ai pu pratiquer:",
           "tags": ["Scrum", "SAFE", "Design DOC", "Functional Doc"],
@@ -111,7 +111,7 @@
             "Développement d'une application web pour coordination de l'administration du réseau routier du Grand Lyon, réalisée par le gérant CORALY. Connectée aux services informatiques des divers exploitants, elle est utilisée par les opérateurs CORALY pour communiquer et proposer des scénarios de résolution d'incidents.",
             "J'ai dirigé une équipe de trois développeurs, réalisé les revues de code, veillé à la qualité de l'application, rédigé de la documentation technique et fonctionnelle et mis en place des évolutions techniques."
           ],
-          "tags": ["Angular 15-16", "NodeJS", "Docker", "GitLab"]
+          "tags": ["Angular 16-16", "NodeJS", "Docker", "GitLab"]
         },
         {
           "title": "Lead Développeur Angular",
@@ -248,11 +248,11 @@
     },
     "others": {
       "title": "Sébastien Cayet",
-      "subtitle": "Dévellopeur Frontend",
+      "subtitle": "Développeur Frontend",
       "more": "Voir plus",
-      "cookies": "Ce site est garanti sans cookies! Développé par Sébastien CAYET (lui-même) with Angular 15.",
+      "cookies": "Ce site est garanti sans cookies! Développé par Sébastien CAYET (lui-même) with Angular 16.",
       "footerCopy": "Fait avec ♥ par mes soins ©",
-      "footerMadeWith": "Développé en Angular 15.",
+      "footerMadeWith": "Développé en Angular 16.",
       "footerAction": "Retour en haut de page"
     }
 }
