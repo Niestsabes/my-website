@@ -3,6 +3,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
+import { provideFirebaseApp, initializeApp } from '@angular/fire/app';
+import { ScreenTrackingService, getAnalytics, provideAnalytics } from '@angular/fire/analytics';
+
 import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
@@ -21,7 +24,7 @@ import { HomePresentationComponent } from './pages/home/home-presentation/home-p
 import { HomeAboutComponent } from './pages/home/home-about/home-about.component';
 import { HomePortefolioComponent } from './pages/home/home-portefolio/home-portefolio.component';
 import { HomeRolesComponent } from './pages/home/home-roles/home-roles.component';
-import { StoreModule } from '@ngrx/store';
+import { environment } from 'src/environments/environment';
 
 @NgModule({
   declarations: [
@@ -49,9 +52,12 @@ import { StoreModule } from '@ngrx/store';
     HttpClientModule,
     ReactiveFormsModule,
     FormsModule,
-    StoreModule.forRoot({}, {})
+    provideFirebaseApp(() => initializeApp(environment.firebaseConfig)),
+    provideAnalytics(() => getAnalytics()),
   ],
-  providers: [],
+  providers: [
+    ScreenTrackingService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
