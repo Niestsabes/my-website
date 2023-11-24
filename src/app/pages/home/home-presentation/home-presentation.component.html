@@ -25,7 +25,7 @@
                 <ul class="taste-wrapper list-unstyle">
                     <li class="taste-item interactable-box"
                         *ngFor="let item of data?.tastes.items">
-                        <img class="taste-item-image" [src]="item.image"/>
+                        <img class="taste-item-image" [src]="item.image" [alt]="item.title"/>
                         <div class="taste-item-content">
                             <span class="taste-item-text">{{ item.title }}</span>
                         </div>
