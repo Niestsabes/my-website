@@ -11,7 +11,7 @@
       "type": "image/x-icon"
     },
     {
-      "src": "./assets/images/avatar256.png",
+      "src": "./assets/images/avatar256.webp",
       "type": "image/png",
       "sizes": "256x256"
     }
