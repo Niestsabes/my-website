@@ -81,18 +81,22 @@
       "items": [
         {
             "title": "Comida picante",
+            "description": "Boca en fuego",
             "image": "assets/images/taste-spicy-food.webp"
         },
         {
             "title": "Animación japonesa",
+            "description": "Fujiwara-san ?!",
             "image": "assets/images/taste-japanese-animation.webp"
         },
         {
             "title": "Jugar y crear juegos",
+            "description": "Fire Emblem es una de mis series favoritas.",
             "image": "assets/images/taste-game.webp"
         },
         {
             "title": "Aprender",
+            "description": "Un día tras otro. Un viaje sin fin.",
             "image": "assets/images/taste-learn.webp"
         }
       ]

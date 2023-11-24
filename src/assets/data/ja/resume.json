@@ -81,19 +81,23 @@
       "items": [
         {
           "title": "辛いもの",
+          "description": "火のついた口。",
           "image": "assets/images/taste-spicy-food.webp"
         },
         {
-            "title": "日本のアニメ",
-            "image": "assets/images/taste-japanese-animation.webp"
+          "title": "日本のアニメ",
+          "description": "藤原さん？",
+          "image": "assets/images/taste-japanese-animation.webp"
         },
         {
-            "title": "ゲームをプレイして作成する",
-            "image": "assets/images/taste-game.webp"
+          "title": "ゲームをプレイして作成する",
+          "description": "ファイアーエムブレムは大好きなシリーズのひとつだ。",
+          "image": "assets/images/taste-game.webp"
         },
         {
-            "title": "学ぶ",
-            "image": "assets/images/taste-learn.webp"
+          "title": "学ぶ",
+          "description": "一日、また一日。終わりのない旅。",
+          "image": "assets/images/taste-learn.webp"
         }
       ]
     },

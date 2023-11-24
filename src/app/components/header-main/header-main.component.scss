@@ -108,3 +108,8 @@ $side-button-size: calc(#{$header-height} - 2 * #{$header-padding});
     box-shadow: 1px 1px #000;
     cursor: pointer;
 }
+
+.header__language {
+    background-color: transparent;
+    border: none;
+}
