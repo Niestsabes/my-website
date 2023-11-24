@@ -57,22 +57,22 @@
         {
             "title": "フランス語",
             "description": "母国語",
-            "image": "assets/images/flag-french.png"
+            "image": "assets/images/flag-french.webp"
         },
         {
             "title": "英語",
             "description": "職業レベル",
-            "image": "assets/images/flag-english.png"
+            "image": "assets/images/flag-english.webp"
         },
         {
             "title": "スペイン語",
             "description": "ビギナー",
-            "image": "assets/images/flag-spanish.png"
+            "image": "assets/images/flag-spanish.webp"
         },
         {
             "title": "日本語",
             "description": "ビギナー、JLPT N5",
-            "image": "assets/images/flag-japanese.png"
+            "image": "assets/images/flag-japanese.webp"
         }
       ]
     },
@@ -81,19 +81,19 @@
       "items": [
         {
           "title": "辛いもの",
-          "image": "assets/images/taste-spicy-food.png"
+          "image": "assets/images/taste-spicy-food.webp"
         },
         {
             "title": "日本のアニメ",
-            "image": "assets/images/taste-japanese-animation.png"
+            "image": "assets/images/taste-japanese-animation.webp"
         },
         {
             "title": "ゲームをプレイして作成する",
-            "image": "assets/images/taste-game.png"
+            "image": "assets/images/taste-game.webp"
         },
         {
             "title": "学ぶ",
-            "image": "assets/images/taste-learn.png"
+            "image": "assets/images/taste-learn.webp"
         }
       ]
     },
@@ -182,29 +182,29 @@
         {
           "title": "個人サイト",
           "description": "ショーケースとサンドボックスの両方の役割を果たすAngularプロジェクト。",
-          "image": "assets/images/portefolio-personal-website.png"
+          "image": "assets/images/portefolio-personal-website.webp"
         },
         {
           "title": "ポケゲッサー",
           "description": "有名なゲームWordleにインスパイアされ、ポケモンのテイストを取り入れたReactの開始プロジェクト。",
-          "image": "assets/images/portefolio-pokeguesser.png"
+          "image": "assets/images/portefolio-pokeguesser.webp"
         },
         {
           "title": "ボットバック",
           "description": "このパズルゲームは、リヨンでGame Dev Partyの第19回ゲーム・ジャムで48時間かけて作られたものです。",
-          "image": "assets/images/portefolio-botback.png",
+          "image": "assets/images/portefolio-botback.webp",
           "link": "https://kuro-wolfy.itch.io/bot-back"
         },
         {
           "title": "イソゲニウス",
           "description": "このパズルゲームは、リヨンで開催されたサイエンティフィック・ゲーム・ジャムで48時間以内に制作された。",
-          "image": "assets/images/portefolio-isogenius.png",
+          "image": "assets/images/portefolio-isogenius.webp",
           "link": "https://kuro-wolfy.itch.io/isogenius"
         },
         {
           "title": "チョンパグノン",
           "description": "このパズルゲームは、リヨンでGame Dev Partyの第20回ゲーム・ジャムで72時間かけて作られたものです。",
-          "image": "assets/images/portefolio-chompagnon.png",
+          "image": "assets/images/portefolio-chompagnon.webp",
           "link": "https://kuro-wolfy.itch.io/chompagnon"
         }
       ]

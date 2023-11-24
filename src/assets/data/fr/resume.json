@@ -57,22 +57,22 @@
         {
           "title": "Français",
           "description": "Langue natale",
-          "image": "assets/images/flag-french.png"
+          "image": "assets/images/flag-french.webp"
         },
         {
             "title": "Anglais",
             "description": "Niveau Professionnel",
-            "image": "assets/images/flag-english.png"
+            "image": "assets/images/flag-english.webp"
         },
         {
             "title": "Spanish",
             "description": "Débutant",
-            "image": "assets/images/flag-spanish.png"
+            "image": "assets/images/flag-spanish.webp"
         },
         {
             "title": "Japanese",
             "description": "Débutant",
-            "image": "assets/images/flag-japanese.png"
+            "image": "assets/images/flag-japanese.webp"
         }
       ]
     },
@@ -81,19 +81,19 @@
       "items": [
         {
             "title": "Nourriture épicée",
-            "image": "assets/images/taste-spicy-food.png"
+            "image": "assets/images/taste-spicy-food.webp"
         },
         {
             "title": "Animation Japonaise",
-            "image": "assets/images/taste-japanese-animation.png"
+            "image": "assets/images/taste-japanese-animation.webp"
         },
         {
             "title": "Créer et jouer à des jeux",
-            "image": "assets/images/taste-game.png"
+            "image": "assets/images/taste-game.webp"
         },
         {
             "title": "Apprendre",
-            "image": "assets/images/taste-learn.png"
+            "image": "assets/images/taste-learn.webp"
         }
       ]
     },
@@ -183,29 +183,29 @@
         {
           "title": "Site web personnel",
           "description": "Un projet Angular qui me sert à la fois de vitrine et de bac à sable.",
-          "image": "assets/images/portefolio-personal-website.png"
+          "image": "assets/images/portefolio-personal-website.webp"
         },
         {
           "title": "PokeGuesser",
           "description": "Un projet d'initiation à React qui reprend le principe du jeu Wordle, mais à la sauce Pokémon.",
-          "image": "assets/images/portefolio-pokeguesser.png"
+          "image": "assets/images/portefolio-pokeguesser.webp"
         },
         {
           "title": "BotBack",
           "description": "Un puzzle-game crée en moins de 48h pour la 19ème Game Jam de la Game Dev Party à Lyon.",
-          "image": "assets/images/portefolio-botback.png",
+          "image": "assets/images/portefolio-botback.webp",
           "link": "https://kuro-wolfy.itch.io/bot-back"
         },
         {
           "title": "Isogenius",
           "description": "Un puzzle-game crée en moins de 48h pour la Scientific Game Jam à Lyon.",
-          "image": "assets/images/portefolio-isogenius.png",
+          "image": "assets/images/portefolio-isogenius.webp",
           "link": "https://kuro-wolfy.itch.io/isogenius"
         },
         {
           "title": "Chompa-gnon",
           "description": "Un puzzle-game crée en moins de 72h pour la 20ème Game Jam de la Game Dev Party à Lyon.",
-          "image": "assets/images/portefolio-chompagnon.png",
+          "image": "assets/images/portefolio-chompagnon.webp",
           "link": "https://kuro-wolfy.itch.io/chompagnon"
         }
       ]

@@ -57,22 +57,22 @@
         {
           "title": "French",
           "description": "Mother tongue",
-          "image": "assets/images/flag-french.png"
+          "image": "assets/images/flag-french.webp"
         },
         {
             "title": "English",
             "description": "Professional speaking",
-            "image": "assets/images/flag-english.png"
+            "image": "assets/images/flag-english.webp"
         },
         {
             "title": "Spanish",
             "description": "Notions",
-            "image": "assets/images/flag-spanish.png"
+            "image": "assets/images/flag-spanish.webp"
         },
         {
             "title": "Japanese",
             "description": "Begginer",
-            "image": "assets/images/flag-japanese.png"
+            "image": "assets/images/flag-japanese.webp"
         }
       ]
     },
@@ -81,19 +81,19 @@
       "items": [
         {
             "title": "Spicy food",
-            "image": "assets/images/taste-spicy-food.png"
+            "image": "assets/images/taste-spicy-food.webp"
         },
         {
             "title": "Japanese Animation",
-            "image": "assets/images/taste-japanese-animation.png"
+            "image": "assets/images/taste-japanese-animation.webp"
         },
         {
             "title": "Play & Create games",
-            "image": "assets/images/taste-game.png"
+            "image": "assets/images/taste-game.webp"
         },
         {
             "title": "Learn",
-            "image": "assets/images/taste-learn.png"
+            "image": "assets/images/taste-learn.webp"
         }
       ]
     },
@@ -181,29 +181,29 @@
         {
           "title": "Personal Website",
           "description": "An Angular project with serves as both a showcase and a sandbox.",
-          "image": "assets/images/portefolio-personal-website.png"
+          "image": "assets/images/portefolio-personal-website.webp"
         },
         {
           "title": "PokeGuesser",
           "description": "A React initiation project inspired from on the well-known game Wordle, but with the flavor of Pokémon.",
-          "image": "assets/images/portefolio-pokeguesser.png"
+          "image": "assets/images/portefolio-pokeguesser.webp"
         },
         {
           "title": "BotBack",
           "description": "A puzzle-game created in 48 hours for Game Dev Party's 19th Game Jam at Lyon.",
-          "image": "assets/images/portefolio-botback.png",
+          "image": "assets/images/portefolio-botback.webp",
           "link": "https://kuro-wolfy.itch.io/bot-back"
         },
         {
           "title": "Isogenius",
           "description": "A puzzle-game created in 48 hours for 2022 Scientific Game Jam at Lyon.",
-          "image": "assets/images/portefolio-isogenius.png",
+          "image": "assets/images/portefolio-isogenius.webp",
           "link": "https://kuro-wolfy.itch.io/isogenius"
         },
         {
           "title": "Chompa-gnon",
           "description": "A  platform-game created in 72 hours for Game Dev Party's 20th Game Jam at Lyon.",
-          "image": "assets/images/portefolio-chompagnon.png",
+          "image": "assets/images/portefolio-chompagnon.webp",
           "link": "https://kuro-wolfy.itch.io/chompagnon"
         }
       ]
