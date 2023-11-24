@@ -81,18 +81,22 @@
       "items": [
         {
             "title": "Nourriture épicée",
+            "description": "la bouche en feu!",
             "image": "assets/images/taste-spicy-food.webp"
         },
         {
             "title": "Animation Japonaise",
+            "description": "Fujiwara-san ?!",
             "image": "assets/images/taste-japanese-animation.webp"
         },
         {
             "title": "Créer et jouer à des jeux",
+            "description": "Fire Emblem est une de mes séries préférées.",
             "image": "assets/images/taste-game.webp"
         },
         {
             "title": "Apprendre",
+            "description": "Un pas après l'autre.",
             "image": "assets/images/taste-learn.webp"
         }
       ]

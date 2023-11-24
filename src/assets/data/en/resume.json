@@ -81,18 +81,22 @@
       "items": [
         {
             "title": "Spicy food",
+            "description": "Mouth in fire!",
             "image": "assets/images/taste-spicy-food.webp"
         },
         {
             "title": "Japanese Animation",
+            "description": "Fujiwara-san ?!",
             "image": "assets/images/taste-japanese-animation.webp"
         },
         {
             "title": "Play & Create games",
+            "description": "Fire Emblem is one of my favorite series.",
             "image": "assets/images/taste-game.webp"
         },
         {
             "title": "Learn",
+            "description": "One day after another. A never ending journey.",
             "image": "assets/images/taste-learn.webp"
         }
       ]

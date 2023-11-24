@@ -7,6 +7,7 @@ import { provideFirebaseApp, initializeApp } from '@angular/fire/app';
 import { ScreenTrackingService, getAnalytics, provideAnalytics } from '@angular/fire/analytics';
 
 import { AppRoutingModule } from './app-routing.module';
+import { environment } from 'src/environments/environment';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
@@ -24,7 +25,6 @@ import { HomePresentationComponent } from './pages/home/home-presentation/home-p
 import { HomeAboutComponent } from './pages/home/home-about/home-about.component';
 import { HomePortefolioComponent } from './pages/home/home-portefolio/home-portefolio.component';
 import { HomeRolesComponent } from './pages/home/home-roles/home-roles.component';
-import { environment } from 'src/environments/environment';
 
 @NgModule({
   declarations: [
