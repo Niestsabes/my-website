@@ -1,9 +1,9 @@
 {
   "short_name": "Sébastien Cayet",
-  "name": "Sébastien Cayet - Fullstack Developer",
+  "name": "Sébastien Cayet - Frontend Software Engineer",
   "author": "Sébastien Cayet",
   "description": "Explore the developer resume of Sébastien Cayet, showcasing his skills and expertise to deliver outstanding user experiences for large scale applications : Web development, UX Design, Agile Management, Specification Writng and more !",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "icons": [
     {
       "src": "favicon.ico",
