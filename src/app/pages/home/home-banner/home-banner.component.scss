@@ -40,11 +40,14 @@
 }
 
 .home-banner__more {
+  display: inline-block;
   position: absolute;
   right: 5%;
   bottom: calc(9% + 10px); // add 10px for bounce icon animation
   text-transform: uppercase;
   text-align: center;
+  text-decoration: none !important;
+  color: $app-white !important;
 }
 
 .home-banner__more-icon {

@@ -21,7 +21,7 @@ const messages = {
   lastName: 'Nom',
   message: 'Message',
   metaDescription: 'Explorez le site personnel de Sébastien Cayet, exposant ses domaines d\'expertise pour délivrer des applications complexes mais attrayantes pour l\'utilisateur : Développement Web, UX Design, Management Agile, Ecriture de spécifications et plus !',
-  metaTitle: 'Sébastien Cayet - Développeur Fullstack',
+  metaTitle: 'Sébastien Cayet - Lead Développeur Frontend',
   myTastes: 'Mes goûts',
   myStyle: 'Mon style',
   mailFormText: "Remplissez le formulaire ci-dessous pour m'envoyer un mail.",

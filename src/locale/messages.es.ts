@@ -22,7 +22,7 @@ const messages = {
   lastName: 'Apellido',
   message: 'Mensaje',
   metaDescription: 'Explora el currículum del desarrollador Sébastien Cayet, que muestra sus habilidades y experiencia para brindar experiencias de usuario excepcionales en aplicaciones de gran escala: Desarrollo web, Diseño de Experiencia de Usuario, Gestión Ágil, Escritura de Especificaciones ¡y más!',
-  metaTitle: 'Sébastien Cayet - Desarrollador Fullstack',
+  metaTitle: 'Sébastien Cayet - Desarrollador frontend principal',
   myTastes: 'Mis gustos',
   myStyle: 'Mi estilo',
   mailFormText: 'Rellene el siguiente formulario para enviarme un correo.',

@@ -21,7 +21,7 @@ const messages = {
   lastName: 'Last Name',
   message: 'Message',
   metaDescription: 'Explore the developer resume of Sébastien Cayet, showcasing his skills and expertise to deliver outstanding user experiences for large scale applications : Web development, UX Design, Agile Management, Specification Writng and more !',
-  metaTitle: 'Sébastien Cayet - Fullstack developer',
+  metaTitle: 'Sébastien Cayet - Lead Frontend Software Engineer',
   myTastes: 'My tastes',
   myStyle: 'My style',
   mailFormText: 'Fill the following form to send me a mail',
