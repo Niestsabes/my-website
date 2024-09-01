@@ -209,6 +209,12 @@
           "description": "Un juego de plataformas creado en 72 horas para la 20ª Game Jam de la Game Dev Party en Lyon.",
           "image": "assets/images/portefolio-chompagnon.webp",
           "link": "https://kuro-wolfy.itch.io/chompagnon"
+        },
+        {
+          "title": "Aïku Project",
+          "description": "Una cuenta X que publica regularmente haikus e imágenes generados por una IA.",
+          "image": "assets/images/portefolio-aiku.webp",
+          "link": "https://x.com/aiku_project"
         }
       ]
     },

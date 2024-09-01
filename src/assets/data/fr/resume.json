@@ -211,6 +211,12 @@
           "description": "Un puzzle-game crée en moins de 72h pour la 20ème Game Jam de la Game Dev Party à Lyon.",
           "image": "assets/images/portefolio-chompagnon.webp",
           "link": "https://kuro-wolfy.itch.io/chompagnon"
+        },
+        {
+          "title": "Aïku Project",
+          "description": "Un compte X qui publie régulièrement des haïkus et des images générés par une IA.",
+          "image": "assets/images/portefolio-aiku.webp",
+          "link": "https://x.com/aiku_project"
         }
       ]
     },

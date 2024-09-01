@@ -21,7 +21,7 @@
                         <a *ngIf="item.link" class="w-100 d-block text-right"
                             [href]="item.link" target="_blank"
                             [attr.aria-label]="'Visit ' + item.title">
-                            Visit
+                            {{ "Visiter" | translate:'visit' }}
                         </a>
                     </div>
                 </div>
