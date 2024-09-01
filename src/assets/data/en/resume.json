@@ -20,9 +20,9 @@
             "I value simple and accessible interfaces. If the view needs to be explained, then something's wrong."
           ],
           "tagsTitle": "Things I design:",
-          "tags": ["UI", "Web", "App", "Games"],
+          "tags": ["UI", "Web", "App", "Games", "AI"],
           "toolsTitle": "Design Tools:",
-          "tools": ["Icomoon", "Font Awesome", "Bootstrap", "Tailwind", "Pen & Paper", "Paint.net", "Figma"]
+          "tools": ["Icomoon", "Font Awesome", "Bootstrap", "Tailwind", "Pen & Paper", "Paint.net", "Figma", "UML"]
         },
         {
           "title": "Engineering",
@@ -33,7 +33,7 @@
           "tagsTitle": "Some languages I speak:",
           "tags": ["HTML", "Sass", "Angular", "Express", "Git", "MySQL", "NoSQL"],
           "toolsTitle": "Dev Tools:",
-          "tools": ["VSCode", "PHPStorm", "Jenkins", "SonarQube", "Jest", "Cypress", "Docker", "GitHub", "MongoDB", "Unity"]
+          "tools": ["VSCode", "PHPStorm", "Jenkins", "SonarQube", "Jest", "Cypress", "Docker", "GitHub", "MongoDB", "Firebase"]
         },
         {
           "title": "Agility",
@@ -115,7 +115,7 @@
             "Development of a web application for coordinating the administration of the Greater Lyon road network, created by CORALY operators. Connected to the IT services of the various operators, it is used by CORALY operators to communicate and propose incident resolution scenarios.",
             "I managed a team of three developers, carried out code reviews, ensured application quality, wrote technical and functional documentation and implemented technical upgrades."
           ],
-          "tags": ["Angular 16-16", "NodeJS", "Docker", "GitLab"]
+          "tags": ["Angular 16-18", "NodeJS", "Docker", "GitLab"]
         },
         {
           "title": "Angular Lead Developer",
