@@ -4,11 +4,6 @@
             <article class="col-md-7">
                 <div class="d-flex justify-content-between align-items-center">
                     <h3>{{ data?.presentation.title }}</h3>
-                    <div>
-                        <span class="icon-star-regular"></span>
-                        <span class="icon-star-regular"></span>
-                        <span class="icon-star-regular"></span>
-                    </div>
                 </div>
                 <p *ngFor="let pres of data?.presentation.description" class="text-justify">
                     {{ pres }}
