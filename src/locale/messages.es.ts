@@ -8,7 +8,7 @@ const messages = {
   experiences: 'Experiencias',
   firstName: 'Nombre',
   footerText:
-    '¡Este sitio está garantizado 100% libre de cookies! Desarrollado por Sébastien CAYET (él mismo) con Angular 16.',
+    '¡Este sitio está garantizado 100% libre de cookies! Desarrollado por Sébastien CAYET (él mismo) con Angular 18.',
   from: 'De',
   greatings: '¡Hola!',
   greatingsDescription:
