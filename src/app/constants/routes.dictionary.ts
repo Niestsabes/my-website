@@ -20,6 +20,8 @@ export const ROUTES = {
     gitHub: 'https://github.com/Niestsabes',
     myAnimeList: 'https://myanimelist.net/animelist/Selbistiques',
     itch: 'https://kuro-wolfy.itch.io/',
+    medium: 'https://medium.com/@sebcayet',
+    twitter: 'https://x.com/sebcayet',
   },
   mailAddress: 'postmaster@sebcayet.fr',
 };
