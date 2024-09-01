@@ -19,10 +19,10 @@
           "description": [
             "J'apprécie les interfaces simples et accessibles. Si un écran doit être expliqué, alors quelque chose cloche."
           ],
-          "tagsTitle": "Les choses que je designe:",
-          "tags": ["UI", "Web", "App", "Games"],
+          "tagsTitle": "Les choses que je conçois:",
+          "tags": ["UI", "Web", "App", "Jeux", "IA"],
           "toolsTitle": "Outils de design:",
-          "tools": ["Icomoon", "Font Awesome", "Bootstrap", "Tailwind", "Pen & Paper", "Paint.net", "Figma"]
+          "tools": ["Icomoon", "Font Awesome", "Bootstrap", "Tailwind", "Pen & Paper", "Paint.net", "Figma", "UML"]
         },
         {
           "title": "Développement",
@@ -33,7 +33,7 @@
           "tagsTitle": "Quelques languages que j'utilise:",
           "tags": ["HTML", "Sass", "Angular", "Express", "Git", "MySQL", "NoSQL"],
           "toolsTitle": "Outils de dev:",
-          "tools": ["VSCode", "PHPStorm", "Jenkins", "SonarQube", "Jest", "Cypress", "Docker", "GitHub", "MongoDB", "Unity"]
+          "tools": ["VSCode", "PHPStorm", "Jenkins", "SonarQube", "Jest", "Cypress", "Docker", "GitHub", "MongoDB", "Firebase"]
         },
         {
           "title": "Agilité",
@@ -115,7 +115,7 @@
             "Développement d'une application web pour coordination de l'administration du réseau routier du Grand Lyon, réalisée par le gérant CORALY. Connectée aux services informatiques des divers exploitants, elle est utilisée par les opérateurs CORALY pour communiquer et proposer des scénarios de résolution d'incidents.",
             "J'ai dirigé une équipe de trois développeurs, réalisé les revues de code, veillé à la qualité de l'application, rédigé de la documentation technique et fonctionnelle et mis en place des évolutions techniques."
           ],
-          "tags": ["Angular 16-16", "NodeJS", "Docker", "GitLab"]
+          "tags": ["Angular 16-18", "NodeJS", "Docker", "GitLab"]
         },
         {
           "title": "Lead Développeur Angular",
@@ -211,6 +211,12 @@
           "description": "Un puzzle-game crée en moins de 72h pour la 20ème Game Jam de la Game Dev Party à Lyon.",
           "image": "assets/images/portefolio-chompagnon.webp",
           "link": "https://kuro-wolfy.itch.io/chompagnon"
+        },
+        {
+          "title": "Aïku Project",
+          "description": "Un compte X qui publie régulièrement des haïkus et des images générés par une IA.",
+          "image": "assets/images/portefolio-aiku.webp",
+          "link": "https://x.com/aiku_project"
         }
       ]
     },
@@ -254,9 +260,9 @@
       "title": "Sébastien Cayet",
       "subtitle": "Lead Développeur Frontend",
       "more": "Voir plus",
-      "cookies": "Ce site est garanti sans cookies! Développé par Sébastien CAYET (lui-même) with Angular 16.",
+      "cookies": "Ce site est garanti sans cookies! Développé par Sébastien CAYET (lui-même) with Angular 18.",
       "footerCopy": "Fait avec ♥ par mes soins ©",
-      "footerMadeWith": "Développé en Angular 16.",
+      "footerMadeWith": "Développé en Angular 18.",
       "footerAction": "Retour en haut de page"
     }
 }

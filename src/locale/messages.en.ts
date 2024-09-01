@@ -7,7 +7,7 @@ const messages = {
   experiences: 'Experiences',
   firstName: 'First Name',
   footerText:
-    'This site is guaranteed 100% cookie-free! Developed by Sébastien CAYET (himself) with Angular 16.',
+    'This site is guaranteed 100% cookie-free! Developed by Sébastien CAYET (himself) with Angular 18.',
   from: 'From',
   greatings: 'Greatings!',
   greatingsDescription:
@@ -46,6 +46,7 @@ const messages = {
   theory: 'Theory',
   to: 'to',
   tooling: 'Tools',
+  visit: 'Visit',
 };
 
 export default messages;

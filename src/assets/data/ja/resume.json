@@ -20,9 +20,9 @@
             "私はシンプルでアクセスしやすいインターフェースを重視する。もしビューに説明が必要なら、何かが間違っている。"
           ],
           "tagsTitle": "私がデザインするもの",
-          "tags": ["UI", "ウェブ", "アプリ", "ゲーム"],
+          "tags": ["UI", "ウェブ", "アプリ", "ゲーム", "エーアイ"],
           "toolsTitle": "デザインツール",
-          "tools": ["Icomoon", "Font Awesome", "Bootstrap", "Tailwind", "ペンと紙", "Paint.net", "Figma"]
+          "tools": ["Icomoon", "Font Awesome", "Bootstrap", "Tailwind", "ペンと紙", "Paint.net", "Figma", "UML"]
         },
         {
           "title": "エンジニアリング",
@@ -33,7 +33,7 @@
           "tagsTitle": "話せる言語",
           "tags": ["HTML", "Sass", "Angular", "Express", "Git", "MySQL", "NoSQL"],
           "toolsTitle": "開発ツール",
-          "tools": ["VSCode", "PHPStorm", "Jenkins", "SonarQube", "Jest", "Cypress", "Docker", "GitHub", "MongoDB", "Unity"]
+          "tools": ["VSCode", "PHPStorm", "Jenkins", "SonarQube", "Jest", "Cypress", "Docker", "GitHub", "MongoDB", "Firebase"]
         },
         {
           "title": "アジリティ",
@@ -116,7 +116,7 @@
             "私は3人の開発者のチームを管理し、コードレビューを実施し、アプリケーションの品質を保証し、技術文書と機能文書を作成し、技術的なアップグレードを実施しました。"
           ],
           "link": "https://amadeus.com/",
-          "tags": ["Angular 11", "Symfony", "MySQL", "Scrum", "JIRA", "Jenkins", "SonarQube", "Azure"]
+          "tags": ["Angular 16-18", "NodeJS", "Docker", "GitLab"]
         },
         {
           "title": "ニース・コート・ダジュール都市圏監督用ウェブ・アプリケーションの開発",
@@ -210,6 +210,12 @@
           "description": "このパズルゲームは、リヨンでGame Dev Partyの第20回ゲーム・ジャムで72時間かけて作られたものです。",
           "image": "assets/images/portefolio-chompagnon.webp",
           "link": "https://kuro-wolfy.itch.io/chompagnon"
+        },
+        {
+          "title": "アイク・プロジェクト",
+          "description": "AIが生成した俳句や画像を定期的に公開するXアカウント。",
+          "image": "assets/images/portefolio-aiku.webp",
+          "link": "https://x.com/aiku_project"
         }
       ]
     },
@@ -253,9 +259,9 @@
       "title": "セバスティアン・カイエ",
       "subtitle": "リード・フロントエンド・デベロッパー",
       "more": "以下",
-      "cookies": "このサイトは100％クッキーフリーです！セバスティアン・カイエがAngular 16で開発しました。",
+      "cookies": "このサイトは100％クッキーフリーです！セバスティアン・カイエがAngular 18で開発しました。",
       "footerCopy": "私が♥で作った ©",
-      "footerMadeWith": "Angular 16を使用",
+      "footerMadeWith": "Angular 18を使用",
       "footerAction": "トップに戻る"
     }
 }

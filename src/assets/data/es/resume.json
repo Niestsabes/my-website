@@ -20,9 +20,9 @@
             "Valoro las interfaces sencillas y accesibles. Si hay que explicar la vista, es que algo va mal."
           ],
           "tagsTitle": "Cosas que diseño:",
-          "tags": ["UI", "Web", "Aplicación", "Juegos"],
+          "tags": ["UI", "Web", "Aplicación", "Juegos", "IA"],
           "toolsTitle": "Herramientas de diseño:",
-          "tools": ["Icomoon", "Font Awesome", "Bootstrap", "Tailwind", "Pluma y papel", "Paint.net", "Figma"]
+          "tools": ["Icomoon", "Font Awesome", "Bootstrap", "Tailwind", "Pluma y papel", "Paint.net", "Figma", "UML"]
         },
         {
           "title": "Ingeniería",
@@ -33,7 +33,7 @@
           "tagsTitle": "Algunas lenguas que hablo:",
           "tags": ["HTML", "Sass", "Angular", "Express", "Git", "MySQL", "NoSQL"],
           "toolsTitle": "Herramientas de desarrollo:",
-          "tools": ["VSCode", "PHPStorm", "Jenkins", "SonarQube", "Jest", "Cypress", "Docker", "GitHub", "MongoDB", "Unity"]
+          "tools": ["VSCode", "PHPStorm", "Jenkins", "SonarQube", "Jest", "Cypress", "Docker", "GitHub", "MongoDB", "Firebase"]
         },
         {
           "title": "Agilidad",
@@ -115,7 +115,7 @@
             "Desarrollo de una aplicación web para coordinar la administración de la red de carreteras del Gran Lyon, creada por los operadores de CORALY. Conectada a los servicios informáticos de los distintos operadores, es utilizada por los operadores de CORALY para comunicarse y proponer escenarios de resolución de incidencias.",
             "Gestioné un equipo de tres desarrolladores, realicé revisiones de código, aseguré la calidad de la aplicación, redacté documentación técnica y funcional e implementé actualizaciones técnicas."
           ],
-          "tags": ["Angular 16-16", "NodeJS", "Docker", "GitLab"]
+          "tags": ["Angular 16-18", "NodeJS", "Docker", "GitLab"]
         },
         {
           "title": "Angular Desarrollador Principal",
@@ -209,6 +209,12 @@
           "description": "Un juego de plataformas creado en 72 horas para la 20ª Game Jam de la Game Dev Party en Lyon.",
           "image": "assets/images/portefolio-chompagnon.webp",
           "link": "https://kuro-wolfy.itch.io/chompagnon"
+        },
+        {
+          "title": "Aïku Project",
+          "description": "Una cuenta X que publica regularmente haikus e imágenes generados por una IA.",
+          "image": "assets/images/portefolio-aiku.webp",
+          "link": "https://x.com/aiku_project"
         }
       ]
     },
@@ -252,9 +258,9 @@
       "title": "Sébastien Cayet",
       "subtitle": "Desarrollador frontend principal",
       "more": "Más abajo",
-      "cookies": "¡Este sitio está garantizado 100% libre de cookies! Desarrollado por Sébastien CAYET (él mismo) con Angular 16.",
+      "cookies": "¡Este sitio está garantizado 100% libre de cookies! Desarrollado por Sébastien CAYET (él mismo) con Angular 18.",
       "footerCopy": "Hecho con ♥ por mí ©",
-      "footerMadeWith": "Realizado con Angular 16",
+      "footerMadeWith": "Realizado con Angular 18",
       "footerAction": "Volver arriba"
     }
 }

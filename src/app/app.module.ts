@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
-import { HttpClientModule } from '@angular/common/http';
+import { provideHttpClient, withInterceptorsFromDi } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { provideFirebaseApp, initializeApp } from '@angular/fire/app';
 import { ScreenTrackingService, getAnalytics, provideAnalytics } from '@angular/fire/analytics';
@@ -27,37 +27,37 @@ import { HomePortefolioComponent } from './pages/home/home-portefolio/home-porte
 import { HomeRolesComponent } from './pages/home/home-roles/home-roles.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    HeaderComponent,
-    FooterComponent,
-    IconComponent,
-    HomeComponent,
-    ExperiencePageComponent,
-    HomeBannerComponent,
-    ContactPageComponent,
-    ContactPanelComponent,
-    TranslatorPipe,
-    HeaderMainComponent,
-    HomeExperiencesComponent,
-    HomePresentationComponent,
-    HomeAboutComponent,
-    HomePortefolioComponent,
-    HomeRolesComponent
-  ],
-  imports: [
-    BrowserModule,
-    BrowserAnimationsModule,
-    AppRoutingModule,
-    HttpClientModule,
-    ReactiveFormsModule,
-    FormsModule,
-    provideFirebaseApp(() => initializeApp(environment.firebaseConfig)),
-    provideAnalytics(() => getAnalytics()),
-  ],
-  providers: [
-    ScreenTrackingService
-  ],
-  bootstrap: [AppComponent]
+    declarations: [
+        AppComponent,
+        HeaderComponent,
+        FooterComponent,
+        IconComponent,
+        HomeComponent,
+        ExperiencePageComponent,
+        HomeBannerComponent,
+        ContactPageComponent,
+        ContactPanelComponent,
+        TranslatorPipe,
+        HeaderMainComponent,
+        HomeExperiencesComponent,
+        HomePresentationComponent,
+        HomeAboutComponent,
+        HomePortefolioComponent,
+        HomeRolesComponent
+    ],
+    bootstrap: [AppComponent],
+    imports: [
+        BrowserModule,
+        BrowserAnimationsModule,
+        AppRoutingModule,
+        ReactiveFormsModule,
+        FormsModule,
+    ],
+    providers: [
+        ScreenTrackingService,
+        provideHttpClient(withInterceptorsFromDi()),
+        provideFirebaseApp(() => initializeApp(environment.firebaseConfig)),
+        provideAnalytics(() => getAnalytics())
+    ]
 })
 export class AppModule { }
