@@ -24,6 +24,6 @@ export class AppComponent implements OnInit {
       this._router.navigate([this._router.url],{skipLocationChange:true});
     });
 
-    logEvent(this._analytics, 'app_open'); 
+    logEvent(this._analytics, 'app_open');
   }
 }
