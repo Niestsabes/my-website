@@ -210,6 +210,12 @@
           "description": "このパズルゲームは、リヨンでGame Dev Partyの第20回ゲーム・ジャムで72時間かけて作られたものです。",
           "image": "assets/images/portefolio-chompagnon.webp",
           "link": "https://kuro-wolfy.itch.io/chompagnon"
+        },
+        {
+          "title": "アイク・プロジェクト",
+          "description": "AIが生成した俳句や画像を定期的に公開するXアカウント。",
+          "image": "assets/images/portefolio-aiku.webp",
+          "link": "https://x.com/aiku_project"
         }
       ]
     },

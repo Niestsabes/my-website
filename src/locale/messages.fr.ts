@@ -46,6 +46,7 @@ const messages = {
   theory: 'Théorie',
   to: 'à',
   tooling: 'Outils',
+  visit: 'Visiter',
 };
 
 export default messages;
