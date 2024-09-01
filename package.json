@@ -22,7 +22,7 @@
     "@angular/platform-browser": "^17.3.12",
     "@angular/platform-browser-dynamic": "^17.3.12",
     "@angular/router": "^17.3.12",
-    "@ngrx/store": "^16.3.0",
+    "@ngrx/store": "^18.0.2",
     "@ngx-translate/core": "^14.0.0",
     "firebase": "^10.2.0",
     "rxjs": "~6.5.4",
