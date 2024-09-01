@@ -46,6 +46,7 @@ const messages = {
   to: 'から',
   toAfter: 'まで',
   tooling: 'ツール',
+  visit: '見る',
 };
 
 export default messages;
