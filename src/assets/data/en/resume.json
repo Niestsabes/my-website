@@ -109,7 +109,7 @@
           "title": "Angular Lead Developer & Scrum Master",
           "subtitle": "Angular Techlead / Scrum Master",
           "date":"09/2023 to ??/????",
-          "company": "Spie CityNetworks (Klanik)",
+          "company": "Spie CityNetworks (and Klanik)",
           "place": "Lyon, France",
           "description": [
             "Development of a web application for coordinating the administration of the Greater Lyon road network, created by CORALY operators. Connected to the IT services of the various operators, it is used by CORALY operators to communicate and propose incident resolution scenarios.",
@@ -125,8 +125,8 @@
           "place": "Lyon, France",
           "description": [
             "Development of a suite of web applications for the supervision of the Nice Côte-d'Azur Metropolis. Connected to the Metropole's road equipment and IT services, it is used by the city's Command Post to resolve events occurring in the Nice metropolitan area.",
-            "La plataforma incluye un módulo de hipervisión para recopilar datos sobre el terreno en tiempo real, un módulo de cartografía para visualizar el estado de los equipos de carretera, un módulo de repetición para revisar las secuencias operativas y un módulo de configuración para configurar los modelos de datos.",
-            "Dirigí un equipo de tres desarrolladores, limpié la base de código, mejoré el rendimiento de la aplicación, maqueté nuevas pantallas, supervisé la redacción de documentos y propuse desarrollos técnicos."
+            "The platform includes a hypervisor module to collect real-time field data, a mapping module to visualize the status of roadside equipment, a replay module to review operational sequences, and a configuration module to configure data models.",
+            "I managed a team of three developers, cleaned up the code base, improved application performance, laid out new screens, oversaw document writing and proposed technical developments."
           ],
           "tags": ["Angular 10-15", "GitLab"],
           "link": "https://www.spie.com/fr"

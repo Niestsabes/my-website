@@ -109,20 +109,19 @@
           "title": "Angularリードデベロッパーとスクラムマスター",
           "subtitle": "Angularリードデベロッパーとスクラムマスター",
           "date":"2023年9月から",
-          "company": "Spie CityNetworks (Klanik)",
+          "company": "Spie CityNetworks (とKlanik)",
           "place": "リヨン、フランス",
           "description": [
             "リヨン広域圏の道路網を管理するためのウェブアプリケーションの開発。様々な事業者のITサービスに接続され、CORALYの事業者が通信や事故解決のシナリオを提案するために使用する。",
             "私は3人の開発者のチームを管理し、コードレビューを実施し、アプリケーションの品質を保証し、技術文書と機能文書を作成し、技術的なアップグレードを実施しました。"
           ],
-          "link": "https://amadeus.com/",
           "tags": ["Angular 16-18", "NodeJS", "Docker", "GitLab"]
         },
         {
-          "title": "ニース・コート・ダジュール都市圏監督用ウェブ・アプリケーションの開発",
-          "subtitle": "Angular Techlead",
+          "title": "Angularリードデベロッパー",
+          "subtitle": "Angularリードデベロッパー",
           "date": "2022年9月から2023年9月まで",
-          "company": "Spie CityNetworks(とKlanik)",
+          "company": "Spie CityNetworks (とKlanik)",
           "place": "リヨン、フランス",
           "description": [
             "ニース・コート・ダジュール首都圏の監督用ウェブ・アプリケーション一式の開発。メトロポールの道路設備とITサービスに接続され、ニース首都圏で発生した事象を解決するために市の司令部が使用する",
