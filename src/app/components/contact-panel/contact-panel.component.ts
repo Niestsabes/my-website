@@ -2,9 +2,10 @@ import { Component, OnInit } from '@angular/core';
 import { ROUTES } from './../../constants/routes.dictionary';
 
 @Component({
-  selector: 'app-contact-panel',
-  templateUrl: './contact-panel.component.html',
-  styleUrls: ['./contact-panel.component.scss']
+    selector: 'app-contact-panel',
+    templateUrl: './contact-panel.component.html',
+    styleUrls: ['./contact-panel.component.scss'],
+    standalone: false
 })
 export class ContactPanelComponent implements OnInit {
 

@@ -7,7 +7,7 @@ const messages = {
   experiences: '経験',
   firstName: 'なまえ',
   footerText:
-    'このサイトは100％クッキーフリーを保証しています! CAYET Sébastien （自身）がAngular 18で開発。',
+    'このサイトは100％クッキーフリーを保証しています! CAYET Sébastien （自身）がAngular 19で開発。',
   from: '',
   greatings: 'こんにちは!',
   greatingsDescription: '私はセバスチャン. ウェブデベロッパーになって4年。',

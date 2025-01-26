@@ -4,9 +4,10 @@ import { ResumeInterface } from 'src/app/models/resume.interface';
 import { DataService } from 'src/app/services/data.service';
 
 @Component({
-  selector: 'app-home-presentation',
-  templateUrl: './home-presentation.component.html',
-  styleUrls: ['./home-presentation.component.scss']
+    selector: 'app-home-presentation',
+    templateUrl: './home-presentation.component.html',
+    styleUrls: ['./home-presentation.component.scss'],
+    standalone: false
 })
 export class HomePresentationComponent {
   

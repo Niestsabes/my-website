@@ -6,9 +6,10 @@ import { Analytics } from '@angular/fire/analytics';
 import { logEvent } from 'firebase/analytics';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+    selector: 'app-root',
+    templateUrl: './app.component.html',
+    styleUrls: ['./app.component.scss'],
+    standalone: false
 })
 export class AppComponent implements OnInit {
   private readonly _analytics = inject(Analytics);
