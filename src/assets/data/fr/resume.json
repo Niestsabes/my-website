@@ -217,6 +217,12 @@
           "description": "Un compte X qui publie régulièrement des haïkus et des images générés par une IA.",
           "image": "assets/images/portefolio-aiku.webp",
           "link": "https://x.com/aiku_project"
+        },
+        {
+          "title": "Bymee",
+          "description": "Une plateforme pour trouver des professionnels qualifiés et réserverer des préstations sur mesure.",
+          "image": "assets/images/portefolio-bymee.webp",
+          "link": "https://bymee.app"
         }
       ]
     },
