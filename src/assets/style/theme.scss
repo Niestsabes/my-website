@@ -1,4 +1,5 @@
-@import './colors.scss';
+@use "sass:color";
+@use 'colors.scss';
 
 // Titles
 
@@ -16,13 +17,13 @@
 
 .page-section {
     &.dark-background {
-        background-color: lighten($app-black, 5%);
-        color: $app-white;
+        background-color: color.adjust(colors.$app-black, $lightness: 5%);
+        color: colors.$app-white;
     }
 
     &.colored-background {
-        background-color: $app-primary-color-d;
-        color: $app-white;
+        background-color: colors.$app-primary-color-d;
+        color: colors.$app-white;
     }
 }
 
@@ -34,7 +35,7 @@
 // Button classes, inspiration from there : https://fdossena.com/?p=html5cool/buttons/i.frag
 
 .role-icon {
-    border: 1px solid $app-black;
+    border: 1px solid colors.$app-black;
     border-radius: 50%;
     box-sizing: border-box;
     height: 3rem;
@@ -47,23 +48,23 @@
     text-decoration: none !important;
 
     &.dark-mode {
-        border-color: $app-white;
-        color: $app-white;
+        border-color: colors.$app-white;
+        color: colors.$app-white;
     }
 }
 
 .interactable-box {
-    border: 1px solid $app-black;
+    border: 1px solid colors.$app-black;
     border-radius: 0.425em;
     box-sizing: border-box;
-    box-shadow: 4px 4px $app-black;
+    box-shadow: 4px 4px colors.$app-black;
     text-decoration: none;
     cursor: pointer;
 
     &.dark-mode {
-        border-color: $app-white;
-        box-shadow: 4px 4px $app-white;
-        color: $app-white;
+        border-color: colors.$app-white;
+        box-shadow: 4px 4px colors.$app-white;
+        color: colors.$app-white;
     }
 }
 
@@ -77,14 +78,14 @@ a.button, button.button {
     padding: calc(#{$btn-height} / 5) calc(#{$btn-height} / 2);
     text-transform: uppercase;
     font-weight: 400;
-    color: $app-black;
-    background-color: $app-btn-bg-color;
+    color: colors.$app-black;
+    background-color: colors.$app-btn-bg-color;
     text-align: center;
 }
 
 a.button:hover, button.button:hover {
-    background-color: $app-btn-hover-color;
-    color: $app-white;
+    background-color: colors.$app-btn-hover-color;
+    color: colors.$app-white;
 }
 
 @media only screen and (max-width:30em){
@@ -97,7 +98,7 @@ a.button:hover, button.button:hover {
 .text-xl { font-size: 2rem; }
 
 .theme-text-shadow {
-    text-shadow: -1px -1px 0 $header-bg-color, 1px -1px 0 $header-bg-color, -1px 1px 0 $header-bg-color, 1px 1px 0 $header-bg-color, 2px 2px 0 $header-bg-color;
+    text-shadow: -1px -1px 0 colors.$header-bg-color, 1px -1px 0 colors.$header-bg-color, -1px 1px 0 colors.$header-bg-color, 1px 1px 0 colors.$header-bg-color, 2px 2px 0 colors.$header-bg-color;
 }
 
 // scrollbar
@@ -106,5 +107,5 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: $app-primary-color-a;
+    background-color: colors.$app-primary-color-a;
 }

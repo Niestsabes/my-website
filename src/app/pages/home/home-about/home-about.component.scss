@@ -1,11 +1,11 @@
-@import '../../../../assets/style/colors.scss';
+@use '../../../../assets/style/colors.scss';
 
 .home-about__image-wrapper {
     position: relative;
     overflow: hidden;
     width: 100%;
     height: 27em;
-    border: 1px solid $app-black;
+    border: 1px solid colors.$app-black;
     border-radius: 0.425em;
     box-sizing: border-box;
     text-decoration: none;

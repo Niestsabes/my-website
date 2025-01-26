@@ -1,9 +1,9 @@
-@import './../../../assets/style/colors.scss';
+@use './../../../assets/style/colors.scss';
 
 .page-header {
     margin: 0;
     padding: 0.4em;
-    color: $app-white;
+    color: colors.$app-white;
     text-align: center;
 }
 

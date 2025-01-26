@@ -1,4 +1,4 @@
-@import './../../../assets/style/colors.scss';
+@use './../../../assets/style/colors.scss';
 
 $header-height: 60px;
 $header-padding: 8px;
@@ -8,8 +8,8 @@ $side-button-size: calc(#{$header-height} - 2 * #{$header-padding});
     display: flex;
     justify-content: space-between;
     height: $header-height;
-    background-color: $app-black;
-    color: $app-white;
+    background-color: colors.$app-black;
+    color: colors.$app-white;
 
     .header-middle {
         display: flex;
@@ -36,22 +36,22 @@ $side-button-size: calc(#{$header-height} - 2 * #{$header-padding});
     background-color: transparent;
     border: none;
     border-bottom: solid 4px transparent;
-    color: rgba($app-white, 0.4);
+    color: rgba(colors.$app-white, 0.4);
     line-height: calc(#{$header-height} - 4px);
     text-align: center;
     text-decoration: none;
     font-size: calc((#{$header-height} - 4px)* 0.42);
 
     &.selected {
-        background-color: rgba($app-primary-color-e, 0.1);
-        border-bottom: solid 4px $app-primary-color-e;
-        color: $app-primary-color-e;
+        background-color: rgba(colors.$app-primary-color-e, 0.1);
+        border-bottom: solid 4px colors.$app-primary-color-e;
+        color: colors.$app-primary-color-e;
     }
 
     &:hover {
-        background-color: rgba($app-white, 0.1);
-        border-bottom: solid 4px $app-white;
-        color: $app-white;
+        background-color: rgba(colors.$app-white, 0.1);
+        border-bottom: solid 4px colors.$app-white;
+        color: colors.$app-white;
         transition: 0.5s;
         cursor: pointer;
     }
@@ -61,14 +61,14 @@ $side-button-size: calc(#{$header-height} - 2 * #{$header-padding});
     height: $side-button-size;
     width: $side-button-size;
     border-radius: calc((#{$header-height} - 2 * #{$header-padding}) / 2);
-    background-color: rgba($app-white, 0.1);
+    background-color: rgba(colors.$app-white, 0.1);
     border: none;
-    color: $app-white;
+    color: colors.$app-white;
     text-align: center;
     line-height: $side-button-size;
 
     &:hover {
-        background-color: rgba($app-white, 0.3);
+        background-color: rgba(colors.$app-white, 0.3);
         transition: 0.5s;
         cursor: pointer;
     }
@@ -94,7 +94,7 @@ $side-button-size: calc(#{$header-height} - 2 * #{$header-padding});
 .locale-button {
     $border: 3px;
     position: relative;
-    border: $border solid $black;
+    border: $border solid colors.$black;
     overflow: hidden;
 
     .locale-button-image {
@@ -113,8 +113,8 @@ $side-button-size: calc(#{$header-height} - 2 * #{$header-padding});
         bottom: -$border;
         width: $side-button-size;
         height: calc(#{$side-button-size} / 3);
-        background-color: $black;
-        color: $app-white;
+        background-color: colors.$black;
+        color: colors.$app-white;
     }
 
     .locale-button-arrow-down {
@@ -126,7 +126,7 @@ $side-button-size: calc(#{$header-height} - 2 * #{$header-padding});
         height: 0;
         border-left: $arrow-size solid transparent;
         border-right: $arrow-size solid transparent;
-        border-top: $arrow-size solid $app-white;
+        border-top: $arrow-size solid colors.$app-white;
     }
 }
 
