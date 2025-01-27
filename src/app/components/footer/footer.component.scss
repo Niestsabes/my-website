@@ -1,10 +1,10 @@
-@import './../../../assets/style/colors.scss';
+@use './../../../assets/style/colors.scss';
 
 .footer {
     position: relative;
     // padding: 12px;
-    background-color: $app-black;
-    color: $app-white;
+    background-color: colors.$app-black;
+    color: colors.$app-white;
 }
 
 .footer__border {
@@ -18,7 +18,7 @@
     -webkit-mask:
       radial-gradient(var(--R) at 50% calc(1.8*var(--size)), #000 99%, #0000 101%) calc(50% - 2*var(--size)) 0/calc(4*var(--size)) 100%,
       radial-gradient(var(--R) at 50% calc(-.8*var(--size)), #0000 99%, #000 101%) 50% var(--size)/calc(4*var(--size)) 100% repeat-x;
-    background-color: $app-black;
+    background-color: colors.$app-black;
     height: 10px;
 }
 
@@ -29,7 +29,7 @@
   height: 5em;
   width: 5em;
   border-radius: 50%;
-  border: 4px solid $app-white;
+  border: 4px solid colors.$app-white;
   margin: 0 auto 1em auto;
 
   > img {

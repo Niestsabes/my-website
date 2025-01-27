@@ -1,6 +1,6 @@
 # MyWebsite
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.1, and then migrated to Angular 18.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.1, and then migrated to Angular 19.
 
 # Setup
 

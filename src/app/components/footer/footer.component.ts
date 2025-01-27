@@ -4,9 +4,10 @@ import { ResumeInterface } from 'src/app/models/resume.interface';
 import { DataService } from 'src/app/services/data.service';
 
 @Component({
-  selector: 'app-footer',
-  templateUrl: './footer.component.html',
-  styleUrls: ['./footer.component.scss']
+    selector: 'app-footer',
+    templateUrl: './footer.component.html',
+    styleUrls: ['./footer.component.scss'],
+    standalone: false
 })
 export class FooterComponent {
 

@@ -5,9 +5,10 @@ import { DataService } from 'src/app/services/data.service';
 import { ResumeInterface } from 'src/app/models/resume.interface';
 
 @Component({
-  selector: 'app-home-banner',
-  templateUrl: './home-banner.component.html',
-  styleUrls: ['./home-banner.component.scss'],
+    selector: 'app-home-banner',
+    templateUrl: './home-banner.component.html',
+    styleUrls: ['./home-banner.component.scss'],
+    standalone: false
 })
 export class HomeBannerComponent {
 

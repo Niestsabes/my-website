@@ -217,6 +217,12 @@
           "description": "Un compte X qui publie régulièrement des haïkus et des images générés par une IA.",
           "image": "assets/images/portefolio-aiku.webp",
           "link": "https://x.com/aiku_project"
+        },
+        {
+          "title": "Bymee",
+          "description": "Une plateforme pour trouver des professionnels qualifiés et réserverer des préstations sur mesure.",
+          "image": "assets/images/portefolio-bymee.webp",
+          "link": "https://bymee.app"
         }
       ]
     },
@@ -260,9 +266,9 @@
       "title": "Sébastien Cayet",
       "subtitle": "Lead Développeur Frontend",
       "more": "Voir plus",
-      "cookies": "Ce site est garanti sans cookies! Développé par Sébastien CAYET (lui-même) with Angular 18.",
+      "cookies": "Ce site est garanti sans cookies! Développé par Sébastien CAYET (lui-même) with Angular 19.",
       "footerCopy": "Fait avec ♥ par mes soins ©",
-      "footerMadeWith": "Développé en Angular 18.",
+      "footerMadeWith": "Développé en Angular 19.",
       "footerAction": "Retour en haut de page"
     }
 }

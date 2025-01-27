@@ -1,4 +1,5 @@
-@import '../../../../assets/style/theme.scss';
+@use '../../../../assets/style/theme.scss';
+@use '../../../../assets/style/colors.scss';
 
 .home-banner {
   position: relative;
@@ -6,7 +7,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  color: $header-text-color;
+  color: colors.$header-text-color;
   background: url('../../../../assets/images/star-sky-wallpaper.webp') no-repeat center center;
 }
 
@@ -25,7 +26,7 @@
   height: 8em;
   width: 8em;
   border-radius: 50%;
-  border: 4px solid $app-black;
+  border: 4px solid colors.$app-black;
 
   > img {
     position: absolute;
@@ -47,7 +48,7 @@
   text-transform: uppercase;
   text-align: center;
   text-decoration: none !important;
-  color: $app-white !important;
+  color: colors.$app-white !important;
 }
 
 .home-banner__more-icon {

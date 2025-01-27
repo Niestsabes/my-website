@@ -3,9 +3,10 @@ import { ResumeInterface } from 'src/app/models/resume.interface';
 import { DataService } from 'src/app/services/data.service';
 
 @Component({
-  selector: 'app-home-experiences',
-  templateUrl: './home-experiences.component.html',
-  styleUrls: ['./home-experiences.component.scss']
+    selector: 'app-home-experiences',
+    templateUrl: './home-experiences.component.html',
+    styleUrls: ['./home-experiences.component.scss'],
+    standalone: false
 })
 export class HomeExperiencesComponent {
   public accordionOpenedIndex: number = -1;

@@ -1,4 +1,4 @@
-@import './../../../../assets/style/colors.scss';
+@use './../../../../assets/style/colors.scss';
 
 .taste-wrapper {
     max-width: 100%;
@@ -12,8 +12,8 @@
 
 .taste-item {
     position: relative;
-    background-color: $app-grey;
-    color: $app-white;
+    background-color: colors.$app-grey;
+    color: colors.$app-white;
     height: 94px;
     overflow: hidden;
 
@@ -23,7 +23,7 @@
         flex-direction: column;
         justify-content: center;
         bottom: 0;
-        background-color: rgba($app-black, 0.1);
+        background-color: rgba(colors.$app-black, 0.1);
         height: 100%;
         width: 100%;
         padding: 0.5rem 1rem;
@@ -46,7 +46,7 @@
 
     &:hover, &:focus {
         .taste-item-content {
-            background-color: rgba($app-black, 0.6);
+            background-color: rgba(colors.$app-black, 0.6);
         }
     }
 }

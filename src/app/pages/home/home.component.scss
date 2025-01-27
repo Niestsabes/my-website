@@ -1,4 +1,4 @@
-@import './../../../assets/style/colors.scss';
+@use './../../../assets/style/colors.scss';
 
 .taste-wrapper {
     max-width: 100%;
@@ -11,8 +11,8 @@
 
     .taste-item {
         position: relative;
-        background-color: $app-grey;
-        color: $app-white;
+        background-color: colors.$app-grey;
+        color: colors.$app-white;
         height: 94px;
         overflow: hidden;
 
@@ -22,7 +22,7 @@
             flex-direction: column;
             justify-content: center;
             bottom: 0;
-            background-color: rgba($app-black, 0.1);
+            background-color: rgba(colors.$app-black, 0.1);
             height: 100%;
             width: 100%;
             padding: 0.5rem 1rem;
@@ -45,7 +45,7 @@
 
         &:hover, &:focus {
             .taste-item-content {
-                background-color: rgba($app-black, 0.6);
+                background-color: rgba(colors.$app-black, 0.6);
             }
         }
     }
@@ -54,14 +54,14 @@
 .knowledge-wrapper {
     height: 100%;
     padding: 0;
-    border: 2px solid $app-black;
-    background-color: rgba($app-black, 0.05);
+    border: 2px solid colors.$app-black;
+    background-color: rgba(colors.$app-black, 0.05);
 
     .knowledge-title {
         margin: 0;
         padding: 0.4em;
-        background-color: $app-black;
-        color: $app-white;
+        background-color: colors.$app-black;
+        color: colors.$app-white;
     }
 
     .knowledge-list {
@@ -93,8 +93,8 @@
 
 .experience-icon {
     font-size: 4em;
-    color: $app-white;
-    text-shadow: 2px 2px 4px $app-black;
+    color: colors.$app-white;
+    text-shadow: 2px 2px 4px colors.$app-black;
 }
 
 #portefolio-section {
@@ -109,8 +109,8 @@
 
     .portefolio-item {
         position: relative;
-        background-color: $app-grey;
-        color: $app-white;
+        background-color: colors.$app-grey;
+        color: colors.$app-white;
         margin-bottom: 30px;
         height: 200px;
         overflow: hidden;
@@ -118,7 +118,7 @@
         .portefolio-item-content {
             position: absolute;
             bottom: 0;
-            background-color: rgba($app-black, 0.6);
+            background-color: rgba(colors.$app-black, 0.6);
             width: 100%;
             height: calc(1rem + 1.2em);
             padding: 0.5rem 1rem;

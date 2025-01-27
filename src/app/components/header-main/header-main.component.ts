@@ -8,9 +8,10 @@ import { LocaleService } from 'src/app/services/locale.service';
 import { TranslatorService } from 'src/app/services/translator.service';
 
 @Component({
-  selector: 'app-header-main',
-  templateUrl: './header-main.component.html',
-  styleUrls: ['./header-main.component.scss']
+    selector: 'app-header-main',
+    templateUrl: './header-main.component.html',
+    styleUrls: ['./header-main.component.scss'],
+    standalone: false
 })
 export class HeaderMainComponent {
   

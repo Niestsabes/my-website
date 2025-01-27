@@ -215,6 +215,12 @@
           "description": "AIが生成した俳句や画像を定期的に公開するXアカウント。",
           "image": "assets/images/portefolio-aiku.webp",
           "link": "https://x.com/aiku_project"
+        },
+        {
+          "title": "Bymee",
+          "description": "有能な専門家を見つけ、オーダーメイドのプレゼンテーションを予約するための信頼できるプラットフォームです。",
+          "image": "assets/images/portefolio-bymee.webp",
+          "link": "https://bymee.app"
         }
       ]
     },
@@ -258,9 +264,9 @@
       "title": "セバスティアン・カイエ",
       "subtitle": "リード・フロントエンド・デベロッパー",
       "more": "以下",
-      "cookies": "このサイトは100％クッキーフリーです！セバスティアン・カイエがAngular 18で開発しました。",
+      "cookies": "このサイトは100％クッキーフリーです！セバスティアン・カイエがAngular 19で開発しました。",
       "footerCopy": "私が♥で作った ©",
-      "footerMadeWith": "Angular 18を使用",
+      "footerMadeWith": "Angular 19を使用",
       "footerAction": "トップに戻る"
     }
 }

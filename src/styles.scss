@@ -1,9 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
-@import './assets/style/animations.scss';
-@import './assets/style/theme.scss';
-@import './assets/style/colors.scss';
-@import './assets/fonts/icomoon/style.css';
-@import './assets/fonts/varela/style.css';
+@use 'assets/style/animations.scss';
+@use 'assets/style/theme.scss';
+@use 'assets/style/colors.scss';
+@use './assets/fonts/icomoon/icomoon.css';
+@use './assets/fonts/varela/varela.css';
 @import url('https://fonts.googleapis.com/css?family=Lilita+One');              // Font used for titles
 @import url('https://fonts.googleapis.com/css?family=Lilita+One|Varela+Round'); // Font used for texts
 
@@ -14,7 +14,7 @@
 html {
     width: 100%;
     min-height: 100vh;
-    background-color: $app-bg-color;
+    background-color: colors.$app-bg-color;
     scroll-behavior: smooth;
 }
 
@@ -32,7 +32,7 @@ body {
 
     &.alternative-color {
         background-color: #6464dc;
-        color: $app-white;
+        color: colors.$app-white;
     }
 }
 

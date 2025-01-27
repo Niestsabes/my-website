@@ -1,5 +1,5 @@
-@import '../../../../assets/style/theme.scss';
-@import '../../../../assets/style/colors.scss';
+@use '../../../../assets/style/theme.scss';
+@use '../../../../assets/style/colors.scss';
 
 .portefolio-item {
     margin-bottom: 30px;
@@ -22,9 +22,9 @@
 
 .portefolio-item__content {
     position: absolute;
-    color: $app-white;
+    color: colors.$app-white;
     bottom: 0;
-    background-color: rgba($app-black, 0.8);
+    background-color: rgba(colors.$app-black, 0.8);
     width: 100%;
     height: calc(1rem + 1.2em);
     padding: 0.5rem 1rem;

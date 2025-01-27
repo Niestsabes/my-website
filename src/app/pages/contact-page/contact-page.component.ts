@@ -3,9 +3,10 @@ import { UntypedFormGroup, Validators, FormControl } from '@angular/forms';
 import { ROUTES } from './../../constants/routes.dictionary';
 
 @Component({
-  selector: 'app-contact-page',
-  templateUrl: './contact-page.component.html',
-  styleUrls: ['./contact-page.component.scss']
+    selector: 'app-contact-page',
+    templateUrl: './contact-page.component.html',
+    styleUrls: ['./contact-page.component.scss'],
+    standalone: false
 })
 export class ContactPageComponent implements OnInit {
 

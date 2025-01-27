@@ -4,9 +4,10 @@ import { LocaleService } from 'src/app/services/locale.service';
 import { Resume } from 'src/app/models/resume';
 
 @Component({
-  selector: 'app-experience-page',
-  templateUrl: './experience-page.component.html',
-  styleUrls: ['./experience-page.component.scss']
+    selector: 'app-experience-page',
+    templateUrl: './experience-page.component.html',
+    styleUrls: ['./experience-page.component.scss'],
+    standalone: false
 })
 export class ExperiencePageComponent implements OnInit {
 
