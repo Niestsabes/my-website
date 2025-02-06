@@ -5,27 +5,32 @@
                 <article>
                     <h3>{{ data?.languages.title }}</h3>
                     <blockquote>
-                        <q *ngFor="let desc of data?.languages.description">{{ desc }}</q>
+						@for (desc of data?.languages.description; track $index) {
+							<q>{{ desc }}</q>
+						}
                     </blockquote>
                     <ul class="w-100 list-unstyled">
-                        <li *ngFor="let item of data?.languages.items" class="d-flex align-items-center">
-                            <img [src]="item.image" [alt]="item.title" class="home-presentation__language-img d-block">
-                            <strong class="d-block mx-2 w-25">{{ item.title }}</strong>
-                            <span class="d-block mx-2">{{ item.description }}</span>
-                        </li>
+						@for (item of data?.languages.items; track $index) {
+							<li class="d-flex align-items-center">
+								<img [src]="item.image" [alt]="item.title" class="home-presentation__language-img d-block">
+								<strong class="d-block mx-2 w-25">{{ item.title }}</strong>
+								<span class="d-block mx-2">{{ item.description }}</span>
+							</li>
+						}
                     </ul>
                 </article>
             </div>
             <article class="col-md-6">
                 <h3>{{ data?.tastes.title }}</h3>
                 <ul class="taste-wrapper list-unstyle">
-                    <li class="taste-item interactable-box"
-                        *ngFor="let item of data?.tastes.items">
-                        <img class="taste-item-image" [src]="item.image" [alt]="item.description"/>
-                        <div class="taste-item-content">
-                            <span class="taste-item-text">{{ item.title }}</span>
-                        </div>
-                    </li>
+					@for (item of data?.tastes.items; track $index) {
+						<li class="taste-item interactable-box">
+							<img class="taste-item-image" [src]="item.image" [alt]="item.description"/>
+							<div class="taste-item-content">
+								<span class="taste-item-text">{{ item.title }}</span>
+							</div>
+						</li>
+					}
                 </ul>
             </article>
         </main>

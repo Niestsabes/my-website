@@ -7,48 +7,52 @@
             <span class="icon-star-regular"></span>
         </div>
         <p class="text-center">
-            <ng-container *ngFor="let desc of data?.experiences.description">
+            @for (desc of data?.experiences.description; track $index) {
                 {{ desc }}<br/>
-            </ng-container>
+			}
         </p>
         <main class="page-section__main row">
-            <article *ngFor="let exp of data?.experiences.items; index as index" class="home-exp__accordion col-sm-12">
-                <h3 class="home-exp__accordion-header" [id]="'heading' + index">
-                    <button class="home-exp__accordion-button button" type="button" 
-                        data-toggle="collapse" [attr.data-target]="'#collapse' + index"
-                        aria-expanded="true" [attr.aria-controls]="'collapse' + index"
-                        (click)="toggleAccordion(index)">
-                        <span>{{ exp.date }} - {{ exp.title }}</span>
-                        <span [ngClass]="{
-                            'icon-plus': index !== accordionOpenedIndex,
-                            'icon-minus': index === accordionOpenedIndex
-                        }"></span>
-                    </button>
-                </h3>
-                <div [id]="'collapse' + index" class="collapse show"
-                    [attr.aria-labelledby]="'heading' + index"
-                    [hidden]="index !== accordionOpenedIndex"
-                    data-parent="#home-exp__accordion">
-                    <div class="card-body">
-                        <div class="row">
-                            <p class="col-md-6">
-                                <span class="icon-house-chimney"></span> {{ exp.company }}
-                            </p>
-                            <p class="col-md-6">
-                                <span class="icon-location-dot"></span> {{ exp.place }}
-                            </p>
-                        </div>
-                        <p *ngFor="let desc of exp.description" class="text-justify">
-                            {{ desc }}
-                        </p>
-                        <aside>
-                            <span *ngFor="let tag of exp.tags || []" class="badge badge-pill badge-primary mr-2">
-                                #{{ tag }}
-                            </span>
-                        </aside>
-                    </div>
-                </div>
-            </article>
+			@for (exp of data?.experiences.items; track $index; let index = $index) {
+				<article class="home-exp__accordion col-sm-12">
+					<h3 class="home-exp__accordion-header" [id]="'heading' + index">
+						<button class="home-exp__accordion-button button" type="button"
+							data-toggle="collapse" [attr.data-target]="'#collapse' + index"
+							aria-expanded="true" [attr.aria-controls]="'collapse' + index"
+							(click)="toggleAccordion(index)">
+							<span>{{ exp.date }} - {{ exp.title }}</span>
+							<span [ngClass]="{
+								'icon-plus': index !== accordionOpenedIndex,
+								'icon-minus': index === accordionOpenedIndex
+							}"></span>
+						</button>
+					</h3>
+					<div [id]="'collapse' + index" class="collapse show"
+						[attr.aria-labelledby]="'heading' + index"
+						[hidden]="index !== accordionOpenedIndex"
+						data-parent="#home-exp__accordion">
+						<div class="card-body">
+							<div class="row">
+								<p class="col-md-6">
+									<span class="icon-house-chimney"></span> {{ exp.company }}
+								</p>
+								<p class="col-md-6">
+									<span class="icon-location-dot"></span> {{ exp.place }}
+								</p>
+							</div>
+							@for (desc of exp.description; track $index) {
+								<p class="text-justify">{{ desc }}</p>
+							}
+							<aside>
+								@for (tag of exp.tags || []; track $index) {
+									<span class="badge badge-pill badge-primary mr-2">
+										#{{ tag }}
+									</span>
+								}
+							</aside>
+						</div>
+					</div>
+				</article>
+			}
         </main>
     </div>
 </section>

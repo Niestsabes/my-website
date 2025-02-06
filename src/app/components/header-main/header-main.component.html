@@ -15,9 +15,9 @@
                     [alt]="getCurrentLocale().id.toUpperCase()"/>
             </button>
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownLanguageButton">
-                <ng-container *ngFor="let locale of getAvailableLocales()">
-                    <button class="dropdown-item" (click)="setLocale(locale.id)">{{locale.name}}</button>
-                </ng-container>
+				@for (locale of getAvailableLocales(); track $index) {
+					<button class="dropdown-item" (click)="setLocale(locale.id)">{{locale.name}}</button>
+				}
             </div>
         </li>
         <li class="theme-text-shadow mt-1">

@@ -2,68 +2,82 @@
 
 <!-- Page header -->
 <section class="page-header gradient-animation">
-  <h1>
-    {{ 'Mon Curiculum' | translate:'resumeTitle' }}
-  </h1>
+	<h1>
+		{{ 'Mon Curiculum' | translate:'resumeTitle' }}
+	</h1>
 </section>
 
 <!-- Experience Section -->
 <section class="page-section">
-  <h2 class="text-center iconed-text">
-    <app-icon icon="icon-thumbtack-solid"></app-icon>
-    <span>{{ 'Expériences' | translate:'experiences' }}</span>
-  </h2>
-  <div class="container">
-    <article *ngFor="let experience of resume.getExperiences(); let index = index"
-      class="row experience-panel">
-      <div class="col-sm-12 col-md-4 experience-panel-header mb-2"
-        [class.order-md-2]="index % 2 === 1">
-        <span>{{ experience.date }}</span>
-        <h3 class="m-0">{{ experience.title }}</h3>
-        <div>
-          {{ experience.subtitle }}
-          <ng-container *ngIf="experience.type">[{{ experience.type }}]</ng-container>
-        </div>
-        <ng-container *ngIf="experience.company">
-          <a *ngIf="experience.link" [href]="experience.link" target="_blank">{{ experience.company }}</a>
-          <span *ngIf="!experience.link">{{ experience.company }}</span>
-        </ng-container>
-        <div *ngIf="experience.place">{{ experience.place }}</div>
-      </div>
-      <div class="col-sm-12 col-md-8 order-md-1 experience-panel-content mb-2">
-        <p *ngFor="let description of experience.description">
-          {{description}}
-        </p>
-      </div>
-    </article>
-  </div>
+	<h2 class="text-center iconed-text">
+		<app-icon icon="icon-thumbtack-solid"></app-icon>
+		<span>{{ 'Expériences' | translate:'experiences' }}</span>
+	</h2>
+	<div class="container">
+		@for (experience of resume.getExperiences(); track $index; let index = $index) {
+			<article class="row experience-panel">
+				<div class="col-sm-12 col-md-4 experience-panel-header mb-2"
+					[class.order-md-2]="index % 2 === 1">
+					<span>{{ experience.date }}</span>
+					<h3 class="m-0">{{ experience.title }}</h3>
+					<div>
+						{{ experience.subtitle }}
+						@if (experience.type) {
+							[{{ experience.type }}]
+						}
+					</div>
+					@if (experience.company) {
+						@if (experience.link) {
+							<a [href]="experience.link" target="_blank">{{ experience.company }}</a>
+						}
+						@else {
+							<span>{{ experience.company }}</span>
+						}
+					}
+					@if (experience.place) {
+						<div>{{ experience.place }}</div>
+					}
+      			</div>
+				<div class="col-sm-12 col-md-8 order-md-1 experience-panel-content mb-2">
+					@for (description of experience.description; track $index) {
+						<p>{{ description }}</p>
+					}
+				</div>
+			</article>
+		}
+	</div>
 </section>
 
 <!-- Education Section -->
 <section class="page-section colored-background">
-  <h2 class="text-center iconed-text">
-    <app-icon icon="icon-graduation-cap-solid"></app-icon>
-    <span>{{ 'Formation' | translate:'education' }}</span>
-  </h2>
-  <div class="container">
-    <div class="row">
-      <article *ngFor="let experience of resume.getEducation(); let index = index"
-        class="education-panel col-sm-12 col-lg-4">
-        <div class="education-panel-header">
-          <span>{{ experience.date }}</span>
-          <h3 class="m-0">{{ experience.title }}</h3>
-          <div>{{ experience.subtitle }}</div>
-          <ng-container *ngIf="experience.company">
-            <a *ngIf="experience.link" [href]="experience.link" target="_blank">{{ experience.company }}</a>
-            <span *ngIf="!experience.link">{{ experience.company }}</span>
-          </ng-container>
-        </div>
-        <p *ngFor="let description of experience.description">
-          {{description}}
-        </p>
-      </article>
-    </div>
-  </div>
+	<h2 class="text-center iconed-text">
+		<app-icon icon="icon-graduation-cap-solid"></app-icon>
+		<span>{{ 'Formation' | translate:'education' }}</span>
+	</h2>
+	<div class="container">
+		<div class="row">
+			@for (experience of resume.getEducation(); track $index; let index = $index) {
+				<article class="education-panel col-sm-12 col-lg-4">
+					<div class="education-panel-header">
+						<span>{{ experience.date }}</span>
+						<h3 class="m-0">{{ experience.title }}</h3>
+						<div>{{ experience.subtitle }}</div>
+						@if (experience.company) {
+							@if (experience.link) {
+								<a [href]="experience.link" target="_blank">{{ experience.company }}</a>
+							}
+							@else {
+								<span>{{ experience.company }}</span>
+							}
+						}
+					</div>
+					@for (description of experience.description; track $index) {
+						<p>{{ experience.description }}</p>
+					}
+				</article>
+			}
+		</div>
+	</div>
 </section>
 
 <!-- Compétence Section -->

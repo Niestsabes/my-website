@@ -8,35 +8,35 @@
     <span class="header-title d-none d-md-inline">{{ data?.others.title }}</span>
     <button class="header-side-button d-md-none"
       id="dropdownMenuButton"
-      type="button" 
+      type="button"
       data-toggle="dropdown">
       <app-icon icon="icon-ellipsis-v-solid"></app-icon>
     </button>
     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
-      <ng-container *ngFor="let btn of navigationButton">
-        <a class="dropdown-item"
-          [routerLink]="btn.route">
-          <app-icon class="mr-2" [icon]="btn.iconName"></app-icon>{{ btn.title }}
-        </a>
-      </ng-container>
+		@for (btn of navigationButton; track $index) {
+			<a class="dropdown-item" [routerLink]="btn.route">
+				<app-icon class="mr-2" [icon]="btn.iconName"></app-icon>
+				<span>{{ btn.title }}</span>
+			</a>
+		}
     </div>
   </div>
   <div class="header-middle">
-    <ng-container *ngFor="let btn of navigationButton">
-      <a class="header-main-button d-none d-md-inline"
-        [class.selected]="currentRoute === btn.route"
-        [routerLink]="btn.route"
-        routerLinkActive="active">
-        <app-icon [icon]="btn.iconName"></app-icon>
-      </a>
-    </ng-container>
+	@for (btn of navigationButton; track $index) {
+		<a class="header-main-button d-none d-md-inline"
+			[class.selected]="currentRoute === btn.route"
+			[routerLink]="btn.route"
+			routerLinkActive="active">
+			<app-icon [icon]="btn.iconName"></app-icon>
+		</a>
+	}
     <span class="header-title d-md-none">{{ data?.others.title }}</span>
   </div>
   <div class="header-right">
     <span class="btn-group">
       <button class="header-side-button dropdown-toggle locale-button"
         id="dropdownLanguageButton"
-        type="button" 
+        type="button"
         data-toggle="dropdown">
         <img class="locale-button-image"
           [src]="getCurrentLocale().image"
@@ -45,9 +45,9 @@
         <div class="locale-button-arrow-down"></div>
       </button>
       <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownLanguageButton">
-        <ng-container *ngFor="let locale of getAvailableLocales()">
-          <button class="dropdown-item" (click)="setLocale(locale.id)">{{locale.name}}</button>
-        </ng-container>
+		@for (locale of getAvailableLocales(); track $index) {
+			<button class="dropdown-item" (click)="setLocale(locale.id)">{{locale.name}}</button>
+		}
       </div>
     </span>
   </div>
