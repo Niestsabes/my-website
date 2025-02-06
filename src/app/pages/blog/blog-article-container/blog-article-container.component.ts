@@ -1,25 +1,30 @@
+import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component, signal } from '@angular/core';
+import { MarkdownModule } from 'ngx-markdown';
 
 @Component({
-  selector: 'app-blog-article-container',
-  templateUrl: './blog-article-container.component.html',
-  styles: `
-    :host {
-      display: block;
-    }
-  `,
-  standalone: false,
-  changeDetection: ChangeDetectionStrategy.OnPush,
+	selector: 'app-blog-article-container',
+	templateUrl: './blog-article-container.component.html',
+	styles: `
+		:host {
+			display: block;
+		}
+	`,
+	changeDetection: ChangeDetectionStrategy.OnPush,
+	imports: [
+		CommonModule,
+		MarkdownModule
+	]
 })
 export class BlogArticleContainerComponent {
 
-  titles = signal<string[]>([]);
+	public readonly titles = signal<string[]>([]);
 
-  onArticleLoaded(text: string): void {
-    this.titles.set(
-      text.split('\n')
-        .filter(line => line.trim().startsWith('## '))
-        .map(line => line.trim().replace('## ', ''))
-    );
-  }
+	public onArticleLoaded(text: string): void {
+		this.titles.set(
+		text.split('\n')
+			.filter(line => line.trim().startsWith('## '))
+			.map(line => line.trim().replace('## ', ''))
+		);
+	}
 }

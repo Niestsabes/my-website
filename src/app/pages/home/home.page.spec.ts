@@ -4,11 +4,11 @@ import { NO_ERRORS_SCHEMA } from '@angular/core';
 import { DataService } from 'src/app/services/data.service';
 import { LocaleService } from 'src/app/services/locale.service';
 import { ROUTES } from './../../constants/routes.dictionary';
-import { HomeComponent } from './home.component';
+import { HomePage } from './home.page';
 
 describe('HomeComponent', () => {
-  let component: HomeComponent;
-  let fixture: ComponentFixture<HomeComponent>;
+  let component: HomePage;
+  let fixture: ComponentFixture<HomePage>;
 
   beforeEach(() => {
     const dataServiceStub = () => ({
@@ -19,14 +19,14 @@ describe('HomeComponent', () => {
     });
     TestBed.configureTestingModule({
       schemas: [NO_ERRORS_SCHEMA],
-      declarations: [HomeComponent, TranslatorPipe],
+      declarations: [HomePage, TranslatorPipe],
       providers: [
         { provide: DataService, useFactory: dataServiceStub },
         { provide: LocaleService, useFactory: localeServiceStub }
       ],
     });
-    spyOn(HomeComponent.prototype, 'getResume');
-    fixture = TestBed.createComponent(HomeComponent);
+    spyOn(HomePage.prototype, 'getResume');
+    fixture = TestBed.createComponent(HomePage);
     component = fixture.componentInstance;
   });
 
@@ -40,7 +40,7 @@ describe('HomeComponent', () => {
 
   describe('constructor', () => {
     it('makes expected calls', () => {
-      expect(HomeComponent.prototype.getResume).toHaveBeenCalled();
+      expect(HomePage.prototype.getResume).toHaveBeenCalled();
     });
   });
 

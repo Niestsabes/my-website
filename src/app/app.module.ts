@@ -10,48 +10,19 @@ import { AppRoutingModule } from './app-routing.module';
 import { environment } from 'src/environments/environment';
 
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './components/header/header.component';
-import { IconComponent } from './components/icon/icon.component';
-import { HomeComponent } from './pages/home/home.component';
-import { ExperiencePageComponent } from './pages/experience-page/experience-page.component';
-import { HomeBannerComponent } from './pages/home/home-banner/home-banner.component';
-import { FooterComponent } from './components/footer/footer.component';
-import { ContactPageComponent } from './pages/contact-page/contact-page.component';
-import { ContactPanelComponent } from './components/contact-panel/contact-panel.component';
-import { TranslatorPipe } from './pipes/translator.pipe';
-import { HeaderMainComponent } from './components/header-main/header-main.component';
-import { HomeExperiencesComponent } from './pages/home/home-experiences/home-experiences.component';
-import { HomePresentationComponent } from './pages/home/home-presentation/home-presentation.component';
-import { HomeAboutComponent } from './pages/home/home-about/home-about.component';
-import { HomePortefolioComponent } from './pages/home/home-portefolio/home-portefolio.component';
-import { HomeRolesComponent } from './pages/home/home-roles/home-roles.component';
+import { HomePage } from './pages/home/home.page';
+import { ExperiencePage } from './pages/experience-page/experience.page';
+import { ContactPage } from './pages/contact-page/contact.page';
 import { MarkdownModule, provideMarkdown } from 'ngx-markdown';
 import { BlogPage } from './pages/blog/blog.page';
-import { BlogArticleContainerComponent } from './pages/blog/blog-article-container/blog-article-container.component';
 
 @NgModule({
-    declarations: [
-        AppComponent,
-        HeaderComponent,
-        FooterComponent,
-        IconComponent,
-        HomeComponent,
-        ExperiencePageComponent,
-        HomeBannerComponent,
-        ContactPageComponent,
-        ContactPanelComponent,
-        TranslatorPipe,
-        HeaderMainComponent,
-        HomeExperiencesComponent,
-        HomePresentationComponent,
-        HomeAboutComponent,
-        HomePortefolioComponent,
-        HomeRolesComponent,
-        BlogPage,
-        BlogArticleContainerComponent
-    ],
-    bootstrap: [AppComponent],
     imports: [
+		AppComponent,
+        HomePage,
+        BlogPage,
+        ContactPage,
+        ExperiencePage,
         BrowserModule,
         BrowserAnimationsModule,
         AppRoutingModule,

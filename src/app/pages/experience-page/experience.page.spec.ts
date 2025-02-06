@@ -2,12 +2,12 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { NO_ERRORS_SCHEMA } from '@angular/core';
 import { DataService } from 'src/app/services/data.service';
 import { LocaleService } from 'src/app/services/locale.service';
-import { ExperiencePageComponent } from './experience-page.component';
+import { ExperiencePage } from './experience.page';
 import { TranslatorPipe } from 'src/app/pipes/translator.pipe';
 
 describe('ExperiencePageComponent', () => {
-  let component: ExperiencePageComponent;
-  let fixture: ComponentFixture<ExperiencePageComponent>;
+  let component: ExperiencePage;
+  let fixture: ComponentFixture<ExperiencePage>;
 
   beforeEach(() => {
     const dataServiceStub = () => ({
@@ -18,14 +18,14 @@ describe('ExperiencePageComponent', () => {
     });
     TestBed.configureTestingModule({
       schemas: [NO_ERRORS_SCHEMA],
-      declarations: [ExperiencePageComponent, TranslatorPipe],
+      declarations: [ExperiencePage, TranslatorPipe],
       providers: [
         { provide: DataService, useFactory: dataServiceStub },
         { provide: LocaleService, useFactory: localeServiceStub }
       ]
     });
-    spyOn(ExperiencePageComponent.prototype, 'getResume');
-    fixture = TestBed.createComponent(ExperiencePageComponent);
+    spyOn(ExperiencePage.prototype, 'getResume');
+    fixture = TestBed.createComponent(ExperiencePage);
     component = fixture.componentInstance;
   });
 
@@ -35,7 +35,7 @@ describe('ExperiencePageComponent', () => {
 
   describe('constructor', () => {
     it('makes expected calls', () => {
-      expect(ExperiencePageComponent.prototype.getResume).toHaveBeenCalled();
+      expect(ExperiencePage.prototype.getResume).toHaveBeenCalled();
     });
   });
 

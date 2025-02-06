@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
-import { Resume } from 'src/app/models/resume';
+import { CommonModule } from '@angular/common';
+import { Component, inject } from '@angular/core';
 import { ResumeInterface } from 'src/app/models/resume.interface';
 import { DataService } from 'src/app/services/data.service';
 
@@ -7,13 +7,15 @@ import { DataService } from 'src/app/services/data.service';
     selector: 'app-home-presentation',
     templateUrl: './home-presentation.component.html',
     styleUrls: ['./home-presentation.component.scss'],
-    standalone: false
+	imports: [
+		CommonModule
+	]
 })
 export class HomePresentationComponent {
-  
-  constructor(private _data: DataService) { }
 
-  get data(): ResumeInterface {
-    return this._data.resume;
-  }
+	private readonly _data = inject(DataService);
+
+	get data(): ResumeInterface {
+		return this._data.resume;
+	}
 }

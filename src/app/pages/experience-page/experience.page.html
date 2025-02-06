@@ -14,14 +14,14 @@
     <span>{{ 'Expériences' | translate:'experiences' }}</span>
   </h2>
   <div class="container">
-    <article *ngFor="let experience of resume.getExperiences(); let index = index" 
+    <article *ngFor="let experience of resume.getExperiences(); let index = index"
       class="row experience-panel">
       <div class="col-sm-12 col-md-4 experience-panel-header mb-2"
         [class.order-md-2]="index % 2 === 1">
         <span>{{ experience.date }}</span>
         <h3 class="m-0">{{ experience.title }}</h3>
         <div>
-          {{ experience.subtitle }} 
+          {{ experience.subtitle }}
           <ng-container *ngIf="experience.type">[{{ experience.type }}]</ng-container>
         </div>
         <ng-container *ngIf="experience.company">

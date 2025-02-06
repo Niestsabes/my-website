@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { Component, inject } from '@angular/core';
 import { ResumeInterface } from 'src/app/models/resume.interface';
 import { DataService } from 'src/app/services/data.service';
 
@@ -6,12 +7,15 @@ import { DataService } from 'src/app/services/data.service';
     selector: 'app-home-roles',
     templateUrl: './home-roles.component.html',
     styleUrls: ['./home-roles.component.scss'],
-    standalone: false
+	imports: [
+		CommonModule
+	]
 })
-export class HomeRolesComponent {  
-  constructor(private _data: DataService) { }
+export class HomeRolesComponent {
 
-  get data(): ResumeInterface {
-    return this._data.resume;
-  }
+	private readonly _data = inject(DataService);
+
+	get data(): ResumeInterface {
+		return this._data.resume;
+	}
 }

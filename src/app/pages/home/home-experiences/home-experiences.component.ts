@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { Component, inject } from '@angular/core';
 import { ResumeInterface } from 'src/app/models/resume.interface';
 import { DataService } from 'src/app/services/data.service';
 
@@ -6,18 +7,20 @@ import { DataService } from 'src/app/services/data.service';
     selector: 'app-home-experiences',
     templateUrl: './home-experiences.component.html',
     styleUrls: ['./home-experiences.component.scss'],
-    standalone: false
+	imports: [
+		CommonModule
+	]
 })
 export class HomeExperiencesComponent {
-  public accordionOpenedIndex: number = -1;
+	public accordionOpenedIndex: number = -1;
 
-  public toggleAccordion(index: number): void {
-    this.accordionOpenedIndex = this.accordionOpenedIndex === index ? -1 : index;
-  }
-  
-  constructor(private _data: DataService) { }
+	private readonly _data = inject(DataService);
 
-  get data(): ResumeInterface {
-    return this._data.resume;
-  }
+	public toggleAccordion(index: number): void {
+		this.accordionOpenedIndex = this.accordionOpenedIndex === index ? -1 : index;
+	}
+
+	get data(): ResumeInterface {
+		return this._data.resume;
+	}
 }
