@@ -1,0 +1,19 @@
+<section class="page-section">
+    <div class="container">
+        <div class="row">
+            <markdown class="col-md-8 text-justify"
+                [src]="'assets/data/blog/fr/001_unit-test.md'"
+                (load)="onArticleLoaded($event)"
+            />
+            <div class="d-none d-md-block col-md-1"></div>
+            <aside class="d-none d-md-block col-md-3">
+                <p class="mt-3 font-weight-bold">Dans cet article</p>
+                <ul class="list-unstyled p-0 m-0">
+                    @for (title of titles(); track $index) {
+                        <li class="mb-1">{{ title }}</li>
+                    }
+                </ul>
+            </aside>
+        </div>
+    </div>
+</section>

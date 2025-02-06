@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
-import { provideHttpClient, withInterceptorsFromDi } from '@angular/common/http';
+import { HttpClient, provideHttpClient, withInterceptorsFromDi } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { provideFirebaseApp, initializeApp } from '@angular/fire/app';
 import { ScreenTrackingService, getAnalytics, provideAnalytics } from '@angular/fire/analytics';
@@ -25,6 +25,9 @@ import { HomePresentationComponent } from './pages/home/home-presentation/home-p
 import { HomeAboutComponent } from './pages/home/home-about/home-about.component';
 import { HomePortefolioComponent } from './pages/home/home-portefolio/home-portefolio.component';
 import { HomeRolesComponent } from './pages/home/home-roles/home-roles.component';
+import { MarkdownModule, provideMarkdown } from 'ngx-markdown';
+import { BlogPage } from './pages/blog/blog.page';
+import { BlogArticleContainerComponent } from './pages/blog/blog-article-container/blog-article-container.component';
 
 @NgModule({
     declarations: [
@@ -43,7 +46,9 @@ import { HomeRolesComponent } from './pages/home/home-roles/home-roles.component
         HomePresentationComponent,
         HomeAboutComponent,
         HomePortefolioComponent,
-        HomeRolesComponent
+        HomeRolesComponent,
+        BlogPage,
+        BlogArticleContainerComponent
     ],
     bootstrap: [AppComponent],
     imports: [
@@ -52,12 +57,14 @@ import { HomeRolesComponent } from './pages/home/home-roles/home-roles.component
         AppRoutingModule,
         ReactiveFormsModule,
         FormsModule,
+        MarkdownModule.forRoot(),
     ],
     providers: [
         ScreenTrackingService,
         provideHttpClient(withInterceptorsFromDi()),
         provideFirebaseApp(() => initializeApp(environment.firebaseConfig)),
-        provideAnalytics(() => getAnalytics())
+        provideAnalytics(() => getAnalytics()),
+        provideMarkdown({ loader: HttpClient }),
     ]
 })
 export class AppModule { }
