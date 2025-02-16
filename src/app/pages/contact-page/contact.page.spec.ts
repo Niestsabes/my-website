@@ -3,18 +3,18 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { ROUTES } from 'src/app/constants/routes.dictionary';
 import { TranslatorPipe } from 'src/app/pipes/translator.pipe';
 
-import { ContactPageComponent } from './contact-page.component';
+import { ContactPage } from './contact.page';
 
 describe('ContactPageComponent', () => {
-  let component: ContactPageComponent;
-  let fixture: ComponentFixture<ContactPageComponent>;
+  let component: ContactPage;
+  let fixture: ComponentFixture<ContactPage>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
       schemas: [NO_ERRORS_SCHEMA],
-      declarations: [ContactPageComponent, TranslatorPipe]
+      declarations: [ContactPage, TranslatorPipe]
     });
-    fixture = TestBed.createComponent(ContactPageComponent);
+    fixture = TestBed.createComponent(ContactPage);
     component = fixture.componentInstance;
   });
 

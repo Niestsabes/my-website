@@ -1,0 +1,20 @@
+<app-blog-banner />
+@defer (when article() !== undefined) {
+	@if (article()) {
+		<app-blog-article-container [articleUri]="article()?.uri" />
+	}
+	@else {
+		<section class="page-section container">
+			<div class="row">
+				<h2 class="col-12 text-center mt-5">{{ 'Pas d\'article trouvé à cette adresse' | translate:'noArticleFound' }}</h2>
+				<div class="col-12 d-flex justify-content-center mb-5">
+					<a [routerLink]="['/blog']" class="text-decoration-none blog-item">
+						<button type="button" class="btn btn-light interactable-box">
+							{{ 'Revenir au blog' | translate:'backToBlog' }}
+						</button>
+					</a>
+				</div>
+			</div>
+		</section>
+	}
+}

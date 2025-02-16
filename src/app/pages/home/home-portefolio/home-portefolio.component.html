@@ -7,25 +7,29 @@
             <span class="icon-star-regular"></span>
         </div>
         <p class="text-center">
-            <ng-container *ngFor="let desc of data?.portefolio.description">
-                {{ desc }}<br/>
-            </ng-container>
+			@for (desc of data?.portefolio.description; track $index) {
+				{{ desc }}<br/>
+			}
         </p>
         <main class="page-section__main row">
-            <article class="col-md-6 col-lg-4" *ngFor="let item of data?.portefolio.items">
-                <div class="portefolio-item interactable-box overflow-hidden position-relative">
-                <img class="portefolio-item__image" [src]="item.image" [alt]="item.title"/>
-                    <div class="portefolio-item__content">
-                        <h3 class="portefolio-item__title">{{ item.title }}</h3>
-                        <p class="text-justify">{{ item.description }}</p>
-                        <a *ngIf="item.link" class="w-100 d-block text-right"
-                            [href]="item.link" target="_blank"
-                            [attr.aria-label]="'Visit ' + item.title">
-                            {{ "Visiter" | translate:'visit' }}
-                        </a>
-                    </div>
-                </div>
-            </article>
+			@for (item of data?.portefolio.items; track $index) {
+				<article class="col-md-6 col-lg-4">
+					<div class="portefolio-item interactable-box overflow-hidden position-relative">
+					<img class="portefolio-item__image" [src]="item.image" [alt]="item.title"/>
+						<div class="portefolio-item__content">
+							<h3 class="portefolio-item__title">{{ item.title }}</h3>
+							<p class="text-justify">{{ item.description }}</p>
+							@if (item.link) {
+								<a class="w-100 d-block text-right"
+									[href]="item.link" target="_blank"
+									[attr.aria-label]="'Visit ' + item.title">
+									{{ "Visiter" | translate:'visit' }}
+								</a>
+							}
+						</div>
+					</div>
+				</article>
+			}
         </main>
     </div>
 </section>

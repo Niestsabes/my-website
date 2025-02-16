@@ -1,0 +1,54 @@
+{
+	"categories": [
+		{
+			"id": "work-habits",
+			"title": "Habitudes de travail",
+			"subtitle": "Comment je m'organise dans mon travail pour être le plus efficace possible.",
+			"letter": "A"
+		},
+		{
+			"id": "team-management",
+			"title": "Management d'équipe",
+			"subtitle": "Comment je gère mon équipe pour qu'elle soit la plus performante possible.",
+			"letter": "B"
+		},
+		{
+			"id": "projet-planning-specifications",
+			"title": "Gestion de projet & Spécifications",
+			"subtitle": "Comment je gère mes projets et comment je rédige mes spécifications.",
+			"letter": "C"
+		},
+		{
+			"id": "architecture-conception",
+			"title": "Architecture & Conception",
+			"subtile:": "Comment je conçois mes applications et comment je les structure.",
+			"letter": "D"
+		},
+		{
+			"id": "programmation",
+			"title": "Programmation & Technique",
+			"subtitle": "Comment je code.",
+			"letter": "E"
+		},
+		{
+			"id": "ui-ux",
+			"title": "UI & UX",
+			"subtitle": "Comment je conçois mes interfaces et comment je les rends agréables à utiliser.",
+			"letter": "F"
+		},
+		{
+			"id": "tools",
+			"title": "Outils",
+			"subtitle": "Les outils que j'utilise pour travailler.",
+			"letter": "G"
+		},
+		{
+			"id": "miscellaneous",
+			"title": "Divers",
+			"subtitle": "Tout ce qui ne rentre pas dans les autres catégories.",
+			"letter": "M"
+		}
+	],
+	"articles": [
+	]
+}

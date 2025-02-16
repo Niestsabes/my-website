@@ -132,13 +132,15 @@
             {{ 'Ce champ est obligatoire.' | translate:'mailFormMandatoryErrorMessage' }}
           </small>
         </fieldset>
-        <p class="text-center" *ngIf="isFormInvalid()">
-          {{ "Ce formulaire n'a pas être envoyé parce qu'au moins un des champs est invalide." | translate:'mailFormErrorMessage' }}
-        </p>
+		@if (isFormInvalid) {
+			<p class="text-center">
+				{{ "Ce formulaire n'a pas être envoyé parce qu'au moins un des champs est invalide." | translate:'mailFormErrorMessage' }}
+			</p>
+		}
         <div class="d-flex justify-content-center">
-          <button class="button" type="button" (click)="sendEmail()">
-            {{ 'Envoyer' | translate:'send' }}
-          </button>
+			<button class="button" type="button" (click)="sendEmail()">
+				{{ 'Envoyer' | translate:'send' }}
+			</button>
         </div>
       </form>
     </section>

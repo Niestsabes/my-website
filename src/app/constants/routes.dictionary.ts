@@ -1,6 +1,7 @@
 export const ROUTES = {
   app: {
     home: '/',
+	blog: '/blog',
     experience: '/experience',
     contact: '/contact',
   },
@@ -8,6 +9,7 @@ export const ROUTES = {
     root: '/assets/data',
     paths: {
       resume: 'resume.json',
+	  blog: 'blog.json',
       translations: 'locale.json',
     },
   },

@@ -1,0 +1,128 @@
+<app-header></app-header>
+
+<!-- Page header -->
+<section class="page-header gradient-animation">
+	<h1>
+		{{ 'Mon Curiculum' | translate:'resumeTitle' }}
+	</h1>
+</section>
+
+<!-- Experience Section -->
+<section class="page-section">
+	<h2 class="text-center iconed-text">
+		<app-icon icon="icon-thumbtack-solid"></app-icon>
+		<span>{{ 'Expériences' | translate:'experiences' }}</span>
+	</h2>
+	<div class="container">
+		@for (experience of resume.getExperiences(); track $index; let index = $index) {
+			<article class="row experience-panel">
+				<div class="col-sm-12 col-md-4 experience-panel-header mb-2"
+					[class.order-md-2]="index % 2 === 1">
+					<span>{{ experience.date }}</span>
+					<h3 class="m-0">{{ experience.title }}</h3>
+					<div>
+						{{ experience.subtitle }}
+						@if (experience.type) {
+							[{{ experience.type }}]
+						}
+					</div>
+					@if (experience.company) {
+						@if (experience.link) {
+							<a [href]="experience.link" target="_blank">{{ experience.company }}</a>
+						}
+						@else {
+							<span>{{ experience.company }}</span>
+						}
+					}
+					@if (experience.place) {
+						<div>{{ experience.place }}</div>
+					}
+      			</div>
+				<div class="col-sm-12 col-md-8 order-md-1 experience-panel-content mb-2">
+					@for (description of experience.description; track $index) {
+						<p>{{ description }}</p>
+					}
+				</div>
+			</article>
+		}
+	</div>
+</section>
+
+<!-- Education Section -->
+<section class="page-section colored-background">
+	<h2 class="text-center iconed-text">
+		<app-icon icon="icon-graduation-cap-solid"></app-icon>
+		<span>{{ 'Formation' | translate:'education' }}</span>
+	</h2>
+	<div class="container">
+		<div class="row">
+			@for (experience of resume.getEducation(); track $index; let index = $index) {
+				<article class="education-panel col-sm-12 col-lg-4">
+					<div class="education-panel-header">
+						<span>{{ experience.date }}</span>
+						<h3 class="m-0">{{ experience.title }}</h3>
+						<div>{{ experience.subtitle }}</div>
+						@if (experience.company) {
+							@if (experience.link) {
+								<a [href]="experience.link" target="_blank">{{ experience.company }}</a>
+							}
+							@else {
+								<span>{{ experience.company }}</span>
+							}
+						}
+					</div>
+					@for (description of experience.description; track $index) {
+						<p>{{ experience.description }}</p>
+					}
+				</article>
+			}
+		</div>
+	</div>
+</section>
+
+<!-- Compétence Section -->
+<!-- <section class="page-section">
+  <h2 class="text-center iconed-text">
+    <app-icon icon="icon-tools-solid"></app-icon>
+    <span>{{ 'Compétences' | translate:'competences' }}</span>
+  </h2>
+  <div class="container">
+    <div class="row">
+      <aside class="col-md-12 col-lg-4 align-self-center mb-auto">
+        <h3 i18n="@@languages" class="text-center">
+          {{ 'Langues' | translate:'languages' }}
+        </h3>
+        <ul class="list-unstyled">
+          <li *ngFor="let language of resume.getLanguages()">
+            <h4 class="d-flex justify-content-between">
+              <span>{{ language.title }}</span>
+              <span>{{ language.rank }}</span>
+            </h4>
+            <p *ngFor="let description of language.description">
+              {{ description }}
+            </p>
+          </li>
+        </ul>
+      </aside>
+      <article #contactForm class="col-md-12 col-lg-8 align-self-center mb-auto">
+        <h3 i18n="@@knowledge" class="text-center">
+          {{ 'Connaissances' | translate:'knowledge' }}
+        </h3>
+        <ng-container *ngFor="let skillType of resume.getSkillTypes()">
+          <h4>{{ '' | translate: skillType }}</h4>
+          <ul class="skill-list">
+            <li
+              *ngFor="let skill of resume.getSkills(skillType)">
+              <app-star-gauge class="mr-2" value="{{ skill.level }}"></app-star-gauge>
+              <strong>{{ skill.title }}</strong>
+              <span *ngIf="skill.description">: {{ printSkillDescription(skill.description) }}</span>
+            </li>
+          </ul>
+        </ng-container>
+      </article>
+    </div>
+  </div>
+</section> -->
+
+<!-- Contact Section -->
+<app-contact-panel></app-contact-panel>

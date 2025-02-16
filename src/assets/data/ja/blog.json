@@ -1,0 +1,54 @@
+{
+	"categories": [
+		{
+			"id": "work-habits",
+			"title": "仕事の習慣",
+			"subtitle": "Comment je m'organise dans mon travail pour être le plus efficace possible.",
+			"letter": "A"
+		},
+		{
+			"id": "team-management",
+			"title": "チームマネジメント",
+			"subtitle": "Comment je gère mon équipe pour qu'elle soit la plus performante possible.",
+			"letter": "B"
+		},
+		{
+			"id": "projet-planning-specifications",
+			"title": "プロジェクト管理・仕様",
+			"subtitle": "Comment je gère mes projets et comment je rédige mes spécifications.",
+			"letter": "C"
+		},
+		{
+			"id": "architecture-conception",
+			"title": "建築・ソフトウェアデザイン",
+			"subtile:": "Comment je conçois mes applications et comment je les structure.",
+			"letter": "D"
+		},
+		{
+			"id": "programmation",
+			"title": "プログラミング・テクニカル",
+			"subtitle": "Comment je code.",
+			"letter": "E"
+		},
+		{
+			"id": "ui-ux",
+			"title": "UI ・ UX",
+			"subtitle": "Comment je conçois mes interfaces et comment je les rends agréables à utiliser.",
+			"letter": "F"
+		},
+		{
+			"id": "tools",
+			"title": "ツール",
+			"subtitle": "Les outils que j'utilise pour travailler.",
+			"letter": "G"
+		},
+		{
+			"id": "miscellaneous",
+			"title": "その他",
+			"subtitle": "Tout ce qui ne rentre pas dans les autres catégories.",
+			"letter": "M"
+		}
+	],
+	"articles": [
+	]
+}

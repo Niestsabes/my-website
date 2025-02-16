@@ -1,20 +1,21 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { ROUTES } from './../../constants/routes.dictionary';
+import { IconComponent } from '../icon/icon.component';
+import { RouterModule } from '@angular/router';
+import { TranslatorPipe } from 'src/app/pipes/translator.pipe';
 
 @Component({
     selector: 'app-contact-panel',
     templateUrl: './contact-panel.component.html',
     styleUrls: ['./contact-panel.component.scss'],
-    standalone: false
+	imports: [
+		IconComponent,
+		RouterModule,
+		TranslatorPipe
+	]
 })
-export class ContactPanelComponent implements OnInit {
+export class ContactPanelComponent {
 
-  /** @description list application's routes */
   public routes = ROUTES;
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
 
 }

@@ -7,28 +7,36 @@
             <span class="icon-star-regular"></span>
         </div>
         <p class="text-center">
-            <ng-container *ngFor="let desc of data?.roles.description">
-                {{ desc }}<br/>
-            </ng-container>
+			@for (desc of data?.roles.description; track $index; let indes = $index) {
+				{{ desc }}<br/>
+			}
         </p>
         <main class="page-section__main row">
-            <article *ngFor="let item of data?.roles.items" class="col-md-4 text-center">
-                <div class="role-icon">
-                    <span [class]="item.icon"></span>
-                </div>
-                <h3>{{ item.title }}</h3>
-                <p *ngFor="let desc of item.description">{{ desc }}</p>
-                <h4>{{ item.tagsTitle }}</h4>
-                <p>
-                    <span *ngFor="let tag of item.tags; last as isLast">
-                        {{ tag }}<ng-container *ngIf="!isLast">, </ng-container>
-                    </span>
-                </p>
-                <h4>{{ item.toolsTitle }}</h4>
-                <ul class="list-unstyled">
-                    <li *ngFor="let tool of item.tools">{{ tool }}</li>
-                </ul>
-            </article>
+			@for (item of data?.roles.items; track $index) {
+				<article class="col-md-4 text-center">
+					<div class="role-icon">
+						<span [class]="item.icon"></span>
+					</div>
+					<h3>{{ item.title }}</h3>
+					@for (desc of item.description; track $index) {
+						<p>{{ desc }}</p>
+					}
+					<h4>{{ item.tagsTitle }}</h4>
+					<p>
+						@for (tag of item.tags; track $index; let isLast = $last) {
+							<span>
+								{{ tag }} @if (!isLast) {,}
+							</span>
+						}
+					</p>
+					<h4>{{ item.toolsTitle }}</h4>
+					<ul class="list-unstyled">
+						@for (tool of item.tools; track $index) {
+							<li>{{ tool }}</li>
+						}
+					</ul>
+				</article>
+			}
         </main>
     </div>
 </section>
