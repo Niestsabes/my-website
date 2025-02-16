@@ -5,15 +5,17 @@ import { IMAGES } from 'src/app/constants/images.dictionary';
 import { ROUTES } from 'src/app/constants/routes.dictionary';
 import { LocaleInterface } from 'src/app/models/locale.interface';
 import { LocaleService } from 'src/app/services/locale.service';
+import { TranslatorPipe } from "../../pipes/translator.pipe";
 
 @Component({
     selector: 'app-header-main',
     templateUrl: './header-main.component.html',
     styleUrls: ['./header-main.component.scss'],
 	imports: [
-		RouterModule,
-		CommonModule
-	]
+    RouterModule,
+    CommonModule,
+    TranslatorPipe
+]
 })
 export class HeaderMainComponent {
 

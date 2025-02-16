@@ -17,7 +17,7 @@ const messages = {
 	greatingsDescription:
 		"I'm Sébastien, a Lead Web Developer.",
 	greatingsOccupation: 'Currently an Angular Techlead for Klanik, in Lyon.',
-	home: 'Home page',
+	home: 'Home',
 	inThisArticle: 'In this article',
 	knowledge: 'Knowledge',
 	languages: 'Languages',

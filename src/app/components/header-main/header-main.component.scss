@@ -74,7 +74,6 @@ $side-button-size: calc(#{$header-height} - 2 * #{$header-padding});
 
 .header__side-menu {
     list-style: none;
-    display: flex;
     margin: 0;
     padding: 0;
     align-items: center;
@@ -113,4 +112,14 @@ $side-button-size: calc(#{$header-height} - 2 * #{$header-padding});
 .header__language {
     background-color: transparent;
     border: none;
+}
+
+.header__dropdown-item {
+	color: #212529 !important;
+}
+
+.header__dropdown-menu__toggle-button {
+	background-color: transparent !important;
+	border: none;
+	color: colors.$app-white !important;
 }

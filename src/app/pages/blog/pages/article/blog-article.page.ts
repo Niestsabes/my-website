@@ -7,6 +7,7 @@ import { map, switchMap, tap } from 'rxjs';
 import { DataService } from 'src/app/services/data.service';
 import { TranslatorPipe } from "../../../../pipes/translator.pipe";
 import { ResumeInterface } from 'src/app/models/resume.interface';
+import { BlogArticle, BlogInterface } from 'src/app/models/blog.interface';
 
 @Component({
 	selector: 'app-blog-article',
@@ -25,14 +26,14 @@ export class BlogArticlePage {
 		{ initialValue: null }
 	);
 
-	readonly article = toSignal(
+	readonly article = toSignal<BlogArticle | null | undefined>(
 		inject(ActivatedRoute).params.pipe(
-			tap(params => console.log(params.id)),
 			switchMap(({ id }) =>
 				inject(DataService).getBlog().pipe(
-					map(data => data.articles.find(article => article.id === id) ?? undefined)
+					map(data => data.articles.find(article => article.id === id) ?? null)
 				)
 			)
-		)
+		),
+		{ initialValue: undefined }
 	)
 }
