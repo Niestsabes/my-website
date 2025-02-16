@@ -1,10 +1,16 @@
-import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component, inject } from '@angular/core';
 import { BlogArticleContainerComponent } from './blog-article-container/blog-article-container.component';
 import { BlogBannerComponent } from '../../components/banner/blog-banner.component';
+import { toSignal } from '@angular/core/rxjs-interop';
+import { ActivatedRoute, RouterModule } from '@angular/router';
+import { map, switchMap, tap } from 'rxjs';
+import { DataService } from 'src/app/services/data.service';
+import { TranslatorPipe } from "../../../../pipes/translator.pipe";
+import { ResumeInterface } from 'src/app/models/resume.interface';
 
 @Component({
 	selector: 'app-blog-article',
-	imports: [BlogArticleContainerComponent, BlogBannerComponent],
+	imports: [BlogArticleContainerComponent, BlogBannerComponent, TranslatorPipe, RouterModule],
 	templateUrl: './blog-article.page.html',
 	styles: [`
 		:host {
@@ -13,4 +19,20 @@ import { BlogBannerComponent } from '../../components/banner/blog-banner.compone
 	`],
 	changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class BlogArticlePage {}
+export class BlogArticlePage {
+	readonly blogData = toSignal<ResumeInterface | null>(
+		inject(DataService).getResume(),
+		{ initialValue: null }
+	);
+
+	readonly article = toSignal(
+		inject(ActivatedRoute).params.pipe(
+			tap(params => console.log(params.id)),
+			switchMap(({ id }) =>
+				inject(DataService).getBlog().pipe(
+					map(data => data.articles.find(article => article.id === id) ?? undefined)
+				)
+			)
+		)
+	)
+}

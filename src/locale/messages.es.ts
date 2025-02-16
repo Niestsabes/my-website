@@ -1,12 +1,14 @@
 const messages = {
 	appTitle: 'Sébastien CAYET - Desarrollador Fullstack',
 	aboutMe: 'Sobre mí',
+	backToBlog: 'Volver al blog',
 	blog: 'Blog',
 	categories: "Categorías",
 	competences: 'Competencias',
 	contact: 'Contácteme!',
 	education: 'Formación',
 	email: 'Dirección de correo electrónico',
+	emptyCategory: 'Ningún artículo en esta categoría.',
 	experiences: 'Experiencias',
 	firstName: 'Nombre',
 	footerText:
@@ -17,6 +19,7 @@ const messages = {
 		'Soy Sébastien, un Lead Web Desarrollador.',
 	greatingsOccupation: 'Actualmente Techlead Angular para Klanik, en Lyon.',
 	home: 'Página principal',
+	inThisArticle: 'En este artículo',
 	knowledge: 'Conocimientio',
 	languages: 'Idiomas',
 	languagesText:
@@ -33,6 +36,7 @@ const messages = {
 	mailFormEmailErrorMessage: 'Dé una dirección de correo electrónico válida.',
 	mailFormErrorMessage:
 		'Su formulario no pudo ser enviado porque al menos una vez el campo es inválido.',
+	noArticleFound: 'No se ha encontrado ningún artículo aquí',
 	personalInformations: 'Informaciones personales',
 	portefolio: 'Portefolio',
 	programming: 'Lenguajes de codificación',

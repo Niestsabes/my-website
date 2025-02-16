@@ -1,11 +1,13 @@
 const messages = {
 	aboutMe: '私について',
+	backToBlog: 'ブログに戻る',
 	blog: 'ブログ',
 	categories: "種別",
 	competences: '能力',
 	contact: '私に連絡する!',
 	education: '学校教育',
 	email: 'はいしんさき',
+	emptyCategory: 'このカテゴリーに記事はありません。',
 	experiences: '経験',
 	firstName: 'なまえ',
 	footerText:
@@ -15,6 +17,7 @@ const messages = {
 	greatingsDescription: '私はセバスチャン. ウェブデベロッパーになって4年。',
 	greatingsOccupation: '今, リヨンに, 私は Klanik の Angular テックリード。',
 	home: 'ウェルカムページ',
+	inThisArticle: 'この記事では',
 	knowledge: '知ること',
 	languages: '国語',
 	languagesText:
@@ -31,6 +34,7 @@ const messages = {
 	mailFormEmailErrorMessage: '有効なメールアドレスを入力してください。',
 	mailFormErrorMessage:
 		'少なくとも一度のフィールドが無効なため、フォームを送信することができませんでした。',
+	noArticleFound: 'このアドレスに記事はありません',
 	personalInformations: '個人情報',
 	portefolio: 'ポートフォリオ',
 	programming: 'コード化言語',

@@ -1,16 +1,17 @@
 export interface BlogInterface {
 	categories: BlogCategory[];
-	latestArticles: Article[];
+	articles: BlogArticle[];
 }
 
 export interface BlogCategory {
+	id: string;
 	title: string;
 	subtitle: string;
 	letter: string;
 }
 
-export interface Article {
-	id: number;
+export interface BlogArticle {
+	id: string;
 	title: string;
 	subtitle: string;
 	summary: string;
@@ -18,5 +19,5 @@ export interface Article {
 	category: string;
 	thumbnail: string;
 	thumbnailAlt: string;
-	url: string;
+	uri: string;
 }

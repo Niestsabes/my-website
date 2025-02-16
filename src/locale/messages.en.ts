@@ -1,11 +1,13 @@
 const messages = {
 	aboutMe: 'About me',
+	backToBlog: 'Back to the blog',
 	blog: 'Blog',
 	categories: "Categories",
 	competences: 'Competences',
 	contact: 'Contact me !',
 	education: 'Education',
 	email: 'E-mail',
+	emptyCategory: 'No article in this category.',
 	experiences: 'Experiences',
 	firstName: 'First Name',
 	footerText:
@@ -16,6 +18,7 @@ const messages = {
 		"I'm Sébastien, a Lead Web Developer.",
 	greatingsOccupation: 'Currently an Angular Techlead for Klanik, in Lyon.',
 	home: 'Home page',
+	inThisArticle: 'In this article',
 	knowledge: 'Knowledge',
 	languages: 'Languages',
 	languagesText:
@@ -32,6 +35,7 @@ const messages = {
 	mailFormEmailErrorMessage: 'Give a valid e-mail address.',
 	mailFormErrorMessage:
 		'Your form could not be submitted because at least once field is invalid.',
+	noArticleFound: 'No article found at this address',
 	personalInformations: 'Personal Informations',
 	portefolio: 'Portefolio',
 	programming: 'Coding languages',

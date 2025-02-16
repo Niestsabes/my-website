@@ -1,44 +1,76 @@
 {
 	"categories": [
 		{
+			"id": "work-habits",
 			"title": "Work habits",
 			"subtitle": "How I organize my work to be as efficient as possible.",
 			"letter": "A"
 		},
 		{
+			"id": "team-management",
 			"title": "Team Management",
 			"subtitle": "How I manage my team to be as efficient as possible.",
 			"letter": "B"
 		},
 		{
+			"id": "projet-planning-specifications",
 			"title": "Project Planning & Specifications",
 			"subtitle": "How do I plan projets and write specifications.",
 			"letter": "C"
 		},
 		{
+			"id": "architecture-conception",
 			"title": "Architecture & Conception",
 			"subtile:": "How do I build my applications.",
 			"letter": "D"
 		},
 		{
+			"id": "programmation",
 			"title": "Programmation & Technique",
 			"subtitle": "How do I code.",
 			"letter": "E"
 		},
 		{
+			"id": "ui-ux",
 			"title": "UI & UX",
 			"subtitle": "How do I conceive my interfaces.",
 			"letter": "F"
 		},
 		{
+			"id": "tools",
 			"title": "Tools",
 			"subtitle": "Tools I use to work.",
 			"letter": "G"
 		},
 		{
+			"id": "miscellaneous",
 			"title": "Miscellaneous",
 			"subtitle": "Everything else.",
 			"letter": "M"
+		}
+	],
+	"articles": [
+		{
+			"id": "001_unit-test",
+			"title": "Mon premier article",
+			"subtitle": "",
+			"date": "2020-01-01",
+			"category": "work-habits",
+			"tags": ["tag1", "tag2"],
+			"uri": "001_unit-test.md",
+			"thumbnail": "assets/images/taste-spicy-food.webp",
+			"thumbnailAlt": "placeholder"
+		},
+		{
+			"id": "002_unit-test",
+			"title": "Mon deuxième article",
+			"subtitle": "",
+			"date": "2020-01-02",
+			"category": "team-management",
+			"tags": ["tag1", "tag3"],
+			"uri": "002_unit-test.md",
+			"thumbnail": "assets/images/taste-spicy-food.webp",
+			"thumbnailAlt": "placeholder"
 		}
 	]
 }

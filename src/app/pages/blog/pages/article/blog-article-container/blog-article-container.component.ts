@@ -1,6 +1,7 @@
 import { CommonModule } from '@angular/common';
-import { ChangeDetectionStrategy, Component, signal } from '@angular/core';
+import { ChangeDetectionStrategy, Component, input, signal } from '@angular/core';
 import { MarkdownModule } from 'ngx-markdown';
+import { TranslatorPipe } from "../../../../../pipes/translator.pipe";
 
 @Component({
 	selector: 'app-blog-article-container',
@@ -13,10 +14,13 @@ import { MarkdownModule } from 'ngx-markdown';
 	changeDetection: ChangeDetectionStrategy.OnPush,
 	imports: [
 		CommonModule,
-		MarkdownModule
+		MarkdownModule,
+		TranslatorPipe
 	]
 })
 export class BlogArticleContainerComponent {
+
+	readonly articleUri = input.required<string>();
 
 	public readonly titles = signal<string[]>([]);
 

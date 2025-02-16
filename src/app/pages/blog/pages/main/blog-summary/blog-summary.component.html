@@ -47,10 +47,10 @@
 		} @else {
 			<main class="col-12 col-lg-8">
 				<h2>{{selectedCategory().letter}} : {{selectedCategory().title}}</h2>
-				@for (article of latestArticles(); track article.id) {
+				@for (article of articles(); track article.id) {
 					<a class="row border-bottom blog-item text-decoration-none" [routerLink]="['/blog', article.id]">
 						<div class="d-none d-md-block col-md-3">
-							<div class="interactable-box overflow-hidden position-relative mt-3">
+							<div class="interactable-box overflow-hidden position-relative my-3">
 								<img class="blog-item__image" [src]="article.thumbnail" [alt]="article.thumbnailAlt"/>
 							</div>
 						</div>
@@ -60,6 +60,11 @@
 							<p>{{article.summary}}</p>
 						</div>
 					</a>
+				}
+				@empty {
+					<p>
+						{{ 'Aucun article dans cette catégorie.' | translate:'emptyCategory' }}
+					</p>
 				}
 			</main>
 		}

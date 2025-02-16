@@ -1,44 +1,76 @@
 {
 	"categories": [
 		{
+			"id": "work-habits",
 			"title": "Hábitos de trabajo",
 			"subtitle": "Comment je m'organise dans mon travail pour être le plus efficace possible.",
 			"letter": "A"
 		},
 		{
+			"id": "team-management",
 			"title": "Gestión de equipos",
 			"subtitle": "Comment je gère mon équipe pour qu'elle soit la plus performante possible.",
 			"letter": "B"
 		},
 		{
+			"id": "projet-planning-specifications",
 			"title": "Gestión de proyectos y especificaciones",
 			"subtitle": "Comment je gère mes projets et comment je rédige mes spécifications.",
 			"letter": "C"
 		},
 		{
+			"id": "architecture-conception",
 			"title": "Arquitectura y diseño",
 			"subtile:": "Comment je conçois mes applications et comment je les structure.",
 			"letter": "D"
 		},
 		{
+			"id": "programmation",
 			"title": "Programación y técnica",
 			"subtitle": "Comment je code.",
 			"letter": "E"
 		},
 		{
+			"id": "ui-ux",
 			"title": "UI y UX",
 			"subtitle": "Comment je conçois mes interfaces et comment je les rends agréables à utiliser.",
 			"letter": "F"
 		},
 		{
+			"id": "tools",
 			"title": "Herramientas",
 			"subtitle": "Les outils que j'utilise pour travailler.",
 			"letter": "G"
 		},
 		{
+			"id": "miscellaneous",
 			"title": "Miscelánea",
 			"subtitle": "Tout ce qui ne rentre pas dans les autres catégories.",
 			"letter": "M"
+		}
+	],
+	"articles": [
+		{
+			"id": "001_unit-test",
+			"title": "Mon premier article",
+			"subtitle": "",
+			"date": "2020-01-01",
+			"category": "work-habits",
+			"tags": ["tag1", "tag2"],
+			"uri": "001_unit-test.md",
+			"thumbnail": "assets/images/taste-spicy-food.webp",
+			"thumbnailAlt": "placeholder"
+		},
+		{
+			"id": "002_unit-test",
+			"title": "Mon deuxième article",
+			"subtitle": "",
+			"date": "2020-01-02",
+			"category": "team-management",
+			"tags": ["tag1", "tag3"],
+			"uri": "002_unit-test.md",
+			"thumbnail": "assets/images/taste-spicy-food.webp",
+			"thumbnailAlt": "placeholder"
 		}
 	]
 }

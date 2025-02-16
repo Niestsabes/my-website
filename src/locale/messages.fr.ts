@@ -1,11 +1,13 @@
 const messages = {
 	aboutMe: 'A propos',
+	backToBlog: 'Revenir au blog',
 	blog: 'Blog',
 	categories: "Catégories",
 	competences: 'Compétences',
 	contact: 'Contactez-moi !',
 	education: 'Formation',
 	email: 'E-mail',
+	emptyCategory: 'Aucun article dans cette catégorie.',
 	experiences: 'Expériences',
 	firstName: 'Prénom',
 	footerText:
@@ -16,6 +18,7 @@ const messages = {
 		'Je suis Sébastien, Lead Developpeur Web',
 	greatingsOccupation: 'Actuellement Techlead Angular pour Klanik, à Lyon.',
 	home: "Page d'accueil",
+	inThisArticle: 'Dans cet article',
 	knowledge: 'Connaissances',
 	languages: 'Langues',
 	languagesText:
@@ -32,6 +35,7 @@ const messages = {
 	mailFormEmailErrorMessage: 'Entrez un adresse mail valide.',
 	mailFormErrorMessage:
 		"Ce formulaire n'a pas être envoyé parce qu'au moins un des champs est invalide.",
+	noArticleFound: 'Pas d\'article trouvé à cette adresse',
 	personalInformations: 'Informations Personnelles',
 	portefolio: 'Portefolio',
 	programming: 'Languages de programmation',
