@@ -28,6 +28,9 @@
 						<p>{{mainArticle.summary}}</p>
 					</a>
 				}
+				@else {
+					<p>{{ 'Pas d\'article trouvé à cette adresse' | translate:'noArticleFound' }}</p>
+				}
 			</main>
 			<main class="col-12 d-lg-none mb-4">
 				<div class="row">

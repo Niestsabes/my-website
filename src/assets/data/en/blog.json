@@ -50,27 +50,5 @@
 		}
 	],
 	"articles": [
-		{
-			"id": "001_unit-test",
-			"title": "Mon premier article",
-			"subtitle": "",
-			"date": "2020-01-01",
-			"category": "work-habits",
-			"tags": ["tag1", "tag2"],
-			"uri": "001_unit-test.md",
-			"thumbnail": "assets/images/taste-spicy-food.webp",
-			"thumbnailAlt": "placeholder"
-		},
-		{
-			"id": "002_unit-test",
-			"title": "Mon deuxième article",
-			"subtitle": "",
-			"date": "2020-01-02",
-			"category": "team-management",
-			"tags": ["tag1", "tag3"],
-			"uri": "002_unit-test.md",
-			"thumbnail": "assets/images/taste-spicy-food.webp",
-			"thumbnailAlt": "placeholder"
-		}
 	]
 }
