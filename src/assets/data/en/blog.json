@@ -1,0 +1,44 @@
+{
+	"categories": [
+		{
+			"title": "Work habits",
+			"subtitle": "How I organize my work to be as efficient as possible.",
+			"letter": "A"
+		},
+		{
+			"title": "Team Management",
+			"subtitle": "How I manage my team to be as efficient as possible.",
+			"letter": "B"
+		},
+		{
+			"title": "Project Planning & Specifications",
+			"subtitle": "How do I plan projets and write specifications.",
+			"letter": "C"
+		},
+		{
+			"title": "Architecture & Conception",
+			"subtile:": "How do I build my applications.",
+			"letter": "D"
+		},
+		{
+			"title": "Programmation & Technique",
+			"subtitle": "How do I code.",
+			"letter": "E"
+		},
+		{
+			"title": "UI & UX",
+			"subtitle": "How do I conceive my interfaces.",
+			"letter": "F"
+		},
+		{
+			"title": "Tools",
+			"subtitle": "Tools I use to work.",
+			"letter": "G"
+		},
+		{
+			"title": "Miscellaneous",
+			"subtitle": "Everything else.",
+			"letter": "M"
+		}
+	]
+}

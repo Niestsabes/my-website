@@ -1,0 +1,85 @@
+<section class="page-section container">
+	<div class="row">
+		@if (selectedCategory() === null) {
+			<aside class="d-none d-lg-block col-lg-3">
+				<h2>{{ 'Articles récents' | translate:'latestArticles' }}</h2>
+				@for (article of latestArticles(); track article.id) {
+					@if (!$first) {
+						<a class="mb-3" [routerLink]="['/blog', article.id]" class="text-decoration-none blog-item">
+							<div class="interactable-box overflow-hidden position-relative">
+								<img class="blog-item__image" [src]="article.thumbnail" [alt]="article.thumbnailAlt"/>
+							</div>
+							<h3 class="mb-0">{{article.title}}</h3>
+							<p>
+								<small>{{article.subtitle}}</small>
+							</p>
+						</a>
+					}
+				}
+			</aside>
+			<main class="d-none d-lg-block col-lg-5">
+				@if (latestArticles()[0]; as mainArticle) {
+					<a [routerLink]="['/blog', mainArticle.id]" class="text-decoration-none blog-item">
+						<div class="interactable-box overflow-hidden position-relative">
+							<img class="blog-item__image" [src]="mainArticle.thumbnail" [alt]="mainArticle.thumbnailAlt"/>
+						</div>
+						<h3 class="mb-0">{{mainArticle.title}}</h3>
+						<p class="mt-0"><small>{{mainArticle.subtitle}}</small></p>
+						<p>{{mainArticle.summary}}</p>
+					</a>
+				}
+			</main>
+			<main class="col-12 d-lg-none mb-4">
+				<div class="row">
+					@for (article of latestArticles(); track article.id) {
+						<a class="col-12 p-2" [routerLink]="['/blog', article.id]" class="text-decoration-none blog-item">
+							<div class="interactable-box overflow-hidden position-relative">
+								<img class="blog-item__image" [src]="article.thumbnail" [alt]="article.thumbnailAlt"/>
+							</div>
+							<h3 class="mb-0">{{article.title}}</h3>
+							<p>
+								<small>{{article.summary}}</small>
+							</p>
+						</a>
+					}
+				</div>
+			</main>
+		} @else {
+			<main class="col-12 col-lg-8">
+				<h2>{{selectedCategory().letter}} : {{selectedCategory().title}}</h2>
+				@for (article of latestArticles(); track article.id) {
+					<a class="row border-bottom blog-item text-decoration-none" [routerLink]="['/blog', article.id]">
+						<div class="d-none d-md-block col-md-3">
+							<div class="interactable-box overflow-hidden position-relative mt-3">
+								<img class="blog-item__image" [src]="article.thumbnail" [alt]="article.thumbnailAlt"/>
+							</div>
+						</div>
+						<div class="col-12 col-md-9">
+							<h3 class="mb-0">{{article.title}}</h3>
+							<p class="mt-0"><small>{{article.subtitle}}</small></p>
+							<p>{{article.summary}}</p>
+						</div>
+					</a>
+				}
+			</main>
+		}
+		<aside class="col-12 col-lg-4">
+			<h2>{{ 'Catégories' | translate:'categories' }}</h2>
+			<div class="list-group interactable-box">
+				@for (category of categories(); track category.letter) {
+					<button type="button" class="list-group-item list-group-item-action"
+						[ngClass]="{ active: selectedCategory()?.letter === category.letter }"
+						(click)="selectCategory(category)">
+						<strong>{{category.letter}} :</strong> {{category.title}}
+					</button>
+				}
+			</div>
+			<div class="d-flex justify-content-end mt-2">
+				<button type="button" class="btn btn-light interactable-box"
+					(click)="selectCategory(null)">
+					{{ 'Voir tout' | translate:'seeAll' }}
+				</button>
+			</div>
+		</aside>
+	</div>
+</section>

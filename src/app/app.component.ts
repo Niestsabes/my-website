@@ -5,11 +5,13 @@ import { Router, RouterModule } from '@angular/router';
 import { Analytics } from '@angular/fire/analytics';
 import { logEvent } from 'firebase/analytics';
 import { FooterComponent } from './components/footer/footer.component';
+import { HeaderMainComponent } from './components/header-main/header-main.component';
 
 @Component({
     selector: 'app-root',
     templateUrl: './app.component.html',
 	imports: [
+		HeaderMainComponent,
 		FooterComponent,
 		RouterModule
 	]

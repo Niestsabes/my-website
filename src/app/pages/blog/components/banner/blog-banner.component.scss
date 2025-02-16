@@ -1,0 +1,26 @@
+@use '../../../../../assets/style/theme.scss';
+@use '../../../../../assets/style/colors.scss';
+
+:host {
+	display: block;
+}
+
+.blog-banner {
+	position: relative;
+	height: 20rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	color: colors.$header-text-color;
+	background: url('../../../../../assets/images/patterns/patternpad-2025-02-16-13-05-51.svg') repeat center center;
+}
+
+.blog-banner__main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	text-align: center;
+	color: colors.$app-white !important;
+}

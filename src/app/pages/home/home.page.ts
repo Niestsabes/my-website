@@ -9,12 +9,10 @@ import { HomeExperiencesComponent } from './home-experiences/home-experiences.co
 import { HomePortefolioComponent } from './home-portefolio/home-portefolio.component';
 import { HomePresentationComponent } from './home-presentation/home-presentation.component';
 import { HomeRolesComponent } from './home-roles/home-roles.component';
-import { HeaderMainComponent } from 'src/app/components/header-main/header-main.component';
 
 @Component({
     selector: 'app-home',
 	imports: [
-		HeaderMainComponent,
         HomeBannerComponent,
 		HomeExperiencesComponent,
 		HomePresentationComponent,

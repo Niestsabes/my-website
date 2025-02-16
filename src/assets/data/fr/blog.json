@@ -1,0 +1,44 @@
+{
+	"categories": [
+		{
+			"title": "Habitudes de travail",
+			"subtitle": "Comment je m'organise dans mon travail pour être le plus efficace possible.",
+			"letter": "A"
+		},
+		{
+			"title": "Management d'équipe",
+			"subtitle": "Comment je gère mon équipe pour qu'elle soit la plus performante possible.",
+			"letter": "B"
+		},
+		{
+			"title": "Gestion de projet & Spécifications",
+			"subtitle": "Comment je gère mes projets et comment je rédige mes spécifications.",
+			"letter": "C"
+		},
+		{
+			"title": "Architecture & Conception",
+			"subtile:": "Comment je conçois mes applications et comment je les structure.",
+			"letter": "D"
+		},
+		{
+			"title": "Programmation & Technique",
+			"subtitle": "Comment je code.",
+			"letter": "E"
+		},
+		{
+			"title": "UI & UX",
+			"subtitle": "Comment je conçois mes interfaces et comment je les rends agréables à utiliser.",
+			"letter": "F"
+		},
+		{
+			"title": "Outils",
+			"subtitle": "Les outils que j'utilise pour travailler.",
+			"letter": "G"
+		},
+		{
+			"title": "Divers",
+			"subtitle": "Tout ce qui ne rentre pas dans les autres catégories.",
+			"letter": "M"
+		}
+	]
+}

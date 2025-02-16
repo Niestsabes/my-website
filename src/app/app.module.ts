@@ -14,7 +14,7 @@ import { HomePage } from './pages/home/home.page';
 import { ExperiencePage } from './pages/experience-page/experience.page';
 import { ContactPage } from './pages/contact-page/contact.page';
 import { MarkdownModule, provideMarkdown } from 'ngx-markdown';
-import { BlogPage } from './pages/blog/blog.page';
+import { BlogPage } from './pages/blog/pages/main/blog.page';
 
 @NgModule({
     imports: [

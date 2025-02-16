@@ -1,4 +1,5 @@
 import { Routes } from '@angular/router';
+import { BLOG_ROUTES } from './pages/blog/blog.routes';
 
 export const routes: Routes = [
     {
@@ -7,7 +8,7 @@ export const routes: Routes = [
 	},
 	{
 		path: 'blog',
-		loadComponent: () => import('./pages/blog/blog.page').then(m => m.BlogPage)
+		children: BLOG_ROUTES
 	},
 	{
 		path: '**',

@@ -7,6 +7,18 @@
         </a>
         <h1 class="header__title-text theme-text-shadow">Sébastien CAYET</h1>
     </div>
+	<ul class="list-unstyled p-0 m-0 d-flex">
+		<li class="px-2">
+			<a class="theme-text-shadow"
+				[routerLink]="routes.app.home"
+            	routerLinkActive="active">Accueil</a>
+		</li>
+		<li class="px-2">
+			<a class="theme-text-shadow"
+				[routerLink]="routes.app.blog"
+            	routerLinkActive="active">Blog</a>
+		</li>
+	</ul>
     <ul class="header__side-menu">
         <li>
             <button class="header__language inline p-0" data-toggle="dropdown">
